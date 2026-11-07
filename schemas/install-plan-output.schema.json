@@ -1,0 +1,403 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nosey/schemas/install-plan-output.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "outputVersion",
+    "diagnostics",
+    "blocked",
+    "workspace",
+    "agents",
+    "method",
+    "commands",
+    "items",
+    "overrides",
+    "conflicts"
+  ],
+  "properties": {
+    "outputVersion": {
+      "const": 2
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "severity",
+          "message"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "info",
+              "warning",
+              "error"
+            ]
+          },
+          "message": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "blocked": {
+      "type": "boolean"
+    },
+    "workspace": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "method": {
+      "enum": [
+        "copy",
+        "symlink"
+      ]
+    },
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "argv",
+          "source",
+          "logicalSource",
+          "ref",
+          "resolvedRevision",
+          "skillIds",
+          "skillNames",
+          "agents",
+          "method"
+        ],
+        "properties": {
+          "argv": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "logicalSource": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ref": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "resolvedRevision": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-f0-9]{40}([a-f0-9]{24})?$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "skillIds": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                  "minLength": 1,
+                  "maxLength": 160
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "minItems": 1
+          },
+          "skillNames": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "agents": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "method": {
+            "enum": [
+              "copy",
+              "symlink"
+            ]
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "skillId",
+          "skillName",
+          "source",
+          "logicalSource",
+          "sourceRegistryId",
+          "ref",
+          "resolvedRevision",
+          "repositoryId",
+          "provenance",
+          "agents",
+          "method",
+          "status"
+        ],
+        "properties": {
+          "skillId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "skillName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "logicalSource": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceRegistryId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "ref": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "resolvedRevision": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-f0-9]{40}([a-f0-9]{24})?$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "repositoryId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "provenance": {
+            "enum": [
+              "catalogued",
+              "uncatalogued"
+            ]
+          },
+          "agents": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "method": {
+            "enum": [
+              "copy",
+              "symlink"
+            ]
+          },
+          "status": {
+            "enum": [
+              "planned",
+              "blocked"
+            ]
+          }
+        }
+      }
+    },
+    "overrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "skillId",
+          "field",
+          "fromRegistryId",
+          "toRegistryId",
+          "reason"
+        ],
+        "properties": {
+          "skillId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "field": {
+            "enum": [
+              "source",
+              "repositoryId",
+              "assessment",
+              "score",
+              "quality"
+            ]
+          },
+          "fromRegistryId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "toRegistryId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "skillId",
+          "conflictingSkillId",
+          "kind",
+          "ignored",
+          "reason"
+        ],
+        "properties": {
+          "skillId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "conflictingSkillId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "kind": {
+            "enum": [
+              "selected",
+              "already-installed",
+              "requirement-cycle"
+            ]
+          },
+          "ignored": {
+            "type": "boolean"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "title": "Nosey install-plan-output JSON output v2",
+  "description": "Normative unpublished install dry-run JSON v2; argv tokens, aligned command arrays, dependency order and origin reconciliation require semantic verification. Null skillId marks uncatalogued direct install."
+}

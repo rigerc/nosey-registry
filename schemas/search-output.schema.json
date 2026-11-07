@@ -1,0 +1,238 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nosey/schemas/search-output.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "outputVersion",
+    "diagnostics",
+    "groups",
+    "totalUniqueSkills"
+  ],
+  "properties": {
+    "outputVersion": {
+      "const": 2
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "severity",
+          "message"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "info",
+              "warning",
+              "error"
+            ]
+          },
+          "message": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "technologyId",
+          "technologyName",
+          "repositories"
+        ],
+        "properties": {
+          "technologyId": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "technologyName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "repositories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "repositoryId",
+                "name",
+                "averageScore",
+                "scoreCount",
+                "skills"
+              ],
+              "properties": {
+                "repositoryId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                  "minLength": 1,
+                  "maxLength": 160
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "averageScore": {
+                  "oneOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "scoreCount": {
+                  "oneOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "skills": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "id",
+                      "name",
+                      "status",
+                      "selected",
+                      "quality",
+                      "score",
+                      "assessment",
+                      "sourceRegistryId"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                        "minLength": 1,
+                        "maxLength": 160
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "status": {
+                        "enum": [
+                          "installed",
+                          "missing",
+                          "unknown"
+                        ]
+                      },
+                      "selected": {
+                        "type": "boolean"
+                      },
+                      "quality": {
+                        "oneOf": [
+                          {
+                            "enum": [
+                              "excellent",
+                              "good",
+                              "fair",
+                              "poor"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "score": {
+                        "oneOf": [
+                          {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 100
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "assessment": {
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": [
+                              "method",
+                              "assessedAt"
+                            ],
+                            "properties": {
+                              "method": {
+                                "enum": [
+                                  "manual-review",
+                                  "automated",
+                                  "third-party",
+                                  "other"
+                                ]
+                              },
+                              "assessedAt": {
+                                "type": "string",
+                                "format": "date",
+                                "description": "ISO 8601 calendar date; enforce date format with a format-aware validator."
+                              },
+                              "assessor": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 150
+                              },
+                              "evidenceUrl": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^https://",
+                                "maxLength": 2048
+                              }
+                            },
+                            "description": "Optional editorial provenance. Source registry field provenance is tracked separately by Nosey."
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "sourceRegistryId": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "totalUniqueSkills": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "title": "Nosey search-output JSON output v2",
+  "description": "Normative unpublished Nosey search JSON v2 contract; totalUniqueSkills counts unique IDs across all visible groups."
+}

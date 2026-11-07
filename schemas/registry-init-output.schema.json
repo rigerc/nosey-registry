@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nosey/schemas/registry-init-output.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "outputVersion",
+    "diagnostics",
+    "path",
+    "registryId",
+    "templateId",
+    "sourceRegistryId",
+    "sourceRevision",
+    "createdFiles",
+    "valid",
+    "createdBy"
+  ],
+  "properties": {
+    "outputVersion": {
+      "const": 2
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "severity",
+          "message"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "info",
+              "warning",
+              "error"
+            ]
+          },
+          "message": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "path": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "registryId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "templateId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceRegistryId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceRevision": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{40}([a-f0-9]{24})?$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "createdFiles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 4096
+      },
+      "uniqueItems": true
+    },
+    "valid": {
+      "type": "boolean"
+    },
+    "createdBy": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "title": "Nosey registry-init-output JSON output v2",
+  "description": "Normative unpublished registry-init JSON v2; sourceRevision is resolved Git SHA (or null for local source) and createdBy is generating Nosey version."
+}

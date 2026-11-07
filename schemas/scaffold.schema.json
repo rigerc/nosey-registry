@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nosey/schemas/scaffold.schema.json",
+  "title": "Nosey scaffold provenance v1",
+  "description": "Generated nosey.scaffold.json metadata in a newly initialized registry; not part of registry merge.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "templateId",
+    "sourceRegistryId",
+    "sourceRevision",
+    "createdBy"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "templateId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceRegistryId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceRevision": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{40}([a-f0-9]{24})?$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "createdBy": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

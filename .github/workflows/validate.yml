@@ -1,0 +1,33 @@
+name: Validate registry
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - run: python3 -m pip install jsonschema==4.25.1
+      - run: |
+          python3 - <<'PYCODE'
+          import json
+          from pathlib import Path
+          from jsonschema import Draft202012Validator, FormatChecker
+          manifest=json.loads(Path('nosey.registry.json').read_text())
+          pairs=[('nosey.registry.json','registry.schema.json'),('technologies.json','technologies.v2.schema.json'),('skills.json','skills.effective.schema.json'),('mappings.json','mappings.effective.schema.json'),('repositories.json','repositories.schema.json')]
+          for path,schema in pairs:
+              Draft202012Validator(json.loads((Path('schemas')/schema).read_text()),format_checker=FormatChecker()).validate(json.loads(Path(path).read_text()))
+          techs={x['id'] for x in json.loads(Path('technologies.json').read_text())['technologies']}
+          skills={x['id'] for x in json.loads(Path('skills.json').read_text())['skills']}
+          for m in json.loads(Path('mappings.json').read_text())['mappings']:
+              assert m['technologyId'] in techs
+              for r in m['recommendations']:
+                  assert r['skillId'] in skills
+                  for values in r.get('when',{}).values(): assert set(values)<=techs
+          for template in manifest['templates']:
+              p=Path(template['descriptor']);desc=json.loads(p.read_text())
+              Draft202012Validator(json.loads(Path('schemas/template.schema.json').read_text())).validate(desc)
+              for f in desc['files']: assert (p.parent/f['source']).is_file()
+          PYCODE

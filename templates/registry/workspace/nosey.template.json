@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "workspace",
+  "kind": "registry",
+  "generator": "registry-v1",
+  "description": "Workspace-seeded registry scaffold",
+  "files": [
+    {
+      "source": "files/nosey.registry.json",
+      "destination": "nosey.registry.json"
+    },
+    {
+      "source": "files/technologies.json",
+      "destination": "technologies.json"
+    },
+    {
+      "source": "files/skills.json",
+      "destination": "skills.json"
+    },
+    {
+      "source": "files/mappings.json",
+      "destination": "mappings.json"
+    },
+    {
+      "source": "files/repositories.json",
+      "destination": "repositories.json"
+    },
+    {
+      "source": "files/README.md",
+      "destination": "README.md"
+    }
+  ]
+}

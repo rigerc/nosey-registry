@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "nosey:official",
+  "name": "Official Nosey Registry",
+  "files": {
+    "mappings": "mappings.json",
+    "repositories": "repositories.json",
+    "skills": "skills.json",
+    "technologies": "technologies.json"
+  },
+  "templates": [
+    {
+      "id": "empty",
+      "kind": "registry",
+      "descriptor": "templates/registry/empty/nosey.template.json"
+    },
+    {
+      "id": "workspace",
+      "kind": "registry",
+      "descriptor": "templates/registry/workspace/nosey.template.json"
+    }
+  ]
+}

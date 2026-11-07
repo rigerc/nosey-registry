@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "d1bc68a826cd233f85f291eca0cfa9b4303713e6",
+  "sha256": {
+    "catalog-source-ledger.json": "c6bafd19d51a3e18683f6da9017b939d21a2fd76edf837f176d58aeb5824bf4a",
+    "catalog.json": "03089d2051ca2cb529a7caad0a38b43e1455ef2c6df4a992245c927258348655",
+    "mappings.json": "1d607f01e5459711712c95174768c55d326adc19c9fb65332d1ba77982890d51",
+    "technology-id-map.json": "314163a370129c5b721acd687ddac5e33f0bc0fe1f6468295f01aa7a52480ffe",
+    "technology-reference.json": "1d609029dc783472ea827b209baf417e5a99b575ce3d2289ed51b1629d81aa04"
+  },
+  "skills": 877,
+  "technologies": 898,
+  "mappings": 258,
+  "combinations": 35,
+  "frontendBonus": "ignored"
+}

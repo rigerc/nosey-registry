@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nosey/schemas/install-origins.schema.json",
+  "title": "Nosey per-project logical installation origins v1",
+  "description": "Nosey-owned project-scoped attribution receipts. Receipts do not prove current installation and do not replace upstream inventory.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "origins"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "origins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "skillId",
+          "frontmatterName",
+          "logicalSource",
+          "sourceRegistryId",
+          "relativeSkillPath",
+          "requestedRef",
+          "resolvedRevision",
+          "agents",
+          "method",
+          "provenance",
+          "upstreamSourceAtInstall",
+          "installedAt"
+        ],
+        "properties": {
+          "skillId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "frontmatterName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "logicalSource": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceRegistryId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "relativeSkillPath": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 4096
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "requestedRef": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "resolvedRevision": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-f0-9]{40}([a-f0-9]{24})?$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "agents": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "method": {
+            "enum": [
+              "copy",
+              "symlink"
+            ]
+          },
+          "provenance": {
+            "enum": [
+              "catalogued",
+              "uncatalogued"
+            ]
+          },
+          "upstreamSourceAtInstall": {
+            "type": "string",
+            "minLength": 1
+          },
+          "installedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    }
+  }
+}

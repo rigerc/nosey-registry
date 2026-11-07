@@ -1,0 +1,322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:nosey:schema:skills-effective:v2",
+  "title": "Nosey fully merged active skill catalog, revision 2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "skills"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/effectiveSkill"
+      }
+    }
+  },
+  "$defs": {
+    "skillOverlay": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "technologies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "uniqueItems": true
+        },
+        "source": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "uri",
+                "skillName"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "git"
+                },
+                "uri": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9_.-]*/[A-Za-z0-9][A-Za-z0-9_./-]*|https://[A-Za-z0-9][A-Za-z0-9.-]*(?::[0-9]+)?/[A-Za-z0-9._~%/?=&+\\-]+|ssh://(?:[A-Za-z0-9._-]+@)?[A-Za-z0-9][A-Za-z0-9.-]*/[A-Za-z0-9._/-]+|git@[A-Za-z0-9][A-Za-z0-9.-]*:[A-Za-z0-9._/-]+)$",
+                  "maxLength": 2048
+                },
+                "skillName": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 128,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+                  "description": "Upstream SKILL.md name, distinct from Nosey catalog id. Option-like and path-containing names are disallowed."
+                },
+                "ref": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._/-]*$",
+                  "maxLength": 200
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "path"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "local"
+                },
+                "path": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 512,
+                  "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$"
+                },
+                "skillName": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 128,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+                  "description": "Upstream SKILL.md name, distinct from Nosey catalog id. Option-like and path-containing names are disallowed."
+                }
+              }
+            }
+          ]
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "repositoryId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "quality": {
+          "enum": [
+            "excellent",
+            "good",
+            "fair",
+            "poor"
+          ],
+          "description": "Optional independently authored qualitative label."
+        },
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Optional independent numerical rating; absent does not equal zero."
+        },
+        "assessment": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "method",
+            "assessedAt"
+          ],
+          "properties": {
+            "method": {
+              "enum": [
+                "manual-review",
+                "automated",
+                "third-party",
+                "other"
+              ]
+            },
+            "assessedAt": {
+              "type": "string",
+              "format": "date",
+              "description": "ISO 8601 calendar date; enforce date format with a format-aware validator."
+            },
+            "assessor": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 150
+            },
+            "evidenceUrl": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://",
+              "maxLength": 2048
+            }
+          },
+          "description": "Optional editorial provenance. Source registry field provenance is tracked separately by Nosey."
+        },
+        "requires": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "uniqueItems": true
+        },
+        "conflictsWith": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "effectiveSkill": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/skillOverlay"
+        },
+        {
+          "required": [
+            "name",
+            "source"
+          ],
+          "properties": {
+            "disabled": {
+              "const": false
+            }
+          }
+        }
+      ]
+    },
+    "source": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "uri",
+            "skillName"
+          ],
+          "properties": {
+            "kind": {
+              "const": "git"
+            },
+            "uri": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9_.-]*/[A-Za-z0-9][A-Za-z0-9_./-]*|https://[A-Za-z0-9][A-Za-z0-9.-]*(?::[0-9]+)?/[A-Za-z0-9._~%/?=&+\\-]+|ssh://(?:[A-Za-z0-9._-]+@)?[A-Za-z0-9][A-Za-z0-9.-]*/[A-Za-z0-9._/-]+|git@[A-Za-z0-9][A-Za-z0-9.-]*:[A-Za-z0-9._/-]+)$",
+              "maxLength": 2048
+            },
+            "skillName": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+              "description": "Upstream SKILL.md name, distinct from Nosey catalog id. Option-like and path-containing names are disallowed."
+            },
+            "ref": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9._/-]*$",
+              "maxLength": 200
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "path"
+          ],
+          "properties": {
+            "kind": {
+              "const": "local"
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 512,
+              "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$"
+            },
+            "skillName": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$",
+              "description": "Upstream SKILL.md name, distinct from Nosey catalog id. Option-like and path-containing names are disallowed."
+            }
+          }
+        }
+      ]
+    },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "assessedAt"
+      ],
+      "properties": {
+        "method": {
+          "enum": [
+            "manual-review",
+            "automated",
+            "third-party",
+            "other"
+          ]
+        },
+        "assessedAt": {
+          "type": "string",
+          "format": "date",
+          "description": "ISO 8601 calendar date; enforce date format with a format-aware validator."
+        },
+        "assessor": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 150
+        },
+        "evidenceUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "maxLength": 2048
+        }
+      },
+      "description": "Optional editorial provenance. Source registry field provenance is tracked separately by Nosey."
+    }
+  }
+}

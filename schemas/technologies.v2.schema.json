@@ -1,0 +1,830 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nosey/schemas/technologies.v2.schema.json",
+  "title": "Nosey technologies registry document (v2)",
+  "description": "Version 2 adds MCP package references, Docker/Terraform/GitHub Actions/Deno/Hex dependency ecosystems, scoped technology IDs and metadataOnly identity entries. Entries may be partial overrides. Metadata-only entries have no detectable signals; detector-kind rules require an implementation in the consumer.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "technologies"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "technologies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/technology"
+      }
+    }
+  },
+  "$defs": {
+    "technology": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "rules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rule"
+          }
+        },
+        "metadataOnly": {
+          "type": "boolean",
+          "description": "Registered identity with no source-backed detection signal. Cannot produce positive detection on its own."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "metadataOnly"
+            ],
+            "properties": {
+              "metadataOnly": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "rules": {
+                "maxItems": 0
+              },
+              "disabled": {
+                "const": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    "rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "kind": {
+          "enum": [
+            "file",
+            "dependency",
+            "content",
+            "extension",
+            "dotenv",
+            "detector",
+            "mcp_package"
+          ]
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "glob": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pathRegex": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512
+        },
+        "pathScope": {
+          "enum": [
+            "relative",
+            "basename"
+          ]
+        },
+        "ecosystem": {
+          "enum": [
+            "npm",
+            "python",
+            "cargo",
+            "go",
+            "ruby",
+            "composer",
+            "docker",
+            "terraform",
+            "terraform.resource",
+            "githubAction",
+            "deno",
+            "hex"
+          ],
+          "description": "Observed package ecosystem. Extended ecosystems use source-native names: docker=image reference; terraform=provider module; terraform.resource=resource type; githubAction=workflow action; deno=Deno dependency; hex=Elixir/Hex package. Consumers must implement the respective manifest parsers."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Literal package name for dependency or MCP package identifier for mcp_package."
+        },
+        "nameRegex": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512
+        },
+        "contains": {
+          "type": "string",
+          "minLength": 1
+        },
+        "regex": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512
+        },
+        "regexFlags": {
+          "enum": [
+            "",
+            "i"
+          ]
+        },
+        "extension": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^\\.[A-Za-z0-9][A-Za-z0-9._+-]*$"
+        },
+        "key": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z_][A-Za-z0-9_]*$"
+        },
+        "keyRegex": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512
+        },
+        "detector": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Named reference to a custom detector supplied by the consumer. The registry does not execute its implementation."
+        },
+        "args": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "file"
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "ecosystem"
+                  ]
+                },
+                {
+                  "required": [
+                    "name"
+                  ]
+                },
+                {
+                  "required": [
+                    "nameRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "contains"
+                  ]
+                },
+                {
+                  "required": [
+                    "regex"
+                  ]
+                },
+                {
+                  "required": [
+                    "extension"
+                  ]
+                },
+                {
+                  "required": [
+                    "key"
+                  ]
+                },
+                {
+                  "required": [
+                    "keyRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "detector"
+                  ]
+                },
+                {
+                  "required": [
+                    "args"
+                  ]
+                }
+              ]
+            },
+            "oneOf": [
+              {
+                "required": [
+                  "glob"
+                ],
+                "not": {
+                  "required": [
+                    "pathRegex"
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "pathRegex"
+                ],
+                "not": {
+                  "required": [
+                    "glob"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "dependency"
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "glob"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathScope"
+                  ]
+                },
+                {
+                  "required": [
+                    "contains"
+                  ]
+                },
+                {
+                  "required": [
+                    "regex"
+                  ]
+                },
+                {
+                  "required": [
+                    "extension"
+                  ]
+                },
+                {
+                  "required": [
+                    "key"
+                  ]
+                },
+                {
+                  "required": [
+                    "keyRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "detector"
+                  ]
+                },
+                {
+                  "required": [
+                    "args"
+                  ]
+                }
+              ]
+            },
+            "required": [
+              "ecosystem"
+            ],
+            "oneOf": [
+              {
+                "required": [
+                  "name"
+                ],
+                "not": {
+                  "required": [
+                    "nameRegex"
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "nameRegex"
+                ],
+                "not": {
+                  "required": [
+                    "name"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "content"
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "pathRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathScope"
+                  ]
+                },
+                {
+                  "required": [
+                    "ecosystem"
+                  ]
+                },
+                {
+                  "required": [
+                    "name"
+                  ]
+                },
+                {
+                  "required": [
+                    "nameRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "extension"
+                  ]
+                },
+                {
+                  "required": [
+                    "key"
+                  ]
+                },
+                {
+                  "required": [
+                    "keyRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "detector"
+                  ]
+                },
+                {
+                  "required": [
+                    "args"
+                  ]
+                }
+              ]
+            },
+            "required": [
+              "glob"
+            ],
+            "oneOf": [
+              {
+                "required": [
+                  "contains"
+                ],
+                "not": {
+                  "required": [
+                    "regex"
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "regex"
+                ],
+                "not": {
+                  "required": [
+                    "contains"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "extension"
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "glob"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathScope"
+                  ]
+                },
+                {
+                  "required": [
+                    "ecosystem"
+                  ]
+                },
+                {
+                  "required": [
+                    "name"
+                  ]
+                },
+                {
+                  "required": [
+                    "nameRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "contains"
+                  ]
+                },
+                {
+                  "required": [
+                    "regex"
+                  ]
+                },
+                {
+                  "required": [
+                    "regexFlags"
+                  ]
+                },
+                {
+                  "required": [
+                    "key"
+                  ]
+                },
+                {
+                  "required": [
+                    "keyRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "detector"
+                  ]
+                },
+                {
+                  "required": [
+                    "args"
+                  ]
+                }
+              ]
+            },
+            "required": [
+              "extension"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "dotenv"
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "pathRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathScope"
+                  ]
+                },
+                {
+                  "required": [
+                    "ecosystem"
+                  ]
+                },
+                {
+                  "required": [
+                    "name"
+                  ]
+                },
+                {
+                  "required": [
+                    "nameRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "contains"
+                  ]
+                },
+                {
+                  "required": [
+                    "regex"
+                  ]
+                },
+                {
+                  "required": [
+                    "extension"
+                  ]
+                },
+                {
+                  "required": [
+                    "detector"
+                  ]
+                },
+                {
+                  "required": [
+                    "args"
+                  ]
+                }
+              ]
+            },
+            "oneOf": [
+              {
+                "required": [
+                  "key"
+                ],
+                "not": {
+                  "required": [
+                    "keyRegex"
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "keyRegex"
+                ],
+                "not": {
+                  "required": [
+                    "key"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "detector"
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "glob"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathScope"
+                  ]
+                },
+                {
+                  "required": [
+                    "ecosystem"
+                  ]
+                },
+                {
+                  "required": [
+                    "name"
+                  ]
+                },
+                {
+                  "required": [
+                    "nameRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "contains"
+                  ]
+                },
+                {
+                  "required": [
+                    "regex"
+                  ]
+                },
+                {
+                  "required": [
+                    "regexFlags"
+                  ]
+                },
+                {
+                  "required": [
+                    "extension"
+                  ]
+                },
+                {
+                  "required": [
+                    "key"
+                  ]
+                },
+                {
+                  "required": [
+                    "keyRegex"
+                  ]
+                }
+              ]
+            },
+            "required": [
+              "detector"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "mcp_package"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "name"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "glob"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "pathScope"
+                  ]
+                },
+                {
+                  "required": [
+                    "ecosystem"
+                  ]
+                },
+                {
+                  "required": [
+                    "nameRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "contains"
+                  ]
+                },
+                {
+                  "required": [
+                    "regex"
+                  ]
+                },
+                {
+                  "required": [
+                    "regexFlags"
+                  ]
+                },
+                {
+                  "required": [
+                    "extension"
+                  ]
+                },
+                {
+                  "required": [
+                    "key"
+                  ]
+                },
+                {
+                  "required": [
+                    "keyRegex"
+                  ]
+                },
+                {
+                  "required": [
+                    "detector"
+                  ]
+                },
+                {
+                  "required": [
+                    "args"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

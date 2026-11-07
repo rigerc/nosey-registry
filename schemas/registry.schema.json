@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nosey/schemas/registry.schema.json",
+  "title": "Nosey registry manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "files"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "technologies",
+        "skills",
+        "mappings"
+      ],
+      "properties": {
+        "technologies": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$",
+          "maxLength": 512
+        },
+        "skills": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$",
+          "maxLength": 512
+        },
+        "mappings": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$",
+          "maxLength": 512
+        },
+        "repositories": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional repository identity metadata; authored average scores reside in repositoryScores.",
+          "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$",
+          "maxLength": 512
+        }
+      }
+    },
+    "templates": {
+      "type": "array",
+      "description": "Optional registry-init templates published by this particular registry; never merged across registry providers.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "descriptor"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+          },
+          "kind": {
+            "const": "registry"
+          },
+          "descriptor": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$",
+            "maxLength": 512
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "repositoryScores": {
+      "type": "object",
+      "description": "Authored repository averages, keyed by declared repository ID; never inferred by Nosey at runtime. Field-level precedence applies per ID.",
+      "propertyNames": {
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "averageScore"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "averageScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "scoreCount": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    }
+  }
+}

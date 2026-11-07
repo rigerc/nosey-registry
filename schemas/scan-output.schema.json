@@ -1,0 +1,726 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/nosey/schemas/scan-output.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "outputVersion",
+    "diagnostics",
+    "complete",
+    "detectedTechnologies",
+    "recommendedSkills",
+    "detectedTechnologiesTotal",
+    "visibleTechnologiesTotal",
+    "recommendedSkillsTotal",
+    "visibleRecommendedSkillsTotal",
+    "filters",
+    "sort",
+    "unevaluatedRecommendations",
+    "coverage"
+  ],
+  "properties": {
+    "outputVersion": {
+      "const": 2
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "severity",
+          "message"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "info",
+              "warning",
+              "error"
+            ]
+          },
+          "message": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "complete": {
+      "type": "boolean"
+    },
+    "detectedTechnologies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "ruleId",
+                "kind",
+                "projectPath"
+              ],
+              "properties": {
+                "ruleId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "file",
+                    "dependency",
+                    "content",
+                    "extension",
+                    "dotenv",
+                    "detector",
+                    "mcp_package"
+                  ]
+                },
+                "projectPath": {
+                  "type": "string",
+                  "description": "Project root path relative to scan root; empty string for workspace root"
+                },
+                "path": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 4096
+                },
+                "matchedIdentifier": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "anyOf": [
+                {
+                  "required": [
+                    "path"
+                  ]
+                },
+                {
+                  "required": [
+                    "matchedIdentifier"
+                  ]
+                }
+              ]
+            },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "recommendedSkills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "status",
+          "recommendationState",
+          "priority",
+          "technologyIds",
+          "reasons",
+          "repositoryId",
+          "sourceRegistryId",
+          "selected",
+          "quality",
+          "score",
+          "repositoryAverage",
+          "assessment"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "installed",
+              "missing",
+              "unknown"
+            ]
+          },
+          "recommendationState": {
+            "const": "confirmed"
+          },
+          "priority": {
+            "enum": [
+              "core",
+              "recommended",
+              "optional"
+            ]
+          },
+          "technologyIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "reasons": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "repositoryId": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sourceRegistryId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "selected": {
+            "type": "boolean"
+          },
+          "quality": {
+            "oneOf": [
+              {
+                "enum": [
+                  "excellent",
+                  "good",
+                  "fair",
+                  "poor"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "score": {
+            "oneOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "repositoryAverage": {
+            "oneOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "assessment": {
+            "oneOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "method",
+                  "assessedAt"
+                ],
+                "properties": {
+                  "method": {
+                    "enum": [
+                      "manual-review",
+                      "automated",
+                      "third-party",
+                      "other"
+                    ]
+                  },
+                  "assessedAt": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "ISO 8601 calendar date; enforce date format with a format-aware validator."
+                  },
+                  "assessor": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 150
+                  },
+                  "evidenceUrl": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^https://",
+                    "maxLength": 2048
+                  }
+                },
+                "description": "Optional editorial provenance. Source registry field provenance is tracked separately by Nosey."
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "detectedTechnologiesTotal": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "visibleTechnologiesTotal": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "recommendedSkillsTotal": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "visibleRecommendedSkillsTotal": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "filters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "query",
+        "queryTarget",
+        "technologies",
+        "recommendationTechnologies",
+        "ruleKinds",
+        "registryIds",
+        "repositoryIds",
+        "priorities",
+        "statuses",
+        "qualities",
+        "scoreState",
+        "minScore",
+        "minRepositoryAverage"
+      ],
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "queryTarget": {
+          "enum": [
+            "technologies",
+            "skills",
+            "both"
+          ]
+        },
+        "technologies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "uniqueItems": true
+        },
+        "recommendationTechnologies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "uniqueItems": true
+        },
+        "ruleKinds": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "file",
+              "dependency",
+              "content",
+              "extension",
+              "dotenv",
+              "detector",
+              "mcp_package"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "registryIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "repositoryIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "priorities": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "core",
+              "recommended",
+              "optional"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "statuses": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "installed",
+              "missing",
+              "unknown"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "qualities": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "excellent",
+              "good",
+              "fair",
+              "poor",
+              "unassessed"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "scoreState": {
+          "enum": [
+            "any",
+            "scored",
+            "unscored"
+          ]
+        },
+        "minScore": {
+          "oneOf": [
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "minRepositoryAverage": {
+          "oneOf": [
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "sort": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "technologies",
+        "skills"
+      ],
+      "properties": {
+        "technologies": {
+          "enum": [
+            "name-asc",
+            "name-desc",
+            "evidence-count-desc",
+            "matched-rules-desc"
+          ]
+        },
+        "skills": {
+          "enum": [
+            "priority-desc",
+            "score-desc",
+            "quality-desc",
+            "repository-average-desc",
+            "name-asc"
+          ]
+        }
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "description": "Runtime support evaluation (not rule or detection-data validation). A rule may be supplied and verified but not executable by this Nosey installation.",
+      "additionalProperties": false,
+      "properties": {
+        "supportedRuleKinds": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "file",
+              "dependency",
+              "content",
+              "extension",
+              "dotenv",
+              "detector",
+              "mcp_package"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "supportedEcosystems": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "unsupportedRuleKinds": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "file",
+              "dependency",
+              "content",
+              "extension",
+              "dotenv",
+              "detector",
+              "mcp_package"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "unavailableDetectors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "mcpPackageEnabled": {
+          "type": "boolean"
+        },
+        "unavailableRuleCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "technologyDocumentVersions": {
+          "type": "array",
+          "items": {
+            "enum": [
+              1,
+              2
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "supportedRuleKinds",
+        "supportedEcosystems",
+        "unsupportedRuleKinds",
+        "unavailableDetectors",
+        "mcpPackageEnabled",
+        "unavailableRuleCount",
+        "technologyDocumentVersions"
+      ]
+    },
+    "unevaluatedRecommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "skillId",
+          "mappingId",
+          "recommendationState",
+          "unknownTechnologies",
+          "reason"
+        ],
+        "properties": {
+          "skillId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "mappingId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "unknownTechnologies": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "recommendationState": {
+            "const": "unevaluated"
+          }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "requiredRuleCount",
+        "evaluatedRequiredRuleCount",
+        "unevaluatedRequiredRuleCount",
+        "excludedRuleCount",
+        "notApplicableRuleCount",
+        "unknownTechnologyCount",
+        "unknownTechnologyIds",
+        "gaps"
+      ],
+      "properties": {
+        "requiredRuleCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "evaluatedRequiredRuleCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unevaluatedRequiredRuleCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "excludedRuleCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "notApplicableRuleCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unknownTechnologyCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unknownTechnologyIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "uniqueItems": true
+        },
+        "gaps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "technologyId",
+              "ruleId",
+              "kind",
+              "reason",
+              "projectPath"
+            ],
+            "properties": {
+              "technologyId": {
+                "type": "string",
+                "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+                "minLength": 1,
+                "maxLength": 200
+              },
+              "ruleId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "file",
+                  "dependency",
+                  "content",
+                  "extension",
+                  "dotenv",
+                  "detector",
+                  "mcp_package"
+                ]
+              },
+              "reason": {
+                "enum": [
+                  "excluded-by-mode",
+                  "unavailable-provider",
+                  "missing-adapter",
+                  "execution-error",
+                  "budget-exceeded",
+                  "unsupported-rule",
+                  "other"
+                ]
+              },
+              "provider": {
+                "type": "string",
+                "minLength": 1
+              },
+              "projectPath": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Nosey scan-output JSON output v2",
+  "description": "Normative unpublished Nosey scan JSON v2 contract; counts and ordering additionally require semantic checks."
+}

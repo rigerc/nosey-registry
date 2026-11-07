@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:nosey:schema:mappings-effective:v2",
+  "title": "Nosey fully merged active mappings, revision 2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "mappings"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "mappings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/effectiveMapping"
+      }
+    }
+  },
+  "$defs": {
+    "mappingOverlay": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "technologyId": {
+          "type": "string",
+          "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "recommendations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/recommendationOverlay"
+          }
+        }
+      }
+    },
+    "effectiveMapping": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/mappingOverlay"
+        },
+        {
+          "required": [
+            "technologyId",
+            "recommendations"
+          ],
+          "properties": {
+            "disabled": {
+              "const": false
+            },
+            "recommendations": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/effectiveRecommendation"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "recommendationOverlay": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "skillId"
+      ],
+      "properties": {
+        "skillId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "priority": {
+          "enum": [
+            "core",
+            "recommended",
+            "optional"
+          ],
+          "description": "Default effective priority is optional."
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "when": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "allTechnologies": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+                "minLength": 1,
+                "maxLength": 200
+              },
+              "uniqueItems": true,
+              "minItems": 1
+            },
+            "anyTechnologies": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+                "minLength": 1,
+                "maxLength": 200
+              },
+              "uniqueItems": true,
+              "minItems": 1
+            },
+            "noneTechnologies": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+                "minLength": 1,
+                "maxLength": 200
+              },
+              "uniqueItems": true,
+              "minItems": 1
+            }
+          }
+        },
+        "requires": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "uniqueItems": true
+        },
+        "conflictsWith": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "uniqueItems": true
+        },
+        "disabled": {
+          "type": "boolean"
+        }
+      }
+    },
+    "effectiveRecommendation": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/recommendationOverlay"
+        },
+        {
+          "properties": {
+            "disabled": {
+              "const": false
+            }
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "allTechnologies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "anyTechnologies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "noneTechnologies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9][A-Za-z0-9._:-]*|@[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._/-]*)$",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      }
+    }
+  }
+}
