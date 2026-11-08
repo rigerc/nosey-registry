@@ -1,0 +1,83 @@
+name: Update skill pins
+
+# Weekly: re-pins skills whose directory changed upstream, and records (or, with
+# QUARANTINE=enforce, quarantines) skills whose repository or SKILL.md is gone.
+# A skill is quarantined only after two misses at least five days apart; network
+# errors, rate limits and renames never count. Opens one review PR. Official
+# registry only. quality-refresh.yml re-evaluates re-pinned skills after merge.
+on:
+  schedule:
+    - cron: '17 7 * * 1'
+  workflow_dispatch:
+    inputs:
+      max_groups:
+        description: 'Maximum repositories to probe this run'
+        default: '200'
+
+permissions:
+  contents: read
+
+# Shared with quality-refresh.yml and score-jev.yml: all rewrite skills.json.
+concurrency:
+  group: registry-assessments
+  cancel-in-progress: false
+
+env:
+  # Pinned nosey-9 generator commit. Bump deliberately; never use a branch.
+  GENERATOR_REF: 2c3876cbe8c17325c24890f2ce901755696b1698
+  GENERATOR: github.com/rigerc/nosey-9/cmd/nosey
+
+jobs:
+  update:
+    if: github.repository == 'rigerc/nosey-registry'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Probe upstream repositories and update pins
+        env:
+          # Report-only until the repository variable is set to "enforce".
+          QUARANTINE: ${{ vars.QUARANTINE }}
+          MAX_GROUPS: ${{ inputs.max_groups || '200' }}
+          PINS_SUMMARY_FILE: ${{ runner.temp }}/pins-summary.md
+        run: node scripts/pins.mjs --write --max-groups "$MAX_GROUPS" --deadline-minutes 60
+      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5.6.0
+        with:
+          go-version: '1.26.10'
+          cache: false
+      - name: Project results and regenerate the registry
+        run: |
+          set -euo pipefail
+          node scripts/sync.mjs --write
+          go run ${GENERATOR}@${GENERATOR_REF} registry generate .
+      - name: Validate
+        run: |
+          set -euo pipefail
+          node --test tests/*.test.mjs
+          npm run --silent check
+          go run ${GENERATOR}@${GENERATOR_REF} registry validate . --standalone
+      - uses: peter-evans/create-pull-request@84ae59a2cdc2258d6fa0732dd66352dddae2a412 # v7.0.9
+        with:
+          token: ${{ github.token }}
+          branch: automation/update-skill-pins
+          base: main
+          delete-branch: true
+          add-paths: |
+            skills.json
+            assessments/locations.json
+            assessments/pin-probes.json
+            assessments/scores.json
+            nosey.registry.config.json
+            nosey.registry.json
+            nosey.registry.lock.json
+          commit-message: 'chore: update skill pins'
+          title: 'chore: update skill pins'
+          body-path: ${{ runner.temp }}/pins-summary.md

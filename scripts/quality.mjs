@@ -152,10 +152,10 @@ export function dirBytes(path, {skipGit = false, cap = Infinity} = {}) {
 }
 
 /* ---------- Git: fetch trees, plan, then selectively download blobs ---------- */
-const GIT_ENV = {GIT_LFS_SKIP_SMUDGE: '1', GIT_CONFIG_NOSYSTEM: '1', GIT_CONFIG_GLOBAL: '/dev/null',
+export const GIT_ENV = {GIT_LFS_SKIP_SMUDGE: '1', GIT_CONFIG_NOSYSTEM: '1', GIT_CONFIG_GLOBAL: '/dev/null',
   GIT_ATTR_NOSYSTEM: '1', GIT_TERMINAL_PROMPT: '0'};
 
-function gitRunner(repoDir, exec, local) {
+export function gitRunner(repoDir, exec, local) {
   return (args, opts = {}) => exec('git', [
     '-c', 'core.hooksPath=/dev/null', '-c', 'core.symlinks=false', '-c', 'core.fsmonitor=false',
     '-c', 'submodule.recurse=false', '-c', 'filter.lfs.smudge=', '-c', 'filter.lfs.process=',

@@ -3,10 +3,13 @@
   "private": true,
   "type": "module",
   "description": "Assessment tooling for the official Nosey registry (skill-validator quality and Open JEV scores).",
-  "engines": {"node": ">=22"},
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "check": "node scripts/quality.mjs --check && node scripts/jev.mjs check && node scripts/sync.mjs --check",
-    "sync": "node scripts/sync.mjs --write"
+    "check": "node scripts/quality.mjs --check && node scripts/jev.mjs check && node scripts/sync.mjs --check && node scripts/pins.mjs --check",
+    "sync": "node scripts/sync.mjs --write",
+    "pins": "node scripts/pins.mjs --write"
   }
 }

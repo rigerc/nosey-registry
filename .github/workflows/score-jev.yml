@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  GENERATOR_REF: 23b90b13109ffa406658bd79d030c509ea6faf6d
+  GENERATOR_REF: 2c3876cbe8c17325c24890f2ce901755696b1698
   GENERATOR: github.com/rigerc/nosey-9/cmd/nosey
 
 jobs:
