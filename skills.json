@@ -13610,7 +13610,13 @@
         "ref": "71d2c71158cde38e609c60adf65b2ec44450a53a",
         "skillName": "hyprland"
       },
-      "repositoryId": "marceloeatworld:hyprland-ai-skill"
+      "repositoryId": "marceloeatworld:hyprland-ai-skill",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "mastra-ai:skills:mastra",
