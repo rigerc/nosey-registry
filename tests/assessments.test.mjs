@@ -112,6 +112,22 @@ test('merge keeps only evidence that matches a current pin', () => {
   assert.equal(current(good, pin, evaluator().fingerprint), true);
 });
 
+test('a newly added or re-pinned skill does not fail the score coverage check', () => {
+  const pin = {id: 'o:r:a', repo: 'o/r', path: 'a/SKILL.md', dir: 'a', commit: SHA};
+  const added = {id: 'o:r:b', repo: 'o/r', path: 'b/SKILL.md', dir: 'b', commit: SHA};
+  const scored = merge([normalize(meta(), response([4, 4, 4, 4, 4]), '2026-01-02T03:04:05Z')], null,
+    {pins: new Map([[pin.id, pin]]), unlocated: []}, '2026-02-01T00:00:00.000Z').next;
+  // Added skill: pending, summary lags the data.
+  const withAdded = {pins: new Map([[pin.id, pin], [added.id, added]]), unlocated: []};
+  assert.equal(checkReport(scored, withAdded), true);
+  assert.equal(buildReport(scored.entries, withAdded, {previous: scored, now: scored.generated_at}).summary.pending, 1);
+  // Re-pinned skill: its score becomes stale but is still kept.
+  const repinned = {pins: new Map([[pin.id, {...pin, commit: 'f'.repeat(40)}]]), unlocated: []};
+  assert.equal(checkReport(scored, repinned), true);
+  // Orphan evidence for a skill that no longer exists is still rejected.
+  assert.throws(() => checkReport(scored, {pins: new Map(), unlocated: []}), /do not match/);
+});
+
 test('project writes derived fields, leaves manual assessments and removes stale automated ones', () => {
   const fp = fingerprint();
   const pins = new Map([['o:r:a', {id: 'o:r:a', repo: 'o/r', path: 'a/SKILL.md', dir: 'a', commit: SHA}]]);
