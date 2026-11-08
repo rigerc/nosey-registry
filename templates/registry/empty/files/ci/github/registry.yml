@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 env:
-  GENERATOR_REF: 2c3876cbe8c17325c24890f2ce901755696b1698
+  GENERATOR_REF: 1c7050db26516989ad8ff3d9b0bcdf4ff359eb19
   GENERATOR: github.com/rigerc/nosey-9/cmd/nosey
 
 jobs:
