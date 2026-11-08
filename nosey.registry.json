@@ -14,5 +14,523 @@
       "id": "empty",
       "kind": "registry"
     }
-  ]
+  ],
+  "repositoryScores": {
+    "addyosmani:web-quality-skills": {
+      "averageScore": 92,
+      "scoreCount": 2
+    },
+    "affaan-m:ecc": {
+      "averageScore": 81.5,
+      "scoreCount": 8
+    },
+    "aj-geddes:useful-ai-prompts": {
+      "averageScore": 94,
+      "scoreCount": 2
+    },
+    "akin-ozer:cc-devops-skills": {
+      "averageScore": 80,
+      "scoreCount": 2
+    },
+    "angular:angular": {
+      "averageScore": 72,
+      "scoreCount": 4
+    },
+    "angular:skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "antfu:skills": {
+      "averageScore": 69.6,
+      "scoreCount": 5
+    },
+    "anthropics:skills": {
+      "averageScore": 82.67,
+      "scoreCount": 3
+    },
+    "apollographql:skills": {
+      "averageScore": 88,
+      "scoreCount": 2
+    },
+    "astrolicious:agent-skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "av:skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "avdlee:core-data-agent-skill": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "avdlee:swift-concurrency-agent-skill": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "avdlee:swift-testing-agent-skill": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "avdlee:swiftui-agent-skill": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "avdlee:xcode-build-optimization-agent-skill": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "backnotprop:plannotator": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "better-auth:skills": {
+      "averageScore": 84,
+      "scoreCount": 4
+    },
+    "bobmatnyc:claude-mpm-skills": {
+      "averageScore": 85,
+      "scoreCount": 4
+    },
+    "ccheney:robust-skills": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "chaunsin:agent-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "claude-dev-suite:claude-dev-suite": {
+      "averageScore": 88,
+      "scoreCount": 2
+    },
+    "clerk:skills": {
+      "averageScore": 81.56,
+      "scoreCount": 18
+    },
+    "cli:cli": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "clickhouse:agent-skills": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "cloudai-x:threejs-skills": {
+      "averageScore": 85.45,
+      "scoreCount": 11
+    },
+    "cloudflare:skills": {
+      "averageScore": 79.43,
+      "scoreCount": 7
+    },
+    "cloudflare:vinext": {
+      "averageScore": 64,
+      "scoreCount": 1
+    },
+    "confident-ai:deepeval": {
+      "averageScore": 80,
+      "scoreCount": 1
+    },
+    "convex:agent-skills": {
+      "averageScore": 68,
+      "scoreCount": 1
+    },
+    "currents-dev:playwright-best-practices-skill": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "davila7:claude-code-templates": {
+      "averageScore": 83,
+      "scoreCount": 4
+    },
+    "deckardger:tanstack-agent-skills": {
+      "averageScore": 64,
+      "scoreCount": 1
+    },
+    "delexw:claude-code-misc": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "denoland:skills": {
+      "averageScore": 68,
+      "scoreCount": 1
+    },
+    "devon-systems:hoenn": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "dmitrypogrebnoy:ruby-agent-skills": {
+      "averageScore": 72,
+      "scoreCount": 2
+    },
+    "docker:skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "eduardo-sl:go-agent-skills": {
+      "averageScore": 79.88,
+      "scoreCount": 34
+    },
+    "ejirocodes:agent-skills": {
+      "averageScore": 68,
+      "scoreCount": 1
+    },
+    "elysiajs:skills": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "expo:skills": {
+      "averageScore": 79,
+      "scoreCount": 8
+    },
+    "fastapi:fastapi": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "firebase:agent-skills": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "firecrawl:cli": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "georgeguimaraes:elixir-agent-tools": {
+      "averageScore": 76,
+      "scoreCount": 2
+    },
+    "github:awesome-copilot": {
+      "averageScore": 80.57,
+      "scoreCount": 63
+    },
+    "giuseppe-trisciuoglio:developer-kit": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "google-gemini:gemini-skills": {
+      "averageScore": 80,
+      "scoreCount": 1
+    },
+    "greensock:gsap-skills": {
+      "averageScore": 81,
+      "scoreCount": 8
+    },
+    "hashicorp:agent-skills": {
+      "averageScore": 88,
+      "scoreCount": 3
+    },
+    "hoangnguyen0403:agent-skills-standard": {
+      "averageScore": 86.4,
+      "scoreCount": 203
+    },
+    "honojs:skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "hoodini:ai-agents-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "hyf0:vue-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "igmarin:rails-agent-skills": {
+      "averageScore": 84.67,
+      "scoreCount": 6
+    },
+    "igmarin:ruby-core-skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "inferen-sh:skills": {
+      "averageScore": 77.33,
+      "scoreCount": 3
+    },
+    "instantdb:skills": {
+      "averageScore": 68,
+      "scoreCount": 1
+    },
+    "jeffallan:claude-skills": {
+      "averageScore": 72.38,
+      "scoreCount": 32
+    },
+    "jeremylongshore:claude-code-plugins-plus-skills": {
+      "averageScore": 68,
+      "scoreCount": 2
+    },
+    "junaid-pk:laravel-development-workflow": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "k-dense-ai:scientific-agent-skills": {
+      "averageScore": 60,
+      "scoreCount": 1
+    },
+    "kadajett:agent-nestjs-skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "kepano:obsidian-skills": {
+      "averageScore": 88,
+      "scoreCount": 4
+    },
+    "kevmoo:dash_skills": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "kotlin:kotlin-agent-skills": {
+      "averageScore": 90.67,
+      "scoreCount": 3
+    },
+    "krutikjain:android-agent-skills": {
+      "averageScore": 86,
+      "scoreCount": 8
+    },
+    "langchain-ai:deepagents": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "langchain-ai:langchain-skills": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "langfuse:skills": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "laude-institute:headlong": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "lucianghinda:superpowers-ruby": {
+      "averageScore": 81.33,
+      "scoreCount": 3
+    },
+    "madteacher:mad-agents-skills": {
+      "averageScore": 86,
+      "scoreCount": 2
+    },
+    "mastra-ai:skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "mattpocock:skills": {
+      "averageScore": 84,
+      "scoreCount": 2
+    },
+    "mcollina:skills": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "microsoft:github-copilot-for-azure": {
+      "averageScore": 84,
+      "scoreCount": 3
+    },
+    "midudev:autoskills": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "mindrally:skills": {
+      "averageScore": 80.79,
+      "scoreCount": 127
+    },
+    "neondatabase:agent-skills": {
+      "averageScore": 56,
+      "scoreCount": 1
+    },
+    "nodnarbnitram:claude-code-extensions": {
+      "averageScore": 60,
+      "scoreCount": 1
+    },
+    "ombulabs:claude-code_rails-upgrade-skill": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "openai:skills": {
+      "averageScore": 64,
+      "scoreCount": 2
+    },
+    "paldom:python-skills": {
+      "averageScore": 79,
+      "scoreCount": 8
+    },
+    "paulrberg:agent-skills": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "pingdotgg:t3code": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "planetscale:database-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "pluginagentmarketplace:custom-plugin-nodejs": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "pproenca:dot-skills": {
+      "averageScore": 80,
+      "scoreCount": 2
+    },
+    "prisma:skills": {
+      "averageScore": 76,
+      "scoreCount": 4
+    },
+    "pulumi:agent-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "pymodel:react-frontend-skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "redis:agent-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "remix-run:react-router": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "remotion-dev:skills": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "rominirani:antigravity-skills": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "samber:cc-skills-golang": {
+      "averageScore": 78.4,
+      "scoreCount": 20
+    },
+    "search-3d:electron-drive-skill": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "secondsky:claude-skills": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "sergiodxa:agent-skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "shadcn:ui": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "sharanharsoor:skills": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "sickn33:agentic-awesome-skills": {
+      "averageScore": 82.94,
+      "scoreCount": 128
+    },
+    "sleekdotdesign:agent-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "smnandre:symfony-ux-skills": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "spences10:svelte-skills-kit": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "stripe:ai": {
+      "averageScore": 80,
+      "scoreCount": 2
+    },
+    "supabase:agent-skills": {
+      "averageScore": 48,
+      "scoreCount": 1
+    },
+    "sveltejs:ai-tools": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "tanstack-skills:tanstack-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "temporalio:skill-temporal-developer": {
+      "averageScore": 68,
+      "scoreCount": 1
+    },
+    "terminalskills:skills": {
+      "averageScore": 85.33,
+      "scoreCount": 3
+    },
+    "thebushidocollective:han": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
+    "triggerdotdev:skills": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "vamseeachanta:workspace-hub": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "vercel-labs:agent-skills": {
+      "averageScore": 88,
+      "scoreCount": 3
+    },
+    "vercel-labs:json-render": {
+      "averageScore": 96,
+      "scoreCount": 1
+    },
+    "vercel:ai": {
+      "averageScore": 80,
+      "scoreCount": 1
+    },
+    "vercel:next.js": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "vercel:turborepo": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "vintasoftware:django-ai-plugins": {
+      "averageScore": 68,
+      "scoreCount": 1
+    },
+    "vuejs-ai:skills": {
+      "averageScore": 82,
+      "scoreCount": 2
+    },
+    "webpro:skills": {
+      "averageScore": 76,
+      "scoreCount": 1
+    },
+    "wispbit-ai:skills": {
+      "averageScore": 88,
+      "scoreCount": 1
+    },
+    "wordpress:agent-skills": {
+      "averageScore": 85,
+      "scoreCount": 8
+    },
+    "wshobson:agents": {
+      "averageScore": 83.43,
+      "scoreCount": 7
+    },
+    "yonesuke:skills": {
+      "averageScore": 92,
+      "scoreCount": 1
+    },
+    "zxkane:aws-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    }
+  }
 }

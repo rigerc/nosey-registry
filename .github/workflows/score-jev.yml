@@ -1,0 +1,142 @@
+name: Score skills with Open JEV
+
+# Evaluates missing or stale skills in bounded batches with the SHA-pinned Open
+# JEV action, then projects the scores into the registry data through one review
+# PR. Scores are model estimates, not a security audit. Official registry only.
+on:
+  schedule:
+    - cron: '17 9 * * 3'
+  workflow_dispatch:
+    inputs:
+      max_skills:
+        description: 'Maximum changed or unevaluated skills (0-64)'
+        default: '16'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: registry-assessments
+  cancel-in-progress: false
+
+env:
+  GENERATOR_REF: 23b90b13109ffa406658bd79d030c509ea6faf6d
+  GENERATOR: github.com/rigerc/nosey-9/cmd/nosey
+
+jobs:
+  plan:
+    if: github.repository == 'rigerc/nosey-registry'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      count: ${{ steps.plan.outputs.count }}
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Check committed assessments
+        run: node scripts/jev.mjs check
+      - id: plan
+        env:
+          MAX_SKILLS: ${{ inputs.max_skills || '16' }}
+        run: node scripts/jev.mjs plan --limit "$MAX_SKILLS" --out .nosey-eval/plan.json
+
+  evaluate:
+    needs: plan
+    if: needs.plan.outputs.count != '0'
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Fetch the pinned SKILL.md as inert, bounded data
+        env:
+          SKILL_ID: ${{ matrix.id }}
+        run: node scripts/jev.mjs prepare --id "$SKILL_ID" --out .nosey-eval/state.json --meta .nosey-eval/meta.json
+      - id: jev
+        name: Evaluate with the SHA-pinned Open JEV action
+        uses: intikhab49/open-jev-typed-decision-engine@4c3c85ee6238f24a464c9285d1786aabc51a753b
+        with:
+          state-file: .nosey-eval/state.json
+          questions-file: config/open-jev-questions.json
+          model-release: model-v1
+      - name: Validate and normalize the five typed scores
+        env:
+          RESULT_FILE: ${{ steps.jev.outputs.result-file }}
+          RESULT_KEY: ${{ matrix.key }}
+        run: node scripts/jev.mjs normalize --meta .nosey-eval/meta.json --result "$RESULT_FILE" --out ".nosey-eval/results/$RESULT_KEY.json"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: open-jev-result-${{ matrix.key }}
+          path: .nosey-eval/results/*.json
+          retention-days: 14
+
+  merge:
+    needs: [plan, evaluate]
+    if: always() && needs.plan.result == 'success' && needs.plan.outputs.count != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5.6.0
+        with:
+          go-version: '1.26.10'
+          cache: false
+      - name: Retrieve successful score artifacts
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          pattern: open-jev-result-*
+          path: .nosey-eval/results
+          merge-multiple: true
+        continue-on-error: true
+      - name: Merge only pin- and fingerprint-matching evaluations
+        run: node scripts/jev.mjs merge --dir .nosey-eval/results
+      - name: Project results and regenerate the registry
+        run: |
+          set -euo pipefail
+          node scripts/sync.mjs --write
+          go run ${GENERATOR}@${GENERATOR_REF} registry generate .
+      - name: Validate
+        run: |
+          set -euo pipefail
+          node --test tests/*.test.mjs
+          npm run --silent check
+          go run ${GENERATOR}@${GENERATOR_REF} registry validate . --standalone
+      - uses: peter-evans/create-pull-request@84ae59a2cdc2258d6fa0732dd66352dddae2a412 # v7.0.9
+        with:
+          token: ${{ github.token }}
+          branch: automation/update-skill-scores
+          base: main
+          delete-branch: true
+          add-paths: |
+            assessments/scores.json
+            skills.json
+            nosey.registry.config.json
+            nosey.registry.json
+            nosey.registry.lock.json
+          commit-message: 'chore: refresh Open JEV skill scores'
+          title: 'chore: refresh Open JEV skill scores'
+          body: |
+            Scores from the pinned Open JEV action on pinned `SKILL.md` content, projected into `skills.json` and `repositoryScores`.
+            Model scores are not security certification or installation policy. Only the first 4,000 UTF-16 code units of `SKILL.md` are reviewed.
