@@ -12939,11 +12939,12 @@
         "skillName": "tuiweave-app-builder"
       },
       "repositoryId": "ishan5ain:tuiweave-agent-kit",
+      "quality": "good",
       "score": 60,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17672,11 +17673,12 @@
         "skillName": "charmed-bubbles"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17692,11 +17694,12 @@
         "skillName": "charmed-bubbletea"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17719,11 +17722,12 @@
         "skillName": "charmed-ecosystem"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17739,11 +17743,12 @@
         "skillName": "charmed-glamour"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 56,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17759,11 +17764,12 @@
         "skillName": "charmed-gum"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17779,11 +17785,12 @@
         "skillName": "charmed-huh"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17799,11 +17806,12 @@
         "skillName": "charmed-lipgloss"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17819,11 +17827,12 @@
         "skillName": "charmed-log"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 84,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17839,11 +17848,12 @@
         "skillName": "charmed-vhs"
       },
       "repositoryId": "tpscloud:charmedimsure",
+      "quality": "good",
       "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "Open JEV model-v1"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
