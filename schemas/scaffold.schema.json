@@ -38,6 +38,16 @@
     "createdBy": {
       "type": "string",
       "minLength": 1
+    },
+    "ci": {
+      "type": "array",
+      "description": "CI providers copied into the scaffold.",
+      "items": {
+        "enum": [
+          "github"
+        ]
+      },
+      "uniqueItems": true
     }
   }
 }

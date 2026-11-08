@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "generated:placeholder",
-  "name": "Generated registry",
-  "description": "Replace with new registry description",
+  "registry": {
+    "id": "local:example",
+    "name": "Example Registry"
+  },
+  "manifest": "nosey.registry.json",
   "files": {
     "technologies": "technologies.json",
     "skills": "skills.json",
     "mappings": "mappings.json",
     "repositories": "repositories.json"
-  },
-  "repositoryScores": {}
+  }
 }

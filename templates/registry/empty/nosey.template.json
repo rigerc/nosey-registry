@@ -3,11 +3,11 @@
   "id": "empty",
   "kind": "registry",
   "generator": "registry-v1",
-  "description": "Empty registry scaffold",
+  "description": "Empty registry scaffold with optional GitHub CI",
   "files": [
     {
-      "source": "files/nosey.registry.json",
-      "destination": "nosey.registry.json"
+      "source": "files/nosey.registry.config.json",
+      "destination": "nosey.registry.config.json"
     },
     {
       "source": "files/technologies.json",
@@ -28,6 +28,13 @@
     {
       "source": "files/README.md",
       "destination": "README.md"
+    }
+  ],
+  "ci": [
+    {
+      "provider": "github",
+      "source": "files/ci/github/registry.yml",
+      "destination": ".github/workflows/registry.yml"
     }
   ]
 }

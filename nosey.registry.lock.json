@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "generator": "native-v1/1",
+  "files": {
+    "mappings.json": {
+      "sha256": "275052d7b37f81f66d511af5f27dd47bc1d72b42c23fd75198c87d1d5c3ecb5a"
+    },
+    "repositories.json": {
+      "sha256": "503cc34d99f8507d900ab24a11a54b2843bda4539f08650b7cb4c87d464464b7"
+    },
+    "skills.json": {
+      "sha256": "44a60d63076c659c75d57c7a15c37c9ace146008784d43a6a2c58163f25ddc5d"
+    },
+    "technologies.json": {
+      "sha256": "cc0993d1c68b45678ccf2286eddf3a0808d9b89d2409400e4bd480666f9dc814"
+    }
+  },
+  "manifest": {
+    "path": "nosey.registry.json",
+    "sha256": "de6a6bcfebbab29adec95874285afd5e8b7e2409e64c654f1f8f26e39d22b478"
+  },
+  "summary": {
+    "skills": 877,
+    "technologies": 898,
+    "mappings": 258
+  }
+}

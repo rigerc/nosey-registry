@@ -55,6 +55,39 @@
           }
         }
       }
+    },
+    "ci": {
+      "type": "array",
+      "description": "Optional CI workflow files copied only when explicitly requested.",
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "provider",
+          "source",
+          "destination"
+        ],
+        "properties": {
+          "provider": {
+            "enum": [
+              "github"
+            ]
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$",
+            "maxLength": 512
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_./-]+$",
+            "maxLength": 512
+          }
+        }
+      }
     }
   }
 }

@@ -13,11 +13,6 @@
       "descriptor": "templates/registry/empty/nosey.template.json",
       "id": "empty",
       "kind": "registry"
-    },
-    {
-      "descriptor": "templates/registry/workspace/nosey.template.json",
-      "id": "workspace",
-      "kind": "registry"
     }
   ]
 }

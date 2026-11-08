@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "registry": {
+    "id": "nosey:official",
+    "name": "Official Nosey Registry"
+  },
+  "manifest": "nosey.registry.json",
+  "files": {
+    "technologies": "technologies.json",
+    "skills": "skills.json",
+    "mappings": "mappings.json",
+    "repositories": "repositories.json"
+  },
+  "templates": [
+    {
+      "id": "empty",
+      "kind": "registry",
+      "descriptor": "templates/registry/empty/nosey.template.json"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/rigerc/skills-catalog",
+    "revision": "d1bc68a826cd233f85f291eca0cfa9b4303713e6"
+  }
+}
