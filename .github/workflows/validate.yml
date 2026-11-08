@@ -27,3 +27,17 @@ jobs:
         run: go run ${GENERATOR}@${GENERATOR_REF} registry generate . --check
       - name: Validate effective registry
         run: go run ${GENERATOR}@${GENERATOR_REF} registry validate . --standalone
+
+  assessments:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Test assessment tooling
+        run: node --test tests/*.test.mjs
+      - name: Check assessments and their projection
+        run: npm run --silent check

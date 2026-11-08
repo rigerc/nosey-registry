@@ -1,0 +1,97 @@
+name: Skill quality gate
+
+# Always runs a cheap, offline plan step so the check exists on every PR. The
+# validator is installed and upstream content fetched only for skills whose pin
+# changed (added or re-pinned). Report-only until calibrated: set the repository
+# variable QUALITY_GATE=enforce to make failures block.
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      base_sha:
+        description: 'Optional 40-character base SHA; blank compares the selected branch with main'
+        type: string
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Plan changed pins (no upstream requests)
+        id: plan
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || inputs.base_sha || '' }}
+        run: |
+          set -euo pipefail
+          if [ -z "$BASE_SHA" ]; then
+            git fetch --no-tags --depth=1 origin main
+            BASE_SHA="$(git rev-parse FETCH_HEAD)"
+          fi
+          if ! [[ "$BASE_SHA" =~ ^[a-f0-9]{40}$ ]]; then
+            echo "base_sha must be a full 40-character Git SHA" >&2
+            exit 1
+          fi
+          git cat-file -e "$BASE_SHA^{commit}" 2>/dev/null || git fetch --no-tags --depth=1 origin "$BASE_SHA"
+          echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
+          node scripts/locate.mjs --check
+          node scripts/quality.mjs --plan --base "$BASE_SHA"
+      - name: Locate newly pinned skills
+        if: steps.plan.outputs.unlocated != '0'
+        run: node scripts/locate.mjs --write
+      - name: Re-plan with locations
+        id: replan
+        if: steps.plan.outputs.unlocated != '0'
+        env:
+          BASE_SHA: ${{ steps.plan.outputs.base_sha }}
+        run: node scripts/quality.mjs --plan --base "$BASE_SHA"
+      - name: Resolve target count
+        id: targets
+        env:
+          PLANNED: ${{ steps.replan.outputs.targets || steps.plan.outputs.targets }}
+        run: echo "count=${PLANNED:-0}" >> "$GITHUB_OUTPUT"
+      - uses: ./.github/actions/setup-skill-validator
+        if: steps.targets.outputs.count != '0'
+      - name: Check changed pins
+        if: steps.targets.outputs.count != '0'
+        env:
+          BASE_SHA: ${{ steps.plan.outputs.base_sha }}
+          QUALITY_GATE: ${{ vars.QUALITY_GATE }}
+          QUALITY_PR_REPORT_FILE: ${{ runner.temp }}/quality-pr-report.md
+        run: node scripts/quality.mjs --gate --base "$BASE_SHA" --max-groups 20 --deadline-minutes 20
+      - name: Post or update the PR comment
+        if: ${{ always() && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && steps.targets.outputs.count != '0' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPORT: ${{ runner.temp }}/quality-pr-report.md
+        run: |
+          set -euo pipefail
+          [ -f "$REPORT" ] || exit 0
+          marker='<!-- skill-quality-gate -->'
+          { echo "$marker"; cat "$REPORT"; } > "$REPORT.body"
+          existing="$(gh api "repos/$REPO/issues/$PR_NUMBER/comments" --paginate \
+            --jq ".[] | select(.body | startswith(\"$marker\")) | .id" | head -n1)"
+          if [ -n "$existing" ]; then
+            gh api --method PATCH "repos/$REPO/issues/comments/$existing" -F body=@"$REPORT.body" >/dev/null
+          else
+            gh api --method POST "repos/$REPO/issues/$PR_NUMBER/comments" -F body=@"$REPORT.body" >/dev/null
+          fi
