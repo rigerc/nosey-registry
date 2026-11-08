@@ -124,6 +124,39 @@
         "disabled": {
           "type": "boolean"
         },
+        "quarantine": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "reason",
+            "since",
+            "lastSeenRef"
+          ],
+          "description": "Set by registry automation when the upstream skill is gone. The skill stays declared and referenceable, but is never recommended, listed or installable. Delete the field to restore it.",
+          "properties": {
+            "reason": {
+              "enum": [
+                "repo_gone",
+                "skill_absent"
+              ]
+            },
+            "since": {
+              "type": "string",
+              "format": "date",
+              "description": "ISO 8601 calendar date the skill was quarantined."
+            },
+            "lastSeenRef": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{40}$",
+              "description": "Last upstream commit at which the skill was observed."
+            },
+            "lastChecked": {
+              "type": "string",
+              "format": "date",
+              "description": "ISO 8601 calendar date of the most recent probe."
+            }
+          }
+        },
         "repositoryId": {
           "type": "string",
           "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",

@@ -39,6 +39,8 @@ export function project({skills, config, pins, quality, scores}) {
   const scoreById = new Map((scores?.entries ?? []).map(e => [e.id, e]));
   const perRepository = new Map();
   const next = skills.map(skill => {
+    // Quarantined skills keep whatever they last had and stay out of repository averages.
+    if (skill.quarantine) return skill;
     if (skill.assessment && skill.assessment.method !== 'automated') return skill;
     const {quality: _q, score: _s, assessment: _a, ...base} = skill;
     const pin = pins.get(skill.id);

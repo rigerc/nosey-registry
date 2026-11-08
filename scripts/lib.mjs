@@ -13,6 +13,7 @@ export const QUALITY_FILE = 'assessments/quality.json';
 export const SCORES_FILE = 'assessments/scores.json';
 export const LOCATIONS_FILE = 'assessments/locations.json';
 export const WAIVERS_FILE = 'assessments/quality-waivers.json';
+export const PROBES_FILE = 'assessments/pin-probes.json';
 export const SHA40 = /^[0-9a-f]{40}$/;
 export const SHA64 = /^[0-9a-f]{64}$/;
 
@@ -93,6 +94,8 @@ export function resolvePins(skills, locations) {
   const located = [];
   const unlocated = [];
   for (const skill of skills) {
+    // Quarantined skills are not evaluated: their upstream is gone and nothing should depend on it.
+    if (skill.quarantine) continue;
     const pin = pinOf(skill);
     if (!pin) continue;
     const loc = locations.get(skill.id);

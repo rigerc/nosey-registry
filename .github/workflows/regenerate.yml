@@ -10,7 +10,7 @@ permissions:
 
 env:
   # Pinned nosey-9 generator commit. Bump deliberately; never use a branch.
-  GENERATOR_REF: 23b90b13109ffa406658bd79d030c509ea6faf6d
+  GENERATOR_REF: 1c7050db26516989ad8ff3d9b0bcdf4ff359eb19
   GENERATOR: github.com/rigerc/nosey-9/cmd/nosey
 
 jobs:
