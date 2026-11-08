@@ -252,6 +252,10 @@
       "averageScore": 68,
       "scoreCount": 1
     },
+    "ishan5ain:tuiweave-agent-kit": {
+      "averageScore": 60,
+      "scoreCount": 1
+    },
     "jeffallan:claude-skills": {
       "averageScore": 72.38,
       "scoreCount": 32
@@ -471,6 +475,10 @@
     "thebushidocollective:han": {
       "averageScore": 84,
       "scoreCount": 1
+    },
+    "tpscloud:charmedimsure": {
+      "averageScore": 73.78,
+      "scoreCount": 9
     },
     "triggerdotdev:skills": {
       "averageScore": 76,

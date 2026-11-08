@@ -12938,7 +12938,13 @@
         "ref": "bfe0f1dc15f442da86346a575dde062671736a39",
         "skillName": "tuiweave-app-builder"
       },
-      "repositoryId": "ishan5ain:tuiweave-agent-kit"
+      "repositoryId": "ishan5ain:tuiweave-agent-kit",
+      "score": 60,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "jeffallan:claude-skills:cpp-pro",
@@ -17665,7 +17671,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-bubbles"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 88,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-bubbletea",
@@ -17679,7 +17691,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-bubbletea"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 72,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-ecosystem",
@@ -17700,7 +17718,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-ecosystem"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 68,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-glamour",
@@ -17714,7 +17738,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-glamour"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 56,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-gum",
@@ -17728,7 +17758,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-gum"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 88,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-huh",
@@ -17742,7 +17778,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-huh"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 68,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-lipgloss",
@@ -17756,7 +17798,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-lipgloss"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 72,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-log",
@@ -17770,7 +17818,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-log"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 84,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-vhs",
@@ -17784,7 +17838,13 @@
         "ref": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
         "skillName": "charmed-vhs"
       },
-      "repositoryId": "tpscloud:charmedimsure"
+      "repositoryId": "tpscloud:charmedimsure",
+      "score": 68,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-08",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "triggerdotdev:skills:trigger-setup",
