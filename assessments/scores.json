@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_id": "nosey:official",
-  "generated_at": "2026-11-05T22:05:40.298Z",
+  "generated_at": "2026-11-08T21:01:10.817Z",
   "evaluator": {
     "provider": "open-jev-action",
     "action_ref": "intikhab49/open-jev-typed-decision-engine@4c3c85ee6238f24a464c9285d1786aabc51a753b",
@@ -72,9 +72,9 @@
   },
   "summary": {
     "total": 877,
-    "evaluated": 867,
+    "evaluated": 877,
     "stale": 0,
-    "pending": 10,
+    "pending": 0,
     "unlocated": 0
   },
   "entries": [
@@ -25783,6 +25783,48 @@
       "overall_score": 3.4
     },
     {
+      "id": "ishan5ain:tuiweave-agent-kit:tuiweave-app-builder",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/ishan5ain/tuiweave-agent-kit/blob/bfe0f1dc15f442da86346a575dde062671736a39/skills/tuiweave-app-builder/SKILL.md",
+        "commit": "bfe0f1dc15f442da86346a575dde062671736a39"
+      },
+      "input_sha256": "c617547fec492dea5966c1109b77d711666ea34e3fecbca3f08ffe99b709aa1e",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T20:58:59Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 2,
+            "confidence": 0.2443,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3334,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.3182,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2856,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3385,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3
+    },
+    {
       "id": "jeffallan:claude-skills:cpp-pro",
       "status": "evaluated",
       "source": {
@@ -35189,6 +35231,384 @@
         }
       },
       "overall_score": 4.2
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-bubbles",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-bubbles/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "c922b5bbf67272d88dad1ffc26a26064f69fccd7534cbaf3c9b592688ce506ba",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T20:59:00Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2582,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3149,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2739,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2554,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3559,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-bubbletea",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-bubbletea/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "8db83dcfa717b37dd150f6f238e75f0e4f2da8ce12113a0136dc20b050e75d40",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T20:59:33Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2427,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.294,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2662,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2615,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.2993,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.6
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-ecosystem",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-ecosystem/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "d0dfba7cda234e0aaf76351108bc2755aa739678129ee1dfcc29e69f73f1d694",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T20:59:29Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2541,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3118,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2648,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2687,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3512,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-glamour",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-glamour/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "158b66b37d15fc6f785be0fda6cc8ccd8b3ea4f935dfcba19ff4f5ebe302aab5",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T21:00:02Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 2,
+            "confidence": 0.2434,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3095,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.27,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2794,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3367,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 2.8
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-gum",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-gum/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "4333521955ee93c57316ceee5a233f59f162f474bee22f1c0a2e15fc4d5f6526",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T21:00:00Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2745,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3181,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2508,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2901,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3155,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-huh",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-huh/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "fdad2b89ee21385d555810eb2dade9680a6ce7cb9031310b1f6b101573022e25",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T21:00:30Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2443,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3162,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2539,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2599,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3031,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-lipgloss",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-lipgloss/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "baa3e4397c44d9cc1491300b0f1ec783d67dc118672dc2482666a75482dac104",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T21:00:29Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2521,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3162,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2601,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2661,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3109,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.6
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-log",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-log/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "f51006c9febe12fc539dc4c4760d84c0c5af19c38958afd6d90e282fd75c703d",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T21:00:59Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2633,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.2907,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2622,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.267,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3075,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.2
+    },
+    {
+      "id": "tpscloud:charmedimsure:charmed-vhs",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/tpscloud/charmedimsure/blob/fb054b67470c585ed8724e3f49376cc6b6f1b783/skills/charmed-vhs/SKILL.md",
+        "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783"
+      },
+      "input_sha256": "0b2e68b33a09ec890db1b67b0ddec7075ce0b4af9951b0720cf39580a64a7838",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-08T21:00:55Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2466,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3031,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2414,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2904,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3124,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
     },
     {
       "id": "triggerdotdev:skills:trigger-setup",

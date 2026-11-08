@@ -12940,10 +12940,11 @@
       },
       "repositoryId": "ishan5ain:tuiweave-agent-kit",
       "quality": "good",
+      "score": 60,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17673,10 +17674,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17693,10 +17695,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17720,10 +17723,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17740,10 +17744,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 56,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17760,10 +17765,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17780,10 +17786,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17800,10 +17807,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17820,10 +17828,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 84,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17840,10 +17849,11 @@
       },
       "repositoryId": "tpscloud:charmedimsure",
       "quality": "good",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
