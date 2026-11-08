@@ -3,16 +3,16 @@
   "generator": "native-v1/1",
   "files": {
     "mappings.json": {
-      "sha256": "275052d7b37f81f66d511af5f27dd47bc1d72b42c23fd75198c87d1d5c3ecb5a"
+      "sha256": "77236b19bdd38a4b66587b948e91409617b2b4c104899e37096c71d0ab8a0bc2"
     },
     "repositories.json": {
-      "sha256": "503cc34d99f8507d900ab24a11a54b2843bda4539f08650b7cb4c87d464464b7"
+      "sha256": "473edb28b1d4ffe90d374cfc5c4930091fd3f9ef151efeaa1ba81b938645000d"
     },
     "skills.json": {
-      "sha256": "498187bd2367bab34f07706ea8b7e9fffb2df6de36549fe327cb95a1fb7832ba"
+      "sha256": "01e89b3f605c8465b156877d7577cd98d4f6cb07d526c4fe41629133ae1ed014"
     },
     "technologies.json": {
-      "sha256": "cc0993d1c68b45678ccf2286eddf3a0808d9b89d2409400e4bd480666f9dc814"
+      "sha256": "3a274b178fae07ffb773af763a7565f6362ba827f85952d35b6f0629489afab6"
     }
   },
   "manifest": {
@@ -20,8 +20,8 @@
     "sha256": "19a7c6ad42fa38812a798af4deea4e82eeba323691e29455fc096d800dc193cb"
   },
   "summary": {
-    "skills": 877,
-    "technologies": 898,
-    "mappings": 258
+    "skills": 878,
+    "technologies": 899,
+    "mappings": 259
   }
 }

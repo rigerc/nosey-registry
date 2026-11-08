@@ -2578,6 +2578,10 @@
       "commit": "2fb67e384c6d91f32025bd96400d33b73f21bdc7",
       "path": "flutter-testing/SKILL.md"
     },
+    "marceloeatworld:hyprland-ai-skill:hyprland": {
+      "commit": "71d2c71158cde38e609c60adf65b2ec44450a53a",
+      "path": "SKILL.md"
+    },
     "mastra-ai:skills:mastra": {
       "commit": "34180fa43c67fe38197f30d8d975fb73454156aa",
       "path": "skills/mastra/SKILL.md"

@@ -13297,6 +13297,25 @@
       ]
     },
     {
+      "id": "hyprland",
+      "name": "Hyprland",
+      "category": "tool",
+      "rules": [
+        {
+          "id": "file-0001",
+          "kind": "file",
+          "glob": "**/hyprland.conf",
+          "pathScope": "relative"
+        },
+        {
+          "id": "file-0002",
+          "kind": "file",
+          "glob": "**/hyprland.lua",
+          "pathScope": "relative"
+        }
+      ]
+    },
+    {
       "id": "ibmcloud",
       "name": "IBM Cloud",
       "category": "cloud",
