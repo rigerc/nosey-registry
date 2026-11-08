@@ -160,8 +160,11 @@ export function checkReport(doc, source) {
     last = e.id;
   }
   if (source) {
+    // The entries must match the located pins (no orphans, unique, sorted). The summary is derived coverage
+    // and may lag: adding or re-pinning a skill makes it pending/stale until the next scoring run, and that
+    // must not fail the PR that changes the data. `merge` recomputes it.
     const fresh = buildReport(doc.entries, source, {config: doc.evaluator, previous: doc, now: doc.generated_at});
-    if (JSON.stringify(fresh) !== JSON.stringify(doc)) throw new Error('Score coverage is stale; run scripts/sync.mjs and commit the result');
+    if (JSON.stringify(fresh.entries) !== JSON.stringify(doc.entries)) throw new Error('Score entries do not match the located skills; run scripts/jev.mjs merge and commit the result');
   }
   return true;
 }
@@ -264,7 +267,8 @@ async function main([command, ...argv]) {
   if (command === 'check') {
     const source = loadSource();
     checkReport(report, source);
-    console.log('Open JEV report OK: ' + JSON.stringify(report?.summary ?? 'no report yet'));
+    const coverage = buildReport(report?.entries ?? [], source, {config: report?.evaluator ?? evaluator(), previous: report, now: report?.generated_at ?? new Date().toISOString()}).summary;
+    console.log('Open JEV report OK: ' + JSON.stringify(coverage) + (report ? '' : ' (no report yet)'));
   } else if (command === 'plan') {
     const result = plan(loadSource(), report, {limit: Number(a.limit ?? 8)});
     out(a.out ?? '.nosey-eval/plan.json', result);
