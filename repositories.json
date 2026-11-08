@@ -452,6 +452,12 @@
       "uri": "https://github.com/madteacher/mad-agents-skills"
     },
     {
+      "id": "marceloeatworld:hyprland-ai-skill",
+      "name": "marceloeatworld/hyprland-ai-skill",
+      "kind": "git",
+      "uri": "https://github.com/marceloeatworld/hyprland-ai-skill"
+    },
+    {
       "id": "mastra-ai:skills",
       "name": "mastra-ai/skills",
       "kind": "git",

@@ -3161,6 +3161,17 @@
       ]
     },
     {
+      "id": "technology:hyprland",
+      "technologyId": "hyprland",
+      "recommendations": [
+        {
+          "skillId": "marceloeatworld:hyprland-ai-skill:hyprland",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Hyprland."
+        }
+      ]
+    },
+    {
       "id": "technology:instantdb",
       "technologyId": "instantdb",
       "recommendations": [

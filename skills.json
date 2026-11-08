@@ -13599,6 +13599,20 @@
       }
     },
     {
+      "id": "marceloeatworld:hyprland-ai-skill:hyprland",
+      "name": "hyprland",
+      "technologies": [
+        "hyprland"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/marceloeatworld/hyprland-ai-skill",
+        "ref": "71d2c71158cde38e609c60adf65b2ec44450a53a",
+        "skillName": "hyprland"
+      },
+      "repositoryId": "marceloeatworld:hyprland-ai-skill"
+    },
+    {
       "id": "mastra-ai:skills:mastra",
       "name": "mastra",
       "technologies": [
