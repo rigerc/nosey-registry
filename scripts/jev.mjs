@@ -25,7 +25,13 @@ export const MODEL_RELEASE = 'model-v1';
 export const STATE_LIMIT = 4000;
 export const STATE_VERSION = 1;
 export const MAX_SOURCE_BYTES = 262144;
+// The five dimensions behind the overall score and the evaluator fingerprint.
 export const DIMENSIONS = ['trigger_clarity', 'instruction_quality', 'correctness', 'safety', 'context_efficiency'];
+// Additive dimensions: asked and stored per skill, but outside the overall score and the fingerprint, so adding one
+// does not invalidate existing scores. Entries scored before it existed simply lack it.
+export const EXTRA_DIMENSIONS = ['technology_fit'];
+export const ALL_DIMENSIONS = [...DIMENSIONS, ...EXTRA_DIMENSIONS];
+export const MAX_MAPPED_TECHNOLOGIES = 20;
 export const LIMITATION = 'Open JEV reviews at most the first 4,000 UTF-16 code units of SKILL.md; supporting files and runtime behavior are not assessed. Scores have no written reasons or recommendations.';
 // Part of the evaluator identity: changing it would invalidate every stored score.
 const TRANSFORM = 'index+1,mean,informational';
@@ -40,7 +46,8 @@ export const outputKey = id => sha256(id).slice(0, 20);
 /* ---------- evaluator identity ---------- */
 
 function fingerprintOf(config) {
-  return sha256(JSON.stringify({action: config.action_ref, model: config.model_release, questions: config.questions,
+  const questions = Object.fromEntries(DIMENSIONS.map(d => [d, config.questions[d]]));
+  return sha256(JSON.stringify({action: config.action_ref, model: config.model_release, questions,
     stateLimit: config.state_limit_code_units, stateVersion: config.state_format_version, transform: TRANSFORM}));
 }
 
@@ -50,7 +57,8 @@ export function checkEvaluator(config) {
       !/^[\w.-]+\/[\w.-]+@[a-f0-9]{40}$/.test(config.action_ref) || typeof config.model_release !== 'string' || !config.model_release ||
       !Number.isInteger(config.state_format_version) || config.state_format_version < 1 ||
       config.state_limit_code_units !== STATE_LIMIT || config.scope !== LIMITATION || config.ranking_calibrated !== false ||
-      !exact(config.questions, DIMENSIONS) || DIMENSIONS.some(d => !exact(config.questions[d], ['type', 'criteria', 'instructions']) ||
+      !(exact(config.questions, DIMENSIONS) || exact(config.questions, ALL_DIMENSIONS)) ||
+      Object.keys(config.questions).some(d => !exact(config.questions[d], ['type', 'criteria', 'instructions']) ||
         config.questions[d].type !== 'score' || typeof config.questions[d].instructions !== 'string' ||
         !Array.isArray(config.questions[d].criteria) || config.questions[d].criteria.length !== 5 ||
         config.questions[d].criteria.some(c => typeof c !== 'string' || !c))) throw new Error('Malformed Open JEV evaluator');
@@ -60,6 +68,7 @@ export function checkEvaluator(config) {
 }
 
 export function evaluator(questions = readJson(QUESTIONS_FILE)) {
+  if (!exact(questions, ALL_DIMENSIONS)) throw new Error('Open JEV questions must be exactly ' + ALL_DIMENSIONS.join(', '));
   const config = {provider: 'open-jev-action', action_ref: ACTION, model_release: MODEL_RELEASE,
     state_format_version: STATE_VERSION, questions_sha256: sha256(JSON.stringify(questions)), fingerprint: '',
     ranking_calibrated: false, state_limit_code_units: STATE_LIMIT, questions, scope: LIMITATION};
@@ -102,9 +111,9 @@ export function checkEntry(e) {
       typeof e.id !== 'string' || e.id.split(':').length < 3 || e.status !== 'evaluated' ||
       !exact(e.source, ['url', 'commit']) || !SHA64.test(e.fingerprint ?? '') || !SHA64.test(e.input_sha256 ?? '') ||
       !timestamp(e.evaluated_at) || e.result_kind !== 'open_jev_scores' || !exact(e.evaluation, ['scores']) ||
-      !exact(e.evaluation.scores, DIMENSIONS)) throw new Error('Invalid evaluated entry ' + e?.id);
+      !(exact(e.evaluation.scores, DIMENSIONS) || exact(e.evaluation.scores, ALL_DIMENSIONS))) throw new Error('Invalid evaluated entry ' + e?.id);
   parseSourceUrl(e.source);
-  for (const key of DIMENSIONS) {
+  for (const key of Object.keys(e.evaluation.scores)) {
     const s = e.evaluation.scores[key];
     if (!exact(s, ['score', 'confidence', 'mode']) || !Number.isInteger(s.score) || s.score < 1 || s.score > 5 ||
         !Number.isFinite(s.confidence) || s.confidence < 0 || s.confidence > 1 || s.mode !== 'model') {
@@ -194,7 +203,27 @@ export function plan(source, report, {limit = 8, mode = 'all-needed'} = {}) {
     include: todo.slice(0, limit)};
 }
 
-export async function prepare(pin, {fetchImpl = fetch, config = evaluator()} = {}) {
+/**
+ * The technologies the registry maps a skill to, as inert context for the technology_fit question. A mapping
+ * names its technology and may require further technologies to be detected as well (`when.allTechnologies`).
+ */
+export function mappedTechnologies(skillId, mappings, technologies) {
+  const names = new Map(technologies.map(t => [t.id, t.name || t.id]));
+  const name = id => names.get(id) ?? id;
+  const rows = new Map();
+  for (const mapping of mappings) {
+    for (const rec of mapping.recommendations ?? []) {
+      if (rec.skillId !== skillId) continue;
+      const also = [...(rec.when?.allTechnologies ?? [])].map(name).sort();
+      const row = {technology: name(mapping.technologyId), ...(also.length ? {also_requires: also} : {})};
+      rows.set(JSON.stringify(row), row);
+    }
+  }
+  return [...rows.values()].sort((a, b) => (a.technology < b.technology ? -1 : a.technology > b.technology ? 1 : 0))
+    .slice(0, MAX_MAPPED_TECHNOLOGIES);
+}
+
+export async function prepare(pin, {fetchImpl = fetch, config = evaluator(), mapped = []} = {}) {
   const response = await fetchImpl(rawUrl(pin.repo, pin.commit, pin.path), {redirect: 'manual', signal: AbortSignal.timeout(20000)});
   if (response.status !== 200 || !response.body) throw new Error('Pinned source HTTP ' + response.status);
   if (Number(response.headers.get('content-length') || '0') > MAX_SOURCE_BYTES) throw new Error('Source too large');
@@ -210,7 +239,8 @@ export async function prepare(pin, {fetchImpl = fetch, config = evaluator()} = {
   const text = new TextDecoder('utf-8', {fatal: true}).decode(bytes);
   return {
     state: {skill_id: pin.id, repository: pin.repo, source_commit: pin.commit, source_path: pin.path,
-      document_kind: 'SKILL.md', document_excerpt: text.slice(0, STATE_LIMIT), is_truncated: text.length > STATE_LIMIT},
+      document_kind: 'SKILL.md', document_excerpt: text.slice(0, STATE_LIMIT), is_truncated: text.length > STATE_LIMIT,
+      mapped_technologies: mapped},
     meta: {id: pin.id, key: outputKey(pin.id), source: {repository: pin.repo, path: pin.path, commit: pin.commit},
       fingerprint: config.fingerprint, input_sha256: sha256(bytes)},
   };
@@ -219,11 +249,12 @@ export async function prepare(pin, {fetchImpl = fetch, config = evaluator()} = {
 export function normalize(meta, raw, date = '1970-01-01T00:00:00Z', config = evaluator()) {
   if (!meta?.id || !SHA40.test(meta.source?.commit ?? '') || !SHA64.test(meta.input_sha256 ?? '') ||
       meta.fingerprint !== config.fingerprint) throw new Error('Invalid evaluation metadata');
-  if (raw?.workflow !== null || !raw.decisions || Object.keys(raw.decisions).length !== DIMENSIONS.length) {
+  const keys = Object.keys(config.questions);
+  if (raw?.workflow !== null || !raw.decisions || Object.keys(raw.decisions).length !== keys.length) {
     throw new Error('Unexpected action response');
   }
   const scores = {};
-  for (const key of DIMENSIONS) {
+  for (const key of keys) {
     const d = raw.decisions[key];
     const answer = Number(d?.answer);
     if (!['number', 'string'].includes(typeof d?.answer) || String(d.answer).trim() === '' || d?.type !== 'score' || d.mode !== 'model' ||
@@ -289,7 +320,10 @@ async function main([command, ...argv]) {
   } else if (command === 'prepare') {
     const pin = loadSource().pins.get(a.id);
     if (!pin) throw new Error('Unknown located skill: ' + a.id);
-    const {state, meta} = await prepare(pin);
+    const {config: registryConfig} = loadRegistry();
+    const mapped = mappedTechnologies(pin.id, readJson(registryConfig.files.mappings).mappings,
+      readJson(registryConfig.files.technologies).technologies);
+    const {state, meta} = await prepare(pin, {mapped});
     out(a.out ?? '.nosey-eval/state.json', state);
     out(a.meta ?? '.nosey-eval/meta.json', meta);
     console.log('Prepared inert, pinned skill ' + pin.id);
