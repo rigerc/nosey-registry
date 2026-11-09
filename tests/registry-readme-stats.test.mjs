@@ -6,6 +6,7 @@ import { join } from 'node:path';
 import {
   collectStats,
   countRegistryStats,
+  renderStatsCards,
   replaceSection,
   isSafeRelativePath,
 } from '../scripts/registry-readme-stats.mjs';
@@ -216,6 +217,32 @@ test('fixed labels prevent pipe or newline injection', () => {
     { Metric: 'Mapping entries', Count: '0' },
     { Metric: 'Source repositories', Count: '0' },
   ]));
+});
+
+test('stats cards emphasize current counts and are safe to refresh', () => {
+  const cards = renderStatsCards({
+    skills: 1234,
+    technologies: 7,
+    mappings: 12,
+    repositories: 5,
+  });
+  assert.match(cards, /<th align="center">Skills<\/th>/);
+  assert.match(cards, /<h2>1,234<\/h2>/);
+  assert.match(cards, /<h2>7<\/h2>/);
+  assert.match(cards, /<h2>12<\/h2>/);
+  assert.match(cards, /<h2>5<\/h2>/);
+  assert.throws(() => renderStatsCards({
+    skills: '<script>',
+    technologies: 0,
+    mappings: 0,
+    repositories: 0,
+  }));
+
+  const readme = '# Registry\n\n<!-- BEGIN GENERATED REGISTRY STATS -->\nOld\n<!-- END GENERATED REGISTRY STATS -->\n\nContent.\n';
+  const next = replaceSection(readme, cards);
+  assert.match(next, /<table>/);
+  assert.ok(next.indexOf('<!-- BEGIN GENERATED REGISTRY STATS -->') < next.indexOf('Content.'));
+  assert.equal(replaceSection(next, cards), next);
 });
 
 test('scaffold helper is byte-identical to canonical script', () => {
