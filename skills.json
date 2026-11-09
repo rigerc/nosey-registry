@@ -7806,10 +7806,11 @@
       },
       "repositoryId": "paulrberg:agent-skills",
       "quality": "good",
+      "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -8120,10 +8121,11 @@
       },
       "repositoryId": "agenticaiengineer:ai-engineer-skills",
       "quality": "excellent",
+      "score": 100,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -8140,10 +8142,11 @@
       },
       "repositoryId": "agenticaiengineer:ai-engineer-skills",
       "quality": "excellent",
+      "score": 76,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -8160,10 +8163,11 @@
       },
       "repositoryId": "agenticaiengineer:ai-engineer-skills",
       "quality": "excellent",
+      "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -8180,10 +8184,11 @@
       },
       "repositoryId": "agenticaiengineer:ai-engineer-skills",
       "quality": "excellent",
+      "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -8200,10 +8205,11 @@
       },
       "repositoryId": "agenticaiengineer:ai-engineer-skills",
       "quality": "excellent",
+      "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -8408,10 +8414,11 @@
       },
       "repositoryId": "annatchijova:skills",
       "quality": "good",
+      "score": 60,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -13646,10 +13653,11 @@
       },
       "repositoryId": "lplatzer:agent-skills",
       "quality": "excellent",
+      "score": 84,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -13771,10 +13779,11 @@
       },
       "repositoryId": "marceloeatworld:hyprland-ai-skill",
       "quality": "poor",
+      "score": 92,
       "assessment": {
         "method": "automated",
-        "assessedAt": "2026-11-08",
-        "assessor": "skill-validator v1.8.0"
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -14445,10 +14454,11 @@
       },
       "repositoryId": "rshade:agent-skills",
       "quality": "excellent",
+      "score": 92,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17810,10 +17820,11 @@
       },
       "repositoryId": "svssdeva:agentic-skills",
       "quality": "poor",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17830,10 +17841,11 @@
       },
       "repositoryId": "svssdeva:agentic-skills",
       "quality": "poor",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17850,10 +17862,11 @@
       },
       "repositoryId": "svssdeva:agentic-skills",
       "quality": "poor",
+      "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17870,10 +17883,11 @@
       },
       "repositoryId": "svssdeva:agentic-skills",
       "quality": "poor",
+      "score": 80,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -17890,10 +17904,11 @@
       },
       "repositoryId": "svssdeva:agentic-skills",
       "quality": "poor",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -18635,10 +18650,11 @@
       },
       "repositoryId": "wshobson:agents",
       "quality": "excellent",
+      "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -18739,10 +18755,11 @@
       },
       "repositoryId": "wshobson:agents",
       "quality": "excellent",
+      "score": 88,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -18824,10 +18841,11 @@
       },
       "repositoryId": "wshobson:agents",
       "quality": "excellent",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {

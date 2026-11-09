@@ -27,6 +27,10 @@
       "averageScore": 81.5,
       "scoreCount": 8
     },
+    "agenticaiengineer:ai-engineer-skills": {
+      "averageScore": 84.8,
+      "scoreCount": 5
+    },
     "aj-geddes:useful-ai-prompts": {
       "averageScore": 94,
       "scoreCount": 2
@@ -41,6 +45,10 @@
     },
     "angular:skills": {
       "averageScore": 88,
+      "scoreCount": 1
+    },
+    "annatchijova:skills": {
+      "averageScore": 60,
       "scoreCount": 1
     },
     "antfu:skills": {
@@ -311,6 +319,10 @@
       "averageScore": 92,
       "scoreCount": 1
     },
+    "lplatzer:agent-skills": {
+      "averageScore": 84,
+      "scoreCount": 1
+    },
     "lucianghinda:superpowers-ruby": {
       "averageScore": 81.33,
       "scoreCount": 3
@@ -318,6 +330,10 @@
     "madteacher:mad-agents-skills": {
       "averageScore": 86,
       "scoreCount": 2
+    },
+    "marceloeatworld:hyprland-ai-skill": {
+      "averageScore": 92,
+      "scoreCount": 1
     },
     "mastra-ai:skills": {
       "averageScore": 84,
@@ -364,8 +380,8 @@
       "scoreCount": 8
     },
     "paulrberg:agent-skills": {
-      "averageScore": 76,
-      "scoreCount": 1
+      "averageScore": 82,
+      "scoreCount": 2
     },
     "pingdotgg:t3code": {
       "averageScore": 72,
@@ -409,6 +425,10 @@
     },
     "rominirani:antigravity-skills": {
       "averageScore": 96,
+      "scoreCount": 1
+    },
+    "rshade:agent-skills": {
+      "averageScore": 92,
       "scoreCount": 1
     },
     "samber:cc-skills-golang": {
@@ -462,6 +482,10 @@
     "sveltejs:ai-tools": {
       "averageScore": 76,
       "scoreCount": 1
+    },
+    "svssdeva:agentic-skills": {
+      "averageScore": 71.2,
+      "scoreCount": 5
     },
     "tanstack-skills:tanstack-skills": {
       "averageScore": 84,
@@ -532,8 +556,8 @@
       "scoreCount": 8
     },
     "wshobson:agents": {
-      "averageScore": 83.43,
-      "scoreCount": 7
+      "averageScore": 82.8,
+      "scoreCount": 10
     },
     "yonesuke:skills": {
       "averageScore": 92,
