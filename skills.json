@@ -8226,10 +8226,11 @@
       },
       "repositoryId": "airbytehq:airbyte-agent-sdk",
       "quality": "good",
+      "score": 80,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -8246,10 +8247,11 @@
       },
       "repositoryId": "airbytehq:airbyte-agent-sdk",
       "quality": "poor",
+      "score": 84,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -9043,10 +9045,11 @@
       },
       "repositoryId": "chakra-ui:chakra-ui",
       "quality": "excellent",
+      "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -9063,10 +9066,11 @@
       },
       "repositoryId": "chakra-ui:chakra-ui",
       "quality": "good",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -9083,10 +9087,11 @@
       },
       "repositoryId": "chakra-ui:chakra-ui",
       "quality": "excellent",
+      "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -12660,10 +12665,11 @@
       },
       "repositoryId": "google:skills",
       "quality": "fair",
+      "score": 76,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -12680,10 +12686,11 @@
       },
       "repositoryId": "google:skills",
       "quality": "excellent",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -12700,10 +12707,11 @@
       },
       "repositoryId": "google:skills",
       "quality": "excellent",
+      "score": 64,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -12720,10 +12728,11 @@
       },
       "repositoryId": "google:skills",
       "quality": "excellent",
+      "score": 92,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -12740,10 +12749,11 @@
       },
       "repositoryId": "google:skills",
       "quality": "excellent",
+      "score": 92,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -12760,10 +12770,11 @@
       },
       "repositoryId": "google:skills",
       "quality": "excellent",
+      "score": 84,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -14336,10 +14347,11 @@
       },
       "repositoryId": "openai:skills",
       "quality": "good",
+      "score": 76,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -14377,10 +14389,11 @@
       },
       "repositoryId": "pingcap:tidb",
       "quality": "excellent",
+      "score": 84,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -14397,10 +14410,11 @@
       },
       "repositoryId": "pingcap:tidb",
       "quality": "excellent",
+      "score": 56,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -14713,10 +14727,11 @@
       },
       "repositoryId": "resend:react-email",
       "quality": "fair",
+      "score": 72,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -18288,10 +18303,11 @@
       },
       "repositoryId": "timescale:pg-aiguide",
       "quality": "good",
+      "score": 92,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -18308,10 +18324,11 @@
       },
       "repositoryId": "timescale:pg-aiguide",
       "quality": "fair",
+      "score": 68,
       "assessment": {
         "method": "automated",
         "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {

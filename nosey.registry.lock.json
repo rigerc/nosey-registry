@@ -9,7 +9,7 @@
       "sha256": "6698acc0877a9cdc2a2e92d194c1b467fb8bc6c60a085ec61014861ebd924e1e"
     },
     "skills.json": {
-      "sha256": "952fdec02d1c470a339e83c1636e2178a50fa2e4a3d252966404a6a47248f764"
+      "sha256": "1f6103cf9522816aa0e88fdcbc0235992a4e110eabf8a70d8682f6c65b2066f1"
     },
     "technologies.json": {
       "sha256": "3a274b178fae07ffb773af763a7565f6362ba827f85952d35b6f0629489afab6"
@@ -17,7 +17,7 @@
   },
   "manifest": {
     "path": "nosey.registry.json",
-    "sha256": "5c22c2f1761331a40b4c4d3286fd376e9e293175fc75c90dc710dc5f482b23bf"
+    "sha256": "df8f1d89300a7d2a9f7aaeebe379f4023ff70985f72766636b5967f1840b613b"
   },
   "summary": {
     "skills": 912,
