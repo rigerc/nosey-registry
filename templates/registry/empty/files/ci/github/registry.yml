@@ -146,22 +146,9 @@ jobs:
           else
             echo 'changed=false' >> "$GITHUB_OUTPUT"
           fi
-      - name: Build statistics JSON
+      - name: Refresh README statistics
         if: steps.changes.outputs.changed == 'true'
-        id: stats
-        run: node .github/scripts/registry-readme-stats.mjs collect
-      - name: Render Markdown table
-        if: steps.changes.outputs.changed == 'true'
-        id: markdown
-        uses: parkerbxyz/json-to-markdown-table@85a9c13bbd4d87113503b5802fb3d7cbacb5f43f # v1
-        with:
-          json: ${{ steps.stats.outputs.json }}
-          align-pipes: 'false'
-      - name: Replace README section
-        if: steps.changes.outputs.changed == 'true'
-        env:
-          GENERATED_TABLE: ${{ steps.markdown.outputs.table }}
-        run: node .github/scripts/registry-readme-stats.mjs replace
+        run: node .github/scripts/registry-readme-stats.mjs refresh
       - name: Commit README
         if: steps.changes.outputs.changed == 'true'
         run: |
