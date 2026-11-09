@@ -54,6 +54,1428 @@
       ]
     },
     {
+      "id": "combination:azure-dotnet",
+      "technologyId": "azure",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-ai-agents-persistent-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-document-intelligence-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-openai-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-projects-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-voicelive-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-eventgrid-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-eventhub-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-identity-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-maps-search-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-apicenter-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-apimanagement-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-applicationinsights-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-arizeaiobservabilityeval-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-botservice-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-fabric-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-mongodbatlas-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-weightsandbiases-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-cosmosdb-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-durabletask-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-mysql-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-playwright-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-postgresql-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-redis-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-sql-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-search-documents-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-security-keyvault-keys-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-servicebus-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:m365-agents-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure-java",
+      "technologyId": "azure",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-ai-agents-persistent-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-anomalydetector-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-contentsafety-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-formrecognizer-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-projects-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-vision-imageanalysis-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-voicelive-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-appconfiguration-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-communication-callautomation-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-communication-callingserver-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-communication-chat-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-communication-common-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-communication-sms-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-compute-batch-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-cosmos-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-data-tables-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-eventgrid-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-eventhub-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-identity-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-messaging-webpubsub-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-monitor-ingestion-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-monitor-opentelemetry-exporter-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-monitor-query-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-security-keyvault-keys-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-security-keyvault-secrets-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-blob-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure-python",
+      "technologyId": "azure",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:agent-framework-azure-ai-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-contentsafety-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-contentunderstanding-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-language-conversations-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-ml-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-projects-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-textanalytics-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-transcription-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-translation-document-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-translation-text-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-vision-imageanalysis-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-voicelive-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-appconfiguration-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-containerregistry-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-cosmos-db-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-cosmos-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-data-tables-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-eventgrid-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-eventhub-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-identity-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-keyvault-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-messaging-webpubsubservice-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-apicenter-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-apimanagement-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-botservice-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-mgmt-fabric-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-monitor-ingestion-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-monitor-opentelemetry-exporter-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-monitor-opentelemetry-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-monitor-query-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-search-documents-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-servicebus-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-speech-to-text-rest-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-blob-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-file-datalake-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-file-share-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-queue-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:fastapi-router-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:m365-agents-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:pydantic-models-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure-rust",
+      "technologyId": "azure",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-cosmos-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-eventhub-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-identity-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-keyvault-certificates-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-keyvault-keys-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-keyvault-secrets-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-blob-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-queue-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure-typescript",
+      "technologyId": "azure",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-ai-contentsafety-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-document-intelligence-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-projects-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-translation-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai-voicelive-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-appconfiguration-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-cosmos-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-eventhub-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-identity-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-keyvault-keys-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-keyvault-secrets-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-microsoft-playwright-testing-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-monitor-opentelemetry-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-postgres-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-search-documents-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-servicebus-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-blob-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-file-share-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage-queue-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-web-pubsub-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:frontend-ui-dark-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:m365-agents-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:react-flow-node-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:zustand-store-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure.cosmosdb-dotnet",
+      "technologyId": "azure.cosmosdb",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-cosmosdb-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure.cosmosdb + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure.cosmosdb-java",
+      "technologyId": "azure.cosmosdb",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-cosmos-java",
+          "priority": "optional",
+          "reason": "Catalog combination: azure.cosmosdb + java.",
+          "when": {
+            "allTechnologies": [
+              "java"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure.cosmosdb-python",
+      "technologyId": "azure.cosmosdb",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-cosmos-db-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure.cosmosdb + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        },
+        {
+          "skillId": "microsoft:skills:azure-cosmos-py",
+          "priority": "optional",
+          "reason": "Catalog combination: azure.cosmosdb + python.",
+          "when": {
+            "allTechnologies": [
+              "python"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure.cosmosdb-rust",
+      "technologyId": "azure.cosmosdb",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-cosmos-rust",
+          "priority": "optional",
+          "reason": "Catalog combination: azure.cosmosdb + rust.",
+          "when": {
+            "allTechnologies": [
+              "rust"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure.cosmosdb-typescript",
+      "technologyId": "azure.cosmosdb",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-cosmos-ts",
+          "priority": "optional",
+          "reason": "Catalog combination: azure.cosmosdb + typescript.",
+          "when": {
+            "allTechnologies": [
+              "typescript"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure.openai-dotnet",
+      "technologyId": "azure.openai",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-ai-openai-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure.openai + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "combination:azure.redis-dotnet",
+      "technologyId": "azure.redis",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:azure-resource-manager-redis-dotnet",
+          "priority": "optional",
+          "reason": "Catalog combination: azure.redis + dotnet.",
+          "when": {
+            "allTechnologies": [
+              "dotnet"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "combination:chrome-extension-clerk",
       "technologyId": "chrome-extension",
       "recommendations": [
@@ -1204,6 +2626,11 @@
           "skillId": "Mindrally:skills:auth0-authentication",
           "priority": "optional",
           "reason": "Catalog recommendation for Auth0."
+        },
+        {
+          "skillId": "auth0:agent-skills:auth0",
+          "priority": "optional",
+          "reason": "Catalog recommendation for auth0."
         }
       ]
     },
@@ -1316,6 +2743,297 @@
           "skillId": "sickn33:agentic-awesome-skills:azure-devops",
           "priority": "optional",
           "reason": "Catalog recommendation for Azure."
+        },
+        {
+          "skillId": "microsoft:skills:aks-cost-optimization",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:aks-gpu-inference",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:aks-known-issues",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:aks-network-capture",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:aks-troubleshooting",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-search-nav",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-advisor-actionability",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-advisor",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:cost-analysis",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:cost-estimation",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:cost-governance",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:cost-optimization",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-kusto-graph",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-kusto-irql-graph",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-kusto-irql",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-local-multi-rack",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-local",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:airunway-aks-setup",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:appinsights-instrumentation",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-ai",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-aigateway",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-app-onboard-prereq",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-app-onboard",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-cloud-migrate",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-compliance",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-compute",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-deploy",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-diagnostics",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-enterprise-infra-planner",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-kubernetes",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-kubernetes-app-deploy",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-kubernetes-automatic-readiness",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-kusto",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-messaging",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-prepare",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-quotas",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-reliability",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-lookup",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-resource-visualizer",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-storage",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-upgrade",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:azure-validate",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:discover-azure-skills",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:entra-app-registration",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:microsoft-foundry",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:finetuning",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:deploy-model",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:capacity",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:customize",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:preset",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        },
+        {
+          "skillId": "microsoft:skills:python-appservice-deploy",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure."
+        }
+      ]
+    },
+    {
+      "id": "technology:azure.aks",
+      "technologyId": "azure.aks",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:aks-cost-optimization",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure.aks."
+        },
+        {
+          "skillId": "microsoft:skills:aks-gpu-inference",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure.aks."
+        },
+        {
+          "skillId": "microsoft:skills:aks-known-issues",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure.aks."
+        },
+        {
+          "skillId": "microsoft:skills:aks-network-capture",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure.aks."
+        },
+        {
+          "skillId": "microsoft:skills:aks-troubleshooting",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure.aks."
+        },
+        {
+          "skillId": "microsoft:skills:azure-search-nav",
+          "priority": "optional",
+          "reason": "Catalog recommendation for azure.aks."
         }
       ]
     },
@@ -1975,6 +3693,306 @@
           "skillId": "sickn33:agentic-awesome-skills:datadog",
           "priority": "optional",
           "reason": "Catalog recommendation for Datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-auto-experiment",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-build-eval-from-annotations",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-eval-bootstrap",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-eval-pipeline",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-experiment-analyzer",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-experiment-bootstrap",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-online-experiment",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-replay-trace",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-session-classify",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:agent-observability-trace-rca",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-account-setup",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-agent-install-docker",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-agent-install-kubernetes",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-agent-install-linux",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-agent-install-macos",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-agent-install-windows",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-android-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:upgrade-v3",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-apm",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:enable-dsm",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:service-remapping",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:datadog-app",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-audit",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:ai-activity-audit",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:compliance-report",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:cost-spike-investigation",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:key-compromise",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:security-investigation",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-aws-ccm",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-aws-integration",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-aws-log-forwarding",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-aws-storage-management",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-azure-ccm",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-azure-integration",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-azure-log-forwarding",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-browser-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:setup-sourcemaps",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:upgrade-v5",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:upgrade-v6",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:upgrade-v7",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-confluent-cloud-integration",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-dbm-rds-postgres",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-docs",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-gcp-ccm",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-gcp-integration",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-gcp-log-forwarding",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-instrument-llmo",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-instrument-product-analytics",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-instrument-rum",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-logs",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-monitors",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-oci-ccm",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-oci-integration",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-orchestrator",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-product-recommender",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-profiler-setup",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:dd-pup",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:ownership-agent",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:triage-flaky-test",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
+        },
+        {
+          "skillId": "datadog-labs:agent-skills:unblock-pr",
+          "priority": "optional",
+          "reason": "Catalog recommendation for datadog."
         }
       ]
     },
@@ -2177,6 +4195,57 @@
           "skillId": "chaunsin:agent-skills:drizzle-migration-conflict",
           "priority": "optional",
           "reason": "Catalog recommendation for Drizzle ORM."
+        }
+      ]
+    },
+    {
+      "id": "technology:duckdb",
+      "technologyId": "duckdb",
+      "recommendations": [
+        {
+          "skillId": "duckdb:duckdb-skills:attach-db",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
+        },
+        {
+          "skillId": "duckdb:duckdb-skills:convert-file",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
+        },
+        {
+          "skillId": "duckdb:duckdb-skills:duckdb-docs",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
+        },
+        {
+          "skillId": "duckdb:duckdb-skills:install-duckdb",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
+        },
+        {
+          "skillId": "duckdb:duckdb-skills:query",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
+        },
+        {
+          "skillId": "duckdb:duckdb-skills:read-file",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
+        },
+        {
+          "skillId": "duckdb:duckdb-skills:read-memories",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
+        },
+        {
+          "skillId": "duckdb:duckdb-skills:s3-explore",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
+        },
+        {
+          "skillId": "duckdb:duckdb-skills:spatial",
+          "priority": "optional",
+          "reason": "Catalog recommendation for duckdb."
         }
       ]
     },
@@ -2617,6 +4686,161 @@
           "skillId": "madteacher:mad-agents-skills:flutter-testing",
           "priority": "optional",
           "reason": "Catalog recommendation for Flutter."
+        },
+        {
+          "skillId": "flutter:skills:api-review",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:code-documentation",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:code-review",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:grill-with-docs",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:natural-writing",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:unix-cli-best-practices",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-add-unit-test",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-build-cli-app",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-collect-coverage",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-fix-runtime-errors",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-generate-test-mocks",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-migrate-to-checks-package",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-resolve-package-conflicts",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-run-static-analysis",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-setup-ffi-assets",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-use-doc-examples",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-use-ffigen",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-use-path-package",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-use-pattern-matching",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-use-primary-constructors",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:dart-write-documentation",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-add-integration-test",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-add-widget-preview",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-add-widget-test",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-apply-architecture-best-practices",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-build-responsive-layout",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-fix-layout-issues",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-implement-json-serialization",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-setup-declarative-routing",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-setup-localization",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
+        },
+        {
+          "skillId": "flutter:skills:flutter-use-http-package",
+          "priority": "optional",
+          "reason": "Catalog recommendation for flutter."
         }
       ]
     },
@@ -2658,6 +4882,17 @@
           "skillId": "sickn33:agentic-awesome-skills:github-actions-templates",
           "priority": "optional",
           "reason": "Catalog recommendation for GitHub Actions."
+        }
+      ]
+    },
+    {
+      "id": "technology:github.codeql",
+      "technologyId": "github.codeql",
+      "recommendations": [
+        {
+          "skillId": "trailofbits:skills:codeql",
+          "priority": "optional",
+          "reason": "Catalog recommendation for github.codeql."
         }
       ]
     },
@@ -3278,6 +5513,142 @@
       ]
     },
     {
+      "id": "technology:huggingface",
+      "technologyId": "huggingface",
+      "recommendations": [
+        {
+          "skillId": "huggingface:skills:hf-mcp",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:hf-cli",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:hf-cloud-aws-context-discovery",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:hf-cloud-python-env-setup",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:hf-cloud-sagemaker-deployment-planner",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:hf-cloud-sagemaker-iam-preflight",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:hf-cloud-sagemaker-production-defaults",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:hf-cloud-serving-image-selection",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:hf-mem",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-best",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-community-evals",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-datasets",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-gradio",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-llm-trainer",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-local-models",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-lora-space-builder",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-paper-publisher",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-papers",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-spaces",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-tool-builder",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-trackio",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-vision-trainer",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:huggingface-zerogpu",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:train-sentence-transformers",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:transformers-js",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        },
+        {
+          "skillId": "huggingface:skills:trl-training",
+          "priority": "optional",
+          "reason": "Catalog recommendation for huggingface."
+        }
+      ]
+    },
+    {
       "id": "technology:husky",
       "technologyId": "husky",
       "recommendations": [
@@ -3806,6 +6177,152 @@
       ]
     },
     {
+      "id": "technology:microsoft",
+      "technologyId": "microsoft",
+      "recommendations": [
+        {
+          "skillId": "microsoft:skills:wiki-ado-convert",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-agents-md",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-architect",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-changelog",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-llms-txt",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-onboarding",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-page-writer",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-qa",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-researcher",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:wiki-vitepress",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:foundry-iq",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:declarative-agent-developer",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:install-atk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:m365-agent-evaluator",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:teams-app-developer",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:slack-to-teams",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:ui-widget-developer",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:cloud-solution-architect",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:continual-learning",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:copilot-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:debugview",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:frontend-design-review",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:github-issue-creator",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:kql",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:mcp-builder",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:microsoft-docs",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:podcast-generation",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        },
+        {
+          "skillId": "microsoft:skills:skill-creator",
+          "priority": "optional",
+          "reason": "Catalog recommendation for microsoft."
+        }
+      ]
+    },
+    {
       "id": "technology:mise",
       "technologyId": "mise",
       "recommendations": [
@@ -3834,6 +6351,11 @@
           "skillId": "hoodini:ai-agents-skills:mongodb",
           "priority": "optional",
           "reason": "Catalog recommendation for MongoDB."
+        },
+        {
+          "skillId": "mongodb:agent-skills:review-skill",
+          "priority": "optional",
+          "reason": "Catalog recommendation for mongodb."
         }
       ]
     },
@@ -5658,6 +8180,176 @@
           "skillId": "sickn33:agentic-awesome-skills:sentry-automation",
           "priority": "optional",
           "reason": "Catalog recommendation for Sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-android-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-browser-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-cloudflare-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-cocoa-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-dotnet-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-elixir-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-fix-issues",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-flutter-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-go-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-instrument-logging",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-instrumentation-guide",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-nestjs-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-nextjs-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-node-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-php-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-python-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-react-native-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-react-router-framework-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-react-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-ruby-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-sdk-setup",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-sdk-skill-creator",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-sdk-upgrade",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-setup-ai-monitoring",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-svelte-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-tanstack-start-sdk",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-create-alert",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-debug-issue",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-fix-stack-traces",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-get-started",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-instrument",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-otel-exporter-setup",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-setup-releases",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
+        },
+        {
+          "skillId": "getsentry:sentry-for-ai:sentry-snapshots-cocoa",
+          "priority": "optional",
+          "reason": "Catalog recommendation for sentry."
         }
       ]
     },
