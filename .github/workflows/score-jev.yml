@@ -72,18 +72,36 @@ jobs:
         env:
           SKILL_ID: ${{ matrix.id }}
         run: node scripts/jev.mjs prepare --id "$SKILL_ID" --out .nosey-eval/state.json --meta .nosey-eval/meta.json
+      # The action reads one 1,024-token window per pass (question text first, then the state), so the five core
+      # questions and technology_fit run as two passes. Both write the same result path: copy each one out.
       - id: jev
-        name: Evaluate with the SHA-pinned Open JEV action
+        name: Evaluate the core questions with the SHA-pinned Open JEV action
         uses: intikhab49/open-jev-typed-decision-engine@4c3c85ee6238f24a464c9285d1786aabc51a753b
         with:
           state-file: .nosey-eval/state.json
-          questions-file: config/open-jev-questions.json
+          questions-file: .nosey-eval/questions.json
           model-release: model-v1
-      - name: Validate and normalize the five typed scores
+      - name: Keep the core result
         env:
           RESULT_FILE: ${{ steps.jev.outputs.result-file }}
+        run: cp "$RESULT_FILE" .nosey-eval/core-result.json
+      - id: jev_fit
+        name: Evaluate technology_fit against the mapped technologies
+        continue-on-error: true
+        uses: intikhab49/open-jev-typed-decision-engine@4c3c85ee6238f24a464c9285d1786aabc51a753b
+        with:
+          state-file: .nosey-eval/fit-state.json
+          questions-file: .nosey-eval/questions-fit.json
+          model-release: model-v1
+      - name: Keep the technology_fit result
+        if: steps.jev_fit.outcome == 'success'
+        env:
+          RESULT_FILE: ${{ steps.jev_fit.outputs.result-file }}
+        run: cp "$RESULT_FILE" .nosey-eval/fit-result.json
+      - name: Validate and normalize the typed scores
+        env:
           RESULT_KEY: ${{ matrix.key }}
-        run: node scripts/jev.mjs normalize --meta .nosey-eval/meta.json --result "$RESULT_FILE" --out ".nosey-eval/results/$RESULT_KEY.json"
+        run: node scripts/jev.mjs normalize --meta .nosey-eval/meta.json --result .nosey-eval/core-result.json --fit .nosey-eval/fit-result.json --out ".nosey-eval/results/$RESULT_KEY.json"
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: open-jev-result-${{ matrix.key }}

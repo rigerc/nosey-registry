@@ -6,7 +6,7 @@ import {ROOT, QUALITY_FILE, SCORES_FILE, repoOf, pinOf, safeSkillPath, resolvePi
   loadLocations, readJson} from '../scripts/lib.mjs';
 import {chooseLocation} from '../scripts/locate.mjs';
 import {fingerprint, isCurrent, selectTargets, mapReport, checkDoc, groupTargets} from '../scripts/quality.mjs';
-import {ALL_DIMENSIONS, DIMENSIONS, evaluator, mappedTechnologies, checkEvaluator, checkEntry, normalize, merge, plan, buildReport, checkReport, loadSource, current, outputKey} from '../scripts/jev.mjs';
+import {ALL_DIMENSIONS, DIMENSIONS, evaluator, mappedTechnologies, splitQuestions, prepare, checkEvaluator, checkEntry, normalize, merge, plan, buildReport, checkReport, loadSource, current, outputKey} from '../scripts/jev.mjs';
 import {qualityLabel, scoreOf, project, render} from '../scripts/sync.mjs';
 
 const SHA = 'a'.repeat(40);
@@ -76,24 +76,25 @@ test('quality labels and score scale', () => {
   assert.equal(scoreOf(5), 100);
 });
 
-function response(answers) {
-  const decisions = {};
-  ALL_DIMENSIONS.forEach((key, i) => {
-    decisions[key] = {type: 'score', mode: 'model', answer: answers[i] ?? 3, confidence: 0.3,
-      distribution: {0: 0.1, 1: 0.1, 2: 0.2, 3: 0.3, 4: 0.3}};
-  });
-  return {workflow: null, decisions};
-}
+const decide = (keys, answers) => Object.fromEntries(keys.map((key, i) => [key, {type: 'score', mode: 'model', answer: answers[i] ?? 3,
+  confidence: 0.3, distribution: {0: 0.1, 1: 0.1, 2: 0.2, 3: 0.3, 4: 0.3}}]));
+// The core questions and technology_fit come from two separate action passes.
+const response = answers => ({workflow: null, decisions: decide(DIMENSIONS, answers)});
+const fitResponse = answer => ({workflow: null, decisions: decide(['technology_fit'], [answer])});
 const meta = (id = 'o:r:a') => ({id, key: outputKey(id), source: {repository: 'o/r', path: 'a/SKILL.md', commit: SHA},
   fingerprint: evaluator().fingerprint, input_sha256: 'd'.repeat(64)});
 
 test('normalize maps typed answers 0..4 to scores 1..5 and rejects malformed responses', () => {
-  const entry = normalize(meta(), response([4, 3, 4, 4, 2]), '2026-01-02T03:04:05Z');
+  const entry = normalize(meta(), response([4, 3, 4, 4, 2]), '2026-01-02T03:04:05Z', undefined, fitResponse(3));
   assert.equal(entry.overall_score, 4.4);
   assert.equal(entry.evaluation.scores.trigger_clarity.score, 5);
   // technology_fit is stored but never part of the overall score.
   assert.equal(entry.evaluation.scores.technology_fit.score, 4);
-  assert.equal(normalize(meta(), response([4, 3, 4, 4, 2, 0]), '2026-01-02T03:04:05Z').overall_score, 4.4);
+  assert.equal(normalize(meta(), response([4, 3, 4, 4, 2]), '2026-01-02T03:04:05Z', undefined, fitResponse(0)).overall_score, 4.4);
+  // A failed technology_fit pass still records the core scores; a malformed one is rejected.
+  assert.equal(normalize(meta(), response([4, 3, 4, 4, 2]), '2026-01-02T03:04:05Z').evaluation.scores.technology_fit, undefined);
+  assert.throws(() => normalize(meta(), response([4, 3, 4, 4, 2]), '2026-01-02T03:04:05Z', undefined, response([1, 1, 1, 1, 1])));
+  assert.throws(() => normalize(meta(), fitResponse(2), '2026-01-02T03:04:05Z'));
   assert.throws(() => normalize(meta(), response([4, 3, 4, 4, 9])));
   assert.throws(() => normalize({...meta(), fingerprint: 'e'.repeat(64)}, response([0, 0, 0, 0, 0])));
   assert.throws(() => normalize(meta(), {workflow: null, decisions: {}}));
@@ -192,7 +193,7 @@ test('technology_fit is additive: it leaves the fingerprint alone and older five
   assert.equal(legacy.fingerprint, config.fingerprint);
   assert.doesNotThrow(() => checkEvaluator(legacy));
   assert.throws(() => checkEvaluator({...core, questions: {...core.questions, extra: config.questions.safety}}));
-  const withFit = normalize(meta(), response([4, 3, 4, 4, 2, 1]), '2026-01-02T03:04:05Z');
+  const withFit = normalize(meta(), response([4, 3, 4, 4, 2]), '2026-01-02T03:04:05Z', undefined, fitResponse(1));
   const { technology_fit: _fit, ...fiveScores } = withFit.evaluation.scores;
   const legacyEntry = {...withFit, evaluation: {scores: fiveScores}};
   assert.doesNotThrow(() => checkEntry(legacyEntry));
@@ -216,8 +217,7 @@ test('rescore re-runs current skills, missing technology_fit first and then olde
   const pins = ['a', 'b', 'c', 'd'].map(n => ({id: 'o:r:' + n, repo: 'o/r', path: n + '/SKILL.md', dir: n, commit: SHA}));
   const source = {pins: new Map(pins.map(p => [p.id, p])), unlocated: []};
   const entry = (pin, date, withFit = true) => {
-    const e = normalize({...meta(pin.id), source: {repository: 'o/r', path: pin.path, commit: SHA}}, response([4, 4, 4, 4, 4]), date);
-    if (!withFit) delete e.evaluation.scores.technology_fit;
+    const e = normalize({...meta(pin.id), source: {repository: 'o/r', path: pin.path, commit: SHA}}, response([4, 4, 4, 4, 4]), date, undefined, withFit ? fitResponse(3) : null);
     return e;
   };
   const rows = [entry(pins[0], '2026-03-01T00:00:00Z'), entry(pins[1], '2026-01-01T00:00:00Z'),
@@ -231,4 +231,17 @@ test('rescore re-runs current skills, missing technology_fit first and then olde
   // A stale entry belongs to `stale`, not `rescore`.
   const repinned = {pins: new Map([...source.pins, ['o:r:a', {...pins[0], commit: 'f'.repeat(40)}]]), unlocated: []};
   assert.ok(!plan(repinned, report, {mode: 'rescore'}).include.some(e => e.id === 'o:r:a'));
+});
+
+test('technology_fit runs as its own pass with the mapping ahead of the excerpt', async () => {
+  const {core, fit} = splitQuestions(evaluator().questions);
+  assert.deepEqual(Object.keys(core), DIMENSIONS);
+  assert.deepEqual(Object.keys(fit), ['technology_fit']);
+  const pin = {id: 'o:r:a', repo: 'o/r', path: 'a/SKILL.md', dir: 'a', commit: SHA};
+  const fetchImpl = async () => new Response('# Skill\n' + 'x'.repeat(5000), {status: 200});
+  const {state, fitState} = await prepare(pin, {fetchImpl, mapped: [{technology: 'Android'}]});
+  assert.equal('mapped_technologies' in state, false);
+  // The action serialises state keys alphabetically and keeps only a token window, so the mapping must sort first.
+  assert.equal(Object.keys(fitState).sort()[0], 'applicable_technologies');
+  assert.deepEqual(fitState.applicable_technologies, [{technology: 'Android'}]);
 });
