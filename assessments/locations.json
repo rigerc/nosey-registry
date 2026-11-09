@@ -227,7 +227,7 @@
       "path": "skills/flutter/flutter-error-handling/SKILL.md"
     },
     "HoangNguyen0403:agent-skills-standard:flutter-feature-based-clean-architecture": {
-      "commit": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+      "commit": "85a5f3b1728a375f3a09c4aae0c4b0fad54230c3",
       "path": "skills/flutter/flutter-feature-based-clean-architecture/SKILL.md"
     },
     "HoangNguyen0403:agent-skills-standard:flutter-getx-navigation": {
@@ -415,7 +415,7 @@
       "path": "skills/laravel/laravel-sessions-middleware/SKILL.md"
     },
     "HoangNguyen0403:agent-skills-standard:laravel-testing": {
-      "commit": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+      "commit": "85a5f3b1728a375f3a09c4aae0c4b0fad54230c3",
       "path": "skills/laravel/laravel-testing/SKILL.md"
     },
     "HoangNguyen0403:agent-skills-standard:laravel-tooling": {
@@ -647,7 +647,7 @@
       "path": "skills/quality-engineering/quality-engineering-playwright-cli/SKILL.md"
     },
     "HoangNguyen0403:agent-skills-standard:quality-engineering-playwright-pom-generation": {
-      "commit": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+      "commit": "85a5f3b1728a375f3a09c4aae0c4b0fad54230c3",
       "path": "skills/quality-engineering/quality-engineering-playwright-pom-generation/SKILL.md"
     },
     "HoangNguyen0403:agent-skills-standard:react-component-patterns": {
@@ -659,7 +659,7 @@
       "path": "skills/react/react-hooks/SKILL.md"
     },
     "HoangNguyen0403:agent-skills-standard:react-native-architecture": {
-      "commit": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+      "commit": "85a5f3b1728a375f3a09c4aae0c4b0fad54230c3",
       "path": "skills/react-native/react-native-architecture/SKILL.md"
     },
     "HoangNguyen0403:agent-skills-standard:react-native-components": {
@@ -1591,7 +1591,7 @@
       "path": ".agent/skills/reference-signal-forms/SKILL.md"
     },
     "angular:skills:angular-developer": {
-      "commit": "efe6e9ea69bc4e7165c0bf1b9b1482bea7b7f166",
+      "commit": "9274c6e0c832610eefcb2204951fc8ecaac21a35",
       "path": "angular-developer/SKILL.md"
     },
     "annatchijova:SKILLS:language-selection": {
@@ -1599,7 +1599,7 @@
       "path": "language-selection/SKILL.md"
     },
     "antfu:skills:nuxt": {
-      "commit": "8886fe2d385d3644cbb47e46ae9cb1cf09307d3b",
+      "commit": "f63e9ec7bc85f67364b6596c2d29da87e83ce445",
       "path": "skills/nuxt/SKILL.md"
     },
     "antfu:skills:unocss": {
@@ -1607,7 +1607,7 @@
       "path": "skills/unocss/SKILL.md"
     },
     "antfu:skills:vite": {
-      "commit": "8886fe2d385d3644cbb47e46ae9cb1cf09307d3b",
+      "commit": "f63e9ec7bc85f67364b6596c2d29da87e83ce445",
       "path": "skills/vite/SKILL.md"
     },
     "antfu:skills:vitest": {
@@ -1651,7 +1651,7 @@
       "path": "core-data-expert/SKILL.md"
     },
     "avdlee:swift-concurrency-agent-skill:swift-concurrency": {
-      "commit": "d5770817d2622e1585b1f7eaebc791a9cb0959c8",
+      "commit": "3b1580d8398e0b5408b3bf0bada0e941a1cfc642",
       "path": "skills/swift-concurrency/SKILL.md"
     },
     "avdlee:swift-testing-agent-skill:swift-testing-expert": {
@@ -1659,7 +1659,7 @@
       "path": "swift-testing-expert/SKILL.md"
     },
     "avdlee:swiftui-agent-skill:swiftui-expert-skill": {
-      "commit": "204dba7c67256a8b707ee3fbc5759a824191974f",
+      "commit": "62bd760f005093d1e2e4de5db156e456a5f96400",
       "path": "skills/swiftui-expert-skill/SKILL.md"
     },
     "avdlee:xcode-build-optimization-agent-skill:xcode-build-orchestrator": {
@@ -1739,11 +1739,11 @@
       "path": "skills/clerk-chrome-extension-patterns/SKILL.md"
     },
     "clerk:skills:clerk-custom-ui": {
-      "commit": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+      "commit": "c5d2c0d6c5b63243146b4893c875f6ebef55977c",
       "path": "skills/clerk-custom-ui/SKILL.md"
     },
     "clerk:skills:clerk-expo": {
-      "commit": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+      "commit": "c5d2c0d6c5b63243146b4893c875f6ebef55977c",
       "path": "skills/clerk-expo/SKILL.md"
     },
     "clerk:skills:clerk-nextjs-patterns": {
@@ -1755,7 +1755,7 @@
       "path": "skills/clerk-nuxt-patterns/SKILL.md"
     },
     "clerk:skills:clerk-orgs": {
-      "commit": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+      "commit": "c5d2c0d6c5b63243146b4893c875f6ebef55977c",
       "path": "skills/clerk-orgs/SKILL.md"
     },
     "clerk:skills:clerk-react-patterns": {
@@ -1763,11 +1763,11 @@
       "path": "skills/clerk-react-patterns/SKILL.md"
     },
     "clerk:skills:clerk-react-router-patterns": {
-      "commit": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+      "commit": "c5d2c0d6c5b63243146b4893c875f6ebef55977c",
       "path": "skills/clerk-react-router-patterns/SKILL.md"
     },
     "clerk:skills:clerk-setup": {
-      "commit": "b0d994e9cd954556ec747754484ad80565d67c15",
+      "commit": "c5d2c0d6c5b63243146b4893c875f6ebef55977c",
       "path": "skills/clerk-setup/SKILL.md"
     },
     "clerk:skills:clerk-swift": {
@@ -1779,7 +1779,7 @@
       "path": "skills/clerk-tanstack-patterns/SKILL.md"
     },
     "clerk:skills:clerk-testing": {
-      "commit": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+      "commit": "c5d2c0d6c5b63243146b4893c875f6ebef55977c",
       "path": "skills/clerk-testing/SKILL.md"
     },
     "clerk:skills:clerk-vue-patterns": {
@@ -1847,7 +1847,7 @@
       "path": "skills/agents-sdk/SKILL.md"
     },
     "cloudflare:skills:cloudflare": {
-      "commit": "e44f580f9c4fa3bf268e284ae7706c7954ba31fd",
+      "commit": "6eb6c781aa9b6438e0c7307bd102788a75fe1a6d",
       "path": "skills/cloudflare/SKILL.md"
     },
     "cloudflare:skills:durable-objects": {
@@ -1871,7 +1871,7 @@
       "path": "skills/wrangler/SKILL.md"
     },
     "cloudflare:vinext:migrate-to-vinext": {
-      "commit": "fb9bf3156f31ef859174c9f51ac859f2e5cd6bc3",
+      "commit": "8feee3b663c46c64d126c4fe574bc4b3f8fb4d2a",
       "path": ".agents/skills/migrate-to-vinext/SKILL.md"
     },
     "confident-ai:deepeval:deepeval-otel": {
@@ -1883,7 +1883,7 @@
       "path": "skills/convex/SKILL.md"
     },
     "currents-dev:playwright-best-practices-skill:playwright-best-practices": {
-      "commit": "283d5cbc5d11aac1abda058b16ad22c317d54dc0",
+      "commit": "0b75b5835a87de1fdd202ba965f3bc5a27738fdf",
       "path": "playwright-best-practices/SKILL.md"
     },
     "davila7:claude-code-templates:drizzle-orm-expert": {
@@ -1915,7 +1915,7 @@
       "path": "skills/deno/SKILL.md"
     },
     "devon-systems:hoenn:nix": {
-      "commit": "b96f381c915387c1730eef28af9b3d6bb1121018",
+      "commit": "b892d323393d65598d53d8d7dc5848fbce643f6b",
       "path": "nix/modules/aly/skills/nix/SKILL.md"
     },
     "docker:skills:docker-project-foundations": {
@@ -2099,7 +2099,7 @@
       "path": "plugins/expo/skills/expo-upgrade/SKILL.md"
     },
     "fastapi:fastapi:fastapi": {
-      "commit": "79cab5bed28b24d92c185d236feb33f5783dfeb3",
+      "commit": "534961812bef29ad80d2f7c399e52c688e8a0d57",
       "path": "fastapi/.agents/skills/fastapi/SKILL.md"
     },
     "firebase:agent-skills:firebase-auth-basics": {
@@ -2215,7 +2215,7 @@
       "path": "skills/cypress-flake-fixer/SKILL.md"
     },
     "github:awesome-copilot:dependabot": {
-      "commit": "98b45a78d3ed316e78f005b60594d5c4a50588e3",
+      "commit": "b13e55f85ffdf451d40d09839cb1e337bf3eda98",
       "path": "skills/dependabot/SKILL.md"
     },
     "github:awesome-copilot:dotnet-best-practices": {
@@ -2271,7 +2271,7 @@
       "path": "skills/java-junit/SKILL.md"
     },
     "github:awesome-copilot:java-springboot": {
-      "commit": "98b45a78d3ed316e78f005b60594d5c4a50588e3",
+      "commit": "b13e55f85ffdf451d40d09839cb1e337bf3eda98",
       "path": "skills/java-springboot/SKILL.md"
     },
     "github:awesome-copilot:java-testcontainers": {
@@ -2375,7 +2375,7 @@
       "path": "plugins/developer-kit-typescript/skills/tailwind-css-patterns/SKILL.md"
     },
     "google-gemini:gemini-skills:gemini-api-dev": {
-      "commit": "39d81f4c7de5e56631d07e4ea766d3fe9752ce5d",
+      "commit": "7cfc690ba9c8efe36a5316e6d4000e2b6aa25dbf",
       "path": "skills/gemini-api-dev/SKILL.md"
     },
     "greensock:gsap-skills:gsap-core": {
@@ -2579,7 +2579,7 @@
       "path": "config/skills/langchain-rag/SKILL.md"
     },
     "langfuse:skills:langfuse": {
-      "commit": "298b316eb9a5d302811c4182fb9c1ee81a449257",
+      "commit": "6fb2baf4413719ec241916e25e4a0330372c9d49",
       "path": "skills/langfuse/SKILL.md"
     },
     "laude-institute:headlong:obsidian": {
@@ -2615,7 +2615,7 @@
       "path": "SKILL.md"
     },
     "mastra-ai:skills:mastra": {
-      "commit": "34180fa43c67fe38197f30d8d975fb73454156aa",
+      "commit": "3020257c173e40f3a49ae6a67d46557fa771e0d4",
       "path": "skills/mastra/SKILL.md"
     },
     "mattpocock:skills:git-guardrails-claude-code": {
@@ -2631,7 +2631,7 @@
       "path": "skills/fastify/SKILL.md"
     },
     "microsoft:github-copilot-for-azure:azure-ai": {
-      "commit": "519346ca4b9552569a6390577340049059df2640",
+      "commit": "a24ce9820034b8c280236ac80ca28203cc9ab5c9",
       "path": "plugins/azure-skills/skills/azure-ai/SKILL.md"
     },
     "microsoft:github-copilot-for-azure:azure-deploy": {
@@ -2639,7 +2639,7 @@
       "path": "plugins/azure-skills/skills/azure-deploy/SKILL.md"
     },
     "microsoft:github-copilot-for-azure:azure-diagnostics": {
-      "commit": "519346ca4b9552569a6390577340049059df2640",
+      "commit": "a24ce9820034b8c280236ac80ca28203cc9ab5c9",
       "path": "plugins/azure-skills/skills/azure-diagnostics/SKILL.md"
     },
     "midudev:autoskills:bun": {
@@ -2655,7 +2655,7 @@
       "path": "fastapi-python/SKILL.md"
     },
     "neondatabase:agent-skills:neon-postgres": {
-      "commit": "d3da7cb5436edbb2bc8c00747fafd31ddf0644f4",
+      "commit": "2b0e2b6f56d2b41c5363049e30e6ab72aa260cce",
       "path": "skills/neon-postgres/SKILL.md"
     },
     "nodnarbnitram:claude-code-extensions:tauri-v2": {
@@ -2663,7 +2663,7 @@
       "path": ".claude/skills/tauri-v2/SKILL.md"
     },
     "ombulabs:claude-code_rails-upgrade-skill:rails-upgrade": {
-      "commit": "83e05bc7e697c20aaa1bc6be7df0eec0ef39d51e",
+      "commit": "cdce820b697f7e593b197764ed0da42eb3ad4c87",
       "path": "rails-upgrade/SKILL.md"
     },
     "openai:skills:aspnet-core": {
@@ -2675,12 +2675,12 @@
       "path": "skills/.curated/cloudflare-deploy/SKILL.md"
     },
     "paulrberg:agent-skills:cli-just": {
-      "commit": "b6abe0d3fc63e5c1cf4d786f42722b2ce545e23a",
+      "commit": "5f14638cf66a32c1017a6fa961f40a1c8fbff2a7",
       "path": "skills/cli-just/SKILL.md"
     },
     "pingdotgg:t3code:changesets": {
-      "commit": "67661cfbb57fd353845c6f3c8c96663560031d1e",
-      "path": ".repos/effect-smol/.agents/skills/changesets/SKILL.md"
+      "commit": "7b248349bdc066b1488f52083662597ab22d6fe3",
+      "path": ".repos/effect/.agents/skills/changesets/SKILL.md"
     },
     "planetscale:database-skills:mysql": {
       "commit": "f6ed002d03084cb39c01d1d58904d47a36f5322a",
@@ -2719,7 +2719,7 @@
       "path": "pulumi/skills/pulumi-component/SKILL.md"
     },
     "pymodel:react-frontend-skills:msw": {
-      "commit": "b210600fdf49441ee1efeca2cbdc05599ec03019",
+      "commit": "dfc8ff6a95e34cd04e9c53a4f02358aaea5f943c",
       "path": "skills/msw/SKILL.md"
     },
     "redis:agent-skills:redis-core": {
@@ -2731,7 +2731,7 @@
       "path": ".agents/skills/react-router/SKILL.md"
     },
     "remotion-dev:skills:remotion-best-practices": {
-      "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
+      "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
       "path": "skills/remotion-best-practices/SKILL.md"
     },
     "rominirani:antigravity-skills:always-verify-gcp": {
@@ -3367,7 +3367,7 @@
       "path": "skills/stripe-best-practices/SKILL.md"
     },
     "stripe:ai:upgrade-stripe": {
-      "commit": "bb4cf23be76d7073ad9560730335afedb7e04a5f",
+      "commit": "43d4af6847eebf4987576e074d7052d750e8750d",
       "path": "skills/upgrade-stripe/SKILL.md"
     },
     "supabase:agent-skills:supabase-postgres-best-practices": {
@@ -3447,7 +3447,7 @@
       "path": "skills/charmed-vhs/SKILL.md"
     },
     "triggerdotdev:skills:trigger-setup": {
-      "commit": "8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
+      "commit": "43d4ee184f6f74b04d41710f6a73d69dc7d6616b",
       "path": "trigger-setup/SKILL.md"
     },
     "vamseeachanta:workspace-hub:uv-package-manager": {
@@ -3503,7 +3503,7 @@
       "path": "skills/sqlalchemy-alembic-expert-best-practices-code-review/SKILL.md"
     },
     "wordpress:agent-skills:wordpress-router": {
-      "commit": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
       "path": "skills/wordpress-router/SKILL.md"
     },
     "wordpress:agent-skills:wp-block-development": {
@@ -3539,7 +3539,7 @@
       "path": "plugins/python-development/skills/async-python-patterns/SKILL.md"
     },
     "wshobson:agents:bash-defensive-patterns": {
-      "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
       "path": "plugins/shell-scripting/skills/bash-defensive-patterns/SKILL.md"
     },
     "wshobson:agents:fastapi-templates": {
@@ -3559,7 +3559,7 @@
       "path": "plugins/python-development/skills/python-packaging/SKILL.md"
     },
     "wshobson:agents:python-testing-patterns": {
-      "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
       "path": "plugins/python-development/skills/python-testing-patterns/SKILL.md"
     },
     "wshobson:agents:terraform-module-library": {
