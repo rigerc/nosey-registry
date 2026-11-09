@@ -7,9 +7,9 @@ empty registry template used by `nosey registry init`.
 ## Registry statistics
 
 | Metric | Count |
-| :-- | :-- |
-| Skills | 0 |
-| Technologies | 0 |
-| Mapping entries | 0 |
-| Source repositories | 0 |
+| :- | :- |
+| Skills | 912 |
+| Technologies | 899 |
+| Mapping entries | 271 |
+| Source repositories | 143 |
 <!-- END GENERATED REGISTRY STATS -->
