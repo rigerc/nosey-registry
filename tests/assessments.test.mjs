@@ -112,6 +112,25 @@ test('merge keeps only evidence that matches a current pin', () => {
   assert.equal(current(good, pin, evaluator().fingerprint), true);
 });
 
+test('plan mode selects unscored, stale or both', () => {
+  const pin = {id: 'o:r:a', repo: 'o/r', path: 'a/SKILL.md', dir: 'a', commit: SHA};
+  const added = {id: 'o:r:b', repo: 'o/r', path: 'b/SKILL.md', dir: 'b', commit: SHA};
+  const scored = merge([normalize(meta(), response([4, 4, 4, 4, 4]), '2026-01-02T03:04:05Z')], null,
+    {pins: new Map([[pin.id, pin]]), unlocated: []}, '2026-02-01T00:00:00.000Z').next;
+  // a is stale (re-pinned), b is unscored.
+  const source = {pins: new Map([[pin.id, {...pin, commit: 'f'.repeat(40)}], [added.id, added]]), unlocated: []};
+  const ids = opts => plan(source, scored, opts).include.map(e => e.id);
+  assert.deepEqual(ids({}), ['o:r:a', 'o:r:b']);
+  assert.deepEqual(ids({mode: 'all-needed'}), ['o:r:a', 'o:r:b']);
+  assert.deepEqual(ids({mode: 'unscored'}), ['o:r:b']);
+  assert.deepEqual(ids({mode: 'stale'}), ['o:r:a']);
+  assert.equal(plan(source, scored, {mode: 'unscored', limit: 0}).remaining, 1);
+  // A current skill is never queued in any mode.
+  const upToDate = {pins: new Map([[pin.id, pin]]), unlocated: []};
+  for (const mode of ['all-needed', 'unscored', 'stale']) assert.equal(plan(upToDate, scored, {mode}).count, 0);
+  assert.throws(() => plan(source, scored, {mode: 'nope'}), /Mode must be/);
+});
+
 test('a newly added or re-pinned skill does not fail the score coverage check', () => {
   const pin = {id: 'o:r:a', repo: 'o/r', path: 'a/SKILL.md', dir: 'a', commit: SHA};
   const added = {id: 'o:r:b', repo: 'o/r', path: 'b/SKILL.md', dir: 'b', commit: SHA};

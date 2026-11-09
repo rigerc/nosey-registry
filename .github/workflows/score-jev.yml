@@ -8,6 +8,11 @@ on:
     - cron: '17 9 * * 3'
   workflow_dispatch:
     inputs:
+      mode:
+        description: 'Which skills to score: all-needed (unscored + stale), unscored (never scored only), stale (re-pinned or evaluator changed only)'
+        type: choice
+        options: [all-needed, unscored, stale]
+        default: all-needed
       max_skills:
         description: 'Maximum changed or unevaluated skills (0-64)'
         default: '16'
@@ -43,7 +48,8 @@ jobs:
       - id: plan
         env:
           MAX_SKILLS: ${{ inputs.max_skills || '16' }}
-        run: node scripts/jev.mjs plan --limit "$MAX_SKILLS" --out .nosey-eval/plan.json
+          MODE: ${{ inputs.mode || 'all-needed' }}
+        run: node scripts/jev.mjs plan --limit "$MAX_SKILLS" --mode "$MODE" --out .nosey-eval/plan.json
 
   evaluate:
     needs: plan

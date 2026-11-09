@@ -8,7 +8,7 @@
  * offline invariants. Nothing here calls a model or executes fetched content.
  *
  *   node scripts/jev.mjs check
- *   node scripts/jev.mjs plan      [--limit 0..64] [--out PATH]
+ *   node scripts/jev.mjs plan      [--limit 0..64] [--mode all-needed|unscored|stale] [--out PATH]
  *   node scripts/jev.mjs prepare   --id ID [--out PATH] [--meta PATH]
  *   node scripts/jev.mjs normalize --meta PATH --result PATH --out PATH
  *   node scripts/jev.mjs merge     [--dir PATH]
@@ -171,15 +171,26 @@ export function checkReport(doc, source) {
 
 /* ---------- planning, preparation, normalisation, merge ---------- */
 
-export function plan(source, report, {limit = 8} = {}) {
+/**
+ * What a run may score: `unscored` = no entry yet, `stale` = an entry that is no longer current
+ * (re-pinned skill or changed evaluator), `all-needed` = both (default).
+ */
+export const MODES = ['all-needed', 'unscored', 'stale'];
+
+export function plan(source, report, {limit = 8, mode = 'all-needed'} = {}) {
   if (!Number.isInteger(limit) || limit < 0 || limit > 64) throw new Error('Limit must be 0..64');
+  if (!MODES.includes(mode)) throw new Error('Mode must be one of ' + MODES.join(', '));
   checkReport(report);
   const saved = new Map((report?.entries ?? []).map(e => [e.id, e]));
   const fp = evaluator().fingerprint;
-  const todo = [...source.pins.values()].sort(byId)
-    .filter(pin => !current(saved.get(pin.id), pin, fp))
+  const wanted = pin => {
+    const entry = saved.get(pin.id);
+    if (current(entry, pin, fp)) return false;
+    return mode === 'all-needed' || (mode === 'unscored') === !entry;
+  };
+  const todo = [...source.pins.values()].sort(byId).filter(wanted)
     .map(pin => ({id: pin.id, key: outputKey(pin.id), commit: pin.commit}));
-  return {fingerprint: fp, count: Math.min(limit, todo.length), remaining: Math.max(0, todo.length - limit),
+  return {fingerprint: fp, mode, count: Math.min(limit, todo.length), remaining: Math.max(0, todo.length - limit),
     include: todo.slice(0, limit)};
 }
 
@@ -261,7 +272,7 @@ const out = (file, value) => {
 const output = (name, value) => process.env.GITHUB_OUTPUT && appendFileSync(process.env.GITHUB_OUTPUT, name + '=' + value + '\n');
 
 async function main([command, ...argv]) {
-  const flags = {limit: 'value', out: 'value', id: 'value', meta: 'value', result: 'value', dir: 'value'};
+  const flags = {limit: 'value', mode: 'value', out: 'value', id: 'value', meta: 'value', result: 'value', dir: 'value'};
   const a = parseArgs(argv, flags);
   const report = readJson(SCORES_FILE, null);
   if (command === 'check') {
@@ -270,11 +281,11 @@ async function main([command, ...argv]) {
     const coverage = buildReport(report?.entries ?? [], source, {config: report?.evaluator ?? evaluator(), previous: report, now: report?.generated_at ?? new Date().toISOString()}).summary;
     console.log('Open JEV report OK: ' + JSON.stringify(coverage) + (report ? '' : ' (no report yet)'));
   } else if (command === 'plan') {
-    const result = plan(loadSource(), report, {limit: Number(a.limit ?? 8)});
+    const result = plan(loadSource(), report, {limit: Number(a.limit ?? 8), mode: a.mode ?? 'all-needed'});
     out(a.out ?? '.nosey-eval/plan.json', result);
     output('matrix', JSON.stringify({include: result.include}));
     output('count', result.count);
-    console.log('Open JEV: ' + result.count + ' skills planned, ' + result.remaining + ' pending');
+    console.log('Open JEV (' + result.mode + '): ' + result.count + ' skills planned, ' + result.remaining + ' pending');
   } else if (command === 'prepare') {
     const pin = loadSource().pins.get(a.id);
     if (!pin) throw new Error('Unknown located skill: ' + a.id);
