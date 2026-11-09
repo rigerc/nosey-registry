@@ -1,6 +1,25 @@
-# Nosey Registry
+# Custom Nosey Registry
 
 This is a starter registry for [Nosey](https://github.com/rigerc/nosey-9), a tool that discovers technologies in a workspace and recommends agent skills. Customize the registry's identity, technology rules, skills, and recommendations to publish a catalog for your own projects or team.
+
+<!-- BEGIN GENERATED REGISTRY STATS -->
+## Registry statistics
+
+<table>
+  <tr>
+    <th align="center">Skills</th>
+    <th align="center">Technologies</th>
+    <th align="center">Mapping entries</th>
+    <th align="center">Source repositories</th>
+  </tr>
+  <tr>
+    <td align="center"><h2>0</h2></td>
+    <td align="center"><h2>0</h2></td>
+    <td align="center"><h2>0</h2></td>
+    <td align="center"><h2>0</h2></td>
+  </tr>
+</table>
+<!-- END GENERATED REGISTRY STATS -->
 
 ## Initialize a registry
 
@@ -68,17 +87,6 @@ Nosey also supports project-proposed registries, which require explicit trust ap
 
 ## Optional GitHub automation
 
-When initialized with `--ci github`, this scaffold includes `.github/workflows/registry.yml` and `.github/scripts/registry-readme-stats.mjs`. The workflow checks generated output on pull requests, can propose regeneration changes after pushes, and can refresh upstream data on its schedule or by manual dispatch. It also keeps the statistics section below current. Review proposed generated changes before merging them.
+When initialized with `--ci github`, this scaffold includes `.github/workflows/registry.yml` and `.github/scripts/registry-readme-stats.mjs`. The workflow checks generated output on pull requests, can propose regeneration changes after pushes, and can refresh upstream data on its schedule or by manual dispatch. It also keeps the statistics near the top of this README current. Review proposed generated changes before merging them.
 
-The statistics table below is maintained automatically when the GitHub workflow is enabled. Keep its comment markers intact so the updater can replace the generated section.
-
-<!-- BEGIN GENERATED REGISTRY STATS -->
-## Registry statistics
-
-| Metric | Count |
-| :-- | :-- |
-| Skills | 0 |
-| Technologies | 0 |
-| Mapping entries | 0 |
-| Source repositories | 0 |
-<!-- END GENERATED REGISTRY STATS -->
+The statistics summary near the top is maintained automatically when the GitHub workflow is enabled. Keep its comment markers intact so the updater can replace the generated section.
