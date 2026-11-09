@@ -735,6 +735,22 @@
       ]
     },
     {
+      "id": "technology:airbyte",
+      "technologyId": "airbyte",
+      "recommendations": [
+        {
+          "skillId": "airbytehq:airbyte-agent-sdk:airbyte-sdk-reference",
+          "priority": "recommended",
+          "reason": "Official Airbyte skills for the agent SDK and connector discovery."
+        },
+        {
+          "skillId": "airbytehq:airbyte-agent-sdk:discovering-connectors",
+          "priority": "recommended",
+          "reason": "Official Airbyte skills for the agent SDK and connector discovery."
+        }
+      ]
+    },
+    {
       "id": "technology:alpine-js",
       "technologyId": "alpinejs",
       "recommendations": [
@@ -1373,6 +1389,28 @@
       ]
     },
     {
+      "id": "technology:bigquery",
+      "technologyId": "gcp.bigquery",
+      "recommendations": [
+        {
+          "skillId": "google:skills:bigquery-basics",
+          "priority": "recommended",
+          "reason": "Official Google skill for managing BigQuery datasets, tables, and jobs."
+        }
+      ]
+    },
+    {
+      "id": "technology:bigtable",
+      "technologyId": "gcp.bigtable",
+      "recommendations": [
+        {
+          "skillId": "google:skills:bigtable-basics",
+          "priority": "recommended",
+          "reason": "Official Google skill for provisioning and schema design in Bigtable."
+        }
+      ]
+    },
+    {
       "id": "technology:bullmq",
       "technologyId": "bullmq",
       "recommendations": [
@@ -1412,6 +1450,27 @@
           "skillId": "wshobson:agents:python-background-jobs",
           "priority": "optional",
           "reason": "Catalog recommendation for Celery."
+        }
+      ]
+    },
+    {
+      "id": "technology:chakra-ui",
+      "technologyId": "chakraui",
+      "recommendations": [
+        {
+          "skillId": "chakra-ui:chakra-ui:chakra-ui-builder",
+          "priority": "recommended",
+          "reason": "Official Chakra UI skills for building, migrating, and refactoring Chakra UI v3 interfaces."
+        },
+        {
+          "skillId": "chakra-ui:chakra-ui:chakra-ui-migrate",
+          "priority": "recommended",
+          "reason": "Official Chakra UI skills for building, migrating, and refactoring Chakra UI v3 interfaces."
+        },
+        {
+          "skillId": "chakra-ui:chakra-ui:chakra-ui-refactor",
+          "priority": "recommended",
+          "reason": "Official Chakra UI skills for building, migrating, and refactoring Chakra UI v3 interfaces."
         }
       ]
     },
@@ -1635,6 +1694,39 @@
           "skillId": "clickhouse:agent-skills:clickhouse-architecture-advisor",
           "priority": "optional",
           "reason": "Catalog recommendation for ClickHouse."
+        }
+      ]
+    },
+    {
+      "id": "technology:cloud-logging",
+      "technologyId": "gcp.logging",
+      "recommendations": [
+        {
+          "skillId": "google:skills:cloud-logging-query-generation",
+          "priority": "recommended",
+          "reason": "Official Google skill for writing Cloud Logging query language (LQL) queries."
+        }
+      ]
+    },
+    {
+      "id": "technology:cloud-run",
+      "technologyId": "gcp.cloudrun",
+      "recommendations": [
+        {
+          "skillId": "google:skills:cloud-run-basics",
+          "priority": "recommended",
+          "reason": "Official Google skill for deploying and operating Cloud Run services and jobs."
+        }
+      ]
+    },
+    {
+      "id": "technology:cloud-sql",
+      "technologyId": "gcp.sql",
+      "recommendations": [
+        {
+          "skillId": "google:skills:cloud-sql-basics",
+          "priority": "recommended",
+          "reason": "Official Google skill for creating and managing Cloud SQL instances and databases."
         }
       ]
     },
@@ -2944,6 +3036,17 @@
       ]
     },
     {
+      "id": "technology:google-analytics",
+      "technologyId": "google.analytics",
+      "recommendations": [
+        {
+          "skillId": "google:skills:google-analytics-data-api-basics",
+          "priority": "recommended",
+          "reason": "Official Google skill for querying the Google Analytics Data API."
+        }
+      ]
+    },
+    {
       "id": "technology:google-cloud",
       "technologyId": "gcp",
       "recommendations": [
@@ -3936,6 +4039,17 @@
           "skillId": "kadajett:agent-nestjs-skills:nestjs-best-practices",
           "priority": "optional",
           "reason": "Catalog recommendation for NestJS."
+        }
+      ]
+    },
+    {
+      "id": "technology:netlify",
+      "technologyId": "netlify",
+      "recommendations": [
+        {
+          "skillId": "openai:skills:netlify-deploy",
+          "priority": "optional",
+          "reason": "OpenAI curated skill for deploying web projects to Netlify with the Netlify CLI."
         }
       ]
     },
@@ -5046,6 +5160,17 @@
           "skillId": "vercel-labs:agent-skills:react-best-practices",
           "priority": "optional",
           "reason": "Catalog recommendation for React."
+        }
+      ]
+    },
+    {
+      "id": "technology:react-email",
+      "technologyId": "reactemail",
+      "recommendations": [
+        {
+          "skillId": "resend:react-email:react-email",
+          "priority": "recommended",
+          "reason": "Official React Email skill for building and rendering email templates."
         }
       ]
     },
@@ -6211,6 +6336,38 @@
           "skillId": "cloudai-x:threejs-skills:threejs-textures",
           "priority": "optional",
           "reason": "Catalog recommendation for Three.js."
+        }
+      ]
+    },
+    {
+      "id": "technology:tidb",
+      "technologyId": "tidb",
+      "recommendations": [
+        {
+          "skillId": "pingcap:tidb:tidb-test-diff-triage",
+          "priority": "recommended",
+          "reason": "Official TiDB skills for validating changes and triaging test or plan diffs."
+        },
+        {
+          "skillId": "pingcap:tidb:tidb-verify-profile",
+          "priority": "recommended",
+          "reason": "Official TiDB skills for validating changes and triaging test or plan diffs."
+        }
+      ]
+    },
+    {
+      "id": "technology:timescaledb",
+      "technologyId": "timescaledb",
+      "recommendations": [
+        {
+          "skillId": "timescale:pg-aiguide:setup-timescaledb-hypertables",
+          "priority": "recommended",
+          "reason": "Official Timescale skills for hypertable schemas and TimescaleDB Toolkit hyperfunctions."
+        },
+        {
+          "skillId": "timescale:pg-aiguide:timescaledb-hyperfunctions",
+          "priority": "recommended",
+          "reason": "Official Timescale skills for hypertable schemas and TimescaleDB Toolkit hyperfunctions."
         }
       ]
     },

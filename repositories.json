@@ -20,6 +20,12 @@
       "uri": "https://github.com/agenticaiengineer/ai-engineer-skills"
     },
     {
+      "id": "airbytehq:airbyte-agent-sdk",
+      "name": "airbytehq/airbyte-agent-sdk",
+      "kind": "git",
+      "uri": "https://github.com/airbytehq/airbyte-agent-sdk"
+    },
+    {
       "id": "aj-geddes:useful-ai-prompts",
       "name": "aj-geddes/useful-ai-prompts",
       "kind": "git",
@@ -132,6 +138,12 @@
       "name": "ccheney/robust-skills",
       "kind": "git",
       "uri": "https://github.com/ccheney/robust-skills"
+    },
+    {
+      "id": "chakra-ui:chakra-ui",
+      "name": "chakra-ui/chakra-ui",
+      "kind": "git",
+      "uri": "https://github.com/chakra-ui/chakra-ui"
     },
     {
       "id": "chaunsin:agent-skills",
@@ -306,6 +318,12 @@
       "name": "google-gemini/gemini-skills",
       "kind": "git",
       "uri": "https://github.com/google-gemini/gemini-skills"
+    },
+    {
+      "id": "google:skills",
+      "name": "google/skills",
+      "kind": "git",
+      "uri": "https://github.com/google/skills"
     },
     {
       "id": "greensock:gsap-skills",
@@ -548,6 +566,12 @@
       "uri": "https://github.com/paulrberg/agent-skills"
     },
     {
+      "id": "pingcap:tidb",
+      "name": "pingcap/tidb",
+      "kind": "git",
+      "uri": "https://github.com/pingcap/tidb"
+    },
+    {
       "id": "pingdotgg:t3code",
       "name": "pingdotgg/t3code",
       "kind": "git",
@@ -606,6 +630,12 @@
       "name": "remotion-dev/skills",
       "kind": "git",
       "uri": "https://github.com/remotion-dev/skills"
+    },
+    {
+      "id": "resend:react-email",
+      "name": "resend/react-email",
+      "kind": "git",
+      "uri": "https://github.com/resend/react-email"
     },
     {
       "id": "rominirani:antigravity-skills",
@@ -726,6 +756,12 @@
       "name": "thebushidocollective/han",
       "kind": "git",
       "uri": "https://github.com/thebushidocollective/han"
+    },
+    {
+      "id": "timescale:pg-aiguide",
+      "name": "timescale/pg-aiguide",
+      "kind": "git",
+      "uri": "https://github.com/timescale/pg-aiguide"
     },
     {
       "id": "tpscloud:charmedimsure",

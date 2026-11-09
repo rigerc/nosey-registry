@@ -3,13 +3,13 @@
   "generator": "native-v1/1",
   "files": {
     "mappings.json": {
-      "sha256": "5c7e7cceb8510dd4cfc6391b83cc0a139b096107bfa5e7d786c308b6e713a212"
+      "sha256": "3fb9f380c5a1452d71e68d63971b84c176289e10e03490a2a1c20505922b9b23"
     },
     "repositories.json": {
-      "sha256": "d8a58dc64a2af7a684bc20bfd92695755638916c62c028bd589912963413bd99"
+      "sha256": "6698acc0877a9cdc2a2e92d194c1b467fb8bc6c60a085ec61014861ebd924e1e"
     },
     "skills.json": {
-      "sha256": "4802fe0c375e10548ac7c1b576e02e1a361c0d9570a9a9a95560b03f2a78c842"
+      "sha256": "f63a559336acd1ec3eb1343a805b5c61158aa577ff420c1aafaa4e0d8baa0c85"
     },
     "technologies.json": {
       "sha256": "3a274b178fae07ffb773af763a7565f6362ba827f85952d35b6f0629489afab6"
@@ -20,8 +20,8 @@
     "sha256": "5c22c2f1761331a40b4c4d3286fd376e9e293175fc75c90dc710dc5f482b23bf"
   },
   "summary": {
-    "skills": 895,
+    "skills": 912,
     "technologies": 899,
-    "mappings": 259
+    "mappings": 271
   }
 }
