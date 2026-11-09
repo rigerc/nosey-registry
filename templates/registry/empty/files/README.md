@@ -70,8 +70,6 @@ Nosey also supports project-proposed registries, which require explicit trust ap
 
 When initialized with `--ci github`, this scaffold includes `.github/workflows/registry.yml` and `.github/scripts/registry-readme-stats.mjs`. The workflow checks generated output on pull requests, can propose regeneration changes after pushes, and can refresh upstream data on its schedule or by manual dispatch. It also keeps the statistics section below current. Review proposed generated changes before merging them.
 
-## Registry statistics
-
 The statistics table below is maintained automatically when the GitHub workflow is enabled. Keep its comment markers intact so the updater can replace the generated section.
 
 <!-- BEGIN GENERATED REGISTRY STATS -->
