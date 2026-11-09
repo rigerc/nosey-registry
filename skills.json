@@ -7804,7 +7804,13 @@
         "ref": "5f14638cf66a32c1017a6fa961f40a1c8fbff2a7",
         "skillName": "code-polish"
       },
-      "repositoryId": "paulrberg:agent-skills"
+      "repositoryId": "paulrberg:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "Search-3D:electron-drive-skill:electron-drive-skill",
@@ -8112,7 +8118,13 @@
         "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
         "skillName": "golang-pro"
       },
-      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+      "repositoryId": "agenticaiengineer:ai-engineer-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "agenticaiengineer:ai-engineer-skills:java-architect",
@@ -8126,7 +8138,13 @@
         "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
         "skillName": "java-architect"
       },
-      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+      "repositoryId": "agenticaiengineer:ai-engineer-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "agenticaiengineer:ai-engineer-skills:python-pro",
@@ -8140,7 +8158,13 @@
         "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
         "skillName": "python-pro"
       },
-      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+      "repositoryId": "agenticaiengineer:ai-engineer-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "agenticaiengineer:ai-engineer-skills:rust-engineer",
@@ -8154,7 +8178,13 @@
         "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
         "skillName": "rust-engineer"
       },
-      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+      "repositoryId": "agenticaiengineer:ai-engineer-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "agenticaiengineer:ai-engineer-skills:typescript-pro",
@@ -8168,7 +8198,13 @@
         "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
         "skillName": "typescript-pro"
       },
-      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+      "repositoryId": "agenticaiengineer:ai-engineer-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "aj-geddes:useful-ai-prompts:flask-api-development",
@@ -8370,7 +8406,13 @@
         "ref": "92b4ff0ec30752ba1595615d881116d676485421",
         "skillName": "language-selection"
       },
-      "repositoryId": "annatchijova:skills"
+      "repositoryId": "annatchijova:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "antfu:skills:nuxt",
@@ -13602,7 +13644,13 @@
         "ref": "16227f2ac4803c365697877f49f7cfc7711bfbcc",
         "skillName": "coding-tutor"
       },
-      "repositoryId": "lplatzer:agent-skills"
+      "repositoryId": "lplatzer:agent-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "lucianghinda:superpowers-ruby:rails-guides",
@@ -14395,7 +14443,13 @@
         "ref": "3518bc1217d076042f8bb7fb6202597080d00325",
         "skillName": "agent-ready-go"
       },
-      "repositoryId": "rshade:agent-skills"
+      "repositoryId": "rshade:agent-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "samber:cc-skills-golang:golang-code-style",
@@ -17754,7 +17808,13 @@
         "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
         "skillName": "golang-patterns"
       },
-      "repositoryId": "svssdeva:agentic-skills"
+      "repositoryId": "svssdeva:agentic-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "svssdeva:agentic-skills:golang-testing",
@@ -17768,7 +17828,13 @@
         "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
         "skillName": "golang-testing"
       },
-      "repositoryId": "svssdeva:agentic-skills"
+      "repositoryId": "svssdeva:agentic-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "svssdeva:agentic-skills:typescript-advanced-types",
@@ -17782,7 +17848,13 @@
         "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
         "skillName": "typescript-advanced-types"
       },
-      "repositoryId": "svssdeva:agentic-skills"
+      "repositoryId": "svssdeva:agentic-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "svssdeva:agentic-skills:typescript-expert",
@@ -17796,7 +17868,13 @@
         "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
         "skillName": "typescript-expert"
       },
-      "repositoryId": "svssdeva:agentic-skills"
+      "repositoryId": "svssdeva:agentic-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "svssdeva:agentic-skills:typescript-pro",
@@ -17810,7 +17888,13 @@
         "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
         "skillName": "typescript-pro"
       },
-      "repositoryId": "svssdeva:agentic-skills"
+      "repositoryId": "svssdeva:agentic-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "tanstack-skills:tanstack-skills:tanstack-start",
@@ -18549,7 +18633,13 @@
         "ref": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
         "skillName": "async-python-patterns"
       },
-      "repositoryId": "wshobson:agents"
+      "repositoryId": "wshobson:agents",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "wshobson:agents:bash-defensive-patterns",
@@ -18647,7 +18737,13 @@
         "ref": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
         "skillName": "python-packaging"
       },
-      "repositoryId": "wshobson:agents"
+      "repositoryId": "wshobson:agents",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "wshobson:agents:python-testing-patterns",
@@ -18726,7 +18822,13 @@
         "ref": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
         "skillName": "uv-package-manager"
       },
-      "repositoryId": "wshobson:agents"
+      "repositoryId": "wshobson:agents",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "yonesuke:skills:polars",
