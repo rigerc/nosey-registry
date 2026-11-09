@@ -6,7 +6,7 @@ import {ROOT, QUALITY_FILE, SCORES_FILE, repoOf, pinOf, safeSkillPath, resolvePi
   loadLocations, readJson} from '../scripts/lib.mjs';
 import {chooseLocation} from '../scripts/locate.mjs';
 import {fingerprint, isCurrent, selectTargets, mapReport, checkDoc, groupTargets} from '../scripts/quality.mjs';
-import {DIMENSIONS, evaluator, normalize, merge, plan, buildReport, checkReport, loadSource, current, outputKey} from '../scripts/jev.mjs';
+import {ALL_DIMENSIONS, DIMENSIONS, evaluator, mappedTechnologies, checkEvaluator, checkEntry, normalize, merge, plan, buildReport, checkReport, loadSource, current, outputKey} from '../scripts/jev.mjs';
 import {qualityLabel, scoreOf, project, render} from '../scripts/sync.mjs';
 
 const SHA = 'a'.repeat(40);
@@ -78,8 +78,8 @@ test('quality labels and score scale', () => {
 
 function response(answers) {
   const decisions = {};
-  DIMENSIONS.forEach((key, i) => {
-    decisions[key] = {type: 'score', mode: 'model', answer: answers[i], confidence: 0.3,
+  ALL_DIMENSIONS.forEach((key, i) => {
+    decisions[key] = {type: 'score', mode: 'model', answer: answers[i] ?? 3, confidence: 0.3,
       distribution: {0: 0.1, 1: 0.1, 2: 0.2, 3: 0.3, 4: 0.3}};
   });
   return {workflow: null, decisions};
@@ -91,6 +91,9 @@ test('normalize maps typed answers 0..4 to scores 1..5 and rejects malformed res
   const entry = normalize(meta(), response([4, 3, 4, 4, 2]), '2026-01-02T03:04:05Z');
   assert.equal(entry.overall_score, 4.4);
   assert.equal(entry.evaluation.scores.trigger_clarity.score, 5);
+  // technology_fit is stored but never part of the overall score.
+  assert.equal(entry.evaluation.scores.technology_fit.score, 4);
+  assert.equal(normalize(meta(), response([4, 3, 4, 4, 2, 0]), '2026-01-02T03:04:05Z').overall_score, 4.4);
   assert.throws(() => normalize(meta(), response([4, 3, 4, 4, 9])));
   assert.throws(() => normalize({...meta(), fingerprint: 'e'.repeat(64)}, response([0, 0, 0, 0, 0])));
   assert.throws(() => normalize(meta(), {workflow: null, decisions: {}}));
@@ -178,4 +181,33 @@ test('the committed assessments are internally consistent and fully projected', 
   const text = render(registry, new Map(located.map(p => [p.id, p])), quality, scores);
   assert.equal(readFileSync(resolve(ROOT, registry.config.files.skills), 'utf8'), text.skills);
   assert.equal(readFileSync(resolve(ROOT, 'nosey.registry.config.json'), 'utf8'), text.config);
+});
+
+test('technology_fit is additive: it leaves the fingerprint alone and older five-dimension entries stay valid', () => {
+  const config = evaluator();
+  assert.deepEqual(Object.keys(config.questions), ALL_DIMENSIONS);
+  const core = {...config, questions: Object.fromEntries(DIMENSIONS.map(d => [d, config.questions[d]]))};
+  // Same identity with and without the extra question.
+  const legacy = JSON.parse(readFileSync(resolve(ROOT, SCORES_FILE), 'utf8')).evaluator;
+  assert.equal(legacy.fingerprint, config.fingerprint);
+  assert.doesNotThrow(() => checkEvaluator(legacy));
+  assert.throws(() => checkEvaluator({...core, questions: {...core.questions, extra: config.questions.safety}}));
+  const withFit = normalize(meta(), response([4, 3, 4, 4, 2, 1]), '2026-01-02T03:04:05Z');
+  const { technology_fit: _fit, ...fiveScores } = withFit.evaluation.scores;
+  const legacyEntry = {...withFit, evaluation: {scores: fiveScores}};
+  assert.doesNotThrow(() => checkEntry(legacyEntry));
+  assert.equal(legacyEntry.overall_score, withFit.overall_score);
+  assert.throws(() => checkEntry({...withFit, evaluation: {scores: {...fiveScores, technology_fit: {score: 9, confidence: 0.5, mode: 'model'}}}}));
+});
+
+test('mappedTechnologies lists the technologies a skill is recommended for', () => {
+  const technologies = [{id: 'android', name: 'Android'}, {id: 'clerk', name: 'Clerk'}, {id: 'astro', name: 'Astro'}];
+  const rec = (skillId, allTechnologies) => ({skillId, priority: 'optional', reason: 'r', ...(allTechnologies ? {when: {allTechnologies}} : {})});
+  const mappings = [
+    {id: 'm1', technologyId: 'astro', recommendations: [rec('o:r:a'), rec('o:r:other')]},
+    {id: 'm2', technologyId: 'android', recommendations: [rec('o:r:a', ['clerk']), rec('o:r:a', ['clerk'])]},
+  ];
+  assert.deepEqual(mappedTechnologies('o:r:a', mappings, technologies),
+    [{technology: 'Android', also_requires: ['Clerk']}, {technology: 'Astro'}]);
+  assert.deepEqual(mappedTechnologies('o:r:none', mappings, technologies), []);
 });
