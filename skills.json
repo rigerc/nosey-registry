@@ -8213,6 +8213,34 @@
       }
     },
     {
+      "id": "airbytehq:airbyte-agent-sdk:airbyte-sdk-reference",
+      "name": "airbyte-sdk-reference",
+      "technologies": [
+        "airbyte"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/airbytehq/airbyte-agent-sdk",
+        "ref": "44d7cab4d50c04f592cb18b4d28dd0224797310e",
+        "skillName": "airbyte-sdk-reference"
+      },
+      "repositoryId": "airbytehq:airbyte-agent-sdk"
+    },
+    {
+      "id": "airbytehq:airbyte-agent-sdk:discovering-connectors",
+      "name": "discovering-connectors",
+      "technologies": [
+        "airbyte"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/airbytehq/airbyte-agent-sdk",
+        "ref": "44d7cab4d50c04f592cb18b4d28dd0224797310e",
+        "skillName": "discovering-connectors"
+      },
+      "repositoryId": "airbytehq:airbyte-agent-sdk"
+    },
+    {
       "id": "aj-geddes:useful-ai-prompts:flask-api-development",
       "name": "flask-api-development",
       "technologies": [
@@ -8988,6 +9016,48 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "chakra-ui:chakra-ui:chakra-ui-builder",
+      "name": "chakra-ui-builder",
+      "technologies": [
+        "chakraui"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/chakra-ui/chakra-ui",
+        "ref": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
+        "skillName": "chakra-ui-builder"
+      },
+      "repositoryId": "chakra-ui:chakra-ui"
+    },
+    {
+      "id": "chakra-ui:chakra-ui:chakra-ui-migrate",
+      "name": "chakra-ui-migrate",
+      "technologies": [
+        "chakraui"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/chakra-ui/chakra-ui",
+        "ref": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
+        "skillName": "chakra-ui-migrate"
+      },
+      "repositoryId": "chakra-ui:chakra-ui"
+    },
+    {
+      "id": "chakra-ui:chakra-ui:chakra-ui-refactor",
+      "name": "chakra-ui-refactor",
+      "technologies": [
+        "chakraui"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/chakra-ui/chakra-ui",
+        "ref": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
+        "skillName": "chakra-ui-refactor"
+      },
+      "repositoryId": "chakra-ui:chakra-ui"
     },
     {
       "id": "chaunsin:agent-skills:drizzle-migration-conflict",
@@ -12547,6 +12617,90 @@
       }
     },
     {
+      "id": "google:skills:bigquery-basics",
+      "name": "bigquery-basics",
+      "technologies": [
+        "gcp.bigquery"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/google/skills",
+        "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+        "skillName": "bigquery-basics"
+      },
+      "repositoryId": "google:skills"
+    },
+    {
+      "id": "google:skills:bigtable-basics",
+      "name": "bigtable-basics",
+      "technologies": [
+        "gcp.bigtable"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/google/skills",
+        "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+        "skillName": "bigtable-basics"
+      },
+      "repositoryId": "google:skills"
+    },
+    {
+      "id": "google:skills:cloud-logging-query-generation",
+      "name": "cloud-logging-query-generation",
+      "technologies": [
+        "gcp.logging"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/google/skills",
+        "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+        "skillName": "cloud-logging-query-generation"
+      },
+      "repositoryId": "google:skills"
+    },
+    {
+      "id": "google:skills:cloud-run-basics",
+      "name": "cloud-run-basics",
+      "technologies": [
+        "gcp.cloudrun"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/google/skills",
+        "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+        "skillName": "cloud-run-basics"
+      },
+      "repositoryId": "google:skills"
+    },
+    {
+      "id": "google:skills:cloud-sql-basics",
+      "name": "cloud-sql-basics",
+      "technologies": [
+        "gcp.sql"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/google/skills",
+        "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+        "skillName": "cloud-sql-basics"
+      },
+      "repositoryId": "google:skills"
+    },
+    {
+      "id": "google:skills:google-analytics-data-api-basics",
+      "name": "google-analytics-data-api-basics",
+      "technologies": [
+        "google.analytics"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/google/skills",
+        "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+        "skillName": "google-analytics-data-api-basics"
+      },
+      "repositoryId": "google:skills"
+    },
+    {
       "id": "greensock:gsap-skills:gsap-core",
       "name": "gsap-core",
       "technologies": [
@@ -14103,6 +14257,20 @@
       }
     },
     {
+      "id": "openai:skills:netlify-deploy",
+      "name": "netlify-deploy",
+      "technologies": [
+        "netlify"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/openai/skills",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "skillName": "netlify-deploy"
+      },
+      "repositoryId": "openai:skills"
+    },
+    {
       "id": "paulrberg:agent-skills:cli-just",
       "name": "cli-just",
       "technologies": [
@@ -14122,6 +14290,34 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "pingcap:tidb:tidb-test-diff-triage",
+      "name": "tidb-test-diff-triage",
+      "technologies": [
+        "tidb"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/pingcap/tidb",
+        "ref": "c9f7aed139f6ab2398f54e9021843380f63145e4",
+        "skillName": "tidb-test-diff-triage"
+      },
+      "repositoryId": "pingcap:tidb"
+    },
+    {
+      "id": "pingcap:tidb:tidb-verify-profile",
+      "name": "tidb-verify-profile",
+      "technologies": [
+        "tidb"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/pingcap/tidb",
+        "ref": "c9f7aed139f6ab2398f54e9021843380f63145e4",
+        "skillName": "tidb-verify-profile"
+      },
+      "repositoryId": "pingcap:tidb"
     },
     {
       "id": "pingdotgg:t3code:changesets",
@@ -14418,6 +14614,20 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "resend:react-email:react-email",
+      "name": "react-email",
+      "technologies": [
+        "reactemail"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/resend/react-email",
+        "ref": "de32c06a2cd8a7b99d416a6f5f969fc3570d483e",
+        "skillName": "react-email"
+      },
+      "repositoryId": "resend:react-email"
     },
     {
       "id": "rominirani:antigravity-skills:always-verify-gcp",
@@ -17973,6 +18183,34 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "timescale:pg-aiguide:setup-timescaledb-hypertables",
+      "name": "setup-timescaledb-hypertables",
+      "technologies": [
+        "timescaledb"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/timescale/pg-aiguide",
+        "ref": "c39008a2773f75d63037e8eecf937456204786ba",
+        "skillName": "setup-timescaledb-hypertables"
+      },
+      "repositoryId": "timescale:pg-aiguide"
+    },
+    {
+      "id": "timescale:pg-aiguide:timescaledb-hyperfunctions",
+      "name": "timescaledb-hyperfunctions",
+      "technologies": [
+        "timescaledb"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/timescale/pg-aiguide",
+        "ref": "c39008a2773f75d63037e8eecf937456204786ba",
+        "skillName": "timescaledb-hyperfunctions"
+      },
+      "repositoryId": "timescale:pg-aiguide"
     },
     {
       "id": "tpscloud:charmedimsure:charmed-bubbles",

@@ -1558,6 +1558,14 @@
       "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
       "path": "skills/typescript-pro/SKILL.md"
     },
+    "airbytehq:airbyte-agent-sdk:airbyte-sdk-reference": {
+      "commit": "44d7cab4d50c04f592cb18b4d28dd0224797310e",
+      "path": ".claude/skills/airbyte-sdk-reference/SKILL.md"
+    },
+    "airbytehq:airbyte-agent-sdk:discovering-connectors": {
+      "commit": "44d7cab4d50c04f592cb18b4d28dd0224797310e",
+      "path": ".claude/skills/discovering-connectors/SKILL.md"
+    },
     "aj-geddes:useful-ai-prompts:flask-api-development": {
       "commit": "3f5182cfd739fc113f4af5244a1cf342ad7f7911",
       "path": "skills/flask-api-development/SKILL.md"
@@ -1705,6 +1713,18 @@
     "ccheney:robust-skills:bazel": {
       "commit": "0eea7b060d12e3520556a73b15fbfa79480987d1",
       "path": "skills/bazel/SKILL.md"
+    },
+    "chakra-ui:chakra-ui:chakra-ui-builder": {
+      "commit": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
+      "path": "skills/chakra-ui-builder/SKILL.md"
+    },
+    "chakra-ui:chakra-ui:chakra-ui-migrate": {
+      "commit": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
+      "path": "skills/chakra-ui-migrate/SKILL.md"
+    },
+    "chakra-ui:chakra-ui:chakra-ui-refactor": {
+      "commit": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
+      "path": "skills/chakra-ui-refactor/SKILL.md"
     },
     "chaunsin:agent-skills:drizzle-migration-conflict": {
       "commit": "f26f98c32aa414b980f8ae7552a6c624c8d7f751",
@@ -2378,6 +2398,30 @@
       "commit": "39d81f4c7de5e56631d07e4ea766d3fe9752ce5d",
       "path": "skills/gemini-api-dev/SKILL.md"
     },
+    "google:skills:bigquery-basics": {
+      "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+      "path": "skills/cloud/bigquery-basics/SKILL.md"
+    },
+    "google:skills:bigtable-basics": {
+      "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+      "path": "skills/cloud/bigtable-basics/SKILL.md"
+    },
+    "google:skills:cloud-logging-query-generation": {
+      "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+      "path": "skills/cloud/cloud-logging-query-generation/SKILL.md"
+    },
+    "google:skills:cloud-run-basics": {
+      "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+      "path": "skills/cloud/cloud-run-basics/SKILL.md"
+    },
+    "google:skills:cloud-sql-basics": {
+      "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+      "path": "skills/cloud/cloud-sql-basics/SKILL.md"
+    },
+    "google:skills:google-analytics-data-api-basics": {
+      "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+      "path": "skills/analytics/google-analytics-data-api-basics/SKILL.md"
+    },
     "greensock:gsap-skills:gsap-core": {
       "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
       "path": "skills/gsap-core/SKILL.md"
@@ -2674,9 +2718,21 @@
       "commit": "49f948faa9258a0c61caceaf225e179651397431",
       "path": "skills/.curated/cloudflare-deploy/SKILL.md"
     },
+    "openai:skills:netlify-deploy": {
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/.curated/netlify-deploy/SKILL.md"
+    },
     "paulrberg:agent-skills:cli-just": {
       "commit": "b6abe0d3fc63e5c1cf4d786f42722b2ce545e23a",
       "path": "skills/cli-just/SKILL.md"
+    },
+    "pingcap:tidb:tidb-test-diff-triage": {
+      "commit": "c9f7aed139f6ab2398f54e9021843380f63145e4",
+      "path": ".agents/skills/tidb-test-diff-triage/SKILL.md"
+    },
+    "pingcap:tidb:tidb-verify-profile": {
+      "commit": "c9f7aed139f6ab2398f54e9021843380f63145e4",
+      "path": ".agents/skills/tidb-verify-profile/SKILL.md"
     },
     "pingdotgg:t3code:changesets": {
       "commit": "67661cfbb57fd353845c6f3c8c96663560031d1e",
@@ -2733,6 +2789,10 @@
     "remotion-dev:skills:remotion-best-practices": {
       "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
       "path": "skills/remotion-best-practices/SKILL.md"
+    },
+    "resend:react-email:react-email": {
+      "commit": "de32c06a2cd8a7b99d416a6f5f969fc3570d483e",
+      "path": "skills/react-email/SKILL.md"
     },
     "rominirani:antigravity-skills:always-verify-gcp": {
       "commit": "731acca5d1aa8b0855549e1cb53bc3f84aa05e0d",
@@ -3409,6 +3469,14 @@
     "thebushidocollective:han:prettier-configuration": {
       "commit": "19caa51d5fd144ef6b2764f2332f4c856aa5d1af",
       "path": "plugins/validation/prettier/skills/prettier-configuration/SKILL.md"
+    },
+    "timescale:pg-aiguide:setup-timescaledb-hypertables": {
+      "commit": "c39008a2773f75d63037e8eecf937456204786ba",
+      "path": "skills/setup-timescaledb-hypertables/SKILL.md"
+    },
+    "timescale:pg-aiguide:timescaledb-hyperfunctions": {
+      "commit": "c39008a2773f75d63037e8eecf937456204786ba",
+      "path": "skills/timescaledb-hyperfunctions/SKILL.md"
     },
     "tpscloud:charmedimsure:charmed-bubbles": {
       "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
