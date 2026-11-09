@@ -1,0 +1,59 @@
+name: Registry README statistics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'nosey.registry.config.json'
+      - 'technologies.json'
+      - 'skills.json'
+      - 'mappings.json'
+      - 'repositories.json'
+      - 'scripts/registry-readme-stats.mjs'
+      - '.github/workflows/readme-stats.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readme-stats-main
+  cancel-in-progress: false
+
+jobs:
+  update-readme-stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          persist-credentials: true
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Build statistics JSON
+        id: stats
+        run: node scripts/registry-readme-stats.mjs collect
+      - name: Render Markdown table
+        id: markdown
+        uses: parkerbxyz/json-to-markdown-table@85a9c13bbd4d87113503b5802fb3d7cbacb5f43f # v1
+        with:
+          json: ${{ steps.stats.outputs.json }}
+          align-pipes: 'false'
+      - name: Replace README section
+        env:
+          GENERATED_TABLE: ${{ steps.markdown.outputs.table }}
+        run: node scripts/registry-readme-stats.mjs replace
+      - name: Commit README
+        run: |
+          set -euo pipefail
+          git add README.md
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='github-actions[bot]@users.noreply.github.com' commit -m 'docs(registry): refresh README statistics'
+          git push
