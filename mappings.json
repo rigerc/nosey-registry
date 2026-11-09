@@ -2670,6 +2670,16 @@
           "reason": "Catalog recommendation for Go."
         },
         {
+          "skillId": "PaulRBerg:agent-skills:code-polish",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Go."
+        },
+        {
+          "skillId": "agenticaiengineer:ai-engineer-skills:golang-pro",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Go."
+        },
+        {
           "skillId": "eduardo-sl:go-agent-skills:go-api-design",
           "priority": "optional",
           "reason": "Catalog recommendation for Go."
@@ -2840,6 +2850,11 @@
           "reason": "Catalog recommendation for Go."
         },
         {
+          "skillId": "rshade:agent-skills:agent-ready-go",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Go."
+        },
+        {
           "skillId": "samber:cc-skills-golang:golang-code-style",
           "priority": "optional",
           "reason": "Catalog recommendation for Go."
@@ -2881,6 +2896,16 @@
         },
         {
           "skillId": "sickn33:agentic-awesome-skills:go-rust-reverse",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Go."
+        },
+        {
+          "skillId": "svssdeva:agentic-skills:golang-patterns",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Go."
+        },
+        {
+          "skillId": "svssdeva:agentic-skills:golang-testing",
           "priority": "optional",
           "reason": "Catalog recommendation for Go."
         }
@@ -3223,6 +3248,11 @@
         },
         {
           "skillId": "affaan-m:everything-claude-code:java-coding-standards",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Java."
+        },
+        {
+          "skillId": "agenticaiengineer:ai-engineer-skills:java-architect",
           "priority": "optional",
           "reason": "Catalog recommendation for Java."
         },
@@ -4692,6 +4722,16 @@
           "reason": "Catalog recommendation for Python."
         },
         {
+          "skillId": "PaulRBerg:agent-skills:code-polish",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Python."
+        },
+        {
+          "skillId": "agenticaiengineer:ai-engineer-skills:python-pro",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Python."
+        },
+        {
           "skillId": "github:awesome-copilot:python-pypi-package-builder",
           "priority": "optional",
           "reason": "Catalog recommendation for Python."
@@ -4717,7 +4757,22 @@
           "reason": "Catalog recommendation for Python."
         },
         {
+          "skillId": "wshobson:agents:async-python-patterns",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Python."
+        },
+        {
+          "skillId": "wshobson:agents:python-packaging",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Python."
+        },
+        {
           "skillId": "wshobson:agents:python-testing-patterns",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Python."
+        },
+        {
+          "skillId": "wshobson:agents:uv-package-manager",
           "priority": "optional",
           "reason": "Catalog recommendation for Python."
         }
@@ -5315,6 +5370,16 @@
         },
         {
           "skillId": "Mindrally:skills:rust",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Rust."
+        },
+        {
+          "skillId": "PaulRBerg:agent-skills:code-polish",
+          "priority": "optional",
+          "reason": "Catalog recommendation for Rust."
+        },
+        {
+          "skillId": "agenticaiengineer:ai-engineer-skills:rust-engineer",
           "priority": "optional",
           "reason": "Catalog recommendation for Rust."
         },
@@ -6248,7 +6313,32 @@
           "reason": "Catalog recommendation for TypeScript."
         },
         {
+          "skillId": "PaulRBerg:agent-skills:code-polish",
+          "priority": "optional",
+          "reason": "Catalog recommendation for TypeScript."
+        },
+        {
+          "skillId": "agenticaiengineer:ai-engineer-skills:typescript-pro",
+          "priority": "optional",
+          "reason": "Catalog recommendation for TypeScript."
+        },
+        {
           "skillId": "sickn33:agentic-awesome-skills:typescript-expert",
+          "priority": "optional",
+          "reason": "Catalog recommendation for TypeScript."
+        },
+        {
+          "skillId": "svssdeva:agentic-skills:typescript-advanced-types",
+          "priority": "optional",
+          "reason": "Catalog recommendation for TypeScript."
+        },
+        {
+          "skillId": "svssdeva:agentic-skills:typescript-expert",
+          "priority": "optional",
+          "reason": "Catalog recommendation for TypeScript."
+        },
+        {
+          "skillId": "svssdeva:agentic-skills:typescript-pro",
           "priority": "optional",
           "reason": "Catalog recommendation for TypeScript."
         },
@@ -6308,6 +6398,11 @@
         },
         {
           "skillId": "vamseeachanta:workspace-hub:uv-package-manager",
+          "priority": "optional",
+          "reason": "Catalog recommendation for uv."
+        },
+        {
+          "skillId": "wshobson:agents:uv-package-manager",
           "priority": "optional",
           "reason": "Catalog recommendation for uv."
         }

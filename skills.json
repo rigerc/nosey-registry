@@ -7790,6 +7790,23 @@
       }
     },
     {
+      "id": "PaulRBerg:agent-skills:code-polish",
+      "name": "code-polish",
+      "technologies": [
+        "golang",
+        "python",
+        "rust",
+        "typescript"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/PaulRBerg/agent-skills",
+        "ref": "5f14638cf66a32c1017a6fa961f40a1c8fbff2a7",
+        "skillName": "code-polish"
+      },
+      "repositoryId": "paulrberg:agent-skills"
+    },
+    {
       "id": "Search-3D:electron-drive-skill:electron-drive-skill",
       "name": "electron-drive-skill",
       "technologies": [
@@ -8084,6 +8101,76 @@
       }
     },
     {
+      "id": "agenticaiengineer:ai-engineer-skills:golang-pro",
+      "name": "golang-pro",
+      "technologies": [
+        "golang"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/agenticaiengineer/ai-engineer-skills",
+        "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+        "skillName": "golang-pro"
+      },
+      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+    },
+    {
+      "id": "agenticaiengineer:ai-engineer-skills:java-architect",
+      "name": "java-architect",
+      "technologies": [
+        "java"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/agenticaiengineer/ai-engineer-skills",
+        "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+        "skillName": "java-architect"
+      },
+      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+    },
+    {
+      "id": "agenticaiengineer:ai-engineer-skills:python-pro",
+      "name": "python-pro",
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/agenticaiengineer/ai-engineer-skills",
+        "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+        "skillName": "python-pro"
+      },
+      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+    },
+    {
+      "id": "agenticaiengineer:ai-engineer-skills:rust-engineer",
+      "name": "rust-engineer",
+      "technologies": [
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/agenticaiengineer/ai-engineer-skills",
+        "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+        "skillName": "rust-engineer"
+      },
+      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+    },
+    {
+      "id": "agenticaiengineer:ai-engineer-skills:typescript-pro",
+      "name": "typescript-pro",
+      "technologies": [
+        "typescript"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/agenticaiengineer/ai-engineer-skills",
+        "ref": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+        "skillName": "typescript-pro"
+      },
+      "repositoryId": "agenticaiengineer:ai-engineer-skills"
+    },
+    {
       "id": "aj-geddes:useful-ai-prompts:flask-api-development",
       "name": "flask-api-development",
       "technologies": [
@@ -8272,6 +8359,18 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "annatchijova:SKILLS:language-selection",
+      "name": "language-selection",
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/annatchijova/SKILLS",
+        "ref": "92b4ff0ec30752ba1595615d881116d676485421",
+        "skillName": "language-selection"
+      },
+      "repositoryId": "annatchijova:skills"
     },
     {
       "id": "antfu:skills:nuxt",
@@ -13494,6 +13593,18 @@
       }
     },
     {
+      "id": "lplatzer:agent-skills:coding-tutor",
+      "name": "coding-tutor",
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/lplatzer/agent-skills",
+        "ref": "16227f2ac4803c365697877f49f7cfc7711bfbcc",
+        "skillName": "coding-tutor"
+      },
+      "repositoryId": "lplatzer:agent-skills"
+    },
+    {
       "id": "lucianghinda:superpowers-ruby:rails-guides",
       "name": "rails-guides",
       "technologies": [
@@ -14271,6 +14382,20 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "rshade:agent-skills:agent-ready-go",
+      "name": "agent-ready-go",
+      "technologies": [
+        "golang"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/rshade/agent-skills",
+        "ref": "3518bc1217d076042f8bb7fb6202597080d00325",
+        "skillName": "agent-ready-go"
+      },
+      "repositoryId": "rshade:agent-skills"
     },
     {
       "id": "samber:cc-skills-golang:golang-code-style",
@@ -17618,6 +17743,76 @@
       }
     },
     {
+      "id": "svssdeva:agentic-skills:golang-patterns",
+      "name": "golang-patterns",
+      "technologies": [
+        "golang"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/svssdeva/agentic-skills",
+        "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+        "skillName": "golang-patterns"
+      },
+      "repositoryId": "svssdeva:agentic-skills"
+    },
+    {
+      "id": "svssdeva:agentic-skills:golang-testing",
+      "name": "golang-testing",
+      "technologies": [
+        "golang"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/svssdeva/agentic-skills",
+        "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+        "skillName": "golang-testing"
+      },
+      "repositoryId": "svssdeva:agentic-skills"
+    },
+    {
+      "id": "svssdeva:agentic-skills:typescript-advanced-types",
+      "name": "typescript-advanced-types",
+      "technologies": [
+        "typescript"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/svssdeva/agentic-skills",
+        "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+        "skillName": "typescript-advanced-types"
+      },
+      "repositoryId": "svssdeva:agentic-skills"
+    },
+    {
+      "id": "svssdeva:agentic-skills:typescript-expert",
+      "name": "typescript-expert",
+      "technologies": [
+        "typescript"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/svssdeva/agentic-skills",
+        "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+        "skillName": "typescript-expert"
+      },
+      "repositoryId": "svssdeva:agentic-skills"
+    },
+    {
+      "id": "svssdeva:agentic-skills:typescript-pro",
+      "name": "typescript-pro",
+      "technologies": [
+        "typescript"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/svssdeva/agentic-skills",
+        "ref": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+        "skillName": "typescript-pro"
+      },
+      "repositoryId": "svssdeva:agentic-skills"
+    },
+    {
       "id": "tanstack-skills:tanstack-skills:tanstack-start",
       "name": "tanstack-start",
       "technologies": [
@@ -18343,6 +18538,20 @@
       }
     },
     {
+      "id": "wshobson:agents:async-python-patterns",
+      "name": "async-python-patterns",
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/wshobson/agents",
+        "ref": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+        "skillName": "async-python-patterns"
+      },
+      "repositoryId": "wshobson:agents"
+    },
+    {
       "id": "wshobson:agents:bash-defensive-patterns",
       "name": "bash-defensive-patterns",
       "technologies": [
@@ -18427,6 +18636,20 @@
       }
     },
     {
+      "id": "wshobson:agents:python-packaging",
+      "name": "python-packaging",
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/wshobson/agents",
+        "ref": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+        "skillName": "python-packaging"
+      },
+      "repositoryId": "wshobson:agents"
+    },
+    {
       "id": "wshobson:agents:python-testing-patterns",
       "name": "python-testing-patterns",
       "technologies": [
@@ -18489,6 +18712,21 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "wshobson:agents:uv-package-manager",
+      "name": "uv-package-manager",
+      "technologies": [
+        "python",
+        "uv"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/wshobson/agents",
+        "ref": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+        "skillName": "uv-package-manager"
+      },
+      "repositoryId": "wshobson:agents"
     },
     {
       "id": "yonesuke:skills:polars",
