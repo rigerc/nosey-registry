@@ -8224,7 +8224,13 @@
         "ref": "44d7cab4d50c04f592cb18b4d28dd0224797310e",
         "skillName": "airbyte-sdk-reference"
       },
-      "repositoryId": "airbytehq:airbyte-agent-sdk"
+      "repositoryId": "airbytehq:airbyte-agent-sdk",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "airbytehq:airbyte-agent-sdk:discovering-connectors",
@@ -8238,7 +8244,13 @@
         "ref": "44d7cab4d50c04f592cb18b4d28dd0224797310e",
         "skillName": "discovering-connectors"
       },
-      "repositoryId": "airbytehq:airbyte-agent-sdk"
+      "repositoryId": "airbytehq:airbyte-agent-sdk",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "aj-geddes:useful-ai-prompts:flask-api-development",
@@ -9029,7 +9041,13 @@
         "ref": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
         "skillName": "chakra-ui-builder"
       },
-      "repositoryId": "chakra-ui:chakra-ui"
+      "repositoryId": "chakra-ui:chakra-ui",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "chakra-ui:chakra-ui:chakra-ui-migrate",
@@ -9043,7 +9061,13 @@
         "ref": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
         "skillName": "chakra-ui-migrate"
       },
-      "repositoryId": "chakra-ui:chakra-ui"
+      "repositoryId": "chakra-ui:chakra-ui",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "chakra-ui:chakra-ui:chakra-ui-refactor",
@@ -9057,7 +9081,13 @@
         "ref": "a619271ace57bb6f29e95968a1aa0e971ff3430d",
         "skillName": "chakra-ui-refactor"
       },
-      "repositoryId": "chakra-ui:chakra-ui"
+      "repositoryId": "chakra-ui:chakra-ui",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "chaunsin:agent-skills:drizzle-migration-conflict",
@@ -12628,7 +12658,13 @@
         "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
         "skillName": "bigquery-basics"
       },
-      "repositoryId": "google:skills"
+      "repositoryId": "google:skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "google:skills:bigtable-basics",
@@ -12642,7 +12678,13 @@
         "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
         "skillName": "bigtable-basics"
       },
-      "repositoryId": "google:skills"
+      "repositoryId": "google:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "google:skills:cloud-logging-query-generation",
@@ -12656,7 +12698,13 @@
         "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
         "skillName": "cloud-logging-query-generation"
       },
-      "repositoryId": "google:skills"
+      "repositoryId": "google:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "google:skills:cloud-run-basics",
@@ -12670,7 +12718,13 @@
         "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
         "skillName": "cloud-run-basics"
       },
-      "repositoryId": "google:skills"
+      "repositoryId": "google:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "google:skills:cloud-sql-basics",
@@ -12684,7 +12738,13 @@
         "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
         "skillName": "cloud-sql-basics"
       },
-      "repositoryId": "google:skills"
+      "repositoryId": "google:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "google:skills:google-analytics-data-api-basics",
@@ -12698,7 +12758,13 @@
         "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
         "skillName": "google-analytics-data-api-basics"
       },
-      "repositoryId": "google:skills"
+      "repositoryId": "google:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "greensock:gsap-skills:gsap-core",
@@ -14268,7 +14334,13 @@
         "ref": "49f948faa9258a0c61caceaf225e179651397431",
         "skillName": "netlify-deploy"
       },
-      "repositoryId": "openai:skills"
+      "repositoryId": "openai:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "paulrberg:agent-skills:cli-just",
@@ -14303,7 +14375,13 @@
         "ref": "c9f7aed139f6ab2398f54e9021843380f63145e4",
         "skillName": "tidb-test-diff-triage"
       },
-      "repositoryId": "pingcap:tidb"
+      "repositoryId": "pingcap:tidb",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "pingcap:tidb:tidb-verify-profile",
@@ -14317,7 +14395,13 @@
         "ref": "c9f7aed139f6ab2398f54e9021843380f63145e4",
         "skillName": "tidb-verify-profile"
       },
-      "repositoryId": "pingcap:tidb"
+      "repositoryId": "pingcap:tidb",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "pingdotgg:t3code:changesets",
@@ -14627,7 +14711,13 @@
         "ref": "de32c06a2cd8a7b99d416a6f5f969fc3570d483e",
         "skillName": "react-email"
       },
-      "repositoryId": "resend:react-email"
+      "repositoryId": "resend:react-email",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "rominirani:antigravity-skills:always-verify-gcp",
@@ -18196,7 +18286,13 @@
         "ref": "c39008a2773f75d63037e8eecf937456204786ba",
         "skillName": "setup-timescaledb-hypertables"
       },
-      "repositoryId": "timescale:pg-aiguide"
+      "repositoryId": "timescale:pg-aiguide",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "timescale:pg-aiguide:timescaledb-hyperfunctions",
@@ -18210,7 +18306,13 @@
         "ref": "c39008a2773f75d63037e8eecf937456204786ba",
         "skillName": "timescaledb-hyperfunctions"
       },
-      "repositoryId": "timescale:pg-aiguide"
+      "repositoryId": "timescale:pg-aiguide",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-09",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "tpscloud:charmedimsure:charmed-bubbles",
