@@ -35,19 +35,8 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '22'
-      - name: Build statistics JSON
-        id: stats
-        run: node scripts/registry-readme-stats.mjs collect
-      - name: Render Markdown table
-        id: markdown
-        uses: parkerbxyz/json-to-markdown-table@85a9c13bbd4d87113503b5802fb3d7cbacb5f43f # v1
-        with:
-          json: ${{ steps.stats.outputs.json }}
-          align-pipes: 'false'
-      - name: Replace README section
-        env:
-          GENERATED_TABLE: ${{ steps.markdown.outputs.table }}
-        run: node scripts/registry-readme-stats.mjs replace
+      - name: Refresh README statistics
+        run: node scripts/registry-readme-stats.mjs refresh
       - name: Commit README
         run: |
           set -euo pipefail

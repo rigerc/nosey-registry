@@ -4,7 +4,8 @@
 // collect: reads the registry declared by nosey.registry.config.json and writes
 // a compact JSON array to $GITHUB_OUTPUT (and stdout).
 // replace: reads GENERATED_TABLE from the environment and rewrites only the
-// delimited README section.
+// delimited README section (legacy interface).
+// refresh: renders a prominent, self-contained stats summary from local JSON.
 
 import { readFileSync, writeFileSync, appendFileSync } from 'node:fs';
 import path from 'node:path';
@@ -131,6 +132,30 @@ export function collectStats(root = process.cwd()) {
   return { counts, rows: orderedRows, json };
 }
 
+export function renderStatsCards(counts) {
+  const metrics = [
+    ['Skills', counts.skills],
+    ['Technologies', counts.technologies],
+    ['Mapping entries', counts.mappings],
+    ['Source repositories', counts.repositories],
+  ];
+  for (const [label, value] of metrics) {
+    if (!Number.isSafeInteger(value) || value < 0) {
+      fail(`invalid count for ${label}`);
+    }
+  }
+  return [
+    '<table>',
+    '  <tr>',
+    ...metrics.map(([label]) => `    <th align="center">${label}</th>`),
+    '  </tr>',
+    '  <tr>',
+    ...metrics.map(([, value]) => `    <td align="center"><h2>${value.toLocaleString('en-US')}</h2></td>`),
+    '  </tr>',
+    '</table>',
+  ].join('\n');
+}
+
 function countOccurrences(value, needle) {
   let count = 0;
   let index = 0;
@@ -196,6 +221,7 @@ const defaultExport = {
   loadRegistryConfig,
   countRegistryStats,
   collectStats,
+  renderStatsCards,
   collect,
   collectRegistryStats,
   collectJson,
@@ -214,7 +240,7 @@ const defaultExport = {
 export default defaultExport;
 
 function printUsage() {
-  process.stderr.write('Usage: registry-readme-stats.mjs <collect|replace> [path]\n');
+  process.stderr.write('Usage: registry-readme-stats.mjs <collect|replace|refresh> [path]\n');
 }
 
 function runCollect(rootArgument) {
@@ -234,6 +260,13 @@ function runReplace(fileArgument) {
   writeFileSync(filePath, next, 'utf8');
 }
 
+function runRefresh(fileArgument) {
+  const filePath = fileArgument || process.env.README_PATH || 'README.md';
+  const content = readFileSync(filePath, 'utf8');
+  const cards = renderStatsCards(countRegistryStats());
+  writeFileSync(filePath, replaceSection(content, cards), 'utf8');
+}
+
 function main() {
   const command = process.argv[2];
   const argument = process.argv[3];
@@ -242,6 +275,8 @@ function main() {
       runCollect(argument);
     } else if (command === 'replace') {
       runReplace(argument);
+    } else if (command === 'refresh') {
+      runRefresh(argument);
     } else {
       printUsage();
       process.exitCode = 2;
