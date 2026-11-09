@@ -35,6 +35,11 @@
       "provider": "github",
       "source": "files/ci/github/registry.yml",
       "destination": ".github/workflows/registry.yml"
+    },
+    {
+      "provider": "github",
+      "source": "files/ci/github/registry-readme-stats.mjs",
+      "destination": ".github/scripts/registry-readme-stats.mjs"
     }
   ]
 }
