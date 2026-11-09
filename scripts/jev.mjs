@@ -10,7 +10,7 @@
  *   node scripts/jev.mjs check
  *   node scripts/jev.mjs plan      [--limit 0..64] [--mode all-needed|unscored|stale|rescore] [--out PATH]
  *   node scripts/jev.mjs prepare   --id ID [--out PATH] [--meta PATH]
- *   node scripts/jev.mjs normalize --meta PATH --result PATH --out PATH
+ *   node scripts/jev.mjs normalize --meta PATH --result PATH [--fit PATH] --out PATH
  *   node scripts/jev.mjs merge     [--dir PATH]
  */
 import {readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync, appendFileSync} from 'node:fs';
@@ -235,6 +235,17 @@ export function mappedTechnologies(skillId, mappings, technologies) {
     .slice(0, MAX_MAPPED_TECHNOLOGIES);
 }
 
+/**
+ * The action reads one 1,024-token window per pass: every question's text comes first and the state is cut to what
+ * is left. technology_fit therefore runs as its own pass, with a state that leads with the mapping (the action
+ * serialises state keys alphabetically, so `applicable_technologies` precedes the excerpt), and the five core
+ * questions keep exactly the window they always had.
+ */
+export function splitQuestions(questions) {
+  const pick = keys => Object.fromEntries(keys.filter(k => Object.hasOwn(questions, k)).map(k => [k, questions[k]]));
+  return {core: pick(DIMENSIONS), fit: pick(EXTRA_DIMENSIONS)};
+}
+
 export async function prepare(pin, {fetchImpl = fetch, config = evaluator(), mapped = []} = {}) {
   const response = await fetchImpl(rawUrl(pin.repo, pin.commit, pin.path), {redirect: 'manual', signal: AbortSignal.timeout(20000)});
   if (response.status !== 200 || !response.body) throw new Error('Pinned source HTTP ' + response.status);
@@ -251,23 +262,29 @@ export async function prepare(pin, {fetchImpl = fetch, config = evaluator(), map
   const text = new TextDecoder('utf-8', {fatal: true}).decode(bytes);
   return {
     state: {skill_id: pin.id, repository: pin.repo, source_commit: pin.commit, source_path: pin.path,
-      document_kind: 'SKILL.md', document_excerpt: text.slice(0, STATE_LIMIT), is_truncated: text.length > STATE_LIMIT,
-      mapped_technologies: mapped},
+      document_kind: 'SKILL.md', document_excerpt: text.slice(0, STATE_LIMIT), is_truncated: text.length > STATE_LIMIT},
+    fitState: {applicable_technologies: mapped, document_kind: 'SKILL.md', document_excerpt: text.slice(0, STATE_LIMIT),
+      skill_id: pin.id},
     meta: {id: pin.id, key: outputKey(pin.id), source: {repository: pin.repo, path: pin.path, commit: pin.commit},
       fingerprint: config.fingerprint, input_sha256: sha256(bytes)},
   };
 }
 
-export function normalize(meta, raw, date = '1970-01-01T00:00:00Z', config = evaluator()) {
+/** `raw` answers the five core questions; the optional `fitRaw` answers technology_fit from its own pass. */
+export function normalize(meta, raw, date = '1970-01-01T00:00:00Z', config = evaluator(), fitRaw = null) {
   if (!meta?.id || !SHA40.test(meta.source?.commit ?? '') || !SHA64.test(meta.input_sha256 ?? '') ||
       meta.fingerprint !== config.fingerprint) throw new Error('Invalid evaluation metadata');
-  const keys = Object.keys(config.questions);
-  if (raw?.workflow !== null || !raw.decisions || Object.keys(raw.decisions).length !== keys.length) {
-    throw new Error('Unexpected action response');
+  const parts = [[raw, DIMENSIONS]];
+  if (fitRaw) parts.push([fitRaw, EXTRA_DIMENSIONS.filter(k => Object.hasOwn(config.questions, k))]);
+  const decisions = {};
+  for (const [part, expected] of parts) {
+    if (part?.workflow !== null || !part.decisions || Object.keys(part.decisions).length !== expected.length ||
+        !expected.every(k => Object.hasOwn(part.decisions, k))) throw new Error('Unexpected action response');
+    Object.assign(decisions, part.decisions);
   }
   const scores = {};
-  for (const key of keys) {
-    const d = raw.decisions[key];
+  for (const key of Object.keys(decisions)) {
+    const d = decisions[key];
     const answer = Number(d?.answer);
     if (!['number', 'string'].includes(typeof d?.answer) || String(d.answer).trim() === '' || d?.type !== 'score' || d.mode !== 'model' ||
         !Number.isInteger(answer) || answer < 0 || answer > 4 || !Number.isFinite(d.confidence) || d.confidence < 0 || d.confidence > 1 ||
@@ -315,7 +332,7 @@ const out = (file, value) => {
 const output = (name, value) => process.env.GITHUB_OUTPUT && appendFileSync(process.env.GITHUB_OUTPUT, name + '=' + value + '\n');
 
 async function main([command, ...argv]) {
-  const flags = {limit: 'value', mode: 'value', out: 'value', id: 'value', meta: 'value', result: 'value', dir: 'value'};
+  const flags = {limit: 'value', mode: 'value', out: 'value', id: 'value', meta: 'value', result: 'value', fit: 'value', dir: 'value'};
   const a = parseArgs(argv, flags);
   const report = readJson(SCORES_FILE, null);
   if (command === 'check') {
@@ -335,14 +352,22 @@ async function main([command, ...argv]) {
     const {config: registryConfig} = loadRegistry();
     const mapped = mappedTechnologies(pin.id, readJson(registryConfig.files.mappings).mappings,
       readJson(registryConfig.files.technologies).technologies);
-    const {state, meta} = await prepare(pin, {mapped});
+    const {state, fitState, meta} = await prepare(pin, {mapped});
+    const dir = dirname(a.out ?? '.nosey-eval/state.json');
+    const {core, fit} = splitQuestions(evaluator().questions);
     out(a.out ?? '.nosey-eval/state.json', state);
+    out(join(dir, 'fit-state.json'), fitState);
+    out(join(dir, 'questions.json'), core);
+    out(join(dir, 'questions-fit.json'), fit);
     out(a.meta ?? '.nosey-eval/meta.json', meta);
     console.log('Prepared inert, pinned skill ' + pin.id);
   } else if (command === 'normalize') {
     if (!a.meta || !a.result || !a.out) throw new Error('Required --meta --result --out');
-    const value = normalize(JSON.parse(readFileSync(resolve(ROOT, a.meta), 'utf8')), JSON.parse(readFileSync(resolve(ROOT, a.result), 'utf8')),
-      new Date().toISOString().replace(/\.\d+Z$/, 'Z'));
+    const read = file => JSON.parse(readFileSync(resolve(ROOT, file), 'utf8'));
+    // A failed technology_fit pass leaves its output empty; the core scores are still recorded.
+    const fitPath = a.fit && existsSync(resolve(ROOT, a.fit)) ? a.fit : null;
+    const value = normalize(read(a.meta), read(a.result), new Date().toISOString().replace(/\.\d+Z$/, 'Z'), evaluator(),
+      fitPath ? read(fitPath) : null);
     out(a.out, value);
     console.log('Recorded score for ' + value.id);
   } else if (command === 'merge') {
