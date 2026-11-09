@@ -8,7 +8,7 @@
  * offline invariants. Nothing here calls a model or executes fetched content.
  *
  *   node scripts/jev.mjs check
- *   node scripts/jev.mjs plan      [--limit 0..64] [--mode all-needed|unscored|stale] [--out PATH]
+ *   node scripts/jev.mjs plan      [--limit 0..64] [--mode all-needed|unscored|stale|rescore] [--out PATH]
  *   node scripts/jev.mjs prepare   --id ID [--out PATH] [--meta PATH]
  *   node scripts/jev.mjs normalize --meta PATH --result PATH --out PATH
  *   node scripts/jev.mjs merge     [--dir PATH]
@@ -182,9 +182,11 @@ export function checkReport(doc, source) {
 
 /**
  * What a run may score: `unscored` = no entry yet, `stale` = an entry that is no longer current
- * (re-pinned skill or changed evaluator), `all-needed` = both (default).
+ * (re-pinned skill or changed evaluator), `all-needed` = both (default), `rescore` = re-run skills whose score is
+ * already current, e.g. to add a newer additive question or refresh model estimates. Rescore runs lowest-coverage
+ * first (no technology_fit), then oldest evaluation, so repeated bounded runs walk through every skill once.
  */
-export const MODES = ['all-needed', 'unscored', 'stale'];
+export const MODES = ['all-needed', 'unscored', 'stale', 'rescore'];
 
 export function plan(source, report, {limit = 8, mode = 'all-needed'} = {}) {
   if (!Number.isInteger(limit) || limit < 0 || limit > 64) throw new Error('Limit must be 0..64');
@@ -194,10 +196,20 @@ export function plan(source, report, {limit = 8, mode = 'all-needed'} = {}) {
   const fp = evaluator().fingerprint;
   const wanted = pin => {
     const entry = saved.get(pin.id);
+    if (mode === 'rescore') return current(entry, pin, fp);
     if (current(entry, pin, fp)) return false;
     return mode === 'all-needed' || (mode === 'unscored') === !entry;
   };
-  const todo = [...source.pins.values()].sort(byId).filter(wanted)
+  const age = pin => {
+    const entry = saved.get(pin.id);
+    return [Object.hasOwn(entry.evaluation.scores, 'technology_fit') ? 1 : 0, entry.evaluated_at];
+  };
+  const order = mode === 'rescore' ? (a, b) => {
+    const [fa, ta] = age(a);
+    const [fb, tb] = age(b);
+    return fa - fb || (ta < tb ? -1 : ta > tb ? 1 : 0) || byId(a, b);
+  } : byId;
+  const todo = [...source.pins.values()].filter(wanted).sort(order)
     .map(pin => ({id: pin.id, key: outputKey(pin.id), commit: pin.commit}));
   return {fingerprint: fp, mode, count: Math.min(limit, todo.length), remaining: Math.max(0, todo.length - limit),
     include: todo.slice(0, limit)};

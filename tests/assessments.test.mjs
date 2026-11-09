@@ -211,3 +211,24 @@ test('mappedTechnologies lists the technologies a skill is recommended for', () 
     [{technology: 'Android', also_requires: ['Clerk']}, {technology: 'Astro'}]);
   assert.deepEqual(mappedTechnologies('o:r:none', mappings, technologies), []);
 });
+
+test('rescore re-runs current skills, missing technology_fit first and then oldest', () => {
+  const pins = ['a', 'b', 'c', 'd'].map(n => ({id: 'o:r:' + n, repo: 'o/r', path: n + '/SKILL.md', dir: n, commit: SHA}));
+  const source = {pins: new Map(pins.map(p => [p.id, p])), unlocated: []};
+  const entry = (pin, date, withFit = true) => {
+    const e = normalize({...meta(pin.id), source: {repository: 'o/r', path: pin.path, commit: SHA}}, response([4, 4, 4, 4, 4]), date);
+    if (!withFit) delete e.evaluation.scores.technology_fit;
+    return e;
+  };
+  const rows = [entry(pins[0], '2026-03-01T00:00:00Z'), entry(pins[1], '2026-01-01T00:00:00Z'),
+    entry(pins[2], '2026-05-01T00:00:00Z', false)];
+  const report = merge(rows, null, source, '2026-06-01T00:00:00.000Z').next;
+  // d is unscored and never rescored; c lacks technology_fit; then b (oldest) before a.
+  assert.deepEqual(plan(source, report, {mode: 'rescore'}).include.map(e => e.id), ['o:r:c', 'o:r:b', 'o:r:a']);
+  const limited = plan(source, report, {mode: 'rescore', limit: 1});
+  assert.deepEqual([limited.count, limited.remaining], [1, 2]);
+  assert.deepEqual(plan(source, report, {mode: 'unscored'}).include.map(e => e.id), ['o:r:d']);
+  // A stale entry belongs to `stale`, not `rescore`.
+  const repinned = {pins: new Map([...source.pins, ['o:r:a', {...pins[0], commit: 'f'.repeat(40)}]]), unlocated: []};
+  assert.ok(!plan(repinned, report, {mode: 'rescore'}).include.some(e => e.id === 'o:r:a'));
+});

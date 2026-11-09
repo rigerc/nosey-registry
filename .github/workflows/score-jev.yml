@@ -9,12 +9,12 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Which skills to score: all-needed (unscored + stale), unscored (never scored only), stale (re-pinned or evaluator changed only)'
+        description: 'Which skills to score: all-needed (unscored + stale), unscored (never scored only), stale (re-pinned or evaluator changed only), rescore (re-run already scored skills, oldest and missing technology_fit first)'
         type: choice
-        options: [all-needed, unscored, stale]
+        options: [all-needed, unscored, stale, rescore]
         default: all-needed
       max_skills:
-        description: 'Maximum changed or unevaluated skills (0-64)'
+        description: 'Maximum skills to evaluate (0-64)'
         default: '16'
 
 permissions:
