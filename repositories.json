@@ -80,6 +80,12 @@
       "uri": "https://github.com/astrolicious/agent-skills"
     },
     {
+      "id": "auth0:agent-skills",
+      "name": "auth0/agent-skills",
+      "kind": "git",
+      "uri": "https://github.com/auth0/agent-skills"
+    },
+    {
       "id": "av:skills",
       "name": "av/skills",
       "kind": "git",
@@ -212,6 +218,12 @@
       "uri": "https://github.com/currents-dev/playwright-best-practices-skill"
     },
     {
+      "id": "datadog-labs:agent-skills",
+      "name": "datadog-labs/agent-skills",
+      "kind": "git",
+      "uri": "https://github.com/datadog-labs/agent-skills"
+    },
+    {
       "id": "davila7:claude-code-templates",
       "name": "davila7/claude-code-templates",
       "kind": "git",
@@ -252,6 +264,12 @@
       "name": "docker/skills",
       "kind": "git",
       "uri": "https://github.com/docker/skills"
+    },
+    {
+      "id": "duckdb:duckdb-skills",
+      "name": "duckdb/duckdb-skills",
+      "kind": "git",
+      "uri": "https://github.com/duckdb/duckdb-skills"
     },
     {
       "id": "eduardo-sl:go-agent-skills",
@@ -296,10 +314,22 @@
       "uri": "https://github.com/firecrawl/cli"
     },
     {
+      "id": "flutter:skills",
+      "name": "flutter/skills",
+      "kind": "git",
+      "uri": "https://github.com/flutter/skills"
+    },
+    {
       "id": "georgeguimaraes:elixir-agent-tools",
       "name": "georgeguimaraes/elixir-agent-tools",
       "kind": "git",
       "uri": "https://github.com/georgeguimaraes/elixir-agent-tools"
+    },
+    {
+      "id": "getsentry:sentry-for-ai",
+      "name": "getsentry/sentry-for-ai",
+      "kind": "git",
+      "uri": "https://github.com/getsentry/sentry-for-ai"
     },
     {
       "id": "github:awesome-copilot",
@@ -354,6 +384,12 @@
       "name": "hoodini/ai-agents-skills",
       "kind": "git",
       "uri": "https://github.com/hoodini/ai-agents-skills"
+    },
+    {
+      "id": "huggingface:skills",
+      "name": "huggingface/skills",
+      "kind": "git",
+      "uri": "https://github.com/huggingface/skills"
     },
     {
       "id": "hyf0:vue-skills",
@@ -518,6 +554,12 @@
       "uri": "https://github.com/microsoft/github-copilot-for-azure"
     },
     {
+      "id": "microsoft:skills",
+      "name": "microsoft/skills",
+      "kind": "git",
+      "uri": "https://github.com/microsoft/skills"
+    },
+    {
       "id": "midudev:autoskills",
       "name": "midudev/autoskills",
       "kind": "git",
@@ -528,6 +570,12 @@
       "name": "Mindrally/skills",
       "kind": "git",
       "uri": "https://github.com/Mindrally/skills"
+    },
+    {
+      "id": "mongodb:agent-skills",
+      "name": "mongodb/agent-skills",
+      "kind": "git",
+      "uri": "https://github.com/mongodb/agent-skills"
     },
     {
       "id": "neondatabase:agent-skills",
@@ -768,6 +816,12 @@
       "name": "tpscloud/charmedimsure",
       "kind": "git",
       "uri": "https://github.com/tpscloud/charmedimsure"
+    },
+    {
+      "id": "trailofbits:skills",
+      "name": "trailofbits/skills",
+      "kind": "git",
+      "uri": "https://github.com/trailofbits/skills"
     },
     {
       "id": "triggerdotdev:skills",
