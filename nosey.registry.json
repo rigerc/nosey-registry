@@ -28,6 +28,10 @@
       "averageScore": 84.8,
       "scoreCount": 5
     },
+    "airbytehq:airbyte-agent-sdk": {
+      "averageScore": 82,
+      "scoreCount": 2
+    },
     "aj-geddes:useful-ai-prompts": {
       "averageScore": 94,
       "scoreCount": 2
@@ -103,6 +107,10 @@
     "ccheney:robust-skills": {
       "averageScore": 96,
       "scoreCount": 1
+    },
+    "chakra-ui:chakra-ui": {
+      "averageScore": 70.67,
+      "scoreCount": 3
     },
     "chaunsin:agent-skills": {
       "averageScore": 84,
@@ -219,6 +227,10 @@
     "google-gemini:gemini-skills": {
       "averageScore": 80,
       "scoreCount": 1
+    },
+    "google:skills": {
+      "averageScore": 79.33,
+      "scoreCount": 6
     },
     "greensock:gsap-skills": {
       "averageScore": 81,
@@ -369,8 +381,8 @@
       "scoreCount": 1
     },
     "openai:skills": {
-      "averageScore": 64,
-      "scoreCount": 2
+      "averageScore": 68,
+      "scoreCount": 3
     },
     "paldom:python-skills": {
       "averageScore": 79,
@@ -378,6 +390,10 @@
     },
     "paulrberg:agent-skills": {
       "averageScore": 82,
+      "scoreCount": 2
+    },
+    "pingcap:tidb": {
+      "averageScore": 70,
       "scoreCount": 2
     },
     "pingdotgg:t3code": {
@@ -417,6 +433,10 @@
       "scoreCount": 1
     },
     "remotion-dev:skills": {
+      "averageScore": 72,
+      "scoreCount": 1
+    },
+    "resend:react-email": {
       "averageScore": 72,
       "scoreCount": 1
     },
@@ -499,6 +519,10 @@
     "thebushidocollective:han": {
       "averageScore": 84,
       "scoreCount": 1
+    },
+    "timescale:pg-aiguide": {
+      "averageScore": 80,
+      "scoreCount": 2
     },
     "tpscloud:charmedimsure": {
       "averageScore": 73.78,

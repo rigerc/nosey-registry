@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_id": "nosey:official",
-  "generated_at": "2026-11-09T16:29:09.184Z",
+  "generated_at": "2026-11-09T19:28:37.994Z",
   "evaluator": {
     "provider": "open-jev-action",
     "action_ref": "intikhab49/open-jev-typed-decision-engine@4c3c85ee6238f24a464c9285d1786aabc51a753b",
@@ -71,8 +71,8 @@
     "scope": "Open JEV reviews at most the first 4,000 UTF-16 code units of SKILL.md; supporting files and runtime behavior are not assessed. Scores have no written reasons or recommendations."
   },
   "summary": {
-    "total": 895,
-    "evaluated": 895,
+    "total": 912,
+    "evaluated": 912,
     "stale": 0,
     "pending": 0,
     "unlocated": 0
@@ -16417,6 +16417,90 @@
       "overall_score": 4.4
     },
     {
+      "id": "airbytehq:airbyte-agent-sdk:airbyte-sdk-reference",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/airbytehq/airbyte-agent-sdk/blob/44d7cab4d50c04f592cb18b4d28dd0224797310e/.claude/skills/airbyte-sdk-reference/SKILL.md",
+        "commit": "44d7cab4d50c04f592cb18b4d28dd0224797310e"
+      },
+      "input_sha256": "2939e86e99c1869d02792c55d972d4f563cd37864a3ad49c47ce5102def2908b",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:24:16Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2424,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3068,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2768,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2574,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3338,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4
+    },
+    {
+      "id": "airbytehq:airbyte-agent-sdk:discovering-connectors",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/airbytehq/airbyte-agent-sdk/blob/44d7cab4d50c04f592cb18b4d28dd0224797310e/.claude/skills/discovering-connectors/SKILL.md",
+        "commit": "44d7cab4d50c04f592cb18b4d28dd0224797310e"
+      },
+      "input_sha256": "14c1ad8617ab860cd790faee5da68a178db9a48c50da96090253e808122c559f",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:24:25Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2638,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3628,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.3093,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.3019,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3308,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.2
+    },
+    {
       "id": "aj-geddes:useful-ai-prompts:flask-api-development",
       "status": "evaluated",
       "source": {
@@ -17969,6 +18053,132 @@
         }
       },
       "overall_score": 4.8
+    },
+    {
+      "id": "chakra-ui:chakra-ui:chakra-ui-builder",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/chakra-ui/chakra-ui/blob/a619271ace57bb6f29e95968a1aa0e971ff3430d/skills/chakra-ui-builder/SKILL.md",
+        "commit": "a619271ace57bb6f29e95968a1aa0e971ff3430d"
+      },
+      "input_sha256": "6a21601c170f67383d31d9342c0555bb07736f8e2599fee4432ac1a053002169",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:24:44Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.248,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3027,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.3138,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2721,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.2952,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.6
+    },
+    {
+      "id": "chakra-ui:chakra-ui:chakra-ui-migrate",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/chakra-ui/chakra-ui/blob/a619271ace57bb6f29e95968a1aa0e971ff3430d/skills/chakra-ui-migrate/SKILL.md",
+        "commit": "a619271ace57bb6f29e95968a1aa0e971ff3430d"
+      },
+      "input_sha256": "3d9883b635fd0134439b2963a9a38ee01573420a55a0010fa5e34fd221ea5e6d",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:24:58Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2422,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3228,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.3649,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2809,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3028,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
+    },
+    {
+      "id": "chakra-ui:chakra-ui:chakra-ui-refactor",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/chakra-ui/chakra-ui/blob/a619271ace57bb6f29e95968a1aa0e971ff3430d/skills/chakra-ui-refactor/SKILL.md",
+        "commit": "a619271ace57bb6f29e95968a1aa0e971ff3430d"
+      },
+      "input_sha256": "7b9a8bed2596d4596f2f77566ac3f2e824202bf93106ec82c03aa1f034362330",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:25:18Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2318,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3128,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2556,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2501,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3182,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.6
     },
     {
       "id": "chaunsin:agent-skills:drizzle-migration-conflict",
@@ -25027,6 +25237,258 @@
       "overall_score": 4
     },
     {
+      "id": "google:skills:bigquery-basics",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/google/skills/blob/48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9/skills/cloud/bigquery-basics/SKILL.md",
+        "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9"
+      },
+      "input_sha256": "56a16fab677f74728cc7f46aa8db5d2179be8cf6ad04b1582107dc3983d13db3",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:25:26Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2614,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3543,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2742,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2834,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3791,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.8
+    },
+    {
+      "id": "google:skills:bigtable-basics",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/google/skills/blob/48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9/skills/cloud/bigtable-basics/SKILL.md",
+        "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9"
+      },
+      "input_sha256": "36bf4ac074b32f0f0d4c39338453c185c6cf278359cc2d1137911d9d87393633",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:25:54Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2427,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3177,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2699,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2869,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3363,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
+    },
+    {
+      "id": "google:skills:cloud-logging-query-generation",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/google/skills/blob/48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9/skills/cloud/cloud-logging-query-generation/SKILL.md",
+        "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9"
+      },
+      "input_sha256": "a53d70ee98951996bcf22071aad1423b720524e14697775d80c52ebd233f3e6d",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:26:01Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2522,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3319,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2804,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 2,
+            "confidence": 0.311,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3562,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.2
+    },
+    {
+      "id": "google:skills:cloud-run-basics",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/google/skills/blob/48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9/skills/cloud/cloud-run-basics/SKILL.md",
+        "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9"
+      },
+      "input_sha256": "8bf95426fb0c74b7f4e1a66d906791f59c143959e8bc7205c9249ada00e24903",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:26:25Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2713,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3338,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2772,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2655,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3291,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
+      "id": "google:skills:cloud-sql-basics",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/google/skills/blob/48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9/skills/cloud/cloud-sql-basics/SKILL.md",
+        "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9"
+      },
+      "input_sha256": "bf31327be8748ec589ee3da902aa13838ddcce497d9c0f99632810e37416aad8",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:26:38Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2482,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3385,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2676,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2544,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3564,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
+      "id": "google:skills:google-analytics-data-api-basics",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/google/skills/blob/48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9/skills/analytics/google-analytics-data-api-basics/SKILL.md",
+        "commit": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9"
+      },
+      "input_sha256": "3ec2b0f892d1c640e0d8f6bff803b93a65492ec81a7d11526472b7c37d4f0025",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:26:56Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2398,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3172,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2669,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.262,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.2969,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.2
+    },
+    {
       "id": "greensock:gsap-skills:gsap-core",
       "status": "evaluated",
       "source": {
@@ -28135,6 +28597,48 @@
       "overall_score": 2.6
     },
     {
+      "id": "openai:skills:netlify-deploy",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/netlify-deploy/SKILL.md",
+        "commit": "49f948faa9258a0c61caceaf225e179651397431"
+      },
+      "input_sha256": "bb2c29bf599a043cade932f60cc64f632ca100e8767ccdfa2ba1a42c8d43958f",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:27:11Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2607,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3719,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2616,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2769,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3311,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.8
+    },
+    {
       "id": "paulrberg:agent-skills:cli-just",
       "status": "evaluated",
       "source": {
@@ -28175,6 +28679,90 @@
         }
       },
       "overall_score": 3.8
+    },
+    {
+      "id": "pingcap:tidb:tidb-test-diff-triage",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/pingcap/tidb/blob/c9f7aed139f6ab2398f54e9021843380f63145e4/.agents/skills/tidb-test-diff-triage/SKILL.md",
+        "commit": "c9f7aed139f6ab2398f54e9021843380f63145e4"
+      },
+      "input_sha256": "c16afd41e22b83f47410f4c80cf72d54cf2c267baf2a78f63d72470e791f6ff5",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:27:24Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2421,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3065,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2726,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2802,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.335,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.2
+    },
+    {
+      "id": "pingcap:tidb:tidb-verify-profile",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/pingcap/tidb/blob/c9f7aed139f6ab2398f54e9021843380f63145e4/.agents/skills/tidb-verify-profile/SKILL.md",
+        "commit": "c9f7aed139f6ab2398f54e9021843380f63145e4"
+      },
+      "input_sha256": "169d883d894532ce48b5b229dc2884ff18f8e6ffd1ad207f7add6304fa8587ef",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:27:44Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 1,
+            "confidence": 0.2367,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3662,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2791,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.289,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3776,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 2.8
     },
     {
       "id": "pingdotgg:t3code:changesets",
@@ -28758,6 +29346,48 @@
           "context_efficiency": {
             "score": 3,
             "confidence": 0.3605,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.6
+    },
+    {
+      "id": "resend:react-email:react-email",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/resend/react-email/blob/de32c06a2cd8a7b99d416a6f5f969fc3570d483e/skills/react-email/SKILL.md",
+        "commit": "de32c06a2cd8a7b99d416a6f5f969fc3570d483e"
+      },
+      "input_sha256": "6316bdbe822e49f93a709e81bc011569d1a1ea20f7de78cd33ea8a0501ad79b7",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:27:51Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2829,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3244,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.3358,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2613,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3,
             "mode": "model"
           }
         }
@@ -35861,6 +36491,90 @@
         }
       },
       "overall_score": 4.2
+    },
+    {
+      "id": "timescale:pg-aiguide:setup-timescaledb-hypertables",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/timescale/pg-aiguide/blob/c39008a2773f75d63037e8eecf937456204786ba/skills/setup-timescaledb-hypertables/SKILL.md",
+        "commit": "c39008a2773f75d63037e8eecf937456204786ba"
+      },
+      "input_sha256": "dcfce6a31d21f427f852eb030e36a30ff5d38f5ad06176beb35f02f0485e2098",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:28:22Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.233,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3086,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2782,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2725,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3122,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
+      "id": "timescale:pg-aiguide:timescaledb-hyperfunctions",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/timescale/pg-aiguide/blob/c39008a2773f75d63037e8eecf937456204786ba/skills/timescaledb-hyperfunctions/SKILL.md",
+        "commit": "c39008a2773f75d63037e8eecf937456204786ba"
+      },
+      "input_sha256": "36329e273094d3259f3cb95bd5e302174d9276413f83e79d0e1d6ea5f05055e0",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T19:28:25Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2593,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3241,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2737,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2612,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3378,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
     },
     {
       "id": "tpscloud:charmedimsure:charmed-bubbles",
