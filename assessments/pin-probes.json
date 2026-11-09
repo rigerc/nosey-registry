@@ -1,4 +1,17 @@
 {
   "schema_version": 1,
-  "probes": {}
+  "probes": {
+    "temporalio:skill-temporal-developer:skill-temporal-developer": {
+      "misses": 1,
+      "firstMissAt": "2026-11-09",
+      "lastMissAt": "2026-11-09",
+      "reason": "skill_absent"
+    },
+    "vercel:ai:use-ai-sdk": {
+      "misses": 1,
+      "firstMissAt": "2026-11-09",
+      "lastMissAt": "2026-11-09",
+      "reason": "skill_absent"
+    }
+  }
 }
