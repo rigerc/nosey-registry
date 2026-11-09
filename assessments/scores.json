@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_id": "nosey:official",
-  "generated_at": "2026-11-08T21:01:10.817Z",
+  "generated_at": "2026-11-09T16:29:09.184Z",
   "evaluator": {
     "provider": "open-jev-action",
     "action_ref": "intikhab49/open-jev-typed-decision-engine@4c3c85ee6238f24a464c9285d1786aabc51a753b",
@@ -71,8 +71,8 @@
     "scope": "Open JEV reviews at most the first 4,000 UTF-16 code units of SKILL.md; supporting files and runtime behavior are not assessed. Scores have no written reasons or recommendations."
   },
   "summary": {
-    "total": 877,
-    "evaluated": 877,
+    "total": 895,
+    "evaluated": 895,
     "stale": 0,
     "pending": 0,
     "unlocated": 0
@@ -15577,6 +15577,48 @@
       "overall_score": 4
     },
     {
+      "id": "PaulRBerg:agent-skills:code-polish",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/PaulRBerg/agent-skills/blob/5f14638cf66a32c1017a6fa961f40a1c8fbff2a7/skills/code-polish/SKILL.md",
+        "commit": "5f14638cf66a32c1017a6fa961f40a1c8fbff2a7"
+      },
+      "input_sha256": "2eacee4ec8e50f103ac8db8150686af612c95af405e68edf39cb144d55d1deff",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:24:30Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2688,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.335,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2951,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2982,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.2964,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
       "id": "Search-3D:electron-drive-skill:electron-drive-skill",
       "status": "evaluated",
       "source": {
@@ -16165,6 +16207,216 @@
       "overall_score": 4.2
     },
     {
+      "id": "agenticaiengineer:ai-engineer-skills:golang-pro",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/agenticaiengineer/ai-engineer-skills/blob/ae0b890c03a941399cc4ea9bf4d57ce6bf52909f/skills/golang-pro/SKILL.md",
+        "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f"
+      },
+      "input_sha256": "5cc5ae01be6e82d844e9689ac3502003d97ff8ab02ad76804af5803ba6f9199a",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:24:38Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2531,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.347,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.277,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2956,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3169,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 5
+    },
+    {
+      "id": "agenticaiengineer:ai-engineer-skills:java-architect",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/agenticaiengineer/ai-engineer-skills/blob/ae0b890c03a941399cc4ea9bf4d57ce6bf52909f/skills/java-architect/SKILL.md",
+        "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f"
+      },
+      "input_sha256": "b1010a3fb8ee3484839827ed5b7bd4d0babb08490dfa6b8b1d001841b36cc458",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:25:04Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2447,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3353,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2887,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 2,
+            "confidence": 0.2698,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3138,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.8
+    },
+    {
+      "id": "agenticaiengineer:ai-engineer-skills:python-pro",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/agenticaiengineer/ai-engineer-skills/blob/ae0b890c03a941399cc4ea9bf4d57ce6bf52909f/skills/python-pro/SKILL.md",
+        "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f"
+      },
+      "input_sha256": "52c09af47282f116e1422ecb5461fbf4f6ce350257e7c8a6e97907db9dd5e8a3",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:25:12Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2741,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3443,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2595,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2692,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3435,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
+      "id": "agenticaiengineer:ai-engineer-skills:rust-engineer",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/agenticaiengineer/ai-engineer-skills/blob/ae0b890c03a941399cc4ea9bf4d57ce6bf52909f/skills/rust-engineer/SKILL.md",
+        "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f"
+      },
+      "input_sha256": "30344b6237f6d6faa5a38e6e0f1d6e03a55bd9c7ac05dafa40597c76564af0e1",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:25:37Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2538,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3214,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.275,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2586,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3291,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.6
+    },
+    {
+      "id": "agenticaiengineer:ai-engineer-skills:typescript-pro",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/agenticaiengineer/ai-engineer-skills/blob/ae0b890c03a941399cc4ea9bf4d57ce6bf52909f/skills/typescript-pro/SKILL.md",
+        "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f"
+      },
+      "input_sha256": "e012b7f52703561b193dd83620445f0184782762fc434889e3da3c0073db335d",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:25:47Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2667,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3153,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2795,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2624,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3094,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
       "id": "aj-geddes:useful-ai-prompts:flask-api-development",
       "status": "evaluated",
       "source": {
@@ -16541,6 +16793,48 @@
         }
       },
       "overall_score": 4.4
+    },
+    {
+      "id": "annatchijova:SKILLS:language-selection",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/annatchijova/SKILLS/blob/92b4ff0ec30752ba1595615d881116d676485421/language-selection/SKILL.md",
+        "commit": "92b4ff0ec30752ba1595615d881116d676485421"
+      },
+      "input_sha256": "0b7149b6e5add7f94067df3b0961dde97b94fe6d7358189730a6b444f6d52990",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:26:10Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2368,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3076,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2625,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 2,
+            "confidence": 0.2537,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3157,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3
     },
     {
       "id": "antfu:skills:nuxt",
@@ -26917,6 +27211,48 @@
       "overall_score": 4.6
     },
     {
+      "id": "lplatzer:agent-skills:coding-tutor",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/lplatzer/agent-skills/blob/16227f2ac4803c365697877f49f7cfc7711bfbcc/coding-tutor/SKILL.md",
+        "commit": "16227f2ac4803c365697877f49f7cfc7711bfbcc"
+      },
+      "input_sha256": "23ed9c224aab43028a635e80e50673ee63f7dca4eb04f024aaa39a470bed24dd",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:26:23Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2669,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3209,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2832,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2646,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3146,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.2
+    },
+    {
       "id": "lucianghinda:superpowers-ruby:rails-guides",
       "status": "evaluated",
       "source": {
@@ -27125,6 +27461,48 @@
         }
       },
       "overall_score": 4.8
+    },
+    {
+      "id": "marceloeatworld:hyprland-ai-skill:hyprland",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/marceloeatworld/hyprland-ai-skill/blob/71d2c71158cde38e609c60adf65b2ec44450a53a/SKILL.md",
+        "commit": "71d2c71158cde38e609c60adf65b2ec44450a53a"
+      },
+      "input_sha256": "fa4e3d07e1a2c9addac1350fb60a2e9702c5d082e249ec0b6de6aed5d57428da",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:26:37Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2535,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3197,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2526,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2676,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.2842,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
     },
     {
       "id": "mastra-ai:skills:mastra",
@@ -28427,6 +28805,48 @@
         }
       },
       "overall_score": 4.8
+    },
+    {
+      "id": "rshade:agent-skills:agent-ready-go",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/rshade/agent-skills/blob/3518bc1217d076042f8bb7fb6202597080d00325/skills/agent-ready-go/SKILL.md",
+        "commit": "3518bc1217d076042f8bb7fb6202597080d00325"
+      },
+      "input_sha256": "948d5592ed4593f926aa4cc0e69588ad45e86296ff1140380a7bd3eea1bc5a78",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:26:54Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2601,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3173,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2583,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2631,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3169,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
     },
     {
       "id": "samber:cc-skills-golang:golang-code-style",
@@ -35107,6 +35527,216 @@
       "overall_score": 3.8
     },
     {
+      "id": "svssdeva:agentic-skills:golang-patterns",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/svssdeva/agentic-skills/blob/6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769/golang/golang-patterns/SKILL.md",
+        "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769"
+      },
+      "input_sha256": "d075d8e5c0487762ff58181ac67f5f0884e8ae7630ceb22cd276210667ceac1f",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:27:14Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2498,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3254,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2784,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2872,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3596,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
+    },
+    {
+      "id": "svssdeva:agentic-skills:golang-testing",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/svssdeva/agentic-skills/blob/6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769/golang/golang-testing/SKILL.md",
+        "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769"
+      },
+      "input_sha256": "a9ca5840389292ed644280e268a94677d40f83a13dd6a6f3f50bc14018e71238",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:27:24Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2506,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3258,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2773,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2831,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3567,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
+    },
+    {
+      "id": "svssdeva:agentic-skills:typescript-advanced-types",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/svssdeva/agentic-skills/blob/6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769/typescript/typescript-advanced-types/SKILL.md",
+        "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769"
+      },
+      "input_sha256": "c554fcaae62b8f02b6dfdd502522977ca000e118e61d3c238e31b3f9301b6d9c",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:27:50Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2504,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3086,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2843,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2963,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3184,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.6
+    },
+    {
+      "id": "svssdeva:agentic-skills:typescript-expert",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/svssdeva/agentic-skills/blob/6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769/typescript/typescript-expert/SKILL.md",
+        "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769"
+      },
+      "input_sha256": "fa3183ae758e7bb3d6f96bed581ba75a3ee559c8dd64db31041b0dca11f3cc1d",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:27:47Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2521,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3235,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2635,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2676,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3035,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4
+    },
+    {
+      "id": "svssdeva:agentic-skills:typescript-pro",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/svssdeva/agentic-skills/blob/6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769/typescript/typescript-pro/SKILL.md",
+        "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769"
+      },
+      "input_sha256": "c6634f39bc85522cc93e5cd9d2459799b680e2944c0720fbf83e7896ce18d47c",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:28:18Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 1,
+            "confidence": 0.2302,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3201,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2404,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2615,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3069,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
+    },
+    {
       "id": "tanstack-skills:tanstack-skills:tanstack-start",
       "status": "evaluated",
       "source": {
@@ -36535,6 +37165,48 @@
       "overall_score": 4.6
     },
     {
+      "id": "wshobson:agents:async-python-patterns",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/wshobson/agents/blob/9c61ab243def98f72da12abd41cfcf5bcd91af9d/plugins/python-development/skills/async-python-patterns/SKILL.md",
+        "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "input_sha256": "c2da0b41953cda62a960d37126c0a5cb387b8f8b0093e3f71cc1c78455cb815a",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:28:23Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.245,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3166,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2582,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2669,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.2957,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
       "id": "wshobson:agents:bash-defensive-patterns",
       "status": "evaluated",
       "source": {
@@ -36703,6 +37375,48 @@
       "overall_score": 4.6
     },
     {
+      "id": "wshobson:agents:python-packaging",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/wshobson/agents/blob/9c61ab243def98f72da12abd41cfcf5bcd91af9d/plugins/python-development/skills/python-packaging/SKILL.md",
+        "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "input_sha256": "744653d7bca3b0cfcb50155a3bb9ef56c7aba7eb4923091d07e75171261e5b49",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:28:49Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2421,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3218,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.258,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2678,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3171,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
       "id": "wshobson:agents:python-testing-patterns",
       "status": "evaluated",
       "source": {
@@ -36827,6 +37541,48 @@
         }
       },
       "overall_score": 4.2
+    },
+    {
+      "id": "wshobson:agents:uv-package-manager",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/wshobson/agents/blob/9c61ab243def98f72da12abd41cfcf5bcd91af9d/plugins/python-development/skills/uv-package-manager/SKILL.md",
+        "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "input_sha256": "14df843d2d7958257e47933961914ff6598adb8422e4759000586c43ce80ab2c",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-09T16:28:56Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2428,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3269,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.275,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2789,
+            "mode": "model"
+          },
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3415,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
     },
     {
       "id": "yonesuke:skills:polars",
