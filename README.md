@@ -1,8 +1,33 @@
-# Official Nosey Registry
+# Curated Agent Skills Registry
 
-The official [Nosey](https://github.com/rigerc/nosey-9) registry is a catalog of agent skills, technologies, detection rules, and skill recommendations. Nosey uses this registry to suggest skills relevant to the technologies in a workspace and to resolve their upstream sources when installing them.
+A curated catalog of **agent skills** from upstream repositories, organized by technology and enriched with recommendations, source references, and quality assessments. Browse skills, compare sources, and find relevant additions to your coding workflow.
 
-**[Browse the official registry](https://rigerc.github.io/nosey-9/)** to explore the published catalog. The browser is generated and deployed from the [Nosey application repository](https://github.com/rigerc/nosey-9); this repository maintains the registry data.
+**[Browse the curated skill catalog](https://rigerc.github.io/nosey-9/)** — explore the published registry directly in your browser. No Nosey installation is needed to browse.
+
+This repository maintains the catalog data; the browser is built and published from the [Nosey application repository](https://github.com/rigerc/nosey-9). [Nosey](https://github.com/rigerc/nosey-9) can use the registry to discover relevant skills for your workspace and install them.
+
+<!-- BEGIN GENERATED REGISTRY STATS -->
+## Registry statistics
+
+<table>
+  <tr>
+    <th align="center">Skills</th>
+    <th align="center">Technologies</th>
+    <th align="center">Mapping entries</th>
+    <th align="center">Source repositories</th>
+  </tr>
+  <tr>
+    <td align="center"><h2>912</h2></td>
+    <td align="center"><h2>899</h2></td>
+    <td align="center"><h2>271</h2></td>
+    <td align="center"><h2>143</h2></td>
+  </tr>
+</table>
+<!-- END GENERATED REGISTRY STATS -->
+
+## Explore the catalog
+
+The registry brings together curated skill entries, the technologies they support, recommendations for when to use them, and links back to their upstream sources. The [registry browser](https://rigerc.github.io/nosey-9/) is the easiest way to explore this data; the JSON files below are available for tooling and integrations.
 
 ## Use the registry with Nosey
 
@@ -61,19 +86,8 @@ nosey registry generate .
 nosey registry generate . --check
 ```
 
-For documents configured with an upstream source, `nosey registry refresh .` updates the corresponding upstream-backed data. Open a pull request with the relevant source and generated changes; the repository's workflows also validate and regenerate registry data. Avoid manually editing generated manifests, locks, or the statistics table below.
+For documents configured with an upstream source, `nosey registry refresh .` updates the corresponding upstream-backed data. Open a pull request with the relevant source and generated changes; the repository's workflows also validate and regenerate registry data. Avoid manually editing generated manifests, locks, or the registry statistics at the top of this README.
 
 ## Provenance and licensing
 
 The data was originally seeded from [skills-catalog](https://github.com/rigerc/skills-catalog) and is now maintained in this repository. Each skill points to an upstream source. Skill content remains subject to its upstream license; Nosey's application MIT license does not relicense registry data or third-party skills. See [NOTICE.md](NOTICE.md) for details.
-
-<!-- BEGIN GENERATED REGISTRY STATS -->
-## Registry statistics
-
-| Metric | Count |
-| :- | :- |
-| Skills | 912 |
-| Technologies | 899 |
-| Mapping entries | 271 |
-| Source repositories | 143 |
-<!-- END GENERATED REGISTRY STATS -->
