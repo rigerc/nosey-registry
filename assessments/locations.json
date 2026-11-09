@@ -1478,6 +1478,10 @@
       "commit": "70aa0cf9926285dbef6ac39bc36990ece230cd09",
       "path": "skills/python-typing/SKILL.md"
     },
+    "PaulRBerg:agent-skills:code-polish": {
+      "commit": "5f14638cf66a32c1017a6fa961f40a1c8fbff2a7",
+      "path": "skills/code-polish/SKILL.md"
+    },
     "Search-3D:electron-drive-skill:electron-drive-skill": {
       "commit": "2db10393bd88915bb446ad77f852182957abdf89",
       "path": "SKILL.md"
@@ -1534,6 +1538,26 @@
       "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
       "path": "skills/python-patterns/SKILL.md"
     },
+    "agenticaiengineer:ai-engineer-skills:golang-pro": {
+      "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+      "path": "skills/golang-pro/SKILL.md"
+    },
+    "agenticaiengineer:ai-engineer-skills:java-architect": {
+      "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+      "path": "skills/java-architect/SKILL.md"
+    },
+    "agenticaiengineer:ai-engineer-skills:python-pro": {
+      "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+      "path": "skills/python-pro/SKILL.md"
+    },
+    "agenticaiengineer:ai-engineer-skills:rust-engineer": {
+      "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+      "path": "skills/rust-engineer/SKILL.md"
+    },
+    "agenticaiengineer:ai-engineer-skills:typescript-pro": {
+      "commit": "ae0b890c03a941399cc4ea9bf4d57ce6bf52909f",
+      "path": "skills/typescript-pro/SKILL.md"
+    },
     "aj-geddes:useful-ai-prompts:flask-api-development": {
       "commit": "3f5182cfd739fc113f4af5244a1cf342ad7f7911",
       "path": "skills/flask-api-development/SKILL.md"
@@ -1569,6 +1593,10 @@
     "angular:skills:angular-developer": {
       "commit": "efe6e9ea69bc4e7165c0bf1b9b1482bea7b7f166",
       "path": "angular-developer/SKILL.md"
+    },
+    "annatchijova:SKILLS:language-selection": {
+      "commit": "92b4ff0ec30752ba1595615d881116d676485421",
+      "path": "language-selection/SKILL.md"
     },
     "antfu:skills:nuxt": {
       "commit": "8886fe2d385d3644cbb47e46ae9cb1cf09307d3b",
@@ -2558,6 +2586,10 @@
       "commit": "2e39a3f94fb9acbd0d73f6b0aecc9f83dc14547e",
       "path": "skills/obsidian/SKILL.md"
     },
+    "lplatzer:agent-skills:coding-tutor": {
+      "commit": "16227f2ac4803c365697877f49f7cfc7711bfbcc",
+      "path": "coding-tutor/SKILL.md"
+    },
     "lucianghinda:superpowers-ruby:rails-guides": {
       "commit": "99fac3d8bee27bab20b23d4bef6fa634738a59e8",
       "path": "skills/rails-guides/SKILL.md"
@@ -2705,6 +2737,10 @@
     "rominirani:antigravity-skills:always-verify-gcp": {
       "commit": "731acca5d1aa8b0855549e1cb53bc3f84aa05e0d",
       "path": "gemini-cli-skills/always-verify-gcp/SKILL.md"
+    },
+    "rshade:agent-skills:agent-ready-go": {
+      "commit": "3518bc1217d076042f8bb7fb6202597080d00325",
+      "path": "skills/agent-ready-go/SKILL.md"
     },
     "samber:cc-skills-golang:golang-code-style": {
       "commit": "246b6c4c1ab3077dee114beb9ade3bb0527dfebc",
@@ -3342,6 +3378,26 @@
       "commit": "0004b5b8d40676bcf25d3abd53a2ec398d5bbede",
       "path": "tools/skills/svelte-code-writer/SKILL.md"
     },
+    "svssdeva:agentic-skills:golang-patterns": {
+      "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+      "path": "golang/golang-patterns/SKILL.md"
+    },
+    "svssdeva:agentic-skills:golang-testing": {
+      "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+      "path": "golang/golang-testing/SKILL.md"
+    },
+    "svssdeva:agentic-skills:typescript-advanced-types": {
+      "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+      "path": "typescript/typescript-advanced-types/SKILL.md"
+    },
+    "svssdeva:agentic-skills:typescript-expert": {
+      "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+      "path": "typescript/typescript-expert/SKILL.md"
+    },
+    "svssdeva:agentic-skills:typescript-pro": {
+      "commit": "6bd07bea5705f1bd31bbb95f9b6360e5f2c3b769",
+      "path": "typescript/typescript-pro/SKILL.md"
+    },
     "tanstack-skills:tanstack-skills:tanstack-start": {
       "commit": "6f5521ecbdfbfa3d54d335eba6c8b4df0b804c03",
       "path": "plugins/tanstack-start/skills/tanstack-start/SKILL.md"
@@ -3478,6 +3534,10 @@
       "commit": "eff3785fc28c4380d172094518c66a6a997c95d4",
       "path": "skills/wp-wpcli-and-ops/SKILL.md"
     },
+    "wshobson:agents:async-python-patterns": {
+      "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+      "path": "plugins/python-development/skills/async-python-patterns/SKILL.md"
+    },
     "wshobson:agents:bash-defensive-patterns": {
       "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
       "path": "plugins/shell-scripting/skills/bash-defensive-patterns/SKILL.md"
@@ -3494,6 +3554,10 @@
       "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
       "path": "plugins/python-development/skills/python-background-jobs/SKILL.md"
     },
+    "wshobson:agents:python-packaging": {
+      "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+      "path": "plugins/python-development/skills/python-packaging/SKILL.md"
+    },
     "wshobson:agents:python-testing-patterns": {
       "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
       "path": "plugins/python-development/skills/python-testing-patterns/SKILL.md"
@@ -3505,6 +3569,10 @@
     "wshobson:agents:typescript-advanced-types": {
       "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
       "path": "plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md"
+    },
+    "wshobson:agents:uv-package-manager": {
+      "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+      "path": "plugins/python-development/skills/uv-package-manager/SKILL.md"
     },
     "yonesuke:skills:polars": {
       "commit": "1e23d345446ea8a21771192bb1b3b19a9842a97f",

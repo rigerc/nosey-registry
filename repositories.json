@@ -14,6 +14,12 @@
       "uri": "https://github.com/affaan-m/ECC"
     },
     {
+      "id": "agenticaiengineer:ai-engineer-skills",
+      "name": "agenticaiengineer/ai-engineer-skills",
+      "kind": "git",
+      "uri": "https://github.com/agenticaiengineer/ai-engineer-skills"
+    },
+    {
       "id": "aj-geddes:useful-ai-prompts",
       "name": "aj-geddes/useful-ai-prompts",
       "kind": "git",
@@ -36,6 +42,12 @@
       "name": "angular/skills",
       "kind": "git",
       "uri": "https://github.com/angular/skills"
+    },
+    {
+      "id": "annatchijova:skills",
+      "name": "annatchijova/SKILLS",
+      "kind": "git",
+      "uri": "https://github.com/annatchijova/SKILLS"
     },
     {
       "id": "antfu:skills",
@@ -440,6 +452,12 @@
       "uri": "https://github.com/laude-institute/headlong"
     },
     {
+      "id": "lplatzer:agent-skills",
+      "name": "lplatzer/agent-skills",
+      "kind": "git",
+      "uri": "https://github.com/lplatzer/agent-skills"
+    },
+    {
       "id": "lucianghinda:superpowers-ruby",
       "name": "lucianghinda/superpowers-ruby",
       "kind": "git",
@@ -596,6 +614,12 @@
       "uri": "https://github.com/rominirani/antigravity-skills"
     },
     {
+      "id": "rshade:agent-skills",
+      "name": "rshade/agent-skills",
+      "kind": "git",
+      "uri": "https://github.com/rshade/agent-skills"
+    },
+    {
       "id": "samber:cc-skills-golang",
       "name": "samber/cc-skills-golang",
       "kind": "git",
@@ -672,6 +696,12 @@
       "name": "sveltejs/ai-tools",
       "kind": "git",
       "uri": "https://github.com/sveltejs/ai-tools"
+    },
+    {
+      "id": "svssdeva:agentic-skills",
+      "name": "svssdeva/agentic-skills",
+      "kind": "git",
+      "uri": "https://github.com/svssdeva/agentic-skills"
     },
     {
       "id": "tanstack-skills:tanstack-skills",
