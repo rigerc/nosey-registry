@@ -5320,6 +5320,77 @@
       ]
     },
     {
+      "id": "technology:gpui",
+      "technologyId": "gpui",
+      "recommendations": [
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-actions",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-async",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-code-quality",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-elements",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-entities",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-fundamentals",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-init",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-patterns",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-styling",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-testing",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "cnwzhu:gpui-skills:gpui-troubleshooting",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "longbridge:gpui-kit:gpui-kit",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        },
+        {
+          "skillId": "longbridge:gpui-kit:gpui-kit-design-guides",
+          "priority": "optional",
+          "reason": "Catalog recommendation for GPUI."
+        }
+      ]
+    },
+    {
       "id": "technology:grafana-loki",
       "technologyId": "grafana-loki",
       "recommendations": [

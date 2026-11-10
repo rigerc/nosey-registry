@@ -1523,7 +1523,7 @@
           "id": "content-0002",
           "kind": "content",
           "glob": "**/*.csproj",
-          "regex": "\u003cProject\\b[^\u003e]*\\bSdk\\s*=\\s*[\"']Microsoft\\.NET\\.Sdk\\.Web[\"']"
+          "regex": "<Project\\b[^>]*\\bSdk\\s*=\\s*[\"']Microsoft\\.NET\\.Sdk\\.Web[\"']"
         }
       ]
     },
@@ -12333,6 +12333,44 @@
       ]
     },
     {
+      "id": "gpui",
+      "name": "GPUI",
+      "category": "framework",
+      "description": "GPU-accelerated UI framework for building desktop applications in Rust.",
+      "rules": [
+        {
+          "id": "dependency-0001",
+          "kind": "dependency",
+          "ecosystem": "cargo",
+          "name": "gpui"
+        },
+        {
+          "id": "dependency-0002",
+          "kind": "dependency",
+          "ecosystem": "cargo",
+          "name": "gpui-component"
+        },
+        {
+          "id": "dependency-0003",
+          "kind": "dependency",
+          "ecosystem": "cargo",
+          "name": "gpui-kit"
+        },
+        {
+          "id": "dependency-0004",
+          "kind": "dependency",
+          "ecosystem": "cargo",
+          "name": "gpui_component"
+        },
+        {
+          "id": "dependency-0005",
+          "kind": "dependency",
+          "ecosystem": "cargo",
+          "name": "gpui_kit"
+        }
+      ]
+    },
+    {
       "id": "gradio",
       "name": "Gradio",
       "category": "ui",
@@ -20646,7 +20684,7 @@
           "id": "content-0001",
           "kind": "content",
           "glob": "**/pom.xml",
-          "regex": "(?:^|\\r?\\n)[ \\t]*\u003cartifactId\u003e\\s*quarkus-maven-plugin\\s*\u003c/artifactId\u003e"
+          "regex": "(?:^|\\r?\\n)[ \\t]*<artifactId>\\s*quarkus-maven-plugin\\s*</artifactId>"
         },
         {
           "id": "content-0002",
@@ -22585,7 +22623,7 @@
     },
     {
       "id": "scaleway.mq",
-      "name": "Scaleway M\u0026Q",
+      "name": "Scaleway M&Q",
       "category": "queue",
       "rules": [
         {
