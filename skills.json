@@ -10020,6 +10020,171 @@
       }
     },
     {
+      "id": "cnwzhu:gpui-skills:gpui-actions",
+      "name": "gpui-actions",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-actions"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-async",
+      "name": "gpui-async",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-async"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-code-quality",
+      "name": "gpui-code-quality",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-code-quality"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-elements",
+      "name": "gpui-elements",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-elements"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-entities",
+      "name": "gpui-entities",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-entities"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-fundamentals",
+      "name": "gpui-fundamentals",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-fundamentals"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-init",
+      "name": "gpui-init",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-init"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-patterns",
+      "name": "gpui-patterns",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-patterns"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-styling",
+      "name": "gpui-styling",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-styling"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-testing",
+      "name": "gpui-testing",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-testing"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-troubleshooting",
+      "name": "gpui-troubleshooting",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/cnwzhu/gpui-skills",
+        "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+        "skillName": "gpui-troubleshooting"
+      },
+      "repositoryId": "cnwzhu:gpui-skills"
+    },
+    {
       "id": "confident-ai:deepeval:deepeval-otel",
       "name": "deepeval-otel",
       "technologies": [
@@ -17091,6 +17256,36 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "longbridge:gpui-kit:gpui-kit",
+      "name": "gpui-kit",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/longbridge/gpui-kit",
+        "ref": "6808964c3a5e0ef970e47b696e8a800575cb21a7",
+        "skillName": "gpui-kit"
+      },
+      "repositoryId": "longbridge:gpui-kit"
+    },
+    {
+      "id": "longbridge:gpui-kit:gpui-kit-design-guides",
+      "name": "gpui-kit-design-guides",
+      "technologies": [
+        "gpui",
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/longbridge/gpui-kit",
+        "ref": "6808964c3a5e0ef970e47b696e8a800575cb21a7",
+        "skillName": "gpui-kit-design-guides"
+      },
+      "repositoryId": "longbridge:gpui-kit"
     },
     {
       "id": "lplatzer:agent-skills:coding-tutor",

@@ -1650,6 +1650,10 @@
       "commit": "cb4839f3794189ebf35c55d3ba5d3876dff7acf0",
       "path": "skills/astro/SKILL.md"
     },
+    "auth0:agent-skills:auth0": {
+      "commit": "6331cf05ef6bbc6999d7a7b98a583e7429ebe3f6",
+      "path": "plugins/auth0/skills/auth0/SKILL.md"
+    },
     "av:skills:preact-buildless-frontend": {
       "commit": "97482ad5bde51698ae2284f705ae93335326eda9",
       "path": "preact-buildless-frontend/SKILL.md"
@@ -1894,6 +1898,50 @@
       "commit": "fb9bf3156f31ef859174c9f51ac859f2e5cd6bc3",
       "path": ".agents/skills/migrate-to-vinext/SKILL.md"
     },
+    "cnwzhu:gpui-skills:gpui-actions": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-actions/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-async": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-async/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-code-quality": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-code-quality/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-elements": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-elements/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-entities": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-entities/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-fundamentals": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-fundamentals/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-init": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-init/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-patterns": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-patterns/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-styling": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-styling/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-testing": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-testing/SKILL.md"
+    },
+    "cnwzhu:gpui-skills:gpui-troubleshooting": {
+      "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
+      "path": "gpui-troubleshooting/SKILL.md"
+    },
     "confident-ai:deepeval:deepeval-otel": {
       "commit": "d6cd78ac44da4623ff07c73310dfca474c212068",
       "path": "skills/deepeval-otel/SKILL.md"
@@ -1905,6 +1953,246 @@
     "currents-dev:playwright-best-practices-skill:playwright-best-practices": {
       "commit": "283d5cbc5d11aac1abda058b16ad22c317d54dc0",
       "path": "playwright-best-practices/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-auto-experiment": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-auto-experiment/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-build-eval-from-annotations": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-build-eval-from-annotations/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-eval-bootstrap": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-eval-bootstrap/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-eval-pipeline": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-eval-pipeline/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-experiment-analyzer": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-experiment-analyzer/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-experiment-bootstrap": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-experiment-bootstrap/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-online-experiment": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-online-experiment/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-replay-trace": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-replay-trace/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-session-classify": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-session-classify/SKILL.md"
+    },
+    "datadog-labs:agent-skills:agent-observability-trace-rca": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "agent-observability/agent-observability-trace-rca/SKILL.md"
+    },
+    "datadog-labs:agent-skills:ai-activity-audit": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-audit/ai-activity-audit/SKILL.md"
+    },
+    "datadog-labs:agent-skills:compliance-report": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-audit/compliance-report/SKILL.md"
+    },
+    "datadog-labs:agent-skills:cost-spike-investigation": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-audit/cost-spike-investigation/SKILL.md"
+    },
+    "datadog-labs:agent-skills:datadog-app": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-apps/datadog-app/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-account-setup": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-account-setup/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-agent-install-docker": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-agent-install-docker/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-agent-install-kubernetes": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-agent-install-kubernetes/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-agent-install-linux": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-agent-install-linux/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-agent-install-macos": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-agent-install-macos/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-agent-install-windows": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-agent-install-windows/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-android-sdk": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-android-sdk/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-apm": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-apm/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-audit": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-audit/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-aws-ccm": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-aws-ccm/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-aws-integration": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-aws-integration/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-aws-log-forwarding": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-aws-log-forwarding/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-aws-storage-management": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-aws-storage-management/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-azure-ccm": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-azure-ccm/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-azure-integration": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-azure-integration/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-azure-log-forwarding": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-azure-log-forwarding/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-browser-sdk": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-browser-sdk/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-confluent-cloud-integration": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-confluent-cloud-integration/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-dbm-rds-postgres": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-dbm-rds-postgres/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-docs": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-docs/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-gcp-ccm": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-gcp-ccm/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-gcp-integration": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-gcp-integration/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-gcp-log-forwarding": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-gcp-log-forwarding/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-instrument-llmo": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-instrument-llmo/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-instrument-product-analytics": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-instrument-product-analytics/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-instrument-rum": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-instrument-rum/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-logs": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-logs/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-monitors": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-monitors/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-oci-ccm": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-oci-ccm/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-oci-integration": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-oci-integration/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-orchestrator": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-orchestrator/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-product-recommender": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-product-recommender/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-profiler-setup": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-profiler-setup/SKILL.md"
+    },
+    "datadog-labs:agent-skills:dd-pup": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-pup/SKILL.md"
+    },
+    "datadog-labs:agent-skills:enable-dsm": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-apm/enable-dsm/SKILL.md"
+    },
+    "datadog-labs:agent-skills:key-compromise": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-audit/key-compromise/SKILL.md"
+    },
+    "datadog-labs:agent-skills:ownership-agent": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-security/csm/ownership-agent/SKILL.md"
+    },
+    "datadog-labs:agent-skills:security-investigation": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-audit/security-investigation/SKILL.md"
+    },
+    "datadog-labs:agent-skills:service-remapping": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-apm/service-remapping/SKILL.md"
+    },
+    "datadog-labs:agent-skills:setup-sourcemaps": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-browser-sdk/setup-sourcemaps/SKILL.md"
+    },
+    "datadog-labs:agent-skills:triage-flaky-test": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-software-delivery/triage-flaky-test/SKILL.md"
+    },
+    "datadog-labs:agent-skills:unblock-pr": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-software-delivery/unblock-pr/SKILL.md"
+    },
+    "datadog-labs:agent-skills:upgrade-v3": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-android-sdk/upgrade-v3/SKILL.md"
+    },
+    "datadog-labs:agent-skills:upgrade-v5": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-browser-sdk/upgrade-v5/SKILL.md"
+    },
+    "datadog-labs:agent-skills:upgrade-v6": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-browser-sdk/upgrade-v6/SKILL.md"
+    },
+    "datadog-labs:agent-skills:upgrade-v7": {
+      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+      "path": "dd-browser-sdk/upgrade-v7/SKILL.md"
     },
     "davila7:claude-code-templates:drizzle-orm-expert": {
       "commit": "4efb68547887d2a4dd714074bd7ecb4171dc9fee",
@@ -1941,6 +2229,42 @@
     "docker:skills:docker-project-foundations": {
       "commit": "179c9cfd04c89ae50cd5d5d68b939797a8fd03d3",
       "path": "skills/docker-project-foundations/SKILL.md"
+    },
+    "duckdb:duckdb-skills:attach-db": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/attach-db/SKILL.md"
+    },
+    "duckdb:duckdb-skills:convert-file": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/convert-file/SKILL.md"
+    },
+    "duckdb:duckdb-skills:duckdb-docs": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/duckdb-docs/SKILL.md"
+    },
+    "duckdb:duckdb-skills:install-duckdb": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/install-duckdb/SKILL.md"
+    },
+    "duckdb:duckdb-skills:query": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/query/SKILL.md"
+    },
+    "duckdb:duckdb-skills:read-file": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/read-file/SKILL.md"
+    },
+    "duckdb:duckdb-skills:read-memories": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/read-memories/SKILL.md"
+    },
+    "duckdb:duckdb-skills:s3-explore": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/s3-explore/SKILL.md"
+    },
+    "duckdb:duckdb-skills:spatial": {
+      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+      "path": "skills/spatial/SKILL.md"
     },
     "eduardo-sl:go-agent-skills:go-api-design": {
       "commit": "e25b517bbd0c11db35f75a83a14f18848c1abdb0",
@@ -2130,6 +2454,130 @@
       "commit": "a9a46fe23af001d726a05d8448d25a7188b42fdc",
       "path": "skills/firecrawl/SKILL.md"
     },
+    "flutter:skills:api-review": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": ".agents/agents/reidbaker-agent/skills/api-review/SKILL.md"
+    },
+    "flutter:skills:code-documentation": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": ".agents/agents/reidbaker-agent/skills/code-documentation/SKILL.md"
+    },
+    "flutter:skills:code-review": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": ".agents/agents/reidbaker-agent/skills/code-review/SKILL.md"
+    },
+    "flutter:skills:dart-add-unit-test": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-add-unit-test/SKILL.md"
+    },
+    "flutter:skills:dart-build-cli-app": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-build-cli-app/SKILL.md"
+    },
+    "flutter:skills:dart-collect-coverage": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-collect-coverage/SKILL.md"
+    },
+    "flutter:skills:dart-fix-runtime-errors": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-fix-runtime-errors/SKILL.md"
+    },
+    "flutter:skills:dart-generate-test-mocks": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-generate-test-mocks/SKILL.md"
+    },
+    "flutter:skills:dart-migrate-to-checks-package": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-migrate-to-checks-package/SKILL.md"
+    },
+    "flutter:skills:dart-resolve-package-conflicts": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-resolve-package-conflicts/SKILL.md"
+    },
+    "flutter:skills:dart-run-static-analysis": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-run-static-analysis/SKILL.md"
+    },
+    "flutter:skills:dart-setup-ffi-assets": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-setup-ffi-assets/SKILL.md"
+    },
+    "flutter:skills:dart-use-doc-examples": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-use-doc-examples/SKILL.md"
+    },
+    "flutter:skills:dart-use-ffigen": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-use-ffigen/SKILL.md"
+    },
+    "flutter:skills:dart-use-path-package": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-use-path-package/SKILL.md"
+    },
+    "flutter:skills:dart-use-pattern-matching": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-use-pattern-matching/SKILL.md"
+    },
+    "flutter:skills:dart-use-primary-constructors": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-use-primary-constructors/SKILL.md"
+    },
+    "flutter:skills:dart-write-documentation": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/dart-write-documentation/SKILL.md"
+    },
+    "flutter:skills:flutter-add-integration-test": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-add-integration-test/SKILL.md"
+    },
+    "flutter:skills:flutter-add-widget-preview": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-add-widget-preview/SKILL.md"
+    },
+    "flutter:skills:flutter-add-widget-test": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-add-widget-test/SKILL.md"
+    },
+    "flutter:skills:flutter-apply-architecture-best-practices": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-apply-architecture-best-practices/SKILL.md"
+    },
+    "flutter:skills:flutter-build-responsive-layout": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-build-responsive-layout/SKILL.md"
+    },
+    "flutter:skills:flutter-fix-layout-issues": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-fix-layout-issues/SKILL.md"
+    },
+    "flutter:skills:flutter-implement-json-serialization": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-implement-json-serialization/SKILL.md"
+    },
+    "flutter:skills:flutter-setup-declarative-routing": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-setup-declarative-routing/SKILL.md"
+    },
+    "flutter:skills:flutter-setup-localization": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-setup-localization/SKILL.md"
+    },
+    "flutter:skills:flutter-use-http-package": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": "skills/flutter-use-http-package/SKILL.md"
+    },
+    "flutter:skills:grill-with-docs": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": ".agents/agents/reidbaker-agent/skills/grill-with-docs/SKILL.md"
+    },
+    "flutter:skills:natural-writing": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": ".agents/agents/reidbaker-agent/skills/natural-writing/SKILL.md"
+    },
+    "flutter:skills:unix-cli-best-practices": {
+      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
+      "path": ".agents/agents/reidbaker-agent/skills/unix-cli-best-practices/SKILL.md"
+    },
     "georgeguimaraes:elixir-agent-tools:elixir": {
       "commit": "ac3a5a1661a087158b39d5eb742b3c25fe3c7b44",
       "path": "plugins/elixir-dev/skills/elixir/SKILL.md"
@@ -2137,6 +2585,142 @@
     "georgeguimaraes:elixir-agent-tools:phoenix": {
       "commit": "ac3a5a1661a087158b39d5eb742b3c25fe3c7b44",
       "path": "plugins/elixir-dev/skills/phoenix/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-android-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-android-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-browser-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-browser-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-cloudflare-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-cloudflare-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-cocoa-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-cocoa-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-create-alert": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "src/skills/sentry-create-alert/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-debug-issue": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "src/skills/sentry-debug-issue/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-dotnet-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-dotnet-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-elixir-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-elixir-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-fix-issues": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-fix-issues/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-fix-stack-traces": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "src/skills/sentry-fix-stack-traces/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-flutter-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-flutter-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-get-started": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "src/skills/sentry-get-started/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-go-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-go-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-instrument": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "src/skills/sentry-instrument/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-instrument-logging": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-instrument-logging/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-instrumentation-guide": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-instrumentation-guide/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-nestjs-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-nestjs-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-nextjs-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-nextjs-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-node-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-node-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-otel-exporter-setup": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "src/skills/sentry-otel-exporter-setup/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-php-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-php-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-python-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-python-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-react-native-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-react-native-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-react-router-framework-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-react-router-framework-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-react-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-react-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-ruby-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-ruby-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-sdk-setup": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-sdk-setup/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-sdk-skill-creator": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-sdk-skill-creator/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-sdk-upgrade": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-sdk-upgrade/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-setup-ai-monitoring": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-setup-ai-monitoring/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-setup-releases": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "src/skills/sentry-setup-releases/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-snapshots-cocoa": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "src/skills/sentry-snapshots-cocoa/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-svelte-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-svelte-sdk/SKILL.md"
+    },
+    "getsentry:sentry-for-ai:sentry-tanstack-start-sdk": {
+      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+      "path": "skills-legacy/sentry-tanstack-start-sdk/SKILL.md"
     },
     "github:awesome-copilot:aspnet-minimal-api-openapi": {
       "commit": "98b45a78d3ed316e78f005b60594d5c4a50588e3",
@@ -2474,6 +3058,110 @@
       "commit": "20aebb8eef3801e369829efbdb8ec23d0900c0a8",
       "path": "skills/mongodb/SKILL.md"
     },
+    "huggingface:skills:hf-cli": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/hf-cli/SKILL.md"
+    },
+    "huggingface:skills:hf-cloud-aws-context-discovery": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/hf-cloud-aws-context-discovery/SKILL.md"
+    },
+    "huggingface:skills:hf-cloud-python-env-setup": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/hf-cloud-python-env-setup/SKILL.md"
+    },
+    "huggingface:skills:hf-cloud-sagemaker-deployment-planner": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/hf-cloud-sagemaker-deployment-planner/SKILL.md"
+    },
+    "huggingface:skills:hf-cloud-sagemaker-iam-preflight": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/hf-cloud-sagemaker-iam-preflight/SKILL.md"
+    },
+    "huggingface:skills:hf-cloud-sagemaker-production-defaults": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/hf-cloud-sagemaker-production-defaults/SKILL.md"
+    },
+    "huggingface:skills:hf-cloud-serving-image-selection": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/hf-cloud-serving-image-selection/SKILL.md"
+    },
+    "huggingface:skills:hf-mcp": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "hf-mcp/skills/hf-mcp/SKILL.md"
+    },
+    "huggingface:skills:hf-mem": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/hf-mem/SKILL.md"
+    },
+    "huggingface:skills:huggingface-best": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-best/SKILL.md"
+    },
+    "huggingface:skills:huggingface-community-evals": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-community-evals/SKILL.md"
+    },
+    "huggingface:skills:huggingface-datasets": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-datasets/SKILL.md"
+    },
+    "huggingface:skills:huggingface-gradio": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-gradio/SKILL.md"
+    },
+    "huggingface:skills:huggingface-llm-trainer": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-llm-trainer/SKILL.md"
+    },
+    "huggingface:skills:huggingface-local-models": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-local-models/SKILL.md"
+    },
+    "huggingface:skills:huggingface-lora-space-builder": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-lora-space-builder/SKILL.md"
+    },
+    "huggingface:skills:huggingface-paper-publisher": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-paper-publisher/SKILL.md"
+    },
+    "huggingface:skills:huggingface-papers": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-papers/SKILL.md"
+    },
+    "huggingface:skills:huggingface-spaces": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-spaces/SKILL.md"
+    },
+    "huggingface:skills:huggingface-tool-builder": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-tool-builder/SKILL.md"
+    },
+    "huggingface:skills:huggingface-trackio": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-trackio/SKILL.md"
+    },
+    "huggingface:skills:huggingface-vision-trainer": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-vision-trainer/SKILL.md"
+    },
+    "huggingface:skills:huggingface-zerogpu": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/huggingface-zerogpu/SKILL.md"
+    },
+    "huggingface:skills:train-sentence-transformers": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/train-sentence-transformers/SKILL.md"
+    },
+    "huggingface:skills:transformers-js": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/transformers-js/SKILL.md"
+    },
+    "huggingface:skills:trl-training": {
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "path": "skills/trl-training/SKILL.md"
+    },
     "hyf0:vue-skills:vue-debug-guides": {
       "commit": "198f0cd8f7f9c0a3d9b566ccc16de6677519ee78",
       "path": "skills/vue-debug-guides/SKILL.md"
@@ -2630,6 +3318,14 @@
       "commit": "2e39a3f94fb9acbd0d73f6b0aecc9f83dc14547e",
       "path": "skills/obsidian/SKILL.md"
     },
+    "longbridge:gpui-kit:gpui-kit": {
+      "commit": "6808964c3a5e0ef970e47b696e8a800575cb21a7",
+      "path": "skills/gpui-kit/SKILL.md"
+    },
+    "longbridge:gpui-kit:gpui-kit-design-guides": {
+      "commit": "6808964c3a5e0ef970e47b696e8a800575cb21a7",
+      "path": "skills/gpui-kit-design-guides/SKILL.md"
+    },
     "lplatzer:agent-skills:coding-tutor": {
       "commit": "16227f2ac4803c365697877f49f7cfc7711bfbcc",
       "path": "coding-tutor/SKILL.md"
@@ -2686,6 +3382,830 @@
       "commit": "519346ca4b9552569a6390577340049059df2640",
       "path": "plugins/azure-skills/skills/azure-diagnostics/SKILL.md"
     },
+    "microsoft:skills:agent-framework-azure-ai-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py/SKILL.md"
+    },
+    "microsoft:skills:airunway-aks-setup": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/airunway-aks-setup/SKILL.md"
+    },
+    "microsoft:skills:aks-cost-optimization": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/aks-skills/skills/aks-cost-optimization/SKILL.md"
+    },
+    "microsoft:skills:aks-gpu-inference": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/aks-skills/skills/aks-gpu-inference/SKILL.md"
+    },
+    "microsoft:skills:aks-known-issues": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/aks-skills/skills/aks-known-issues/SKILL.md"
+    },
+    "microsoft:skills:aks-network-capture": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/aks-skills/skills/aks-network-capture/SKILL.md"
+    },
+    "microsoft:skills:aks-troubleshooting": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/aks-skills/skills/aks-troubleshooting/SKILL.md"
+    },
+    "microsoft:skills:appinsights-instrumentation": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/appinsights-instrumentation/SKILL.md"
+    },
+    "microsoft:skills:azure-advisor": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-advisor/skills/azure-advisor/SKILL.md"
+    },
+    "microsoft:skills:azure-advisor-actionability": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-advisor/skills/azure-advisor-actionability/SKILL.md"
+    },
+    "microsoft:skills:azure-ai": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-ai/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-agents-persistent-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-agents-persistent-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-agents-persistent-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-agents-persistent-java/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-anomalydetector-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-anomalydetector-java/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-contentsafety-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-contentsafety-java/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-contentsafety-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-contentsafety-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-contentsafety-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-contentsafety-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-contentunderstanding-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-contentunderstanding-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-document-intelligence-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-document-intelligence-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-document-intelligence-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-document-intelligence-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-formrecognizer-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-formrecognizer-java/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-language-conversations-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-ml-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-ml-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-openai-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-openai-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-projects-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-projects-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-projects-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-projects-java/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-projects-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-projects-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-projects-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-projects-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-textanalytics-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-textanalytics-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-transcription-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-transcription-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-translation-document-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-translation-document-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-translation-text-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-translation-text-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-translation-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-translation-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-vision-imageanalysis-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-vision-imageanalysis-java/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-vision-imageanalysis-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-vision-imageanalysis-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-voicelive-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-voicelive-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-voicelive-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-voicelive-java/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-voicelive-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py/SKILL.md"
+    },
+    "microsoft:skills:azure-ai-voicelive-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-voicelive-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-aigateway": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-aigateway/SKILL.md"
+    },
+    "microsoft:skills:azure-app-onboard": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-app-onboard/SKILL.md"
+    },
+    "microsoft:skills:azure-app-onboard-prereq": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-app-onboard-prereq/SKILL.md"
+    },
+    "microsoft:skills:azure-appconfiguration-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-appconfiguration-java/SKILL.md"
+    },
+    "microsoft:skills:azure-appconfiguration-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-appconfiguration-py/SKILL.md"
+    },
+    "microsoft:skills:azure-appconfiguration-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-appconfiguration-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-cloud-migrate": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-cloud-migrate/SKILL.md"
+    },
+    "microsoft:skills:azure-communication-callautomation-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-callautomation-java/SKILL.md"
+    },
+    "microsoft:skills:azure-communication-callingserver-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-callingserver-java/SKILL.md"
+    },
+    "microsoft:skills:azure-communication-chat-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-chat-java/SKILL.md"
+    },
+    "microsoft:skills:azure-communication-common-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-common-java/SKILL.md"
+    },
+    "microsoft:skills:azure-communication-sms-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-sms-java/SKILL.md"
+    },
+    "microsoft:skills:azure-compliance": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-compliance/SKILL.md"
+    },
+    "microsoft:skills:azure-compute": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-compute/SKILL.md"
+    },
+    "microsoft:skills:azure-compute-batch-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-compute-batch-java/SKILL.md"
+    },
+    "microsoft:skills:azure-containerregistry-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-containerregistry-py/SKILL.md"
+    },
+    "microsoft:skills:azure-cosmos-db-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-cosmos-db-py/SKILL.md"
+    },
+    "microsoft:skills:azure-cosmos-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-cosmos-java/SKILL.md"
+    },
+    "microsoft:skills:azure-cosmos-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-cosmos-py/SKILL.md"
+    },
+    "microsoft:skills:azure-cosmos-rust": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-rust/skills/azure-cosmos-rust/SKILL.md"
+    },
+    "microsoft:skills:azure-cosmos-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-cosmos-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-data-tables-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-data-tables-java/SKILL.md"
+    },
+    "microsoft:skills:azure-data-tables-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-data-tables-py/SKILL.md"
+    },
+    "microsoft:skills:azure-deploy": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-deploy/SKILL.md"
+    },
+    "microsoft:skills:azure-diagnostics": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-diagnostics/SKILL.md"
+    },
+    "microsoft:skills:azure-enterprise-infra-planner": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-enterprise-infra-planner/SKILL.md"
+    },
+    "microsoft:skills:azure-eventgrid-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-eventgrid-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-eventgrid-java/SKILL.md"
+    },
+    "microsoft:skills:azure-eventgrid-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-eventgrid-py/SKILL.md"
+    },
+    "microsoft:skills:azure-eventhub-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-eventhub-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-eventhub-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-eventhub-java/SKILL.md"
+    },
+    "microsoft:skills:azure-eventhub-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-eventhub-py/SKILL.md"
+    },
+    "microsoft:skills:azure-eventhub-rust": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-rust/skills/azure-eventhub-rust/SKILL.md"
+    },
+    "microsoft:skills:azure-eventhub-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-eventhub-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-identity-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-identity-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-identity-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-identity-java/SKILL.md"
+    },
+    "microsoft:skills:azure-identity-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-identity-py/SKILL.md"
+    },
+    "microsoft:skills:azure-identity-rust": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-rust/skills/azure-identity-rust/SKILL.md"
+    },
+    "microsoft:skills:azure-identity-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-identity-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-keyvault-certificates-rust": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-certificates-rust/SKILL.md"
+    },
+    "microsoft:skills:azure-keyvault-keys-rust": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-keys-rust/SKILL.md"
+    },
+    "microsoft:skills:azure-keyvault-keys-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-keyvault-keys-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-keyvault-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-keyvault-py/SKILL.md"
+    },
+    "microsoft:skills:azure-keyvault-secrets-rust": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-secrets-rust/SKILL.md"
+    },
+    "microsoft:skills:azure-keyvault-secrets-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-keyvault-secrets-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-kubernetes": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-kubernetes/SKILL.md"
+    },
+    "microsoft:skills:azure-kubernetes-app-deploy": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-app-deploy/SKILL.md"
+    },
+    "microsoft:skills:azure-kubernetes-automatic-readiness": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-automatic-readiness/SKILL.md"
+    },
+    "microsoft:skills:azure-kusto": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-kusto/SKILL.md"
+    },
+    "microsoft:skills:azure-kusto-graph": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-graph/SKILL.md"
+    },
+    "microsoft:skills:azure-kusto-irql": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql/SKILL.md"
+    },
+    "microsoft:skills:azure-kusto-irql-graph": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql-graph/SKILL.md"
+    },
+    "microsoft:skills:azure-local": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-local-skills/skills/azure-local/SKILL.md"
+    },
+    "microsoft:skills:azure-local-multi-rack": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-local-skills/skills/azure-local-multi-rack/SKILL.md"
+    },
+    "microsoft:skills:azure-maps-search-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-maps-search-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-messaging": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-messaging/SKILL.md"
+    },
+    "microsoft:skills:azure-messaging-webpubsub-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-messaging-webpubsub-java/SKILL.md"
+    },
+    "microsoft:skills:azure-messaging-webpubsubservice-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-messaging-webpubsubservice-py/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-apicenter-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apicenter-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-apicenter-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-apicenter-py/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-apimanagement-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apimanagement-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-apimanagement-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-apimanagement-py/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-applicationinsights-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-applicationinsights-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-arizeaiobservabilityeval-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-arizeaiobservabilityeval-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-botservice-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-botservice-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-botservice-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-fabric-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-fabric-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-fabric-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-fabric-py/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-mongodbatlas-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-mongodbatlas-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-mgmt-weightsandbiases-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-weightsandbiases-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-microsoft-playwright-testing-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-microsoft-playwright-testing-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-monitor-ingestion-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-ingestion-java/SKILL.md"
+    },
+    "microsoft:skills:azure-monitor-ingestion-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py/SKILL.md"
+    },
+    "microsoft:skills:azure-monitor-opentelemetry-exporter-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-opentelemetry-exporter-java/SKILL.md"
+    },
+    "microsoft:skills:azure-monitor-opentelemetry-exporter-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-exporter-py/SKILL.md"
+    },
+    "microsoft:skills:azure-monitor-opentelemetry-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-py/SKILL.md"
+    },
+    "microsoft:skills:azure-monitor-opentelemetry-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-monitor-opentelemetry-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-monitor-query-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-query-java/SKILL.md"
+    },
+    "microsoft:skills:azure-monitor-query-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-query-py/SKILL.md"
+    },
+    "microsoft:skills:azure-postgres-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-postgres-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-prepare": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-prepare/SKILL.md"
+    },
+    "microsoft:skills:azure-quotas": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-quotas/SKILL.md"
+    },
+    "microsoft:skills:azure-reliability": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-reliability/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-lookup": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-resource-lookup/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-manager-cosmosdb-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-cosmosdb-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-manager-durabletask-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-durabletask-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-manager-mysql-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-mysql-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-manager-playwright-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-playwright-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-manager-postgresql-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-postgresql-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-manager-redis-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-redis-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-manager-sql-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-sql-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-resource-visualizer": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-resource-visualizer/SKILL.md"
+    },
+    "microsoft:skills:azure-search-documents-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-search-documents-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-search-documents-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-search-documents-py/SKILL.md"
+    },
+    "microsoft:skills:azure-search-documents-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-search-documents-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-search-nav": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/aks-skills/skills/azure-search-nav/SKILL.md"
+    },
+    "microsoft:skills:azure-security-keyvault-keys-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-security-keyvault-keys-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-security-keyvault-keys-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-keys-java/SKILL.md"
+    },
+    "microsoft:skills:azure-security-keyvault-secrets-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-secrets-java/SKILL.md"
+    },
+    "microsoft:skills:azure-servicebus-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-servicebus-dotnet/SKILL.md"
+    },
+    "microsoft:skills:azure-servicebus-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-servicebus-py/SKILL.md"
+    },
+    "microsoft:skills:azure-servicebus-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-servicebus-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-speech-to-text-rest-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-speech-to-text-rest-py/SKILL.md"
+    },
+    "microsoft:skills:azure-storage": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-storage/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-blob-java": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-storage-blob-java/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-blob-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-storage-blob-py/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-blob-rust": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-rust/skills/azure-storage-blob-rust/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-blob-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-blob-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-file-datalake-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-storage-file-datalake-py/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-file-share-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-storage-file-share-py/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-file-share-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-file-share-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-queue-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-storage-queue-py/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-queue-rust": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-rust/skills/azure-storage-queue-rust/SKILL.md"
+    },
+    "microsoft:skills:azure-storage-queue-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-queue-ts/SKILL.md"
+    },
+    "microsoft:skills:azure-upgrade": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-upgrade/SKILL.md"
+    },
+    "microsoft:skills:azure-validate": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/azure-validate/SKILL.md"
+    },
+    "microsoft:skills:azure-web-pubsub-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/azure-web-pubsub-ts/SKILL.md"
+    },
+    "microsoft:skills:capacity": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/capacity/SKILL.md"
+    },
+    "microsoft:skills:cloud-solution-architect": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/cloud-solution-architect/SKILL.md"
+    },
+    "microsoft:skills:continual-learning": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/continual-learning/SKILL.md"
+    },
+    "microsoft:skills:copilot-sdk": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/copilot-sdk/SKILL.md"
+    },
+    "microsoft:skills:cost-analysis": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-cost/skills/cost-analysis/SKILL.md"
+    },
+    "microsoft:skills:cost-estimation": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-cost/skills/cost-estimation/SKILL.md"
+    },
+    "microsoft:skills:cost-governance": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-cost/skills/cost-governance/SKILL.md"
+    },
+    "microsoft:skills:cost-optimization": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-cost/skills/cost-optimization/SKILL.md"
+    },
+    "microsoft:skills:customize": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/customize/SKILL.md"
+    },
+    "microsoft:skills:debugview": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/debugview/SKILL.md"
+    },
+    "microsoft:skills:declarative-agent-developer": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/SKILL.md"
+    },
+    "microsoft:skills:deploy-model": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/SKILL.md"
+    },
+    "microsoft:skills:discover-azure-skills": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/discover-azure-skills/SKILL.md"
+    },
+    "microsoft:skills:entra-app-registration": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/entra-app-registration/SKILL.md"
+    },
+    "microsoft:skills:fastapi-router-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/fastapi-router-py/SKILL.md"
+    },
+    "microsoft:skills:finetuning": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/finetuning/SKILL.md"
+    },
+    "microsoft:skills:foundry-iq": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/foundry-iq-skills/skills/foundry-iq/SKILL.md"
+    },
+    "microsoft:skills:frontend-design-review": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/frontend-design-review/SKILL.md"
+    },
+    "microsoft:skills:frontend-ui-dark-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts/SKILL.md"
+    },
+    "microsoft:skills:github-issue-creator": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/github-issue-creator/SKILL.md"
+    },
+    "microsoft:skills:install-atk": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md"
+    },
+    "microsoft:skills:kql": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/kql/SKILL.md"
+    },
+    "microsoft:skills:m365-agent-evaluator": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md"
+    },
+    "microsoft:skills:m365-agents-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/m365-agents-dotnet/SKILL.md"
+    },
+    "microsoft:skills:m365-agents-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/m365-agents-py/SKILL.md"
+    },
+    "microsoft:skills:m365-agents-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/m365-agents-ts/SKILL.md"
+    },
+    "microsoft:skills:mcp-builder": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/mcp-builder/SKILL.md"
+    },
+    "microsoft:skills:microsoft-azure-webjobs-extensions-authentication-events-dotnet": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet/SKILL.md"
+    },
+    "microsoft:skills:microsoft-docs": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/microsoft-docs/SKILL.md"
+    },
+    "microsoft:skills:microsoft-foundry": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/SKILL.md"
+    },
+    "microsoft:skills:podcast-generation": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/podcast-generation/SKILL.md"
+    },
+    "microsoft:skills:preset": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/preset/SKILL.md"
+    },
+    "microsoft:skills:pydantic-models-py": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-python/skills/pydantic-models-py/SKILL.md"
+    },
+    "microsoft:skills:python-appservice-deploy": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-skills/skills/python-appservice-deploy/SKILL.md"
+    },
+    "microsoft:skills:react-flow-node-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/react-flow-node-ts/SKILL.md"
+    },
+    "microsoft:skills:skill-creator": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/skills/skill-creator/SKILL.md"
+    },
+    "microsoft:skills:slack-to-teams": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer/slack-to-teams/SKILL.md"
+    },
+    "microsoft:skills:teams-app-developer": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer/SKILL.md"
+    },
+    "microsoft:skills:ui-widget-developer": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/ui-widget-developer/SKILL.md"
+    },
+    "microsoft:skills:wiki-ado-convert": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-ado-convert/SKILL.md"
+    },
+    "microsoft:skills:wiki-agents-md": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-agents-md/SKILL.md"
+    },
+    "microsoft:skills:wiki-architect": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-architect/SKILL.md"
+    },
+    "microsoft:skills:wiki-changelog": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-changelog/SKILL.md"
+    },
+    "microsoft:skills:wiki-llms-txt": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-llms-txt/SKILL.md"
+    },
+    "microsoft:skills:wiki-onboarding": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-onboarding/SKILL.md"
+    },
+    "microsoft:skills:wiki-page-writer": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-page-writer/SKILL.md"
+    },
+    "microsoft:skills:wiki-qa": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-qa/SKILL.md"
+    },
+    "microsoft:skills:wiki-researcher": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-researcher/SKILL.md"
+    },
+    "microsoft:skills:wiki-vitepress": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/deep-wiki/skills/wiki-vitepress/SKILL.md"
+    },
+    "microsoft:skills:zustand-store-ts": {
+      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+      "path": ".github/plugins/azure-sdk-typescript/skills/zustand-store-ts/SKILL.md"
+    },
     "midudev:autoskills:bun": {
       "commit": "2dbab03b41988327e5c714d3fb233ebbce915e8c",
       "path": "packages/autoskills/skills-registry/bun/SKILL.md"
@@ -2697,6 +4217,10 @@
     "mindrally:skills:fastapi-python": {
       "commit": "7682ca77710e0971eab4e0ae5dddfa281aea0ba5",
       "path": "fastapi-python/SKILL.md"
+    },
+    "mongodb:agent-skills:review-skill": {
+      "commit": "59c4a4ebed23666834c8c698a76afa91cd689365",
+      "path": "tools/review-skill/SKILL.md"
     },
     "neondatabase:agent-skills:neon-postgres": {
       "commit": "d3da7cb5436edbb2bc8c00747fafd31ddf0644f4",
@@ -3514,6 +5038,10 @@
       "commit": "fb054b67470c585ed8724e3f49376cc6b6f1b783",
       "path": "skills/charmed-vhs/SKILL.md"
     },
+    "trailofbits:skills:codeql": {
+      "commit": "e4dd0bb5b15535f7c5a0834187dffba6ac37e4ff",
+      "path": "plugins/static-analysis/skills/codeql/SKILL.md"
+    },
     "triggerdotdev:skills:trigger-setup": {
       "commit": "8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
       "path": "trigger-setup/SKILL.md"
@@ -3649,1482 +5177,6 @@
     "zxkane:aws-skills:aws-sst-development": {
       "commit": "68530c6f296ccd2f5e99c79782f3e0fbf962c51a",
       "path": "plugins/aws-iac/skills/aws-sst-development/SKILL.md"
-    },
-    "microsoft:skills:aks-cost-optimization": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/aks-skills/skills/aks-cost-optimization/SKILL.md"
-    },
-    "microsoft:skills:aks-gpu-inference": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/aks-skills/skills/aks-gpu-inference/SKILL.md"
-    },
-    "microsoft:skills:aks-known-issues": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/aks-skills/skills/aks-known-issues/SKILL.md"
-    },
-    "microsoft:skills:aks-network-capture": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/aks-skills/skills/aks-network-capture/SKILL.md"
-    },
-    "microsoft:skills:aks-troubleshooting": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/aks-skills/skills/aks-troubleshooting/SKILL.md"
-    },
-    "microsoft:skills:azure-search-nav": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/aks-skills/skills/azure-search-nav/SKILL.md"
-    },
-    "microsoft:skills:azure-advisor-actionability": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-advisor/skills/azure-advisor-actionability/SKILL.md"
-    },
-    "microsoft:skills:azure-advisor": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-advisor/skills/azure-advisor/SKILL.md"
-    },
-    "microsoft:skills:cost-analysis": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-cost/skills/cost-analysis/SKILL.md"
-    },
-    "microsoft:skills:cost-estimation": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-cost/skills/cost-estimation/SKILL.md"
-    },
-    "microsoft:skills:cost-governance": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-cost/skills/cost-governance/SKILL.md"
-    },
-    "microsoft:skills:cost-optimization": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-cost/skills/cost-optimization/SKILL.md"
-    },
-    "microsoft:skills:azure-kusto-graph": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-graph/SKILL.md"
-    },
-    "microsoft:skills:azure-kusto-irql-graph": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql-graph/SKILL.md"
-    },
-    "microsoft:skills:azure-kusto-irql": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql/SKILL.md"
-    },
-    "microsoft:skills:azure-local-multi-rack": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-local-skills/skills/azure-local-multi-rack/SKILL.md"
-    },
-    "microsoft:skills:azure-local": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-local-skills/skills/azure-local/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-agents-persistent-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-agents-persistent-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-document-intelligence-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-document-intelligence-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-openai-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-openai-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-projects-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-projects-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-voicelive-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-voicelive-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-eventgrid-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-eventhub-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-eventhub-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-identity-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-identity-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-maps-search-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-maps-search-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-apicenter-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apicenter-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-apimanagement-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apimanagement-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-applicationinsights-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-applicationinsights-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-arizeaiobservabilityeval-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-arizeaiobservabilityeval-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-botservice-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-botservice-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-fabric-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-fabric-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-mongodbatlas-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-mongodbatlas-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-weightsandbiases-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-weightsandbiases-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-manager-cosmosdb-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-cosmosdb-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-manager-durabletask-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-durabletask-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-manager-mysql-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-mysql-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-manager-playwright-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-playwright-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-manager-postgresql-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-postgresql-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-manager-redis-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-redis-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-manager-sql-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-sql-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-search-documents-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-search-documents-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-security-keyvault-keys-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-security-keyvault-keys-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-servicebus-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-servicebus-dotnet/SKILL.md"
-    },
-    "microsoft:skills:m365-agents-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/m365-agents-dotnet/SKILL.md"
-    },
-    "microsoft:skills:microsoft-azure-webjobs-extensions-authentication-events-dotnet": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-dotnet/skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-agents-persistent-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-agents-persistent-java/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-anomalydetector-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-anomalydetector-java/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-contentsafety-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-contentsafety-java/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-formrecognizer-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-formrecognizer-java/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-projects-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-projects-java/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-vision-imageanalysis-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-vision-imageanalysis-java/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-voicelive-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-ai-voicelive-java/SKILL.md"
-    },
-    "microsoft:skills:azure-appconfiguration-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-appconfiguration-java/SKILL.md"
-    },
-    "microsoft:skills:azure-communication-callautomation-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-callautomation-java/SKILL.md"
-    },
-    "microsoft:skills:azure-communication-callingserver-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-callingserver-java/SKILL.md"
-    },
-    "microsoft:skills:azure-communication-chat-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-chat-java/SKILL.md"
-    },
-    "microsoft:skills:azure-communication-common-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-common-java/SKILL.md"
-    },
-    "microsoft:skills:azure-communication-sms-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-communication-sms-java/SKILL.md"
-    },
-    "microsoft:skills:azure-compute-batch-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-compute-batch-java/SKILL.md"
-    },
-    "microsoft:skills:azure-cosmos-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-cosmos-java/SKILL.md"
-    },
-    "microsoft:skills:azure-data-tables-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-data-tables-java/SKILL.md"
-    },
-    "microsoft:skills:azure-eventgrid-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-eventgrid-java/SKILL.md"
-    },
-    "microsoft:skills:azure-eventhub-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-eventhub-java/SKILL.md"
-    },
-    "microsoft:skills:azure-identity-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-identity-java/SKILL.md"
-    },
-    "microsoft:skills:azure-messaging-webpubsub-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-messaging-webpubsub-java/SKILL.md"
-    },
-    "microsoft:skills:azure-monitor-ingestion-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-ingestion-java/SKILL.md"
-    },
-    "microsoft:skills:azure-monitor-opentelemetry-exporter-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-opentelemetry-exporter-java/SKILL.md"
-    },
-    "microsoft:skills:azure-monitor-query-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-query-java/SKILL.md"
-    },
-    "microsoft:skills:azure-security-keyvault-keys-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-keys-java/SKILL.md"
-    },
-    "microsoft:skills:azure-security-keyvault-secrets-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-secrets-java/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-blob-java": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-java/skills/azure-storage-blob-java/SKILL.md"
-    },
-    "microsoft:skills:agent-framework-azure-ai-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-contentsafety-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-contentsafety-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-contentunderstanding-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-contentunderstanding-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-language-conversations-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-ml-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-ml-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-projects-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-projects-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-textanalytics-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-textanalytics-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-transcription-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-transcription-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-translation-document-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-translation-document-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-translation-text-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-translation-text-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-vision-imageanalysis-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-vision-imageanalysis-py/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-voicelive-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py/SKILL.md"
-    },
-    "microsoft:skills:azure-appconfiguration-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-appconfiguration-py/SKILL.md"
-    },
-    "microsoft:skills:azure-containerregistry-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-containerregistry-py/SKILL.md"
-    },
-    "microsoft:skills:azure-cosmos-db-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-cosmos-db-py/SKILL.md"
-    },
-    "microsoft:skills:azure-cosmos-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-cosmos-py/SKILL.md"
-    },
-    "microsoft:skills:azure-data-tables-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-data-tables-py/SKILL.md"
-    },
-    "microsoft:skills:azure-eventgrid-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-eventgrid-py/SKILL.md"
-    },
-    "microsoft:skills:azure-eventhub-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-eventhub-py/SKILL.md"
-    },
-    "microsoft:skills:azure-identity-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-identity-py/SKILL.md"
-    },
-    "microsoft:skills:azure-keyvault-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-keyvault-py/SKILL.md"
-    },
-    "microsoft:skills:azure-messaging-webpubsubservice-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-messaging-webpubsubservice-py/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-apicenter-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-apicenter-py/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-apimanagement-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-apimanagement-py/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-botservice-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py/SKILL.md"
-    },
-    "microsoft:skills:azure-mgmt-fabric-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-fabric-py/SKILL.md"
-    },
-    "microsoft:skills:azure-monitor-ingestion-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py/SKILL.md"
-    },
-    "microsoft:skills:azure-monitor-opentelemetry-exporter-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-exporter-py/SKILL.md"
-    },
-    "microsoft:skills:azure-monitor-opentelemetry-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-py/SKILL.md"
-    },
-    "microsoft:skills:azure-monitor-query-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-query-py/SKILL.md"
-    },
-    "microsoft:skills:azure-search-documents-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-search-documents-py/SKILL.md"
-    },
-    "microsoft:skills:azure-servicebus-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-servicebus-py/SKILL.md"
-    },
-    "microsoft:skills:azure-speech-to-text-rest-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-speech-to-text-rest-py/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-blob-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-storage-blob-py/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-file-datalake-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-storage-file-datalake-py/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-file-share-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-storage-file-share-py/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-queue-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/azure-storage-queue-py/SKILL.md"
-    },
-    "microsoft:skills:fastapi-router-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/fastapi-router-py/SKILL.md"
-    },
-    "microsoft:skills:m365-agents-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/m365-agents-py/SKILL.md"
-    },
-    "microsoft:skills:pydantic-models-py": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-python/skills/pydantic-models-py/SKILL.md"
-    },
-    "microsoft:skills:azure-cosmos-rust": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-rust/skills/azure-cosmos-rust/SKILL.md"
-    },
-    "microsoft:skills:azure-eventhub-rust": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-rust/skills/azure-eventhub-rust/SKILL.md"
-    },
-    "microsoft:skills:azure-identity-rust": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-rust/skills/azure-identity-rust/SKILL.md"
-    },
-    "microsoft:skills:azure-keyvault-certificates-rust": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-certificates-rust/SKILL.md"
-    },
-    "microsoft:skills:azure-keyvault-keys-rust": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-keys-rust/SKILL.md"
-    },
-    "microsoft:skills:azure-keyvault-secrets-rust": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-secrets-rust/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-blob-rust": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-rust/skills/azure-storage-blob-rust/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-queue-rust": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-rust/skills/azure-storage-queue-rust/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-contentsafety-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-contentsafety-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-document-intelligence-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-document-intelligence-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-projects-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-projects-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-translation-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-translation-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-ai-voicelive-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-voicelive-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-appconfiguration-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-appconfiguration-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-cosmos-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-cosmos-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-eventhub-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-eventhub-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-identity-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-identity-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-keyvault-keys-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-keyvault-keys-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-keyvault-secrets-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-keyvault-secrets-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-microsoft-playwright-testing-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-microsoft-playwright-testing-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-monitor-opentelemetry-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-monitor-opentelemetry-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-postgres-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-postgres-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-search-documents-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-search-documents-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-servicebus-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-servicebus-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-blob-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-blob-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-file-share-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-file-share-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-storage-queue-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-queue-ts/SKILL.md"
-    },
-    "microsoft:skills:azure-web-pubsub-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/azure-web-pubsub-ts/SKILL.md"
-    },
-    "microsoft:skills:frontend-ui-dark-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts/SKILL.md"
-    },
-    "microsoft:skills:m365-agents-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/m365-agents-ts/SKILL.md"
-    },
-    "microsoft:skills:react-flow-node-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/react-flow-node-ts/SKILL.md"
-    },
-    "microsoft:skills:zustand-store-ts": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-sdk-typescript/skills/zustand-store-ts/SKILL.md"
-    },
-    "microsoft:skills:airunway-aks-setup": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/airunway-aks-setup/SKILL.md"
-    },
-    "microsoft:skills:appinsights-instrumentation": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/appinsights-instrumentation/SKILL.md"
-    },
-    "microsoft:skills:azure-ai": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-ai/SKILL.md"
-    },
-    "microsoft:skills:azure-aigateway": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-aigateway/SKILL.md"
-    },
-    "microsoft:skills:azure-app-onboard-prereq": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-app-onboard-prereq/SKILL.md"
-    },
-    "microsoft:skills:azure-app-onboard": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-app-onboard/SKILL.md"
-    },
-    "microsoft:skills:azure-cloud-migrate": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-cloud-migrate/SKILL.md"
-    },
-    "microsoft:skills:azure-compliance": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-compliance/SKILL.md"
-    },
-    "microsoft:skills:azure-compute": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-compute/SKILL.md"
-    },
-    "microsoft:skills:azure-deploy": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-deploy/SKILL.md"
-    },
-    "microsoft:skills:azure-diagnostics": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-diagnostics/SKILL.md"
-    },
-    "microsoft:skills:azure-enterprise-infra-planner": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-enterprise-infra-planner/SKILL.md"
-    },
-    "microsoft:skills:azure-kubernetes": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-kubernetes/SKILL.md"
-    },
-    "microsoft:skills:azure-kubernetes-app-deploy": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-app-deploy/SKILL.md"
-    },
-    "microsoft:skills:azure-kubernetes-automatic-readiness": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-automatic-readiness/SKILL.md"
-    },
-    "microsoft:skills:azure-kusto": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-kusto/SKILL.md"
-    },
-    "microsoft:skills:azure-messaging": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-messaging/SKILL.md"
-    },
-    "microsoft:skills:azure-prepare": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-prepare/SKILL.md"
-    },
-    "microsoft:skills:azure-quotas": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-quotas/SKILL.md"
-    },
-    "microsoft:skills:azure-reliability": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-reliability/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-lookup": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-resource-lookup/SKILL.md"
-    },
-    "microsoft:skills:azure-resource-visualizer": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-resource-visualizer/SKILL.md"
-    },
-    "microsoft:skills:azure-storage": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-storage/SKILL.md"
-    },
-    "microsoft:skills:azure-upgrade": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-upgrade/SKILL.md"
-    },
-    "microsoft:skills:azure-validate": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/azure-validate/SKILL.md"
-    },
-    "microsoft:skills:discover-azure-skills": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/discover-azure-skills/SKILL.md"
-    },
-    "microsoft:skills:entra-app-registration": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/entra-app-registration/SKILL.md"
-    },
-    "microsoft:skills:microsoft-foundry": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/SKILL.md"
-    },
-    "microsoft:skills:finetuning": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/finetuning/SKILL.md"
-    },
-    "microsoft:skills:deploy-model": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/SKILL.md"
-    },
-    "microsoft:skills:capacity": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/capacity/SKILL.md"
-    },
-    "microsoft:skills:customize": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/customize/SKILL.md"
-    },
-    "microsoft:skills:preset": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/preset/SKILL.md"
-    },
-    "microsoft:skills:python-appservice-deploy": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/azure-skills/skills/python-appservice-deploy/SKILL.md"
-    },
-    "microsoft:skills:wiki-ado-convert": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-ado-convert/SKILL.md"
-    },
-    "microsoft:skills:wiki-agents-md": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-agents-md/SKILL.md"
-    },
-    "microsoft:skills:wiki-architect": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-architect/SKILL.md"
-    },
-    "microsoft:skills:wiki-changelog": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-changelog/SKILL.md"
-    },
-    "microsoft:skills:wiki-llms-txt": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-llms-txt/SKILL.md"
-    },
-    "microsoft:skills:wiki-onboarding": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-onboarding/SKILL.md"
-    },
-    "microsoft:skills:wiki-page-writer": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-page-writer/SKILL.md"
-    },
-    "microsoft:skills:wiki-qa": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-qa/SKILL.md"
-    },
-    "microsoft:skills:wiki-researcher": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-researcher/SKILL.md"
-    },
-    "microsoft:skills:wiki-vitepress": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/deep-wiki/skills/wiki-vitepress/SKILL.md"
-    },
-    "microsoft:skills:foundry-iq": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/foundry-iq-skills/skills/foundry-iq/SKILL.md"
-    },
-    "microsoft:skills:declarative-agent-developer": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/SKILL.md"
-    },
-    "microsoft:skills:install-atk": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md"
-    },
-    "microsoft:skills:m365-agent-evaluator": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md"
-    },
-    "microsoft:skills:teams-app-developer": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer/SKILL.md"
-    },
-    "microsoft:skills:slack-to-teams": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer/slack-to-teams/SKILL.md"
-    },
-    "microsoft:skills:ui-widget-developer": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/ui-widget-developer/SKILL.md"
-    },
-    "microsoft:skills:cloud-solution-architect": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/cloud-solution-architect/SKILL.md"
-    },
-    "microsoft:skills:continual-learning": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/continual-learning/SKILL.md"
-    },
-    "microsoft:skills:copilot-sdk": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/copilot-sdk/SKILL.md"
-    },
-    "microsoft:skills:debugview": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/debugview/SKILL.md"
-    },
-    "microsoft:skills:frontend-design-review": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/frontend-design-review/SKILL.md"
-    },
-    "microsoft:skills:github-issue-creator": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/github-issue-creator/SKILL.md"
-    },
-    "microsoft:skills:kql": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/kql/SKILL.md"
-    },
-    "microsoft:skills:mcp-builder": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/mcp-builder/SKILL.md"
-    },
-    "microsoft:skills:microsoft-docs": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/microsoft-docs/SKILL.md"
-    },
-    "microsoft:skills:podcast-generation": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/podcast-generation/SKILL.md"
-    },
-    "microsoft:skills:skill-creator": {
-      "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
-      "path": ".github/skills/skill-creator/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-android-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-android-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-browser-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-browser-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-cloudflare-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-cloudflare-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-cocoa-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-cocoa-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-dotnet-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-dotnet-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-elixir-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-elixir-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-fix-issues": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-fix-issues/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-flutter-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-flutter-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-go-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-go-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-instrument-logging": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-instrument-logging/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-instrumentation-guide": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-instrumentation-guide/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-nestjs-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-nestjs-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-nextjs-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-nextjs-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-node-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-node-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-php-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-php-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-python-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-python-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-react-native-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-react-native-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-react-router-framework-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-react-router-framework-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-react-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-react-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-ruby-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-ruby-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-sdk-setup": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-sdk-setup/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-sdk-skill-creator": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-sdk-skill-creator/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-sdk-upgrade": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-sdk-upgrade/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-setup-ai-monitoring": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-setup-ai-monitoring/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-svelte-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-svelte-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-tanstack-start-sdk": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "skills-legacy/sentry-tanstack-start-sdk/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-create-alert": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "src/skills/sentry-create-alert/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-debug-issue": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "src/skills/sentry-debug-issue/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-fix-stack-traces": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "src/skills/sentry-fix-stack-traces/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-get-started": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "src/skills/sentry-get-started/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-instrument": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "src/skills/sentry-instrument/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-otel-exporter-setup": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "src/skills/sentry-otel-exporter-setup/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-setup-releases": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "src/skills/sentry-setup-releases/SKILL.md"
-    },
-    "getsentry:sentry-for-ai:sentry-snapshots-cocoa": {
-      "commit": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
-      "path": "src/skills/sentry-snapshots-cocoa/SKILL.md"
-    },
-    "flutter:skills:api-review": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": ".agents/agents/reidbaker-agent/skills/api-review/SKILL.md"
-    },
-    "flutter:skills:code-documentation": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": ".agents/agents/reidbaker-agent/skills/code-documentation/SKILL.md"
-    },
-    "flutter:skills:code-review": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": ".agents/agents/reidbaker-agent/skills/code-review/SKILL.md"
-    },
-    "flutter:skills:grill-with-docs": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": ".agents/agents/reidbaker-agent/skills/grill-with-docs/SKILL.md"
-    },
-    "flutter:skills:natural-writing": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": ".agents/agents/reidbaker-agent/skills/natural-writing/SKILL.md"
-    },
-    "flutter:skills:unix-cli-best-practices": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": ".agents/agents/reidbaker-agent/skills/unix-cli-best-practices/SKILL.md"
-    },
-    "flutter:skills:dart-add-unit-test": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-add-unit-test/SKILL.md"
-    },
-    "flutter:skills:dart-build-cli-app": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-build-cli-app/SKILL.md"
-    },
-    "flutter:skills:dart-collect-coverage": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-collect-coverage/SKILL.md"
-    },
-    "flutter:skills:dart-fix-runtime-errors": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-fix-runtime-errors/SKILL.md"
-    },
-    "flutter:skills:dart-generate-test-mocks": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-generate-test-mocks/SKILL.md"
-    },
-    "flutter:skills:dart-migrate-to-checks-package": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-migrate-to-checks-package/SKILL.md"
-    },
-    "flutter:skills:dart-resolve-package-conflicts": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-resolve-package-conflicts/SKILL.md"
-    },
-    "flutter:skills:dart-run-static-analysis": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-run-static-analysis/SKILL.md"
-    },
-    "flutter:skills:dart-setup-ffi-assets": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-setup-ffi-assets/SKILL.md"
-    },
-    "flutter:skills:dart-use-doc-examples": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-use-doc-examples/SKILL.md"
-    },
-    "flutter:skills:dart-use-ffigen": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-use-ffigen/SKILL.md"
-    },
-    "flutter:skills:dart-use-path-package": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-use-path-package/SKILL.md"
-    },
-    "flutter:skills:dart-use-pattern-matching": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-use-pattern-matching/SKILL.md"
-    },
-    "flutter:skills:dart-use-primary-constructors": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-use-primary-constructors/SKILL.md"
-    },
-    "flutter:skills:dart-write-documentation": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/dart-write-documentation/SKILL.md"
-    },
-    "flutter:skills:flutter-add-integration-test": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-add-integration-test/SKILL.md"
-    },
-    "flutter:skills:flutter-add-widget-preview": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-add-widget-preview/SKILL.md"
-    },
-    "flutter:skills:flutter-add-widget-test": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-add-widget-test/SKILL.md"
-    },
-    "flutter:skills:flutter-apply-architecture-best-practices": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-apply-architecture-best-practices/SKILL.md"
-    },
-    "flutter:skills:flutter-build-responsive-layout": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-build-responsive-layout/SKILL.md"
-    },
-    "flutter:skills:flutter-fix-layout-issues": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-fix-layout-issues/SKILL.md"
-    },
-    "flutter:skills:flutter-implement-json-serialization": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-implement-json-serialization/SKILL.md"
-    },
-    "flutter:skills:flutter-setup-declarative-routing": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-setup-declarative-routing/SKILL.md"
-    },
-    "flutter:skills:flutter-setup-localization": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-setup-localization/SKILL.md"
-    },
-    "flutter:skills:flutter-use-http-package": {
-      "commit": "b7d5a0be4195b82fe073620fb52f594b0809eacf",
-      "path": "skills/flutter-use-http-package/SKILL.md"
-    },
-    "auth0:agent-skills:auth0": {
-      "commit": "6331cf05ef6bbc6999d7a7b98a583e7429ebe3f6",
-      "path": "plugins/auth0/skills/auth0/SKILL.md"
-    },
-    "huggingface:skills:hf-mcp": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "hf-mcp/skills/hf-mcp/SKILL.md"
-    },
-    "huggingface:skills:hf-cli": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/hf-cli/SKILL.md"
-    },
-    "huggingface:skills:hf-cloud-aws-context-discovery": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/hf-cloud-aws-context-discovery/SKILL.md"
-    },
-    "huggingface:skills:hf-cloud-python-env-setup": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/hf-cloud-python-env-setup/SKILL.md"
-    },
-    "huggingface:skills:hf-cloud-sagemaker-deployment-planner": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/hf-cloud-sagemaker-deployment-planner/SKILL.md"
-    },
-    "huggingface:skills:hf-cloud-sagemaker-iam-preflight": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/hf-cloud-sagemaker-iam-preflight/SKILL.md"
-    },
-    "huggingface:skills:hf-cloud-sagemaker-production-defaults": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/hf-cloud-sagemaker-production-defaults/SKILL.md"
-    },
-    "huggingface:skills:hf-cloud-serving-image-selection": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/hf-cloud-serving-image-selection/SKILL.md"
-    },
-    "huggingface:skills:hf-mem": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/hf-mem/SKILL.md"
-    },
-    "huggingface:skills:huggingface-best": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-best/SKILL.md"
-    },
-    "huggingface:skills:huggingface-community-evals": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-community-evals/SKILL.md"
-    },
-    "huggingface:skills:huggingface-datasets": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-datasets/SKILL.md"
-    },
-    "huggingface:skills:huggingface-gradio": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-gradio/SKILL.md"
-    },
-    "huggingface:skills:huggingface-llm-trainer": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-llm-trainer/SKILL.md"
-    },
-    "huggingface:skills:huggingface-local-models": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-local-models/SKILL.md"
-    },
-    "huggingface:skills:huggingface-lora-space-builder": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-lora-space-builder/SKILL.md"
-    },
-    "huggingface:skills:huggingface-paper-publisher": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-paper-publisher/SKILL.md"
-    },
-    "huggingface:skills:huggingface-papers": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-papers/SKILL.md"
-    },
-    "huggingface:skills:huggingface-spaces": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-spaces/SKILL.md"
-    },
-    "huggingface:skills:huggingface-tool-builder": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-tool-builder/SKILL.md"
-    },
-    "huggingface:skills:huggingface-trackio": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-trackio/SKILL.md"
-    },
-    "huggingface:skills:huggingface-vision-trainer": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-vision-trainer/SKILL.md"
-    },
-    "huggingface:skills:huggingface-zerogpu": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/huggingface-zerogpu/SKILL.md"
-    },
-    "huggingface:skills:train-sentence-transformers": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/train-sentence-transformers/SKILL.md"
-    },
-    "huggingface:skills:transformers-js": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/transformers-js/SKILL.md"
-    },
-    "huggingface:skills:trl-training": {
-      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-      "path": "skills/trl-training/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-auto-experiment": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-auto-experiment/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-build-eval-from-annotations": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-build-eval-from-annotations/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-eval-bootstrap": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-eval-bootstrap/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-eval-pipeline": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-eval-pipeline/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-experiment-analyzer": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-experiment-analyzer/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-experiment-bootstrap": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-experiment-bootstrap/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-online-experiment": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-online-experiment/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-replay-trace": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-replay-trace/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-session-classify": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-session-classify/SKILL.md"
-    },
-    "datadog-labs:agent-skills:agent-observability-trace-rca": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "agent-observability/agent-observability-trace-rca/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-account-setup": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-account-setup/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-agent-install-docker": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-agent-install-docker/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-agent-install-kubernetes": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-agent-install-kubernetes/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-agent-install-linux": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-agent-install-linux/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-agent-install-macos": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-agent-install-macos/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-agent-install-windows": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-agent-install-windows/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-android-sdk": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-android-sdk/SKILL.md"
-    },
-    "datadog-labs:agent-skills:upgrade-v3": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-android-sdk/upgrade-v3/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-apm": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-apm/SKILL.md"
-    },
-    "datadog-labs:agent-skills:enable-dsm": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-apm/enable-dsm/SKILL.md"
-    },
-    "datadog-labs:agent-skills:service-remapping": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-apm/service-remapping/SKILL.md"
-    },
-    "datadog-labs:agent-skills:datadog-app": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-apps/datadog-app/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-audit": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-audit/SKILL.md"
-    },
-    "datadog-labs:agent-skills:ai-activity-audit": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-audit/ai-activity-audit/SKILL.md"
-    },
-    "datadog-labs:agent-skills:compliance-report": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-audit/compliance-report/SKILL.md"
-    },
-    "datadog-labs:agent-skills:cost-spike-investigation": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-audit/cost-spike-investigation/SKILL.md"
-    },
-    "datadog-labs:agent-skills:key-compromise": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-audit/key-compromise/SKILL.md"
-    },
-    "datadog-labs:agent-skills:security-investigation": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-audit/security-investigation/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-aws-ccm": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-aws-ccm/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-aws-integration": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-aws-integration/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-aws-log-forwarding": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-aws-log-forwarding/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-aws-storage-management": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-aws-storage-management/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-azure-ccm": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-azure-ccm/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-azure-integration": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-azure-integration/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-azure-log-forwarding": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-azure-log-forwarding/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-browser-sdk": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-browser-sdk/SKILL.md"
-    },
-    "datadog-labs:agent-skills:setup-sourcemaps": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-browser-sdk/setup-sourcemaps/SKILL.md"
-    },
-    "datadog-labs:agent-skills:upgrade-v5": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-browser-sdk/upgrade-v5/SKILL.md"
-    },
-    "datadog-labs:agent-skills:upgrade-v6": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-browser-sdk/upgrade-v6/SKILL.md"
-    },
-    "datadog-labs:agent-skills:upgrade-v7": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-browser-sdk/upgrade-v7/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-confluent-cloud-integration": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-confluent-cloud-integration/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-dbm-rds-postgres": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-dbm-rds-postgres/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-docs": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-docs/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-gcp-ccm": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-gcp-ccm/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-gcp-integration": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-gcp-integration/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-gcp-log-forwarding": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-gcp-log-forwarding/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-instrument-llmo": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-instrument-llmo/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-instrument-product-analytics": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-instrument-product-analytics/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-instrument-rum": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-instrument-rum/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-logs": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-logs/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-monitors": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-monitors/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-oci-ccm": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-oci-ccm/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-oci-integration": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-oci-integration/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-orchestrator": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-orchestrator/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-product-recommender": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-product-recommender/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-profiler-setup": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-profiler-setup/SKILL.md"
-    },
-    "datadog-labs:agent-skills:dd-pup": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-pup/SKILL.md"
-    },
-    "datadog-labs:agent-skills:ownership-agent": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-security/csm/ownership-agent/SKILL.md"
-    },
-    "datadog-labs:agent-skills:triage-flaky-test": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-software-delivery/triage-flaky-test/SKILL.md"
-    },
-    "datadog-labs:agent-skills:unblock-pr": {
-      "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
-      "path": "dd-software-delivery/unblock-pr/SKILL.md"
-    },
-    "duckdb:duckdb-skills:attach-db": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/attach-db/SKILL.md"
-    },
-    "duckdb:duckdb-skills:convert-file": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/convert-file/SKILL.md"
-    },
-    "duckdb:duckdb-skills:duckdb-docs": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/duckdb-docs/SKILL.md"
-    },
-    "duckdb:duckdb-skills:install-duckdb": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/install-duckdb/SKILL.md"
-    },
-    "duckdb:duckdb-skills:query": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/query/SKILL.md"
-    },
-    "duckdb:duckdb-skills:read-file": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/read-file/SKILL.md"
-    },
-    "duckdb:duckdb-skills:read-memories": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/read-memories/SKILL.md"
-    },
-    "duckdb:duckdb-skills:s3-explore": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/s3-explore/SKILL.md"
-    },
-    "duckdb:duckdb-skills:spatial": {
-      "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
-      "path": "skills/spatial/SKILL.md"
-    },
-    "trailofbits:skills:codeql": {
-      "commit": "e4dd0bb5b15535f7c5a0834187dffba6ac37e4ff",
-      "path": "plugins/static-analysis/skills/codeql/SKILL.md"
-    },
-    "mongodb:agent-skills:review-skill": {
-      "commit": "59c4a4ebed23666834c8c698a76afa91cd689365",
-      "path": "tools/review-skill/SKILL.md"
     }
   }
 }

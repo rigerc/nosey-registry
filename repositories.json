@@ -200,6 +200,12 @@
       "uri": "https://github.com/cloudflare/vinext"
     },
     {
+      "id": "cnwzhu:gpui-skills",
+      "name": "cnwzhu/gpui-skills",
+      "kind": "git",
+      "uri": "https://github.com/cnwzhu/gpui-skills"
+    },
+    {
       "id": "confident-ai:deepeval",
       "name": "confident-ai/deepeval",
       "kind": "git",
@@ -504,6 +510,12 @@
       "name": "laude-institute/headlong",
       "kind": "git",
       "uri": "https://github.com/laude-institute/headlong"
+    },
+    {
+      "id": "longbridge:gpui-kit",
+      "name": "longbridge/gpui-kit",
+      "kind": "git",
+      "uri": "https://github.com/longbridge/gpui-kit"
     },
     {
       "id": "lplatzer:agent-skills",
