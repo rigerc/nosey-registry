@@ -8706,10 +8706,11 @@
       },
       "repositoryId": "auth0:agent-skills",
       "quality": "fair",
+      "score": 56,
       "assessment": {
         "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessedAt": "2026-11-11",
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -10032,7 +10033,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-actions"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 92,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-async",
@@ -10047,7 +10054,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-async"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 92,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-code-quality",
@@ -10062,7 +10075,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-code-quality"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 92,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-elements",
@@ -10077,7 +10096,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-elements"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 92,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-entities",
@@ -10092,7 +10117,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-entities"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 80,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-fundamentals",
@@ -10107,7 +10138,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-fundamentals"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 92,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-init",
@@ -10122,7 +10159,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-init"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 68,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-patterns",
@@ -10137,7 +10180,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-patterns"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 88,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-styling",
@@ -10152,7 +10201,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-styling"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 80,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-testing",
@@ -10167,7 +10222,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-testing"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 84,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-troubleshooting",
@@ -10182,7 +10243,13 @@
         "ref": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf",
         "skillName": "gpui-troubleshooting"
       },
-      "repositoryId": "cnwzhu:gpui-skills"
+      "repositoryId": "cnwzhu:gpui-skills",
+      "score": 92,
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-11",
+        "assessor": "Open JEV model-v1"
+      }
     },
     {
       "id": "confident-ai:deepeval:deepeval-otel",
@@ -10262,10 +10329,11 @@
       },
       "repositoryId": "datadog-labs:agent-skills",
       "quality": "good",
+      "score": 84,
       "assessment": {
         "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessedAt": "2026-11-11",
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -10282,10 +10350,11 @@
       },
       "repositoryId": "datadog-labs:agent-skills",
       "quality": "fair",
+      "score": 88,
       "assessment": {
         "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessedAt": "2026-11-11",
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -10302,10 +10371,11 @@
       },
       "repositoryId": "datadog-labs:agent-skills",
       "quality": "good",
+      "score": 100,
       "assessment": {
         "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessedAt": "2026-11-11",
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
@@ -10322,10 +10392,11 @@
       },
       "repositoryId": "datadog-labs:agent-skills",
       "quality": "fair",
+      "score": 88,
       "assessment": {
         "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
+        "assessedAt": "2026-11-11",
+        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
     },
     {
