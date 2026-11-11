@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_id": "nosey:official",
-  "generated_at": "2026-11-09T22:51:46.150Z",
+  "generated_at": "2026-11-11T17:19:00.716Z",
   "evaluator": {
     "provider": "open-jev-action",
     "action_ref": "intikhab49/open-jev-typed-decision-engine@4c3c85ee6238f24a464c9285d1786aabc51a753b",
@@ -82,10 +82,10 @@
     "scope": "Open JEV reviews at most the first 4,000 UTF-16 code units of SKILL.md; supporting files and runtime behavior are not assessed. Scores have no written reasons or recommendations."
   },
   "summary": {
-    "total": 912,
-    "evaluated": 912,
+    "total": 1294,
+    "evaluated": 928,
     "stale": 0,
-    "pending": 0,
+    "pending": 366,
     "unlocated": 0
   },
   "entries": [
@@ -17474,6 +17474,53 @@
       "overall_score": 4.4
     },
     {
+      "id": "auth0:agent-skills:auth0",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/auth0/agent-skills/blob/6331cf05ef6bbc6999d7a7b98a583e7429ebe3f6/plugins/auth0/skills/auth0/SKILL.md",
+        "commit": "6331cf05ef6bbc6999d7a7b98a583e7429ebe3f6"
+      },
+      "input_sha256": "7dc3bc9aeb6aa9f950a0ba5adad62d9afa007d8690852d6e89646c94beed1dbb",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:12:48Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.334,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2914,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3379,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2799,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 2,
+            "confidence": 0.2467,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.3886,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 2.8
+    },
+    {
       "id": "av:skills:preact-buildless-frontend",
       "status": "evaluated",
       "source": {
@@ -20036,6 +20083,523 @@
       "overall_score": 3.2
     },
     {
+      "id": "cnwzhu:gpui-skills:gpui-actions",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-actions/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "4d7f3c0613e939d890d6090788bfc2eec5779e4ace149d82193411b1b0ef6650",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:12:49Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3071,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2856,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3447,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2887,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.251,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 4,
+            "confidence": 0.3207,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-async",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-async/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "d662aaf71b0903c22eb3b5090af7b7bb2edb691c142006b5771623aac0b83108",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:13:31Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.307,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2736,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3163,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2754,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2538,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 4,
+            "confidence": 0.3332,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-code-quality",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-code-quality/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "3ecc03b972f279aa1e0e7aec57595adfe124042f86b3e1e4f700fca037262c13",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:13:35Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.31,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.3072,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3838,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.3186,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2593,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.4818,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-elements",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-elements/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "1d392825598a87f4e7890599c4027b78c08e55ba3d0e53ea0f21220e94543a69",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:14:16Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3156,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2798,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3409,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.29,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2584,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.3888,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-entities",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-entities/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "be964c3b305489ed7d95f97e99b412379ea5bdcd535c3ab5f6e0c9337c0b41de",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:14:37Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3032,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2744,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3177,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 2,
+            "confidence": 0.2974,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2685,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.3379,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-fundamentals",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-fundamentals/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "eb6d047ab7c835198f695e46a71d5acf597562e6f9a04faa06e9a79d6b4ef5c3",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:15:02Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3206,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.289,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.325,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2875,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2518,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.3628,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-init",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-init/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "93d01a32c74721a644ffebce061c26d9988099cd0287a688d09bedf5b86a7eb6",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:15:24Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3449,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 1,
+            "confidence": 0.2633,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3662,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.3256,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2603,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.415,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 3.4
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-patterns",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-patterns/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "5ea28eb42e2071c0d3d90f04489b37fb09dc78b0d2952e2e9aec69349e01b93c",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:15:46Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.4024,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2931,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3266,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2657,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2654,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.4173,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-styling",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-styling/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "96a4a0c3f35c4abb42fea2c72c858fff637a164bba9a014053f2d7850b6ba802",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:16:14Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3384,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2769,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3465,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 2,
+            "confidence": 0.3243,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2509,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.3396,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-testing",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-testing/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "2efd5eade9570fc881a95d8d3c849c3e3c3543e1bbb250762d5ad4b745841e74",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:16:42Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3275,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2801,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3374,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2915,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.263,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.4229,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.2
+    },
+    {
+      "id": "cnwzhu:gpui-skills:gpui-troubleshooting",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/cnwzhu/gpui-skills/blob/393a3da0a6e0d379d0e8aaeb7d856951641b47cf/gpui-troubleshooting/SKILL.md",
+        "commit": "393a3da0a6e0d379d0e8aaeb7d856951641b47cf"
+      },
+      "input_sha256": "fd68624b8662cb667a9c53aecba9f49a8b501caca26306b0f0b62976011cace5",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:16:58Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3515,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2959,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3261,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2801,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2679,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.3698,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.6
+    },
+    {
       "id": "confident-ai:deepeval:deepeval-otel",
       "status": "evaluated",
       "source": {
@@ -20160,6 +20724,194 @@
         }
       },
       "overall_score": 3.8
+    },
+    {
+      "id": "datadog-labs:agent-skills:agent-observability-auto-experiment",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/datadog-labs/agent-skills/blob/0787c9d95d0c73426f5ccee45f35df7a5479b792/agent-observability/agent-observability-auto-experiment/SKILL.md",
+        "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792"
+      },
+      "input_sha256": "6a7f239da86afba307b556a33352a60e2cfe5300d6fa0cef2d028adf53513593",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:17:29Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3408,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2842,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3198,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2705,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2559,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.4706,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.2
+    },
+    {
+      "id": "datadog-labs:agent-skills:agent-observability-build-eval-from-annotations",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/datadog-labs/agent-skills/blob/0787c9d95d0c73426f5ccee45f35df7a5479b792/agent-observability/agent-observability-build-eval-from-annotations/SKILL.md",
+        "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792"
+      },
+      "input_sha256": "adc37ee06467288356a49d2cb75976986673eb30e379a794190e268675c52fb5",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:17:48Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3216,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2939,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 4,
+            "confidence": 0.3143,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2821,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2548,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.3412,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
+    },
+    {
+      "id": "datadog-labs:agent-skills:agent-observability-eval-bootstrap",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/datadog-labs/agent-skills/blob/0787c9d95d0c73426f5ccee45f35df7a5479b792/agent-observability/agent-observability-eval-bootstrap/SKILL.md",
+        "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792"
+      },
+      "input_sha256": "e7f5627918269184ad3e60e6f0b6bfb8ed89c040e6e6de40e57d38d34e7f1fc2",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:18:16Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 5,
+            "confidence": 0.3132,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2637,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.3057,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 5,
+            "confidence": 0.2859,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2444,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.4792,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 5
+    },
+    {
+      "id": "datadog-labs:agent-skills:agent-observability-eval-pipeline",
+      "status": "evaluated",
+      "source": {
+        "url": "https://github.com/datadog-labs/agent-skills/blob/0787c9d95d0c73426f5ccee45f35df7a5479b792/agent-observability/agent-observability-eval-pipeline/SKILL.md",
+        "commit": "0787c9d95d0c73426f5ccee45f35df7a5479b792"
+      },
+      "input_sha256": "ba2bb01b247cffba909c8c20359e6e0a0570552c368037710dbb08c163118d49",
+      "fingerprint": "053d4e8b5910b2c15c53bf8b3720a9485bf3f4489d1ca02d531ae1592c408a88",
+      "evaluated_at": "2026-11-11T17:18:44Z",
+      "result_kind": "open_jev_scores",
+      "evaluation": {
+        "scores": {
+          "context_efficiency": {
+            "score": 3,
+            "confidence": 0.3086,
+            "mode": "model"
+          },
+          "correctness": {
+            "score": 5,
+            "confidence": 0.2709,
+            "mode": "model"
+          },
+          "instruction_quality": {
+            "score": 5,
+            "confidence": 0.318,
+            "mode": "model"
+          },
+          "safety": {
+            "score": 4,
+            "confidence": 0.2833,
+            "mode": "model"
+          },
+          "trigger_clarity": {
+            "score": 5,
+            "confidence": 0.2384,
+            "mode": "model"
+          },
+          "technology_fit": {
+            "score": 5,
+            "confidence": 0.3479,
+            "mode": "model"
+          }
+        }
+      },
+      "overall_score": 4.4
     },
     {
       "id": "davila7:claude-code-templates:drizzle-orm-expert",

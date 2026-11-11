@@ -68,6 +68,10 @@
       "averageScore": 88,
       "scoreCount": 1
     },
+    "auth0:agent-skills": {
+      "averageScore": 56,
+      "scoreCount": 1
+    },
     "av:skills": {
       "averageScore": 88,
       "scoreCount": 1
@@ -144,6 +148,10 @@
       "averageScore": 64,
       "scoreCount": 1
     },
+    "cnwzhu:gpui-skills": {
+      "averageScore": 86.55,
+      "scoreCount": 11
+    },
     "confident-ai:deepeval": {
       "averageScore": 80,
       "scoreCount": 1
@@ -155,6 +163,10 @@
     "currents-dev:playwright-best-practices-skill": {
       "averageScore": 76,
       "scoreCount": 1
+    },
+    "datadog-labs:agent-skills": {
+      "averageScore": 90,
+      "scoreCount": 4
     },
     "davila7:claude-code-templates": {
       "averageScore": 83,
