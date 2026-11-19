@@ -13767,6 +13767,13 @@
       ]
     },
     {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "category": "app",
+      "metadataOnly": true,
+      "rules": []
+    },
+    {
       "id": "jenkins",
       "name": "Jenkins",
       "category": "ci",
@@ -20839,6 +20846,13 @@
       ]
     },
     {
+      "id": "radarr",
+      "name": "Radarr",
+      "category": "app",
+      "metadataOnly": true,
+      "rules": []
+    },
+    {
       "id": "radixicons",
       "name": "Radix Icons",
       "category": "iconset",
@@ -23926,6 +23940,13 @@
           "name": "sonarqube"
         }
       ]
+    },
+    {
+      "id": "sonarr",
+      "name": "Sonarr",
+      "category": "app",
+      "metadataOnly": true,
+      "rules": []
     },
     {
       "id": "sorbet",

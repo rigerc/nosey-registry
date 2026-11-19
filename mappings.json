@@ -5844,6 +5844,17 @@
       ]
     },
     {
+      "id": "technology:jellyfin",
+      "technologyId": "jellyfin",
+      "recommendations": [
+        {
+          "skillId": "TerminalSkills:skills:jellyfin",
+          "priority": "recommended",
+          "reason": "Automates Jellyfin deployment, library management, scans, and API-driven media server operations."
+        }
+      ]
+    },
+    {
       "id": "technology:jest",
       "technologyId": "jest",
       "recommendations": [
@@ -7554,6 +7565,17 @@
       ]
     },
     {
+      "id": "technology:radarr",
+      "technologyId": "radarr",
+      "recommendations": [
+        {
+          "skillId": "jmagar:claude-homelab:radarr",
+          "priority": "recommended",
+          "reason": "Manages Radarr movies, collections, profiles, and folders through the Radarr API."
+        }
+      ]
+    },
+    {
       "id": "technology:radix-ui",
       "technologyId": "radixui",
       "recommendations": [
@@ -8476,6 +8498,17 @@
           "skillId": "sickn33:agentic-awesome-skills:snowflake-development",
           "priority": "optional",
           "reason": "Catalog recommendation for Snowflake."
+        }
+      ]
+    },
+    {
+      "id": "technology:sonarr",
+      "technologyId": "sonarr",
+      "recommendations": [
+        {
+          "skillId": "jmagar:claude-homelab:sonarr",
+          "priority": "recommended",
+          "reason": "Manages Sonarr TV shows, monitoring options, profiles, and folders through the Sonarr API."
         }
       ]
     },

@@ -7835,6 +7835,21 @@
       }
     },
     {
+      "id": "TerminalSkills:skills:jellyfin",
+      "name": "jellyfin",
+      "description": "Deploy and manage a self-hosted Jellyfin media server with Docker Compose and automate setup, libraries, scans, and item queries via the REST API.",
+      "technologies": [
+        "jellyfin"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/TerminalSkills/skills",
+        "ref": "42289059901710441bfa8081c08c3a9f36b93f9c",
+        "skillName": "jellyfin"
+      },
+      "repositoryId": "terminalskills:skills"
+    },
+    {
       "id": "TerminalSkills:skills:kubernetes-helm",
       "name": "kubernetes-helm",
       "technologies": [
@@ -16857,6 +16872,36 @@
         "assessedAt": "2026-11-03",
         "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
       }
+    },
+    {
+      "id": "jmagar:claude-homelab:radarr",
+      "name": "radarr",
+      "description": "Manage movies in Radarr: search, add individual titles or collections, remove, and inspect library, profiles, and folders via the Radarr API.",
+      "technologies": [
+        "radarr"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/jmagar/claude-homelab",
+        "ref": "6de8ef78f2a63ce3c05ca4fca3ae6eb9bbbc7a5b",
+        "skillName": "radarr"
+      },
+      "repositoryId": "jmagar:claude-homelab"
+    },
+    {
+      "id": "jmagar:claude-homelab:sonarr",
+      "name": "sonarr",
+      "description": "Manage TV shows in Sonarr: search, add, remove, and inspect library, profiles, and folders via the Sonarr API.",
+      "technologies": [
+        "sonarr"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/jmagar/claude-homelab",
+        "ref": "6de8ef78f2a63ce3c05ca4fca3ae6eb9bbbc7a5b",
+        "skillName": "sonarr"
+      },
+      "repositoryId": "jmagar:claude-homelab"
     },
     {
       "id": "kadajett:agent-nestjs-skills:nestjs-best-practices",

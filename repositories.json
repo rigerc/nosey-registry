@@ -446,6 +446,12 @@
       "uri": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
     },
     {
+      "id": "jmagar:claude-homelab",
+      "name": "jmagar/claude-homelab",
+      "kind": "git",
+      "uri": "https://github.com/jmagar/claude-homelab"
+    },
+    {
       "id": "junaid-pk:laravel-development-workflow",
       "name": "Junaid-PK/laravel-development-workflow",
       "kind": "git",
