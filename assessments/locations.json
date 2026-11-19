@@ -1486,6 +1486,10 @@
       "commit": "2db10393bd88915bb446ad77f852182957abdf89",
       "path": "SKILL.md"
     },
+    "TerminalSkills:skills:jellyfin": {
+      "commit": "42289059901710441bfa8081c08c3a9f36b93f9c",
+      "path": "skills/jellyfin/SKILL.md"
+    },
     "TerminalSkills:skills:kubernetes-helm": {
       "commit": "3bfbf7f76459d89422eddc0e5f572ad0e6c393c9",
       "path": "skills/kubernetes-helm/SKILL.md"
@@ -3241,6 +3245,14 @@
     "jeremylongshore:tons-of-skills-marketplace:sentry-performance-tracing": {
       "commit": "ab85a061f7bcc039dac13ee193de7a4cd4388571",
       "path": "plugins/saas-packs/sentry-pack/skills/sentry-performance-tracing/SKILL.md"
+    },
+    "jmagar:claude-homelab:radarr": {
+      "commit": "6de8ef78f2a63ce3c05ca4fca3ae6eb9bbbc7a5b",
+      "path": "skills/radarr/SKILL.md"
+    },
+    "jmagar:claude-homelab:sonarr": {
+      "commit": "6de8ef78f2a63ce3c05ca4fca3ae6eb9bbbc7a5b",
+      "path": "skills/sonarr/SKILL.md"
     },
     "kadajett:agent-nestjs-skills:nestjs-best-practices": {
       "commit": "3986e0cede33958e000f959031cbee0cd83c2941",

@@ -17,10 +17,10 @@ This repository maintains the catalog data; the browser is built and published f
     <th align="center">Source repositories</th>
   </tr>
   <tr>
-    <td align="center"><h2>1,294</h2></td>
-    <td align="center"><h2>900</h2></td>
-    <td align="center"><h2>289</h2></td>
-    <td align="center"><h2>154</h2></td>
+    <td align="center"><h2>1,297</h2></td>
+    <td align="center"><h2>903</h2></td>
+    <td align="center"><h2>292</h2></td>
+    <td align="center"><h2>155</h2></td>
   </tr>
 </table>
 <!-- END GENERATED REGISTRY STATS -->
