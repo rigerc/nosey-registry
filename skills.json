@@ -2,6 +2,1049 @@
   "schemaVersion": 2,
   "skills": [
     {
+      "id": "CodeAtCode:oss-ai-skills:aiohttp",
+      "name": "aiohttp",
+      "description": "Use when building Python async HTTP services or clients with aiohttp - web server routing, middleware, WebSocket, SSE, streaming, client sessions, pytest-aiohttp testing, or troubleshooting SSL and timeout issues",
+      "tags": [
+        "python",
+        "http",
+        "async",
+        "server",
+        "websocket",
+        "sse"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "aiohttp"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:ast-grep",
+      "name": "ast-grep",
+      "description": "Use when doing structural code search and rewriting - ast-grep linting, refactoring, multi-language patterns",
+      "tags": [
+        "ast-grep",
+        "code-search",
+        "linting",
+        "refactoring",
+        "cli",
+        "ast"
+      ],
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "ast-grep"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:bpcore-engine",
+      "name": "bpcore-engine",
+      "description": "Use when building GBA games with the BPCore Lua engine - entity, sprite and tilemap functions, SRAM save and load, link cable multiplayer protocol, camera and scrolling, or optimization patterns",
+      "tags": [
+        "lua",
+        "gba",
+        "game-engine",
+        "gameboy-advance"
+      ],
+      "technologies": [
+        "lua"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "bpcore-engine"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:celery",
+      "name": "celery",
+      "description": "Use when running background tasks with Celery - worker and broker configuration (Redis, RabbitMQ, SQS), task definitions, chains and chords, Celery Beat periodic tasks, routing, retries, Flower monitoring, or testing tasks with pytest",
+      "tags": [
+        "python",
+        "task-queue",
+        "async",
+        "distributed",
+        "celery"
+      ],
+      "technologies": [
+        "celery"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "celery"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django",
+      "name": "django",
+      "description": "Use when building Django applications - security hardening, authentication and permissions, ORM optimization, PostgreSQL features, Django 6.0, migrations, testing, and ecosystem libraries",
+      "tags": [
+        "python",
+        "django",
+        "web-framework",
+        "async",
+        "hub"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-admin",
+      "name": "django-admin",
+      "description": "Use when customizing Django Admin - save_formset, get_search_results, formsets, queryset optimization, db_index, custom URLs",
+      "tags": [
+        "python",
+        "django",
+        "admin",
+        "orm",
+        "optimization"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-admin"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-allauth",
+      "name": "django-allauth",
+      "description": "Use when implementing Django authentication - local accounts, OAuth, email verification, MFA, OIDC, django-organizations",
+      "tags": [
+        "python",
+        "django",
+        "authentication",
+        "oauth",
+        "mfa",
+        "allauth",
+        "oidc"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-allauth"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-bolt",
+      "name": "django-bolt",
+      "description": "Use when building high-performance APIs with django-bolt - routing, JWT auth, msgspec serializers, WebSockets, SSE streaming, file uploads, ORM patterns, runbolt deployment, or migrating from DRF",
+      "tags": [
+        "python",
+        "django",
+        "bolt",
+        "api",
+        "rust",
+        "performance",
+        "async"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-bolt"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-celery",
+      "name": "django-celery",
+      "description": "Use when integrating Celery with Django - task definition and calling, django-celery-beat scheduling, worker deployment, Flower monitoring, testing tasks, batch processing, or choosing between cron and beat",
+      "tags": [
+        "python",
+        "django",
+        "celery",
+        "task-queue",
+        "periodic-tasks",
+        "django-celery-beat"
+      ],
+      "technologies": [
+        "django",
+        "celery"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-celery"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-filter",
+      "name": "django-filter",
+      "description": "Use when filtering Django querysets - FilterSet, custom filters, Django REST Framework integration, explicit fields",
+      "tags": [
+        "django",
+        "django-filter",
+        "filtering",
+        "django-rest-framework",
+        "queryset"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-filter"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-htmx",
+      "name": "django-htmx",
+      "description": "Use when building dynamic Django web apps with htmx - partial rendering, HTMX responses, querystring tag, CSP",
+      "tags": [
+        "django",
+        "htmx",
+        "python",
+        "web",
+        "frontend",
+        "partial-rendering"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-htmx"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-ninja",
+      "name": "django-ninja",
+      "description": "Use when building Django REST APIs with django-ninja - Pydantic schemas, routers, CRUD endpoints, authentication, pagination, file uploads, async views, OpenAPI docs, or migrating from DRF",
+      "tags": [
+        "python",
+        "django",
+        "rest-api",
+        "pydantic",
+        "openapi",
+        "type-safe"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-ninja"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-storages",
+      "name": "django-storages",
+      "description": "Use when configuring django-storages for cloud file storage - STORAGES setting, Amazon S3, Google Cloud Storage and Azure backends, signed URLs, CDN and caching, multipart uploads, or storage testing",
+      "tags": [
+        "python",
+        "django",
+        "storage",
+        "s3",
+        "azure",
+        "gcs",
+        "cloud"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-storages"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-tdd",
+      "name": "django-tdd",
+      "description": "Use when testing Django applications with pytest - TDD workflow, pytest-django setup, factory_boy and model-bakery fixtures, DRF API testing, mocking and patching, integration tests, mutation testing with mutmut, or coverage",
+      "tags": [
+        "python",
+        "django",
+        "testing",
+        "pytest",
+        "tdd"
+      ],
+      "technologies": [
+        "django",
+        "pytest"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-tdd"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-transaction",
+      "name": "django-transaction",
+      "description": "Use when handling Django transactions and concurrency - atomic, select_for_update, on_commit, upserts, M2M ordering",
+      "tags": [
+        "python",
+        "django",
+        "transactions",
+        "concurrency",
+        "orm"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-transaction"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:django-unfold",
+      "name": "django-unfold",
+      "description": "Use when theming the Django admin with django-unfold - settings and sidebar configuration, custom admin site, components and @display decorator, filters, actions, tabs, dark mode and styling, or Django 6.x compatibility",
+      "tags": [
+        "python",
+        "django",
+        "admin",
+        "unfold",
+        "theme",
+        "dashboard"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "django-unfold"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:firefox-extension",
+      "name": "firefox-extension",
+      "description": "Use when developing Firefox WebExtensions - Manifest V2/V3 configuration, WebExtension APIs, content security policy, web-ext CLI, cross-browser support with the polyfill, AMO submission, or debugging extensions",
+      "tags": [
+        "firefox",
+        "webextension",
+        "browser-extension",
+        "mozilla",
+        "amo",
+        "manifest-v3"
+      ],
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "firefox-extension"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:gimp-plugin",
+      "name": "gimp-plugin",
+      "description": "Use when developing GIMP 3.0+ plugins in Python 3 - procedure registration, image and layer operations, GEGL operations, PDB calls, dialogs and progress bars, file export, or batch processing plugins",
+      "tags": [
+        "python",
+        "gimp",
+        "image-processing",
+        "graphics",
+        "plugin",
+        "gegl"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "gimp-plugin"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:httpx",
+      "name": "httpx",
+      "description": "Use when making HTTP requests in Python with httpx - sync and async clients, streaming, HTTP/2, connection pooling, retries, proxies, SSL verification, respx testing, or FastAPI and Django integration",
+      "tags": [
+        "python",
+        "http",
+        "async",
+        "client",
+        "network"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "httpx"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:kate-plugin",
+      "name": "kate-plugin",
+      "description": "Use when developing C++ plugins for Kate - KTextEditor Framework, CMake/ECM, Qt threading, KDE plugin architecture",
+      "tags": [
+        "kate",
+        "kde",
+        "text-editor",
+        "plugin",
+        "c++",
+        "qt",
+        "kde-frameworks"
+      ],
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "kate-plugin"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:kde-plasmoid",
+      "name": "kde-plasmoid",
+      "description": "Use when building KDE Plasma 6 widgets with a Python backend - plasmoid structure, metadata.json, QML UI, configuration system, plasmapkg2 packaging, KDE Store submission, or plasmoid testing and debugging",
+      "tags": [
+        "kde",
+        "plasma",
+        "plasmoid",
+        "widget",
+        "qml",
+        "qt",
+        "desktop"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "kde-plasmoid"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:llama-index",
+      "name": "llama-index",
+      "description": "Use when building RAG or LLM applications with LlamaIndex - data loaders, node parsing, vector stores, retrievers and rerankers, query engines, agents and workflows, streaming, or evaluation",
+      "tags": [
+        "python",
+        "llm",
+        "rag",
+        "llamaindex",
+        "ai",
+        "vector-database",
+        "openai",
+        "agents"
+      ],
+      "technologies": [
+        "llamaindex"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "llama-index"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:mgba",
+      "name": "mgba",
+      "description": "Use when scripting mGBA emulator automation in Lua - console API, ROM and save state operations, frame callbacks, input handling, memory reading for cheats and RAM watches, sockets, or TAS and speedrunner tooling",
+      "tags": [
+        "lua",
+        "emulator",
+        "gba",
+        "gameboy-advance",
+        "scripting",
+        "memory-hacking"
+      ],
+      "technologies": [
+        "lua"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "mgba"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:opencode",
+      "name": "opencode",
+      "description": "Use when developing plugins, tools, and extensions for OpenCode v1 - plugin contract, crash-prevention rules, ctx/event APIs, subagent lifecycle (abort races, compaction, orphan detection), MCP integration, testing patterns, or publishing to npm",
+      "tags": [
+        "opencode",
+        "plugin",
+        "ai-agent",
+        "mcp",
+        "tool-development"
+      ],
+      "technologies": [
+        "opencode"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "opencode"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:openrct2",
+      "name": "openrct2",
+      "description": "Use when developing OpenRCT2 plugins in TypeScript - plugin registration and game actions, window and widget UI, event hooks, park, map, ride and entity access, network API, storage, or ES5 runtime constraints",
+      "tags": [
+        "openrct2",
+        "plugin",
+        "javascript",
+        "typescript",
+        "game-modding",
+        "rollercoaster-tycoon"
+      ],
+      "technologies": [
+        "typescript"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "openrct2"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:playwright-visual-regression",
+      "name": "playwright-visual-regression",
+      "description": "Use when setting up visual regression testing with Playwright - toHaveScreenshot baselines, masking dynamic content, handling animations, full-page and element screenshots, cross-browser runs, CI integration, VUDA MCP tooling, or debugging flaky visual diffs",
+      "tags": [
+        "playwright",
+        "visual-regression",
+        "screenshot",
+        "testing",
+        "e2e",
+        "vuda",
+        "vrt"
+      ],
+      "technologies": [
+        "playwright"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "playwright-visual-regression"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pydantic",
+      "name": "pydantic",
+      "description": "Use when validating and serializing Python data with Pydantic v2 - models, field and model validators, constrained and special types, TypeAdapter, discriminated unions, BaseSettings, or FastAPI integration",
+      "tags": [
+        "python",
+        "validation",
+        "pydantic",
+        "serialization",
+        "settings"
+      ],
+      "technologies": [
+        "pydantic"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pydantic"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pygame",
+      "name": "pygame",
+      "description": "Use when building 2D games in Python with pygame - game loop and delta time, sprites and groups, collision detection, drawing and surfaces, events and input, sound and fonts, camera, or performance optimization",
+      "tags": [
+        "python",
+        "game-development",
+        "2d-games",
+        "pygame",
+        "graphics"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pygame"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pyqt",
+      "name": "pyqt",
+      "description": "Hub skill for PyQt/PySide - overview, comparison, project structure, and routing to sub-skills. Use when building cross-platform Qt desktop apps",
+      "tags": [
+        "python",
+        "qt",
+        "pyqt",
+        "pyside",
+        "gui",
+        "desktop",
+        "hub"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pyqt"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pyqt-core",
+      "name": "pyqt-core",
+      "description": "Use when working with PyQt/PySide6 QtCore - signals, slots, properties, timers, settings, file I/O",
+      "tags": [
+        "python",
+        "qt",
+        "pyqt",
+        "core",
+        "signals"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pyqt-core"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pyqt-dialogs",
+      "name": "pyqt-dialogs",
+      "description": "Use when implementing PyQt/PySide6 dialogs - standard dialogs (QFileDialog, QMessageBox, QInputDialog, QColorDialog, QFontDialog), custom QDialog patterns, modal vs modeless dialogs, input validation, Qt 6 dialog APIs",
+      "tags": [
+        "python",
+        "qt",
+        "pyqt",
+        "dialogs",
+        "ui"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pyqt-dialogs"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pyqt-multimedia",
+      "name": "pyqt-multimedia",
+      "description": "Use when adding multimedia to PyQt/PySide6 apps - audio and video playback with QMediaPlayer, camera capture with QCamera and QMediaCaptureSession, audio/video recording with QMediaRecorder, GStreamer backend setup, or codec and platform compatibility issues",
+      "tags": [
+        "python",
+        "qt",
+        "pyqt",
+        "multimedia",
+        "audio",
+        "video"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pyqt-multimedia"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pyqt-styling",
+      "name": "pyqt-styling",
+      "description": "Use when styling PyQt/PySide6 widgets with QSS - selectors and pseudo-states, stylesheet application, common style properties, widget-specific styling, or building a dark theme",
+      "tags": [
+        "python",
+        "qt",
+        "pyqt",
+        "styling",
+        "qss",
+        "css",
+        "themes"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pyqt-styling"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pyqt-testing",
+      "name": "pyqt-testing",
+      "description": "Use when testing PyQt/PySide6 applications with pytest-qt - qtbot fixture, signal/wait patterns, mouse/keyboard simulation, dialog testing, model/view testing, threaded code testing, or manual debugging techniques",
+      "tags": [
+        "python",
+        "qt",
+        "pyqt",
+        "testing",
+        "pytest"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pyqt-testing"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pyqt-threading",
+      "name": "pyqt-threading",
+      "description": "Use when handling PyQt/PySide6 threading - QThread patterns, QThreadPool/QRunnable, thread safety rules, moveToThread, Qt Concurrent, QTimer, testing threaded code, lifecycle management",
+      "tags": [
+        "python",
+        "qt",
+        "pyqt",
+        "threading",
+        "concurrency"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pyqt-threading"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pyqt-widgets",
+      "name": "pyqt-widgets",
+      "description": "Use when building PyQt/PySide6 UIs with QtWidgets - display, input and container widgets, buttons, item views like QListWidget and QTableWidget, layout management, or event handling (mouse/keyboard events, event filters, shortcuts)",
+      "tags": [
+        "python",
+        "qt",
+        "pyqt",
+        "widgets",
+        "gui"
+      ],
+      "technologies": [
+        "python"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pyqt-widgets"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:pytest",
+      "name": "pytest",
+      "description": "Use when writing Python tests with pytest - fixtures, parametrization, markers, conftest layout, pytest-asyncio, pytest-django, coverage with pytest-cov, mocking with pytest-mock, parallel runs with xdist, mutation testing with mutmut, or CI integration",
+      "tags": [
+        "python",
+        "testing",
+        "tdd",
+        "fixtures",
+        "unit-test"
+      ],
+      "technologies": [
+        "pytest"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "pytest"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:qt-cpp",
+      "name": "qt-cpp",
+      "description": "Use when developing desktop applications with Qt in C++ - CMake setup, signals and slots, QThread and QtConcurrent, QML integration, model/view programming, Qt5 to Qt6 migration, or windeployqt/macdeployqt/linuxdeployqt deployment",
+      "tags": [
+        "qt",
+        "c++",
+        "gui",
+        "desktop",
+        "qt6",
+        "cmake",
+        "cross-platform",
+        "qml"
+      ],
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "qt-cpp"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:ratatui",
+      "name": "ratatui",
+      "description": "Use when building terminal user interfaces in Rust with the ratatui crate - layout system, widget usage, input/event handling, app state architecture, TUI testing, or migrating between ratatui 0.29 and 0.30",
+      "tags": [
+        "rust",
+        "tui",
+        "terminal",
+        "cli",
+        "user-interface",
+        "ecosystem"
+      ],
+      "technologies": [
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "ratatui"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:redis",
+      "name": "redis",
+      "description": "Use when working with Redis - in-memory database, caching, pub/sub, sessions, rate limiting, RESP3, asyncio, Redis Stack",
+      "tags": [
+        "redis",
+        "database",
+        "caching",
+        "pub-sub",
+        "sessions",
+        "rate-limiting",
+        "resp3",
+        "async"
+      ],
+      "technologies": [
+        "redis"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "redis"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:rust-core",
+      "name": "rust-core",
+      "description": "Use when writing, reviewing, or refactoring Rust code - ownership and borrowing, error handling, async patterns, API design, memory optimization, performance tuning, testing, or common anti-patterns (Rust 1.80+, Edition 2024)",
+      "tags": [
+        "rust",
+        "core",
+        "ownership",
+        "error-handling",
+        "async",
+        "performance",
+        "testing"
+      ],
+      "technologies": [
+        "rust"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "rust-core"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:sqlalchemy",
+      "name": "sqlalchemy",
+      "description": "Use when working with SQLAlchemy 2.0 in Python - declarative models and relationships, queries and sessions, async engines with FastAPI, Alembic migrations, bulk operations, PostgreSQL query optimization, or debugging detached instances and N+1 queries",
+      "tags": [
+        "python",
+        "orm",
+        "database",
+        "sql",
+        "alembic",
+        "async"
+      ],
+      "technologies": [
+        "sqlalchemy"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "sqlalchemy"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:tailwind",
+      "name": "tailwind",
+      "description": "Use when styling with Tailwind CSS v4 - @theme directive and design tokens, custom utilities and variants, dark mode, the Oxide engine, arbitrary values, framework integration, or migrating from v3",
+      "tags": [
+        "css",
+        "frontend",
+        "responsive",
+        "design-system",
+        "utility-first"
+      ],
+      "technologies": [
+        "tailwind"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "tailwind"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:thunderbird-extension",
+      "name": "thunderbird-extension",
+      "description": "Use when developing Thunderbird MailExtensions - Manifest V2/V3 configuration, messenger.* APIs for accounts, messages, folders and compose, UI actions, message display scripts, Experiment APIs, ATN submission, or migration from legacy extensions",
+      "tags": [
+        "thunderbird",
+        "mailextension",
+        "email-extension",
+        "mozilla",
+        "atn",
+        "messenger-api"
+      ],
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "thunderbird-extension"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:turbodrf",
+      "name": "turbodrf",
+      "description": "Use when building Django REST APIs with TurboDRF - model Meta configuration, role-based and field-level permissions, multi-tenant predicates, router wiring, management commands, settings, or troubleshooting",
+      "tags": [
+        "python",
+        "django",
+        "rest-api",
+        "turbodrf",
+        "permissions"
+      ],
+      "technologies": [
+        "django"
+      ],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "turbodrf"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
+      "id": "CodeAtCode:oss-ai-skills:waydroid",
+      "name": "waydroid",
+      "description": "Use when setting up or troubleshooting Waydroid on Linux - installation and initialization, waydroid CLI, GPU and networking setup, GApps and Play certification, ADB integration, file sharing, or desktop environment integration",
+      "tags": [
+        "waydroid",
+        "android",
+        "container",
+        "linux",
+        "wayland",
+        "gapps"
+      ],
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/CodeAtCode/oss-ai-skills",
+        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "skillName": "waydroid"
+      },
+      "repositoryId": "codeatcode:oss-ai-skills"
+    },
+    {
       "id": "DmitryPogrebnoy:ruby-agent-skills:generating-sorbet",
       "name": "generating-sorbet",
       "technologies": [
