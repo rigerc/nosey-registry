@@ -22,7 +22,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "aiohttp"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:ast-grep",
@@ -43,7 +49,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "ast-grep"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:bpcore-engine",
@@ -64,7 +76,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "bpcore-engine"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:celery",
@@ -86,7 +104,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "celery"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django",
@@ -108,7 +132,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-admin",
@@ -130,7 +160,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-admin"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-allauth",
@@ -154,7 +190,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-allauth"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-bolt",
@@ -178,7 +220,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-bolt"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-celery",
@@ -202,7 +250,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-celery"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-filter",
@@ -224,7 +278,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-filter"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-htmx",
@@ -247,7 +307,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-htmx"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-ninja",
@@ -270,7 +336,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-ninja"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-storages",
@@ -294,7 +366,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-storages"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-tdd",
@@ -317,7 +395,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-tdd"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-transaction",
@@ -339,7 +423,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-transaction"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-unfold",
@@ -362,7 +452,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-unfold"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:firefox-extension",
@@ -383,7 +479,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "firefox-extension"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:gimp-plugin",
@@ -406,7 +508,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "gimp-plugin"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:httpx",
@@ -428,7 +536,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "httpx"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:kate-plugin",
@@ -450,7 +564,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "kate-plugin"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:kde-plasmoid",
@@ -474,7 +594,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "kde-plasmoid"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:llama-index",
@@ -499,7 +625,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "llama-index"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:mgba",
@@ -522,7 +654,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "mgba"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:opencode",
@@ -544,7 +682,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "opencode"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:openrct2",
@@ -567,7 +711,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "openrct2"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:playwright-visual-regression",
@@ -591,7 +741,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "playwright-visual-regression"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pydantic",
@@ -613,7 +769,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pydantic"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pygame",
@@ -635,7 +797,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pygame"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt",
@@ -659,7 +827,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-core",
@@ -681,7 +855,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-core"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-dialogs",
@@ -703,7 +883,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-dialogs"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-multimedia",
@@ -726,7 +912,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-multimedia"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-styling",
@@ -750,7 +942,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-styling"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-testing",
@@ -772,7 +970,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-testing"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-threading",
@@ -794,7 +998,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-threading"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-widgets",
@@ -816,7 +1026,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-widgets"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pytest",
@@ -838,7 +1054,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pytest"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:qt-cpp",
@@ -861,7 +1083,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "qt-cpp"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:ratatui",
@@ -884,7 +1112,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "ratatui"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:redis",
@@ -909,7 +1143,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "redis"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:rust-core",
@@ -933,7 +1173,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "rust-core"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:sqlalchemy",
@@ -956,7 +1202,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "sqlalchemy"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:tailwind",
@@ -978,7 +1230,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "tailwind"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:thunderbird-extension",
@@ -999,7 +1257,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "thunderbird-extension"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:turbodrf",
@@ -1021,7 +1285,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "turbodrf"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:waydroid",
@@ -1042,7 +1312,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "waydroid"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "DmitryPogrebnoy:ruby-agent-skills:generating-sorbet",
@@ -8890,7 +9166,13 @@
         "ref": "42289059901710441bfa8081c08c3a9f36b93f9c",
         "skillName": "jellyfin"
       },
-      "repositoryId": "terminalskills:skills"
+      "repositoryId": "terminalskills:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "TerminalSkills:skills:kubernetes-helm",
@@ -17929,7 +18211,13 @@
         "ref": "6de8ef78f2a63ce3c05ca4fca3ae6eb9bbbc7a5b",
         "skillName": "radarr"
       },
-      "repositoryId": "jmagar:claude-homelab"
+      "repositoryId": "jmagar:claude-homelab",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "jmagar:claude-homelab:sonarr",
@@ -17944,7 +18232,13 @@
         "ref": "6de8ef78f2a63ce3c05ca4fca3ae6eb9bbbc7a5b",
         "skillName": "sonarr"
       },
-      "repositoryId": "jmagar:claude-homelab"
+      "repositoryId": "jmagar:claude-homelab",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-20",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "kadajett:agent-nestjs-skills:nestjs-best-practices",
