@@ -1566,6 +1566,16 @@
       "technologyId": "celery",
       "recommendations": [
         {
+          "skillId": "CodeAtCode:oss-ai-skills:django-celery",
+          "priority": "optional",
+          "reason": "Django/Celery integration guidance from CodeAtCode/oss-ai-skills.",
+          "when": {
+            "allTechnologies": [
+              "django"
+            ]
+          }
+        },
+        {
           "skillId": "affaan-m:ECC:django-celery",
           "priority": "optional",
           "reason": "Catalog combination: Django + Celery.",
@@ -3165,6 +3175,11 @@
       "technologyId": "celery",
       "recommendations": [
         {
+          "skillId": "CodeAtCode:oss-ai-skills:celery",
+          "priority": "optional",
+          "reason": "Community celery guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
           "skillId": "wshobson:agents:python-background-jobs",
           "priority": "optional",
           "reason": "Catalog recommendation for Celery."
@@ -4038,6 +4053,71 @@
       "id": "technology:django",
       "technologyId": "django",
       "recommendations": [
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django",
+          "priority": "optional",
+          "reason": "Community django guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-admin",
+          "priority": "optional",
+          "reason": "Community django-admin guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-allauth",
+          "priority": "optional",
+          "reason": "Community django-allauth guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-bolt",
+          "priority": "optional",
+          "reason": "Community django-bolt guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-filter",
+          "priority": "optional",
+          "reason": "Community django-filter guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-htmx",
+          "priority": "optional",
+          "reason": "Community django-htmx guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-ninja",
+          "priority": "optional",
+          "reason": "Community django-ninja guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-storages",
+          "priority": "optional",
+          "reason": "Community django-storages guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-tdd",
+          "priority": "optional",
+          "reason": "Community django-tdd guidance from CodeAtCode/oss-ai-skills.",
+          "when": {
+            "allTechnologies": [
+              "pytest"
+            ]
+          }
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-transaction",
+          "priority": "optional",
+          "reason": "Community django-transaction guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:django-unfold",
+          "priority": "optional",
+          "reason": "Community django-unfold guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:turbodrf",
+          "priority": "optional",
+          "reason": "Community turbodrf guidance from CodeAtCode/oss-ai-skills."
+        },
         {
           "skillId": "Jeffallan:claude-skills:django-expert",
           "priority": "optional",
@@ -6172,6 +6252,11 @@
       "technologyId": "llamaindex",
       "recommendations": [
         {
+          "skillId": "CodeAtCode:oss-ai-skills:llama-index",
+          "priority": "optional",
+          "reason": "Community llama-index guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
           "skillId": "Mindrally:skills:llamaindex-development",
           "priority": "optional",
           "reason": "Catalog recommendation for LlamaIndex."
@@ -6937,6 +7022,17 @@
       ]
     },
     {
+      "id": "technology:opencode",
+      "technologyId": "opencode",
+      "recommendations": [
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:opencode",
+          "priority": "optional",
+          "reason": "Community opencode guidance from CodeAtCode/oss-ai-skills."
+        }
+      ]
+    },
+    {
       "id": "technology:opentelemetry",
       "technologyId": "opentelemetry",
       "recommendations": [
@@ -7061,6 +7157,11 @@
       "id": "technology:playwright",
       "technologyId": "playwright",
       "recommendations": [
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:playwright-visual-regression",
+          "priority": "optional",
+          "reason": "Community playwright-visual-regression guidance from CodeAtCode/oss-ai-skills."
+        },
         {
           "skillId": "HoangNguyen0403:agent-skills-standard:nextjs-testing",
           "priority": "optional",
@@ -7261,6 +7362,11 @@
       "technologyId": "pydantic",
       "recommendations": [
         {
+          "skillId": "CodeAtCode:oss-ai-skills:pydantic",
+          "priority": "optional",
+          "reason": "Community pydantic guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
           "skillId": "bobmatnyc:claude-mpm-skills:pydantic",
           "priority": "optional",
           "reason": "Catalog recommendation for Pydantic."
@@ -7303,6 +7409,11 @@
       "id": "technology:pytest",
       "technologyId": "pytest",
       "recommendations": [
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:pytest",
+          "priority": "optional",
+          "reason": "Community pytest guidance from CodeAtCode/oss-ai-skills."
+        },
         {
           "skillId": "HoangNguyen0403:agent-skills-standard:python-testing",
           "priority": "optional",
@@ -7938,6 +8049,11 @@
       "technologyId": "redis",
       "recommendations": [
         {
+          "skillId": "CodeAtCode:oss-ai-skills:redis",
+          "priority": "optional",
+          "reason": "Community redis guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
           "skillId": "HoangNguyen0403:agent-skills-standard:database-redis",
           "priority": "optional",
           "reason": "Catalog recommendation for Redis."
@@ -8103,6 +8219,11 @@
       "id": "technology:rust",
       "technologyId": "rust",
       "recommendations": [
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:rust-core",
+          "priority": "optional",
+          "reason": "Community rust-core guidance from CodeAtCode/oss-ai-skills."
+        },
         {
           "skillId": "Jeffallan:claude-skills:rust-engineer",
           "priority": "optional",
@@ -8609,6 +8730,11 @@
       "technologyId": "sqlalchemy",
       "recommendations": [
         {
+          "skillId": "CodeAtCode:oss-ai-skills:sqlalchemy",
+          "priority": "optional",
+          "reason": "Community sqlalchemy guidance from CodeAtCode/oss-ai-skills."
+        },
+        {
           "skillId": "bobmatnyc:claude-mpm-skills:sqlalchemy",
           "priority": "optional",
           "reason": "Catalog recommendation for SQLAlchemy."
@@ -8894,6 +9020,11 @@
       "id": "technology:tailwind",
       "technologyId": "tailwind",
       "recommendations": [
+        {
+          "skillId": "CodeAtCode:oss-ai-skills:tailwind",
+          "priority": "optional",
+          "reason": "Community tailwind guidance from CodeAtCode/oss-ai-skills."
+        },
         {
           "skillId": "Mindrally:skills:tailwindcss",
           "priority": "optional",
