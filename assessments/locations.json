@@ -2,6 +2,190 @@
   "schema_version": 1,
   "registry_id": "nosey:official",
   "locations": {
+    "CodeAtCode:oss-ai-skills:aiohttp": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/aiohttp/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:ast-grep": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "tool/ast-grep/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:bpcore-engine": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/bpcore-engine/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:celery": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/celery/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-admin": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-admin/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-allauth": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-allauth/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-bolt": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-bolt/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-celery": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-celery/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-filter": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-filter/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-htmx": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-htmx/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-ninja": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-ninja/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-storages": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-storages/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-tdd": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-tdd/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-transaction": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-transaction/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:django-unfold": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/django-unfold/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:firefox-extension": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "extend/firefox-extension/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:gimp-plugin": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "extend/gimp-plugin/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:httpx": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/httpx/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:kate-plugin": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "extend/kate-plugin/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:kde-plasmoid": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "extend/kde-plasmoid/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:llama-index": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/llama-index/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:mgba": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "extend/mgba/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:opencode": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "extend/opencode/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:openrct2": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "extend/openrct2/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:playwright-visual-regression": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/playwright-visual-regression/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pydantic": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pydantic/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pygame": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pygame/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pyqt/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-core": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pyqt/core/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-dialogs": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pyqt/dialogs/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-multimedia": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pyqt/multimedia/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-styling": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pyqt/styling/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-testing": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pyqt/testing/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-threading": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pyqt/threading/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-widgets": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pyqt/widgets/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:pytest": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/pytest/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:qt-cpp": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/qt-cpp/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:ratatui": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/ratatui/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:redis": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "tool/redis/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:rust-core": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "languages/rust-core/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:sqlalchemy": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/sqlalchemy/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:tailwind": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/tailwind/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:thunderbird-extension": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "extend/thunderbird-extension/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:turbodrf": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "frameworks/turbodrf/SKILL.md"
+    },
+    "CodeAtCode:oss-ai-skills:waydroid": {
+      "commit": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+      "path": "tool/waydroid/SKILL.md"
+    },
     "DmitryPogrebnoy:ruby-agent-skills:generating-sorbet": {
       "commit": "cb2e3552a62026584003e1515ac635bc5eef45c3",
       "path": "plugins/ruby-type-signature-skills/skills/generating-sorbet/SKILL.md"

@@ -206,6 +206,12 @@
       "uri": "https://github.com/cnwzhu/gpui-skills"
     },
     {
+      "id": "codeatcode:oss-ai-skills",
+      "name": "CodeAtCode/oss-ai-skills",
+      "kind": "git",
+      "uri": "https://github.com/CodeAtCode/oss-ai-skills"
+    },
+    {
       "id": "confident-ai:deepeval",
       "name": "confident-ai/deepeval",
       "kind": "git",
