@@ -17947,6 +17947,27 @@
       "repositoryId": "jmagar:claude-homelab"
     },
     {
+      "id": "kaankiziltug:logo-design-skill:logo-design",
+      "name": "logo-design",
+      "description": "Professional logo and brand-mark design, from brief to production files. Guides discovery and the design brief, concept generation, choosing a mark type (wordmark, monogram, letterform, pictorial, abstract, emblem, mascot, combination), building clean geometric SVG logos, optical refinement, colour and typography, testing (16 px, one-colour, reversed, shelf test), client presentation, delivery variants and brand guidelines. Includes a searchable library of 1,400+ real-world SVG logos classified by type, technique, geometry and industry, plus scripts that audit SVGs and generate test sheets, presentation boards and export variants. Use this skill whenever the user wants a logo, logotype, wordmark, monogram, brand mark, symbol, app icon or favicon designed, redesigned, refreshed, critiqued or compared; asks for logo ideas or concepts; needs a design brief, logo guidelines, lockups or an identity system; or mentions branding a new company, product, app or project — even if they don't say the word \"logo\".",
+      "tags": [
+        "logo-design",
+        "branding",
+        "visual-identity",
+        "svg",
+        "typography",
+        "favicon"
+      ],
+      "technologies": [],
+      "source": {
+        "kind": "git",
+        "uri": "https://github.com/kaankiziltug/logo-design-skill",
+        "ref": "e9eaddc07895575253d6663320354a708f53e955",
+        "skillName": "logo-design"
+      },
+      "repositoryId": "kaankiziltug:logo-design-skill"
+    },
+    {
       "id": "kadajett:agent-nestjs-skills:nestjs-best-practices",
       "name": "nestjs-best-practices",
       "technologies": [

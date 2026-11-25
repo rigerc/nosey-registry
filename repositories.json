@@ -470,6 +470,12 @@
       "uri": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     {
+      "id": "kaankiziltug:logo-design-skill",
+      "name": "kaankiziltug/logo-design-skill",
+      "kind": "git",
+      "uri": "https://github.com/kaankiziltug/logo-design-skill"
+    },
+    {
       "id": "kadajett:agent-nestjs-skills",
       "name": "kadajett/agent-nestjs-skills",
       "kind": "git",

@@ -3438,6 +3438,10 @@
       "commit": "6de8ef78f2a63ce3c05ca4fca3ae6eb9bbbc7a5b",
       "path": "skills/sonarr/SKILL.md"
     },
+    "kaankiziltug:logo-design-skill:logo-design": {
+      "commit": "e9eaddc07895575253d6663320354a708f53e955",
+      "path": "skills/logo-design/SKILL.md"
+    },
     "kadajett:agent-nestjs-skills:nestjs-best-practices": {
       "commit": "3986e0cede33958e000f959031cbee0cd83c2941",
       "path": "skills/nestjs-best-practices/SKILL.md"
