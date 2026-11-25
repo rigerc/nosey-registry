@@ -14,12 +14,13 @@
  * repository is gone (404) or the skill is absent at the repository's HEAD.
  * Transient failures (network, rate limits, 5xx, renames) never count as a miss.
  */
-import {mkdtempSync, rmSync, appendFileSync, writeFileSync} from 'node:fs';
+import {mkdtempSync, rmSync, appendFileSync, writeFileSync, readFileSync, existsSync} from 'node:fs';
+import {isDeepStrictEqual} from 'node:util';
 import {tmpdir} from 'node:os';
 import {join, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {LOCATIONS_FILE, PROBES_FILE, SCORES_FILE, SHA40, assertOfficial, loadRegistry, loadLocations, serializeLocations,
-  pinOf, readJson, parseArgs, writeJson} from './lib.mjs';
+  pinOf, safeSkillPath, readJson, parseArgs, writeJson} from './lib.mjs';
 import {fetchGroup, gitRunner, classifyGitFailure, run} from './quality.mjs';
 import {chooseLocation} from './locate.mjs';
 import {loadSource, merge as mergeScores} from './jev.mjs';
@@ -235,9 +236,53 @@ export function render(summary, {enforce, probed, total}) {
     list('Quarantined', summary.quarantined) + list(enforce ? 'Ready to quarantine' : 'Would quarantine', summary.railTripped ? [] : summary.wouldQuarantine) +
     list('Misses recorded', summary.strikes.map(s => s.split(' ')[0])) + list('Skipped (transient or ambiguous)', summary.skipped);
   if (!summary.bumped.length && !summary.restored.length && !summary.quarantined.length && !summary.strikes.length) text += 'No changes.\n\n';
-  text += 'Pins are re-pinned only when the skill directory differs from the pinned commit. Checks run in this workflow replace PR checks, ' +
-    'because pull requests opened with `GITHUB_TOKEN` do not trigger other workflows.\n';
+  text += 'Pins are re-pinned only when the skill directory differs from the pinned commit. Validation runs before publishing; PR-triggered checks may require approval when using `GITHUB_TOKEN`.\n';
   return text;
+}
+
+/**
+ * Replay pending pin/location/history deltas only where current main still
+ * matches the PR's merge base. Main wins on concurrent edits. Never replay
+ * an unreviewed quarantine: the current probe, enforcement flag and rail
+ * must authorize it again. No code from the pending PR is executed.
+ */
+export function reconcilePending({skills, locations, history, base, pending}) {
+  const nextLocations = new Map(locations);
+  const nextHistory = structuredClone(history);
+  const baseSkills = new Map(base.skills.map(s => [s.id, s]));
+  const pendingSkills = new Map(pending.skills.map(s => [s.id, s]));
+  const carried = {pins: 0, history: 0};
+  const same = isDeepStrictEqual;
+  const next = skills.map(skill => {
+    const id = skill.id;
+    const before = baseSkills.get(id), proposed = pendingSkills.get(id);
+    if (!before || !proposed || !pinOf(skill) || skill.quarantine ||
+        !same(skill.source, before.source) || !same(skill.quarantine, before.quarantine) ||
+        !same(locations.get(id), base.locations[id]) || !same(history[id], base.history[id])) return skill;
+    const oldPin = pinOf(before), newPin = pinOf(proposed);
+    if (!oldPin || !newPin || !same({...before.source, ref: newPin.commit}, proposed.source)) return skill;
+    let result = skill;
+    if (newPin.commit !== oldPin.commit) {
+      const loc = pending.locations[id];
+      if (!loc || loc.commit !== newPin.commit || !safeSkillPath(loc.path)) return skill;
+      nextLocations.set(id, loc);
+      result = {...skill, source: {...skill.source, ref: newPin.commit}};
+      carried.pins++;
+    }
+    if (!same(base.history[id], pending.history[id])) {
+      if (pending.history[id] === undefined) delete nextHistory[id];
+      else nextHistory[id] = structuredClone(pending.history[id]);
+      carried.history++;
+    }
+    return result;
+  });
+  return {skills: next, locations: nextLocations, history: nextHistory, carried};
+}
+
+function pendingSnapshot(dir, prefix) {
+  const load = file => JSON.parse(readFileSync(join(dir, prefix + '-' + file), 'utf8'));
+  return {skills: load('skills.json').skills, locations: load('locations.json').locations,
+    history: load('pin-probes.json').probes};
 }
 
 async function main(argv) {
@@ -245,7 +290,7 @@ async function main(argv) {
   if (!opts.check && !opts.write) throw new Error('Usage: pins.mjs --check | --write [--max-groups N --deadline-minutes N]');
   assertOfficial();
   const registry = loadRegistry();
-  const history = readJson(PROBES_FILE, {schema_version: 1, probes: {}}).probes;
+  let history = readJson(PROBES_FILE, {schema_version: 1, probes: {}}).probes;
   if (opts.check) {
     const problems = checkConsistency(registry.skills, history);
     for (const problem of problems) console.error('pins: ' + problem);
@@ -258,11 +303,18 @@ async function main(argv) {
   const enforce = process.env.QUARANTINE === 'enforce';
   const today = process.env.PINS_TODAY || new Date().toISOString().slice(0, 10);
   const deadline = opts['deadline-minutes'] ? Date.now() + Number(opts['deadline-minutes']) * 60000 : Infinity;
-  const pins = registry.skills.map(skill => {
+  let skills = registry.skills;
+  let locations = loadLocations();
+  let carried = {pins: 0, history: 0};
+  const pendingDir = process.env.PINS_PENDING_DIR;
+  if (pendingDir && existsSync(pendingDir)) {
+    ({skills, locations, history, carried} = reconcilePending({skills, locations, history,
+      base: pendingSnapshot(pendingDir, 'base'), pending: pendingSnapshot(pendingDir, 'pending')}));
+  }
+  const pins = skills.map(skill => {
     const pin = pinOf(skill);
     return pin && {...pin, quarantined: Boolean(skill.quarantine)};
   }).filter(Boolean);
-  const locations = loadLocations();
   for (const pin of pins) {
     const loc = locations.get(pin.id);
     pin.path = loc && loc.commit === pin.commit ? loc.path : undefined;
@@ -291,14 +343,16 @@ async function main(argv) {
       probed++;
     }
   }
-  const result = apply({skills: registry.skills, locations, history, decisions, today, enforce});
+  const result = apply({skills, locations, history, decisions, today, enforce});
   const changed = [writeJson(registry.config.files.skills, {...registry.skillsDoc, skills: result.skills}),
     writeJson(LOCATIONS_FILE, serializeLocations(result.locations)),
     writeJson(PROBES_FILE, {schema_version: 1, probes: Object.fromEntries(Object.entries(result.history).sort(([a], [b]) => (a < b ? -1 : 1)))})];
   // Score entries of newly quarantined skills would otherwise fail `jev.mjs check` as orphans.
   const scores = readJson(SCORES_FILE, null);
   if (scores && result.summary.quarantined.length) writeJson(SCORES_FILE, mergeScores([], scores, loadSource()).next);
-  const text = render(result.summary, {enforce, probed, total: pins.length});
+  const text = render(result.summary, {enforce, probed, total: pins.length}) +
+    (carried.pins || carried.history ? '\nCarried forward ' + carried.pins + ' pending pin updates and ' +
+      carried.history + ' probe-history changes from the existing PR; the lists above describe this run.\n' : '');
   console.log(text);
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, text + '\n');
   if (process.env.PINS_SUMMARY_FILE) writeFileSync(process.env.PINS_SUMMARY_FILE, text);

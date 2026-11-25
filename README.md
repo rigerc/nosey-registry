@@ -88,6 +88,14 @@ nosey registry generate . --check
 
 For documents configured with an upstream source, `nosey registry refresh .` updates the corresponding upstream-backed data. Open a pull request with the relevant source and generated changes; the repository's workflows also validate and regenerate registry data. Avoid manually editing generated manifests, locks, or the registry statistics at the top of this README.
 
+### Automated registry maintenance
+
+Pin updates, quality refreshes, Open JEV scoring and regeneration share a queued concurrency group and coordinate review PRs. Existing automation PRs take priority (regeneration, pins, quality, scores); other jobs defer until the higher-priority PR is merged or closed. Rerun a deferred workflow manually from `main` or let its schedule pick it up. Human-authored PRs are not blocked.
+
+The pin workflow refreshes an existing PR after relevant changes on `main` and reconciles pending pins and miss observations with reviewed data. Main wins if the corresponding pin, location or history changed; quarantine decisions are re-evaluated under the current enforcement setting. Closing the pin PR without merging intentionally discards its pending state. All registry writers check for changed inputs before publishing; rerun if the check reports drift.
+
+By default, automation uses `GITHUB_TOKEN`, so GitHub may require approval for PR-triggered CI. Optionally configure the repository secret `REGISTRY_PR_TOKEN` with a narrowly scoped credential authorized to write contents and pull requests in this repository (for example a fine-grained PAT). No credential is required for the maintenance changes to function.
+
 ## Provenance and licensing
 
 The data was originally seeded from [skills-catalog](https://github.com/rigerc/skills-catalog) and is now maintained in this repository. Each skill points to an upstream source. Skill content remains subject to its upstream license; Nosey's application MIT license does not relicense registry data or third-party skills. See [NOTICE.md](NOTICE.md) for details.
