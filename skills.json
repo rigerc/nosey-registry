@@ -22,7 +22,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "aiohttp"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:ast-grep",
@@ -43,7 +49,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "ast-grep"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:bpcore-engine",
@@ -64,7 +76,13 @@
         "ref": "31df1698ca07798349fa9dfb744b80ed418a4b1c",
         "skillName": "bpcore-engine"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:celery",
@@ -86,7 +104,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "celery"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django",
@@ -108,7 +132,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-admin",
@@ -130,7 +160,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-admin"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-allauth",
@@ -154,7 +190,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-allauth"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-bolt",
@@ -178,7 +220,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-bolt"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-celery",
@@ -202,7 +250,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-celery"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-filter",
@@ -224,7 +278,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-filter"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-htmx",
@@ -247,7 +307,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-htmx"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-ninja",
@@ -270,7 +336,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-ninja"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-storages",
@@ -294,7 +366,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-storages"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-tdd",
@@ -317,7 +395,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-tdd"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-transaction",
@@ -339,7 +423,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-transaction"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:django-unfold",
@@ -362,7 +452,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "django-unfold"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:firefox-extension",
@@ -383,7 +479,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "firefox-extension"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:gimp-plugin",
@@ -406,7 +508,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "gimp-plugin"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:httpx",
@@ -428,7 +536,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "httpx"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:kate-plugin",
@@ -450,7 +564,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "kate-plugin"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:kde-plasmoid",
@@ -474,7 +594,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "kde-plasmoid"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:llama-index",
@@ -499,7 +625,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "llama-index"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:mgba",
@@ -522,7 +654,13 @@
         "ref": "31df1698ca07798349fa9dfb744b80ed418a4b1c",
         "skillName": "mgba"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:opencode",
@@ -544,7 +682,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "opencode"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:openrct2",
@@ -567,7 +711,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "openrct2"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:playwright-visual-regression",
@@ -591,7 +741,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "playwright-visual-regression"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pydantic",
@@ -613,7 +769,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pydantic"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pygame",
@@ -635,7 +797,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pygame"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt",
@@ -659,7 +827,13 @@
         "ref": "31df1698ca07798349fa9dfb744b80ed418a4b1c",
         "skillName": "pyqt"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-core",
@@ -681,7 +855,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-core"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-dialogs",
@@ -703,7 +883,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-dialogs"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-multimedia",
@@ -726,7 +912,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-multimedia"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-styling",
@@ -750,7 +942,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-styling"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-testing",
@@ -772,7 +970,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-testing"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-threading",
@@ -794,7 +998,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-threading"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pyqt-widgets",
@@ -816,7 +1026,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "pyqt-widgets"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:pytest",
@@ -838,7 +1054,13 @@
         "ref": "31df1698ca07798349fa9dfb744b80ed418a4b1c",
         "skillName": "pytest"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:qt-cpp",
@@ -861,7 +1083,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "qt-cpp"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:ratatui",
@@ -884,7 +1112,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "ratatui"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:redis",
@@ -909,7 +1143,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "redis"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:rust-core",
@@ -933,7 +1173,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "rust-core"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:sqlalchemy",
@@ -956,7 +1202,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "sqlalchemy"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:tailwind",
@@ -978,7 +1230,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "tailwind"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:thunderbird-extension",
@@ -999,7 +1257,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "thunderbird-extension"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:turbodrf",
@@ -1021,7 +1285,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "turbodrf"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "CodeAtCode:oss-ai-skills:waydroid",
@@ -1042,7 +1312,13 @@
         "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
         "skillName": "waydroid"
       },
-      "repositoryId": "codeatcode:oss-ai-skills"
+      "repositoryId": "codeatcode:oss-ai-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "DmitryPogrebnoy:ruby-agent-skills:generating-sorbet",
@@ -8251,7 +8527,13 @@
         "ref": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53",
         "skillName": "django-celery"
       },
-      "repositoryId": "affaan-m:ecc"
+      "repositoryId": "affaan-m:ecc",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "affaan-m:ECC:fastapi-patterns",
@@ -8730,7 +9012,13 @@
         "ref": "5246e6ce812436c7f127e05dca039966b39dce67",
         "skillName": "angular-developer"
       },
-      "repositoryId": "angular:skills"
+      "repositoryId": "angular:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "annatchijova:SKILLS:language-selection",
@@ -8763,7 +9051,13 @@
         "ref": "4a6bb39e7b45e26402eb215393c51ccf5df1ca4c",
         "skillName": "nuxt"
       },
-      "repositoryId": "antfu:skills"
+      "repositoryId": "antfu:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "antfu:skills:unocss",
@@ -8798,7 +9092,13 @@
         "ref": "4a6bb39e7b45e26402eb215393c51ccf5df1ca4c",
         "skillName": "vite"
       },
-      "repositoryId": "antfu:skills"
+      "repositoryId": "antfu:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "antfu:skills:vitest",
@@ -8978,7 +9278,13 @@
         "ref": "441b8c4ef1cbfbd5be34204301c3973b16242679",
         "skillName": "auth0"
       },
-      "repositoryId": "auth0:agent-skills"
+      "repositoryId": "auth0:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "av:skills:preact-buildless-frontend",
@@ -9035,7 +9341,13 @@
         "ref": "3b1580d8398e0b5408b3bf0bada0e941a1cfc642",
         "skillName": "swift-concurrency"
       },
-      "repositoryId": "avdlee:swift-concurrency-agent-skill"
+      "repositoryId": "avdlee:swift-concurrency-agent-skill",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "avdlee:swift-testing-agent-skill:swift-testing-expert",
@@ -9070,7 +9382,13 @@
         "ref": "62bd760f005093d1e2e4de5db156e456a5f96400",
         "skillName": "swiftui-expert-skill"
       },
-      "repositoryId": "avdlee:swiftui-agent-skill"
+      "repositoryId": "avdlee:swiftui-agent-skill",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "avdlee:xcode-build-optimization-agent-skill:xcode-build-orchestrator",
@@ -9448,7 +9766,13 @@
         "ref": "0a5a49e6fe3d57c34d307a17e0f711ccd63fb409",
         "skillName": "clerk"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-android",
@@ -9463,7 +9787,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-android"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-astro-patterns",
@@ -9478,7 +9808,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-astro-patterns"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-backend-api",
@@ -9492,7 +9828,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-backend-api"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-chrome-extension-patterns",
@@ -9507,7 +9849,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-chrome-extension-patterns"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-custom-ui",
@@ -9521,7 +9869,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-custom-ui"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-expo",
@@ -9536,7 +9890,13 @@
         "ref": "0a5a49e6fe3d57c34d307a17e0f711ccd63fb409",
         "skillName": "clerk-expo"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-nextjs-patterns",
@@ -9551,7 +9911,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-nextjs-patterns"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-nuxt-patterns",
@@ -9566,7 +9932,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-nuxt-patterns"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-orgs",
@@ -9580,7 +9952,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-orgs"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-react-patterns",
@@ -9595,7 +9973,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-react-patterns"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-react-router-patterns",
@@ -9610,7 +9994,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-react-router-patterns"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-setup",
@@ -9629,7 +10019,13 @@
         "ref": "0a5a49e6fe3d57c34d307a17e0f711ccd63fb409",
         "skillName": "clerk-setup"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-swift",
@@ -9644,7 +10040,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-swift"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-tanstack-patterns",
@@ -9659,7 +10061,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-tanstack-patterns"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-testing",
@@ -9673,7 +10081,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-testing"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-vue-patterns",
@@ -9688,7 +10102,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-vue-patterns"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "clerk:skills:clerk-webhooks",
@@ -9702,7 +10122,13 @@
         "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-webhooks"
       },
-      "repositoryId": "clerk:skills"
+      "repositoryId": "clerk:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "cli:cli:dependabot-triager",
@@ -10011,7 +10437,13 @@
         "ref": "ff191de7d903788eceaf516a514ae7d3b56b924a",
         "skillName": "cloudflare"
       },
-      "repositoryId": "cloudflare:skills"
+      "repositoryId": "cloudflare:skills",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "cloudflare:skills:durable-objects",
@@ -10088,7 +10520,13 @@
         "ref": "5108325ecceabc899c761e07aa617b09c02445ee",
         "skillName": "workers-best-practices"
       },
-      "repositoryId": "cloudflare:skills"
+      "repositoryId": "cloudflare:skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "cloudflare:skills:wrangler",
@@ -10124,7 +10562,13 @@
         "ref": "516cbea80795830df8e2350c93b2a171bd899384",
         "skillName": "migrate-to-vinext"
       },
-      "repositoryId": "cloudflare:vinext"
+      "repositoryId": "cloudflare:vinext",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-actions",
@@ -10324,7 +10768,13 @@
         "ref": "603f4920e15334e26614dcdca44816a4007ee255",
         "skillName": "convex"
       },
-      "repositoryId": "convex:agent-skills"
+      "repositoryId": "convex:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "currents-dev:playwright-best-practices-skill:playwright-best-practices",
@@ -10339,7 +10789,13 @@
         "ref": "0b75b5835a87de1fdd202ba965f3bc5a27738fdf",
         "skillName": "playwright-best-practices"
       },
-      "repositoryId": "currents-dev:playwright-best-practices-skill"
+      "repositoryId": "currents-dev:playwright-best-practices-skill",
+      "quality": "poor",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:agent-observability-auto-experiment",
@@ -10353,7 +10809,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "agent-observability-auto-experiment"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:agent-observability-build-eval-from-annotations",
@@ -10367,7 +10829,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "agent-observability-build-eval-from-annotations"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:agent-observability-eval-bootstrap",
@@ -10461,7 +10929,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "agent-observability-online-experiment"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:agent-observability-replay-trace",
@@ -10535,7 +11009,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "ai-activity-audit"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:compliance-report",
@@ -10549,7 +11029,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "compliance-report"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:cost-spike-investigation",
@@ -10563,7 +11049,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "cost-spike-investigation"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:datadog-app",
@@ -10597,7 +11089,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-account-setup"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-docker",
@@ -10611,7 +11109,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-docker"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-kubernetes",
@@ -10625,7 +11129,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-kubernetes"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-linux",
@@ -10639,7 +11149,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-linux"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-macos",
@@ -10653,7 +11169,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-macos"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-windows",
@@ -10667,7 +11189,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-windows"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-android-sdk",
@@ -10721,7 +11249,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-audit"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-aws-ccm",
@@ -10735,7 +11269,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-aws-ccm"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-aws-integration",
@@ -10749,7 +11289,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-aws-integration"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-aws-log-forwarding",
@@ -10763,7 +11309,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-aws-log-forwarding"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-aws-storage-management",
@@ -10777,7 +11329,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-aws-storage-management"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-azure-ccm",
@@ -10791,7 +11349,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-azure-ccm"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-azure-integration",
@@ -10825,7 +11389,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-azure-log-forwarding"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-browser-sdk",
@@ -10839,7 +11409,13 @@
         "ref": "08f698841e0dfbba09832296f20f13faa44680eb",
         "skillName": "dd-browser-sdk"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-confluent-cloud-integration",
@@ -10853,7 +11429,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-confluent-cloud-integration"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-dbm-rds-postgres",
@@ -10867,7 +11449,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-dbm-rds-postgres"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-docs",
@@ -10901,7 +11489,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-gcp-ccm"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-gcp-integration",
@@ -10935,7 +11529,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-gcp-log-forwarding"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-instrument-llmo",
@@ -11009,7 +11609,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-logs"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-monitors",
@@ -11023,7 +11629,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-monitors"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "excellent",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-oci-ccm",
@@ -11037,7 +11649,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-oci-ccm"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-oci-integration",
@@ -11071,7 +11689,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-orchestrator"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:dd-product-recommender",
@@ -11125,7 +11749,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-pup"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:enable-dsm",
@@ -11159,7 +11789,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "key-compromise"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:ownership-agent",
@@ -11193,7 +11829,13 @@
         "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "security-investigation"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:service-remapping",
@@ -11227,7 +11869,13 @@
         "ref": "08f698841e0dfbba09832296f20f13faa44680eb",
         "skillName": "setup-sourcemaps"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "fair",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:triage-flaky-test",
@@ -11241,7 +11889,13 @@
         "ref": "08f698841e0dfbba09832296f20f13faa44680eb",
         "skillName": "triage-flaky-test"
       },
-      "repositoryId": "datadog-labs:agent-skills"
+      "repositoryId": "datadog-labs:agent-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "datadog-labs:agent-skills:unblock-pr",
@@ -11503,7 +12157,13 @@
         "ref": "9454768d781ae27173ebf5fd688b5753e70dc921",
         "skillName": "nix"
       },
-      "repositoryId": "devon-systems:hoenn"
+      "repositoryId": "devon-systems:hoenn",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "docker:skills:docker-project-foundations",
@@ -11517,7 +12177,13 @@
         "ref": "5653ef866fc4475f66bb8097043ee4dd19956e76",
         "skillName": "docker-project-foundations"
       },
-      "repositoryId": "docker:skills"
+      "repositoryId": "docker:skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "duckdb:duckdb-skills:attach-db",
@@ -11591,7 +12257,13 @@
         "ref": "44dfbbb414e54187964a2212eae28495f6ae21d9",
         "skillName": "install-duckdb"
       },
-      "repositoryId": "duckdb:duckdb-skills"
+      "repositoryId": "duckdb:duckdb-skills",
+      "quality": "good",
+      "assessment": {
+        "method": "automated",
+        "assessedAt": "2026-11-25",
+        "assessor": "skill-validator v1.8.0"
+      }
     },
     {
       "id": "duckdb:duckdb-skills:query",
