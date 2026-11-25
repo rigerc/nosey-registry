@@ -6,6 +6,15 @@ name: Update skill pins
 # errors, rate limits and renames never count. Opens one review PR. Official
 # registry only. quality-refresh.yml re-evaluates re-pinned skills after merge.
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills.json'
+      - 'repositories.json'
+      - 'assessments/**'
+      - 'nosey.registry*.json'
+      - 'scripts/pins.mjs'
+      - '.github/workflows/update-pins.yml'
   schedule:
     - cron: '17 7 * * 1'
   workflow_dispatch:
@@ -21,6 +30,7 @@ permissions:
 concurrency:
   group: registry-assessments
   cancel-in-progress: false
+  queue: max
 
 env:
   # Pinned nosey-9 generator commit. Bump deliberately; never use a branch.
@@ -29,7 +39,7 @@ env:
 
 jobs:
   update:
-    if: github.repository == 'rigerc/nosey-registry'
+    if: github.repository == 'rigerc/nosey-registry' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     permissions:
@@ -39,34 +49,67 @@ jobs:
       - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
         with:
           persist-credentials: false
+          ref: main
+          fetch-depth: 0
+      - name: Check pending maintenance PRs
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/maintenance-pr.sh gate automation/update-skill-pins ${{ github.event_name == 'push' && 'existing-only' || '' }}
+      - name: Recover data from the open pin PR
+        if: steps.gate.outputs.run == 'true' && steps.gate.outputs.pending_sha != ''
+        env:
+          PENDING_SHA: ${{ steps.gate.outputs.pending_sha }}
+          PENDING_DIR: ${{ runner.temp }}/pending-pins
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin "$PENDING_SHA"
+          ancestor="$(git merge-base HEAD "$PENDING_SHA")"
+          mkdir -p "$PENDING_DIR"
+          for item in skills.json assessments/locations.json assessments/pin-probes.json; do
+            git show "$ancestor:$item" > "$PENDING_DIR/base-$(basename "$item")"
+            git show "$PENDING_SHA:$item" > "$PENDING_DIR/pending-$(basename "$item")"
+          done
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        if: steps.gate.outputs.run == 'true'
         with:
           node-version: '22'
       - name: Probe upstream repositories and update pins
+        if: steps.gate.outputs.run == 'true'
         env:
           # Report-only until the repository variable is set to "enforce".
           QUARANTINE: ${{ vars.QUARANTINE }}
           MAX_GROUPS: ${{ inputs.max_groups || '200' }}
+          PINS_PENDING_DIR: ${{ runner.temp }}/pending-pins
           PINS_SUMMARY_FILE: ${{ runner.temp }}/pins-summary.md
         run: node scripts/pins.mjs --write --max-groups "$MAX_GROUPS" --deadline-minutes 60
       - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5.6.0
+        if: steps.gate.outputs.run == 'true'
         with:
           go-version: '1.26.10'
           cache: false
       - name: Project results and regenerate the registry
+        if: steps.gate.outputs.run == 'true'
         run: |
           set -euo pipefail
           node scripts/sync.mjs --write
           go run ${GENERATOR}@${GENERATOR_REF} registry generate .
       - name: Validate
+        if: steps.gate.outputs.run == 'true'
         run: |
           set -euo pipefail
           node --test tests/*.test.mjs
           npm run --silent check
           go run ${GENERATOR}@${GENERATOR_REF} registry validate . --standalone
+      - name: Reject stale registry inputs before publishing
+        if: steps.gate.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/maintenance-pr.sh assert-current
       - uses: peter-evans/create-pull-request@84ae59a2cdc2258d6fa0732dd66352dddae2a412 # v7.0.9
+        if: steps.gate.outputs.run == 'true'
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.REGISTRY_PR_TOKEN || github.token }}
           branch: automation/update-skill-pins
           base: main
           delete-branch: true

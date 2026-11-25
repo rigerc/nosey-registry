@@ -5,7 +5,7 @@ import {mkdtempSync, mkdirSync, writeFileSync, rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {pinOf, resolvePins} from '../scripts/lib.mjs';
-import {decide, apply, checkConsistency, probeRepo, MIN_STRIKE_GAP_DAYS} from '../scripts/pins.mjs';
+import {decide, apply, checkConsistency, probeRepo, reconcilePending, MIN_STRIKE_GAP_DAYS} from '../scripts/pins.mjs';
 import {project} from '../scripts/sync.mjs';
 
 const OLD = 'a'.repeat(40);
@@ -199,4 +199,42 @@ test('probeRepo follows the recorded location when several skills share a name',
     assert.equal(decide(pin({...p, path: undefined}), await observe(base, 'o/r', pin({...p, path: undefined}))).action, 'skip',
       'without a recorded location an ambiguous skill is never guessed');
   } finally {rmSync(base, {recursive: true, force: true});}
+});
+
+test('pending reconciliation preserves unprobed pins and consecutive misses', () => {
+  const a = skill('o:r:a'), b = skill('o:r:b'), added = skill('o:r:new');
+  const oldLoc = {commit: OLD, path: 'a/SKILL.md'};
+  const newLoc = {commit: NEW, path: 'moved/a/SKILL.md'};
+  const strike = {misses: 1, firstMissAt: '2026-11-01', lastMissAt: '2026-11-01', reason: 'repo_gone'};
+  const base = {skills: [a, b], locations: {[a.id]: oldLoc}, history: {}};
+  const pending = {skills: [{...a, source: {...a.source, ref: NEW}}, b],
+    locations: {[a.id]: newLoc}, history: {[b.id]: strike}};
+  const r = reconcilePending({skills: [a, b, added], locations: new Map([[a.id, oldLoc]]), history: {}, base, pending});
+  assert.equal(r.skills[0].source.ref, NEW);
+  assert.deepEqual(r.locations.get(a.id), newLoc);
+  assert.equal(r.skills[2], added);
+  assert.deepEqual(r.history, {[b.id]: strike});
+  const next = apply({...r, decisions: new Map([[b.id, {action: 'missing', reason: 'repo_gone'}]]),
+    today: '2026-11-08', enforce: true});
+  assert.equal(next.skills[0].source.ref, NEW, 'unprobed pending pin survives');
+  assert.equal(next.history[b.id].misses, 2);
+  assert.equal(next.skills[1].quarantine.reason, 'repo_gone');
+});
+
+test('pending reconciliation gives main precedence and never replays quarantine', () => {
+  const a = skill('o:r:a'), b = skill('o:r:b'), removed = skill('o:r:removed');
+  const strike = {misses: 2, firstMissAt: '2026-11-01', lastMissAt: '2026-11-07', reason: 'repo_gone'};
+  const base = {skills: [a, b, removed], locations: {}, history: {}};
+  const pending = {skills: [a, {...b, quarantine}, removed], locations: {},
+    history: {[a.id]: strike, [b.id]: strike, [removed.id]: strike}};
+  const changed = {...a, source: {...a.source, ref: NEW}};
+  const r = reconcilePending({skills: [changed, b], locations: new Map(), history: {}, base, pending});
+  assert.equal(r.skills[0], changed);
+  assert.equal(r.history[a.id], undefined);
+  assert.equal(r.history[removed.id], undefined);
+  assert.equal(r.skills[1].quarantine, undefined);
+  assert.deepEqual(r.history[b.id], strike);
+  const report = apply({...r, decisions: new Map([[b.id, {action: 'missing', reason: 'repo_gone'}]]),
+    today: '2026-11-09', enforce: false});
+  assert.equal(report.skills[1].quarantine, undefined);
 });
