@@ -61,7 +61,7 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/CodeAtCode/oss-ai-skills",
-        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "ref": "31df1698ca07798349fa9dfb744b80ed418a4b1c",
         "skillName": "bpcore-engine"
       },
       "repositoryId": "codeatcode:oss-ai-skills"
@@ -519,7 +519,7 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/CodeAtCode/oss-ai-skills",
-        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "ref": "31df1698ca07798349fa9dfb744b80ed418a4b1c",
         "skillName": "mgba"
       },
       "repositoryId": "codeatcode:oss-ai-skills"
@@ -656,7 +656,7 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/CodeAtCode/oss-ai-skills",
-        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "ref": "31df1698ca07798349fa9dfb744b80ed418a4b1c",
         "skillName": "pyqt"
       },
       "repositoryId": "codeatcode:oss-ai-skills"
@@ -835,7 +835,7 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/CodeAtCode/oss-ai-skills",
-        "ref": "9abaf3b8e4b707e6a6a226c869e3a1e572a007f7",
+        "ref": "31df1698ca07798349fa9dfb744b80ed418a4b1c",
         "skillName": "pytest"
       },
       "repositoryId": "codeatcode:oss-ai-skills"
@@ -1116,17 +1116,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "android-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:android-background-work",
@@ -1158,17 +1151,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "android-compose"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:android-compose-migration",
@@ -1179,17 +1165,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "android-compose-migration"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:android-concurrency",
@@ -1200,17 +1179,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "android-concurrency"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:android-deployment",
@@ -1410,17 +1382,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "android-navigation-type-safe"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:android-networking",
@@ -1473,17 +1438,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "android-performance"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:android-persistence",
@@ -1515,17 +1473,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "android-resources"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:android-security",
@@ -1578,17 +1529,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "android-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:android-tooling",
@@ -1662,17 +1606,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-components"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 60,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-dependency-injection",
@@ -1683,17 +1620,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-dependency-injection"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-directives-pipes",
@@ -1704,17 +1634,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-directives-pipes"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-forms",
@@ -1725,17 +1648,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-forms"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-http-client",
@@ -1746,17 +1662,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-http-client"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-performance",
@@ -1767,17 +1676,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-performance"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-routing",
@@ -1788,17 +1690,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-routing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-rxjs-interop",
@@ -1809,17 +1704,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-rxjs-interop"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-security",
@@ -1830,17 +1718,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-security"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-ssr",
@@ -1872,17 +1753,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-state-management"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-style-guide",
@@ -1893,17 +1767,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-style-guide"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-testing",
@@ -1914,17 +1781,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:angular-tooling",
@@ -1935,17 +1795,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "angular-tooling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:dart-best-practices",
@@ -1977,17 +1830,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "dart-language"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:dart-tooling",
@@ -2061,17 +1907,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "database-redis"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-auto-route-navigation",
@@ -2082,17 +1921,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-auto-route-navigation"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-bloc-state-management",
@@ -2103,17 +1935,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-bloc-state-management"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-cicd",
@@ -2124,17 +1949,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-cicd"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-concurrency",
@@ -2145,17 +1963,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-concurrency"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-dependency-injection",
@@ -2166,17 +1977,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-dependency-injection"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-design-system",
@@ -2187,17 +1991,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-design-system"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-error-handling",
@@ -2208,17 +2005,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-error-handling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-feature-based-clean-architecture",
@@ -2229,17 +2019,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-feature-based-clean-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-getx-navigation",
@@ -2271,17 +2054,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-getx-state-management"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-go-router-navigation",
@@ -2292,17 +2068,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-go-router-navigation"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-idiomatic-flutter",
@@ -2334,17 +2103,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-layer-based-clean-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-localization",
@@ -2376,17 +2138,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-navigation"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-notifications",
@@ -2481,17 +2236,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-security"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-testing",
@@ -2502,17 +2250,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:flutter-widgets",
@@ -2523,17 +2264,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "flutter-widgets"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:golang-api-server",
@@ -2565,17 +2299,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "golang-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:golang-concurrency",
@@ -2734,17 +2461,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "golang-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:golang-tooling",
@@ -2776,17 +2496,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "ios-swiftui"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:java-best-practices",
@@ -2839,17 +2552,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "java-language"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:java-testing",
@@ -2860,17 +2566,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "java-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:java-tooling",
@@ -2902,17 +2601,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "javascript-best-practices"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:javascript-language",
@@ -2923,17 +2615,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "javascript-language"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:javascript-tooling",
@@ -2944,17 +2629,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "javascript-tooling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:kotlin-best-practices",
@@ -3007,17 +2685,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "kotlin-language"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:kotlin-tooling",
@@ -3049,17 +2720,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-api"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:laravel-architecture",
@@ -3070,17 +2734,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:laravel-background-processing",
@@ -3091,17 +2748,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-background-processing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:laravel-clean-architecture",
@@ -3112,17 +2762,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-clean-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:laravel-database-expert",
@@ -3133,17 +2776,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-database-expert"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:laravel-eloquent",
@@ -3175,17 +2811,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-security"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:laravel-sessions-middleware",
@@ -3196,17 +2825,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-sessions-middleware"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:laravel-testing",
@@ -3217,17 +2839,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:laravel-tooling",
@@ -3238,17 +2853,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "laravel-tooling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nestjs-api-standards",
@@ -3280,17 +2888,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nestjs-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nestjs-bullmq",
@@ -3449,17 +3050,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nestjs-error-handling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nestjs-file-uploads",
@@ -3575,17 +3169,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nestjs-scheduling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nestjs-search",
@@ -3659,17 +3246,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nestjs-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nestjs-transport",
@@ -3701,17 +3281,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-app-router"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-architecture",
@@ -3785,17 +3358,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-data-access-layer"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-data-fetching",
@@ -3806,17 +3372,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-data-fetching"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-i18n",
@@ -3827,17 +3386,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-i18n"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-optimization",
@@ -3869,17 +3421,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-pages-router"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-rendering",
@@ -3932,17 +3477,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-server-actions"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-server-components",
@@ -3953,17 +3491,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-server-components"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-state-management",
@@ -3995,17 +3526,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-styling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-testing",
@@ -4020,17 +3544,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:nextjs-tooling",
@@ -4062,17 +3579,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "nextjs-upgrade"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:php-best-practices",
@@ -4083,17 +3593,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "php-best-practices"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:php-concurrency",
@@ -4104,17 +3607,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "php-concurrency"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 100,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:php-error-handling",
@@ -4188,17 +3684,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "php-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:php-tooling",
@@ -4209,17 +3698,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "php-tooling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:python-architecture",
@@ -4230,17 +3712,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "python-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:python-async-runtime",
@@ -4378,17 +3853,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "python-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:python-tooling",
@@ -4420,17 +3888,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "quality-engineering-playwright-cli"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:quality-engineering-playwright-pom-generation",
@@ -4441,17 +3902,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "quality-engineering-playwright-pom-generation"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 64,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-component-patterns",
@@ -4483,17 +3937,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-hooks"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-native-architecture",
@@ -4505,17 +3952,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-native-architecture"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-native-components",
@@ -4527,17 +3967,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-native-components"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-native-deployment",
@@ -4549,17 +3982,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-native-deployment"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-native-dls",
@@ -4571,17 +3997,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-native-dls"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-native-navigation",
@@ -4593,17 +4012,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-native-navigation"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-native-navigation-v6",
@@ -4659,17 +4071,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-native-performance"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-native-platform-specific",
@@ -4725,17 +4130,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-native-state-management"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-native-styling",
@@ -4769,17 +4167,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-native-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-performance",
@@ -4790,17 +4181,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-performance"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-security",
@@ -4811,17 +4195,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-security"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-state-management",
@@ -4853,17 +4230,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:react-tooling",
@@ -4896,17 +4266,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "react-typescript"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:spring-boot-api-design",
@@ -5106,17 +4469,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "spring-boot-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:swift-best-practices",
@@ -5169,17 +4525,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "swift-error-handling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:swift-language",
@@ -5190,17 +4539,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "swift-language"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:swift-memory-management",
@@ -5211,17 +4553,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "swift-memory-management"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:swift-swiftui",
@@ -5233,17 +4568,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "swift-swiftui"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:swift-testing",
@@ -5254,17 +4582,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "swift-testing"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "poor",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:swift-tooling",
@@ -5275,17 +4596,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "swift-tooling"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:typescript-best-practices",
@@ -5296,17 +4610,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "typescript-best-practices"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:typescript-language",
@@ -5317,17 +4624,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "typescript-language"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:typescript-security",
@@ -5338,17 +4638,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/HoangNguyen0403/agent-skills-standard",
-        "ref": "a5465a69cdcf3210ca37c10a435ae66a401eb4fb",
+        "ref": "c679e0032fbebf4eed90db0f2fc4f52541a3f23d",
         "skillName": "typescript-security"
       },
-      "repositoryId": "hoangnguyen0403:agent-skills-standard",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "hoangnguyen0403:agent-skills-standard"
     },
     {
       "id": "HoangNguyen0403:agent-skills-standard:typescript-tooling",
@@ -5422,17 +4715,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/Jeffallan/claude-skills",
-        "ref": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "ref": "d98d06edb54c25cfb94017c0ef830342a34a43ba",
         "skillName": "django-expert"
       },
-      "repositoryId": "jeffallan:claude-skills",
-      "quality": "good",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "jeffallan:claude-skills"
     },
     {
       "id": "Jeffallan:claude-skills:dotnet-core-expert",
@@ -5465,17 +4751,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/Jeffallan/claude-skills",
-        "ref": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "ref": "d98d06edb54c25cfb94017c0ef830342a34a43ba",
         "skillName": "fastapi-expert"
       },
-      "repositoryId": "jeffallan:claude-skills",
-      "quality": "good",
-      "score": 64,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "jeffallan:claude-skills"
     },
     {
       "id": "Jeffallan:claude-skills:golang-pro",
@@ -5633,17 +4912,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/Jeffallan/claude-skills",
-        "ref": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "ref": "d98d06edb54c25cfb94017c0ef830342a34a43ba",
         "skillName": "nextjs-developer"
       },
-      "repositoryId": "jeffallan:claude-skills",
-      "quality": "good",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "jeffallan:claude-skills"
     },
     {
       "id": "Jeffallan:claude-skills:playwright-expert",
@@ -5738,17 +5010,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/Jeffallan/claude-skills",
-        "ref": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "ref": "d98d06edb54c25cfb94017c0ef830342a34a43ba",
         "skillName": "react-expert"
       },
-      "repositoryId": "jeffallan:claude-skills",
-      "quality": "excellent",
-      "score": 64,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "jeffallan:claude-skills"
     },
     {
       "id": "Jeffallan:claude-skills:react-native-expert",
@@ -5759,17 +5024,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/Jeffallan/claude-skills",
-        "ref": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "ref": "d98d06edb54c25cfb94017c0ef830342a34a43ba",
         "skillName": "react-native-expert"
       },
-      "repositoryId": "jeffallan:claude-skills",
-      "quality": "excellent",
-      "score": 60,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "jeffallan:claude-skills"
     },
     {
       "id": "Jeffallan:claude-skills:rust-engineer",
@@ -5843,17 +5101,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/Jeffallan/claude-skills",
-        "ref": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "ref": "d98d06edb54c25cfb94017c0ef830342a34a43ba",
         "skillName": "terraform-engineer"
       },
-      "repositoryId": "jeffallan:claude-skills",
-      "quality": "excellent",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "jeffallan:claude-skills"
     },
     {
       "id": "Jeffallan:claude-skills:typescript-pro",
@@ -5885,17 +5136,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/Jeffallan/claude-skills",
-        "ref": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "ref": "d98d06edb54c25cfb94017c0ef830342a34a43ba",
         "skillName": "vue-expert"
       },
-      "repositoryId": "jeffallan:claude-skills",
-      "quality": "excellent",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "jeffallan:claude-skills"
     },
     {
       "id": "Jeffallan:claude-skills:vue-expert-js",
@@ -9004,17 +8248,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/affaan-m/ECC",
-        "ref": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+        "ref": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53",
         "skillName": "django-celery"
       },
-      "repositoryId": "affaan-m:ecc",
-      "quality": "excellent",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "affaan-m:ecc"
     },
     {
       "id": "affaan-m:ECC:fastapi-patterns",
@@ -9490,17 +8727,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/angular/skills",
-        "ref": "efe6e9ea69bc4e7165c0bf1b9b1482bea7b7f166",
+        "ref": "5246e6ce812436c7f127e05dca039966b39dce67",
         "skillName": "angular-developer"
       },
-      "repositoryId": "angular:skills",
-      "quality": "good",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "angular:skills"
     },
     {
       "id": "annatchijova:SKILLS:language-selection",
@@ -9530,17 +8760,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/antfu/skills",
-        "ref": "8886fe2d385d3644cbb47e46ae9cb1cf09307d3b",
+        "ref": "4a6bb39e7b45e26402eb215393c51ccf5df1ca4c",
         "skillName": "nuxt"
       },
-      "repositoryId": "antfu:skills",
-      "quality": "good",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "antfu:skills"
     },
     {
       "id": "antfu:skills:unocss",
@@ -9572,17 +8795,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/antfu/skills",
-        "ref": "8886fe2d385d3644cbb47e46ae9cb1cf09307d3b",
+        "ref": "4a6bb39e7b45e26402eb215393c51ccf5df1ca4c",
         "skillName": "vite"
       },
-      "repositoryId": "antfu:skills",
-      "quality": "good",
-      "score": 60,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "antfu:skills"
     },
     {
       "id": "antfu:skills:vitest",
@@ -9759,16 +8975,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/auth0/agent-skills",
-        "ref": "6331cf05ef6bbc6999d7a7b98a583e7429ebe3f6",
+        "ref": "441b8c4ef1cbfbd5be34204301c3973b16242679",
         "skillName": "auth0"
       },
-      "repositoryId": "auth0:agent-skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "auth0:agent-skills"
     },
     {
       "id": "av:skills:preact-buildless-frontend",
@@ -9822,17 +9032,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/avdlee/swift-concurrency-agent-skill",
-        "ref": "d5770817d2622e1585b1f7eaebc791a9cb0959c8",
+        "ref": "3b1580d8398e0b5408b3bf0bada0e941a1cfc642",
         "skillName": "swift-concurrency"
       },
-      "repositoryId": "avdlee:swift-concurrency-agent-skill",
-      "quality": "fair",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "avdlee:swift-concurrency-agent-skill"
     },
     {
       "id": "avdlee:swift-testing-agent-skill:swift-testing-expert",
@@ -9864,17 +9067,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/avdlee/swiftui-agent-skill",
-        "ref": "204dba7c67256a8b707ee3fbc5759a824191974f",
+        "ref": "62bd760f005093d1e2e4de5db156e456a5f96400",
         "skillName": "swiftui-expert-skill"
       },
-      "repositoryId": "avdlee:swiftui-agent-skill",
-      "quality": "fair",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "avdlee:swiftui-agent-skill"
     },
     {
       "id": "avdlee:xcode-build-optimization-agent-skill:xcode-build-orchestrator",
@@ -10249,17 +9445,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "0a5a49e6fe3d57c34d307a17e0f711ccd63fb409",
         "skillName": "clerk"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-android",
@@ -10271,17 +9460,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-android"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "excellent",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-astro-patterns",
@@ -10293,17 +9475,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-astro-patterns"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-backend-api",
@@ -10314,17 +9489,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-backend-api"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "excellent",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-chrome-extension-patterns",
@@ -10336,17 +9504,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-chrome-extension-patterns"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "fair",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-custom-ui",
@@ -10357,17 +9518,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-custom-ui"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-expo",
@@ -10379,17 +9533,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "0a5a49e6fe3d57c34d307a17e0f711ccd63fb409",
         "skillName": "clerk-expo"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-nextjs-patterns",
@@ -10401,17 +9548,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-nextjs-patterns"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-nuxt-patterns",
@@ -10423,17 +9563,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-nuxt-patterns"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-orgs",
@@ -10444,17 +9577,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-orgs"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-react-patterns",
@@ -10466,17 +9592,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-react-patterns"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-react-router-patterns",
@@ -10488,17 +9607,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-react-router-patterns"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-setup",
@@ -10514,17 +9626,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "b0d994e9cd954556ec747754484ad80565d67c15",
+        "ref": "0a5a49e6fe3d57c34d307a17e0f711ccd63fb409",
         "skillName": "clerk-setup"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "excellent",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-swift",
@@ -10536,17 +9641,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-swift"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "excellent",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-tanstack-patterns",
@@ -10558,17 +9656,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-tanstack-patterns"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-testing",
@@ -10579,17 +9670,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-testing"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "excellent",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-vue-patterns",
@@ -10601,17 +9685,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-vue-patterns"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "good",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "clerk:skills:clerk-webhooks",
@@ -10622,17 +9699,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/clerk/skills",
-        "ref": "55206a48259bb327090ec5dbd22cfb5d4fa9de25",
+        "ref": "78092a74297dac3fb2c64efab3dbe86b581eaea8",
         "skillName": "clerk-webhooks"
       },
-      "repositoryId": "clerk:skills",
-      "quality": "excellent",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "clerk:skills"
     },
     {
       "id": "cli:cli:dependabot-triager",
@@ -10938,17 +10008,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/cloudflare/skills",
-        "ref": "e44f580f9c4fa3bf268e284ae7706c7954ba31fd",
+        "ref": "ff191de7d903788eceaf516a514ae7d3b56b924a",
         "skillName": "cloudflare"
       },
-      "repositoryId": "cloudflare:skills",
-      "quality": "poor",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "cloudflare:skills"
     },
     {
       "id": "cloudflare:skills:durable-objects",
@@ -11022,17 +10085,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/cloudflare/skills",
-        "ref": "e44f580f9c4fa3bf268e284ae7706c7954ba31fd",
+        "ref": "5108325ecceabc899c761e07aa617b09c02445ee",
         "skillName": "workers-best-practices"
       },
-      "repositoryId": "cloudflare:skills",
-      "quality": "excellent",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "cloudflare:skills"
     },
     {
       "id": "cloudflare:skills:wrangler",
@@ -11065,17 +10121,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/cloudflare/vinext",
-        "ref": "fb9bf3156f31ef859174c9f51ac859f2e5cd6bc3",
+        "ref": "516cbea80795830df8e2350c93b2a171bd899384",
         "skillName": "migrate-to-vinext"
       },
-      "repositoryId": "cloudflare:vinext",
-      "quality": "excellent",
-      "score": 64,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "cloudflare:vinext"
     },
     {
       "id": "cnwzhu:gpui-skills:gpui-actions",
@@ -11272,17 +10321,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/convex/agent-skills",
-        "ref": "3d1e9c6e288a23ed5f8ff28adab300d5b62a1686",
+        "ref": "603f4920e15334e26614dcdca44816a4007ee255",
         "skillName": "convex"
       },
-      "repositoryId": "convex:agent-skills",
-      "quality": "good",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "convex:agent-skills"
     },
     {
       "id": "currents-dev:playwright-best-practices-skill:playwright-best-practices",
@@ -11294,17 +10336,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/currents-dev/playwright-best-practices-skill",
-        "ref": "283d5cbc5d11aac1abda058b16ad22c317d54dc0",
+        "ref": "0b75b5835a87de1fdd202ba965f3bc5a27738fdf",
         "skillName": "playwright-best-practices"
       },
-      "repositoryId": "currents-dev:playwright-best-practices-skill",
-      "quality": "poor",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "currents-dev:playwright-best-practices-skill"
     },
     {
       "id": "datadog-labs:agent-skills:agent-observability-auto-experiment",
@@ -11315,16 +10350,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "agent-observability-auto-experiment"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:agent-observability-build-eval-from-annotations",
@@ -11335,16 +10364,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "agent-observability-build-eval-from-annotations"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:agent-observability-eval-bootstrap",
@@ -11435,16 +10458,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "agent-observability-online-experiment"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:agent-observability-replay-trace",
@@ -11515,16 +10532,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "ai-activity-audit"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:compliance-report",
@@ -11535,16 +10546,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "compliance-report"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:cost-spike-investigation",
@@ -11555,16 +10560,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "cost-spike-investigation"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:datadog-app",
@@ -11595,16 +10594,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-account-setup"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-docker",
@@ -11615,16 +10608,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-docker"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-kubernetes",
@@ -11635,16 +10622,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-kubernetes"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-linux",
@@ -11655,16 +10636,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-linux"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-macos",
@@ -11675,16 +10650,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-macos"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-agent-install-windows",
@@ -11695,16 +10664,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-agent-install-windows"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-android-sdk",
@@ -11755,16 +10718,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-audit"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-aws-ccm",
@@ -11775,16 +10732,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-aws-ccm"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-aws-integration",
@@ -11795,16 +10746,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-aws-integration"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-aws-log-forwarding",
@@ -11815,16 +10760,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-aws-log-forwarding"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-aws-storage-management",
@@ -11835,16 +10774,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-aws-storage-management"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-azure-ccm",
@@ -11855,16 +10788,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-azure-ccm"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-azure-integration",
@@ -11895,16 +10822,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-azure-log-forwarding"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-browser-sdk",
@@ -11915,16 +10836,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "08f698841e0dfbba09832296f20f13faa44680eb",
         "skillName": "dd-browser-sdk"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-confluent-cloud-integration",
@@ -11935,16 +10850,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-confluent-cloud-integration"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-dbm-rds-postgres",
@@ -11955,16 +10864,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-dbm-rds-postgres"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-docs",
@@ -11995,16 +10898,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-gcp-ccm"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-gcp-integration",
@@ -12035,16 +10932,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-gcp-log-forwarding"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-instrument-llmo",
@@ -12115,16 +11006,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-logs"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-monitors",
@@ -12135,16 +11020,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-monitors"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-oci-ccm",
@@ -12155,16 +11034,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-oci-ccm"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-oci-integration",
@@ -12195,16 +11068,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-orchestrator"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:dd-product-recommender",
@@ -12255,16 +11122,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "dd-pup"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:enable-dsm",
@@ -12295,16 +11156,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "key-compromise"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:ownership-agent",
@@ -12335,16 +11190,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "b3317366cfa67935746299346de246e3bee1033a",
         "skillName": "security-investigation"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:service-remapping",
@@ -12375,16 +11224,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "08f698841e0dfbba09832296f20f13faa44680eb",
         "skillName": "setup-sourcemaps"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:triage-flaky-test",
@@ -12395,16 +11238,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/datadog-labs/agent-skills",
-        "ref": "0787c9d95d0c73426f5ccee45f35df7a5479b792",
+        "ref": "08f698841e0dfbba09832296f20f13faa44680eb",
         "skillName": "triage-flaky-test"
       },
-      "repositoryId": "datadog-labs:agent-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "datadog-labs:agent-skills"
     },
     {
       "id": "datadog-labs:agent-skills:unblock-pr",
@@ -12663,17 +11500,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/devon-systems/hoenn",
-        "ref": "b96f381c915387c1730eef28af9b3d6bb1121018",
+        "ref": "9454768d781ae27173ebf5fd688b5753e70dc921",
         "skillName": "nix"
       },
-      "repositoryId": "devon-systems:hoenn",
-      "quality": "good",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "devon-systems:hoenn"
     },
     {
       "id": "docker:skills:docker-project-foundations",
@@ -12684,17 +11514,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/docker/skills",
-        "ref": "179c9cfd04c89ae50cd5d5d68b939797a8fd03d3",
+        "ref": "5653ef866fc4475f66bb8097043ee4dd19956e76",
         "skillName": "docker-project-foundations"
       },
-      "repositoryId": "docker:skills",
-      "quality": "good",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "docker:skills"
     },
     {
       "id": "duckdb:duckdb-skills:attach-db",
@@ -12765,16 +11588,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/duckdb/duckdb-skills",
-        "ref": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+        "ref": "44dfbbb414e54187964a2212eae28495f6ae21d9",
         "skillName": "install-duckdb"
       },
-      "repositoryId": "duckdb:duckdb-skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "duckdb:duckdb-skills"
     },
     {
       "id": "duckdb:duckdb-skills:query",
@@ -13643,17 +12460,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/expo/skills",
-        "ref": "05754e71d02abe0d2d7a2fb5259ccac41f5ea59c",
+        "ref": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "skillName": "eas-app-stores"
       },
-      "repositoryId": "expo:skills",
-      "quality": "good",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "expo:skills"
     },
     {
       "id": "expo:skills:eas-hosting",
@@ -13664,17 +12474,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/expo/skills",
-        "ref": "05754e71d02abe0d2d7a2fb5259ccac41f5ea59c",
+        "ref": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "skillName": "eas-hosting"
       },
-      "repositoryId": "expo:skills",
-      "quality": "good",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "expo:skills"
     },
     {
       "id": "expo:skills:eas-workflows",
@@ -13685,17 +12488,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/expo/skills",
-        "ref": "05754e71d02abe0d2d7a2fb5259ccac41f5ea59c",
+        "ref": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "skillName": "eas-workflows"
       },
-      "repositoryId": "expo:skills",
-      "quality": "good",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "expo:skills"
     },
     {
       "id": "expo:skills:expo-data-fetching",
@@ -13706,17 +12502,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/expo/skills",
-        "ref": "05754e71d02abe0d2d7a2fb5259ccac41f5ea59c",
+        "ref": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "skillName": "expo-data-fetching"
       },
-      "repositoryId": "expo:skills",
-      "quality": "good",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "expo:skills"
     },
     {
       "id": "expo:skills:expo-dev-client",
@@ -13727,17 +12516,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/expo/skills",
-        "ref": "05754e71d02abe0d2d7a2fb5259ccac41f5ea59c",
+        "ref": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "skillName": "expo-dev-client"
       },
-      "repositoryId": "expo:skills",
-      "quality": "good",
-      "score": 64,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "expo:skills"
     },
     {
       "id": "expo:skills:expo-dom",
@@ -13748,17 +12530,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/expo/skills",
-        "ref": "05754e71d02abe0d2d7a2fb5259ccac41f5ea59c",
+        "ref": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "skillName": "expo-dom"
       },
-      "repositoryId": "expo:skills",
-      "quality": "good",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "expo:skills"
     },
     {
       "id": "expo:skills:expo-native-ui",
@@ -13770,17 +12545,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/expo/skills",
-        "ref": "05754e71d02abe0d2d7a2fb5259ccac41f5ea59c",
+        "ref": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "skillName": "expo-native-ui"
       },
-      "repositoryId": "expo:skills",
-      "quality": "good",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "expo:skills"
     },
     {
       "id": "expo:skills:expo-upgrade",
@@ -13791,17 +12559,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/expo/skills",
-        "ref": "05754e71d02abe0d2d7a2fb5259ccac41f5ea59c",
+        "ref": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "skillName": "expo-upgrade"
       },
-      "repositoryId": "expo:skills",
-      "quality": "good",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "expo:skills"
     },
     {
       "id": "fastapi:fastapi:fastapi",
@@ -13812,17 +12573,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/fastapi/fastapi",
-        "ref": "79cab5bed28b24d92c185d236feb33f5783dfeb3",
+        "ref": "05e6df7e906c3decba377c37548019973f40bf15",
         "skillName": "fastapi"
       },
-      "repositoryId": "fastapi:fastapi",
-      "quality": "excellent",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "fastapi:fastapi"
     },
     {
       "id": "firebase:agent-skills:firebase-auth-basics",
@@ -13854,17 +12608,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/firecrawl/cli",
-        "ref": "a9a46fe23af001d726a05d8448d25a7188b42fdc",
+        "ref": "a9ce64e4d114fd203d8402ca000339d66e902cde",
         "skillName": "firecrawl"
       },
-      "repositoryId": "firecrawl:cli",
-      "quality": "poor",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "firecrawl:cli"
     },
     {
       "id": "flutter:skills:api-review",
@@ -15117,16 +13864,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/getsentry/sentry-for-ai",
-        "ref": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+        "ref": "149b144b2ba2ad2987ac637a811d82e48c0b2560",
         "skillName": "sentry-setup-ai-monitoring"
       },
-      "repositoryId": "getsentry:sentry-for-ai",
-      "quality": "poor",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "getsentry:sentry-for-ai"
     },
     {
       "id": "getsentry:sentry-for-ai:sentry-setup-releases",
@@ -15177,16 +13918,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/getsentry/sentry-for-ai",
-        "ref": "c198c986a526c7f4f35d11bf79a5f7b036c122ad",
+        "ref": "149b144b2ba2ad2987ac637a811d82e48c0b2560",
         "skillName": "sentry-svelte-sdk"
       },
-      "repositoryId": "getsentry:sentry-for-ai",
-      "quality": "poor",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "getsentry:sentry-for-ai"
     },
     {
       "id": "getsentry:sentry-for-ai:sentry-tanstack-start-sdk",
@@ -15721,17 +14456,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/github/awesome-copilot",
-        "ref": "98b45a78d3ed316e78f005b60594d5c4a50588e3",
+        "ref": "f10fdb8b2660ce85c98f220b2f1ca24653768a5c",
         "skillName": "dependabot"
       },
-      "repositoryId": "github:awesome-copilot",
-      "quality": "excellent",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "github:awesome-copilot"
     },
     {
       "id": "github:awesome-copilot:dotnet-best-practices",
@@ -16015,17 +14743,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/github/awesome-copilot",
-        "ref": "98b45a78d3ed316e78f005b60594d5c4a50588e3",
+        "ref": "f10fdb8b2660ce85c98f220b2f1ca24653768a5c",
         "skillName": "java-springboot"
       },
-      "repositoryId": "github:awesome-copilot",
-      "quality": "excellent",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "github:awesome-copilot"
     },
     {
       "id": "github:awesome-copilot:java-testcontainers",
@@ -16562,17 +15283,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/google-gemini/gemini-skills",
-        "ref": "39d81f4c7de5e56631d07e4ea766d3fe9752ce5d",
+        "ref": "c4d0c62c1240e08a90546186bf320600ab6a039a",
         "skillName": "gemini-api-dev"
       },
-      "repositoryId": "google-gemini:gemini-skills",
-      "quality": "excellent",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "google-gemini:gemini-skills"
     },
     {
       "id": "google:skills:bigquery-basics",
@@ -16667,17 +15381,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/google/skills",
-        "ref": "48502dbdbb5639da3bb1aac0dc3a7e5e537fe7a9",
+        "ref": "63934658c2823454a930af50998ff0cdf99e6ebf",
         "skillName": "cloud-sql-basics"
       },
-      "repositoryId": "google:skills",
-      "quality": "excellent",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "google:skills"
     },
     {
       "id": "google:skills:google-analytics-data-api-basics",
@@ -17143,16 +15850,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/huggingface/skills",
-        "ref": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+        "ref": "d67b12054923df5bbfa07c5ff1331412deebdf4f",
         "skillName": "hf-mem"
       },
-      "repositoryId": "huggingface:skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "huggingface:skills"
     },
     {
       "id": "huggingface:skills:huggingface-best",
@@ -17223,16 +15924,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/huggingface/skills",
-        "ref": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+        "ref": "d67b12054923df5bbfa07c5ff1331412deebdf4f",
         "skillName": "huggingface-gradio"
       },
-      "repositoryId": "huggingface:skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "huggingface:skills"
     },
     {
       "id": "huggingface:skills:huggingface-llm-trainer",
@@ -17673,17 +16368,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/inferen-sh/skills",
-        "ref": "0cbf91c26ada28702c79962406286f0c14292150",
+        "ref": "13ccb5ea05deaa3ff9c8ba5c78d1e37756cc14b5",
         "skillName": "elevenlabs-music"
       },
-      "repositoryId": "inferen-sh:skills",
-      "quality": "good",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "inferen-sh:skills"
     },
     {
       "id": "inferen-sh:skills:elevenlabs-tts",
@@ -17799,17 +16487,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/Jeffallan/claude-skills",
-        "ref": "190e05a380b624187f5770451e1f41b9187cb63c",
+        "ref": "d98d06edb54c25cfb94017c0ef830342a34a43ba",
         "skillName": "flutter-expert"
       },
-      "repositoryId": "jeffallan:claude-skills",
-      "quality": "excellent",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "jeffallan:claude-skills"
     },
     {
       "id": "jeffallan:claude-skills:laravel-specialist",
@@ -17997,17 +16678,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/kepano/obsidian-skills",
-        "ref": "3ccff5338ea700537839b21900aa5358a0402c98",
+        "ref": "b110b2f8e9eb1f287892f937050dfd40af862cbb",
         "skillName": "json-canvas"
       },
-      "repositoryId": "kepano:obsidian-skills",
-      "quality": "excellent",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "kepano:obsidian-skills"
     },
     {
       "id": "kepano:obsidian-skills:obsidian-bases",
@@ -18018,17 +16692,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/kepano/obsidian-skills",
-        "ref": "3ccff5338ea700537839b21900aa5358a0402c98",
+        "ref": "b110b2f8e9eb1f287892f937050dfd40af862cbb",
         "skillName": "obsidian-bases"
       },
-      "repositoryId": "kepano:obsidian-skills",
-      "quality": "excellent",
-      "score": 100,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "kepano:obsidian-skills"
     },
     {
       "id": "kepano:obsidian-skills:obsidian-cli",
@@ -18039,17 +16706,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/kepano/obsidian-skills",
-        "ref": "3ccff5338ea700537839b21900aa5358a0402c98",
+        "ref": "b110b2f8e9eb1f287892f937050dfd40af862cbb",
         "skillName": "obsidian-cli"
       },
-      "repositoryId": "kepano:obsidian-skills",
-      "quality": "excellent",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "kepano:obsidian-skills"
     },
     {
       "id": "kepano:obsidian-skills:obsidian-markdown",
@@ -18060,17 +16720,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/kepano/obsidian-skills",
-        "ref": "3ccff5338ea700537839b21900aa5358a0402c98",
+        "ref": "b110b2f8e9eb1f287892f937050dfd40af862cbb",
         "skillName": "obsidian-markdown"
       },
-      "repositoryId": "kepano:obsidian-skills",
-      "quality": "excellent",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "kepano:obsidian-skills"
     },
     {
       "id": "kevmoo:dash_skills:dart-best-practices",
@@ -18312,17 +16965,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/langchain-ai/langchain-skills",
-        "ref": "126c384d8552dcb476b226c244172186cc3f4328",
+        "ref": "ab84b0b5a3164ee17eb78b0828e58c48186f54ce",
         "skillName": "langchain-rag"
       },
-      "repositoryId": "langchain-ai:langchain-skills",
-      "quality": "good",
-      "score": 96,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "langchain-ai:langchain-skills"
     },
     {
       "id": "langfuse:skills:langfuse",
@@ -18333,17 +16979,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/langfuse/skills",
-        "ref": "298b316eb9a5d302811c4182fb9c1ee81a449257",
+        "ref": "f0bcb13088b490c04b3f4870bace17f6d57b199c",
         "skillName": "langfuse"
       },
-      "repositoryId": "langfuse:skills",
-      "quality": "excellent",
-      "score": 92,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "langfuse:skills"
     },
     {
       "id": "laude-institute:headlong:obsidian",
@@ -18376,7 +17015,7 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/longbridge/gpui-kit",
-        "ref": "6808964c3a5e0ef970e47b696e8a800575cb21a7",
+        "ref": "59d2accb8d55555842071833ddec3c242a609cdd",
         "skillName": "gpui-kit"
       },
       "repositoryId": "longbridge:gpui-kit"
@@ -18391,7 +17030,7 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/longbridge/gpui-kit",
-        "ref": "6808964c3a5e0ef970e47b696e8a800575cb21a7",
+        "ref": "59d2accb8d55555842071833ddec3c242a609cdd",
         "skillName": "gpui-kit-design-guides"
       },
       "repositoryId": "longbridge:gpui-kit"
@@ -18550,17 +17189,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/mastra-ai/skills",
-        "ref": "34180fa43c67fe38197f30d8d975fb73454156aa",
+        "ref": "045740138738bee82d5c9bbebea2f4373b5ca2dc",
         "skillName": "mastra"
       },
-      "repositoryId": "mastra-ai:skills",
-      "quality": "good",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "mastra-ai:skills"
     },
     {
       "id": "mattpocock:skills:git-guardrails-claude-code",
@@ -18635,17 +17267,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/github-copilot-for-azure",
-        "ref": "519346ca4b9552569a6390577340049059df2640",
+        "ref": "147c081321b72d59356083d4090bf6f25b70a059",
         "skillName": "azure-ai"
       },
-      "repositoryId": "microsoft:github-copilot-for-azure",
-      "quality": "good",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "microsoft:github-copilot-for-azure"
     },
     {
       "id": "microsoft:github-copilot-for-azure:azure-deploy",
@@ -18677,17 +17302,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/github-copilot-for-azure",
-        "ref": "519346ca4b9552569a6390577340049059df2640",
+        "ref": "147c081321b72d59356083d4090bf6f25b70a059",
         "skillName": "azure-diagnostics"
       },
-      "repositoryId": "microsoft:github-copilot-for-azure",
-      "quality": "fair",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "microsoft:github-copilot-for-azure"
     },
     {
       "id": "microsoft:skills:agent-framework-azure-ai-py",
@@ -18864,16 +17482,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/skills",
-        "ref": "84666abf77c6b09ed431ab09c516891d0514710e",
+        "ref": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
         "skillName": "azure-advisor"
       },
-      "repositoryId": "microsoft:skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "microsoft:skills"
     },
     {
       "id": "microsoft:skills:azure-advisor-actionability",
@@ -18884,16 +17496,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/skills",
-        "ref": "84666abf77c6b09ed431ab09c516891d0514710e",
+        "ref": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
         "skillName": "azure-advisor-actionability"
       },
-      "repositoryId": "microsoft:skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "microsoft:skills"
     },
     {
       "id": "microsoft:skills:azure-ai",
@@ -18904,16 +17510,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/skills",
-        "ref": "84666abf77c6b09ed431ab09c516891d0514710e",
+        "ref": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
         "skillName": "azure-ai"
       },
-      "repositoryId": "microsoft:skills",
-      "quality": "good",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "microsoft:skills"
     },
     {
       "id": "microsoft:skills:azure-ai-agents-persistent-dotnet",
@@ -20015,16 +18615,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/skills",
-        "ref": "84666abf77c6b09ed431ab09c516891d0514710e",
+        "ref": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
         "skillName": "azure-diagnostics"
       },
-      "repositoryId": "microsoft:skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "microsoft:skills"
     },
     {
       "id": "microsoft:skills:azure-enterprise-infra-planner",
@@ -22271,16 +20865,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/skills",
-        "ref": "84666abf77c6b09ed431ab09c516891d0514710e",
+        "ref": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
         "skillName": "foundry-iq"
       },
-      "repositoryId": "microsoft:skills",
-      "quality": "fair",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "microsoft:skills"
     },
     {
       "id": "microsoft:skills:frontend-design-review",
@@ -22536,16 +21124,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/skills",
-        "ref": "84666abf77c6b09ed431ab09c516891d0514710e",
+        "ref": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
         "skillName": "microsoft-foundry"
       },
-      "repositoryId": "microsoft:skills",
-      "quality": "poor",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "microsoft:skills"
     },
     {
       "id": "microsoft:skills:podcast-generation",
@@ -22617,16 +21199,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/microsoft/skills",
-        "ref": "84666abf77c6b09ed431ab09c516891d0514710e",
+        "ref": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
         "skillName": "python-appservice-deploy"
       },
-      "repositoryId": "microsoft:skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "microsoft:skills"
     },
     {
       "id": "microsoft:skills:react-flow-node-ts",
@@ -23022,16 +21598,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/mongodb/agent-skills",
-        "ref": "59c4a4ebed23666834c8c698a76afa91cd689365",
+        "ref": "967cbea1a51e6b9387304e1e88ebf57151207c70",
         "skillName": "review-skill"
       },
-      "repositoryId": "mongodb:agent-skills",
-      "quality": "excellent",
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-09",
-        "assessor": "skill-validator v1.8.0"
-      }
+      "repositoryId": "mongodb:agent-skills"
     },
     {
       "id": "neondatabase:agent-skills:neon-postgres",
@@ -23042,17 +21612,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/neondatabase/agent-skills",
-        "ref": "d3da7cb5436edbb2bc8c00747fafd31ddf0644f4",
+        "ref": "d3601d9e1f9398b96a1ee25047bafba5f04199eb",
         "skillName": "neon-postgres"
       },
-      "repositoryId": "neondatabase:agent-skills",
-      "quality": "good",
-      "score": 56,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "neondatabase:agent-skills"
     },
     {
       "id": "nodnarbnitram:claude-code-extensions:tauri-v2",
@@ -23084,17 +21647,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/ombulabs/claude-code_rails-upgrade-skill",
-        "ref": "83e05bc7e697c20aaa1bc6be7df0eec0ef39d51e",
+        "ref": "5bb7d52d7866759df869e749e105405fe4c750c0",
         "skillName": "rails-upgrade"
       },
-      "repositoryId": "ombulabs:claude-code_rails-upgrade-skill",
-      "quality": "poor",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "ombulabs:claude-code_rails-upgrade-skill"
     },
     {
       "id": "openai:skills:aspnet-core",
@@ -23168,17 +21724,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/paulrberg/agent-skills",
-        "ref": "b6abe0d3fc63e5c1cf4d786f42722b2ce545e23a",
+        "ref": "3de4c43c07b14738e0cbf1a9d3ba12809d1758ab",
         "skillName": "cli-just"
       },
-      "repositoryId": "paulrberg:agent-skills",
-      "quality": "good",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "paulrberg:agent-skills"
     },
     {
       "id": "pingcap:tidb:tidb-test-diff-triage",
@@ -23231,17 +21780,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/pingdotgg/t3code",
-        "ref": "67661cfbb57fd353845c6f3c8c96663560031d1e",
+        "ref": "550c26635bd0c6fc1625f3a511536d84d270b3ab",
         "skillName": "changesets"
       },
-      "repositoryId": "pingdotgg:t3code",
-      "quality": "good",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "pingdotgg:t3code"
     },
     {
       "id": "planetscale:database-skills:mysql",
@@ -23442,17 +21984,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/pymodel/react-frontend-skills",
-        "ref": "b210600fdf49441ee1efeca2cbdc05599ec03019",
+        "ref": "85f6b473fa54e3df9276b1aa52470e2cecf86931",
         "skillName": "msw"
       },
-      "repositoryId": "pymodel:react-frontend-skills",
-      "quality": "good",
-      "score": 88,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "pymodel:react-frontend-skills"
     },
     {
       "id": "redis:agent-skills:redis-core",
@@ -23506,17 +22041,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/remotion-dev/skills",
-        "ref": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
+        "ref": "a3f4098a2afd0e13f6a6f8c8760e275f75457ea9",
         "skillName": "remotion-best-practices"
       },
-      "repositoryId": "remotion-dev:skills",
-      "quality": "poor",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "remotion-dev:skills"
     },
     {
       "id": "resend:react-email:react-email",
@@ -26808,17 +25336,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/smnandre/symfony-ux-skills",
-        "ref": "1e99301a6255724eca9c49ce9cdb8c241771ab05",
+        "ref": "ad0f0f6d572dcfa1fd534fb4a5b52bf63aeee2c7",
         "skillName": "symfony-ux"
       },
-      "repositoryId": "smnandre:symfony-ux-skills",
-      "quality": "excellent",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "smnandre:symfony-ux-skills"
     },
     {
       "id": "spences10:svelte-skills-kit:sveltekit-structure",
@@ -26850,17 +25371,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/stripe/ai",
-        "ref": "bb4cf23be76d7073ad9560730335afedb7e04a5f",
+        "ref": "2815b93e2c54a87bd9b146df62704a0e84930929",
         "skillName": "stripe-best-practices"
       },
-      "repositoryId": "stripe:ai",
-      "quality": "good",
-      "score": 68,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "stripe:ai"
     },
     {
       "id": "stripe:ai:upgrade-stripe",
@@ -27361,17 +25875,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/triggerdotdev/skills",
-        "ref": "8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
+        "ref": "43d4ee184f6f74b04d41710f6a73d69dc7d6616b",
         "skillName": "trigger-setup"
       },
-      "repositoryId": "triggerdotdev:skills",
-      "quality": "excellent",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "triggerdotdev:skills"
     },
     {
       "id": "vamseeachanta:workspace-hub:uv-package-manager",
@@ -27512,17 +26019,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/vercel/next.js",
-        "ref": "7356b0bcb5f22371c15dcb413afe5fb28412f52d",
+        "ref": "e4e1bc9ba3b505494b9c52edb14e94f88be4088d",
         "skillName": "next-cache-components-adoption"
       },
-      "repositoryId": "vercel:next.js",
-      "quality": "good",
-      "score": 76,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "vercel:next.js"
     },
     {
       "id": "vercel:turborepo:turborepo",
@@ -27659,17 +26159,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/wordpress/agent-skills",
-        "ref": "eff3785fc28c4380d172094518c66a6a997c95d4",
+        "ref": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
         "skillName": "wordpress-router"
       },
-      "repositoryId": "wordpress:agent-skills",
-      "quality": "excellent",
-      "score": 84,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "wordpress:agent-skills"
     },
     {
       "id": "wordpress:agent-skills:wp-block-development",
@@ -27848,17 +26341,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/wshobson/agents",
-        "ref": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+        "ref": "1eecf4b58eb380ff7ddc258a11c6586381d67b95",
         "skillName": "bash-defensive-patterns"
       },
-      "repositoryId": "wshobson:agents",
-      "quality": "excellent",
-      "score": 72,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "wshobson:agents"
     },
     {
       "id": "wshobson:agents:fastapi-templates",
@@ -27954,17 +26440,10 @@
       "source": {
         "kind": "git",
         "uri": "https://github.com/wshobson/agents",
-        "ref": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+        "ref": "1eecf4b58eb380ff7ddc258a11c6586381d67b95",
         "skillName": "python-testing-patterns"
       },
-      "repositoryId": "wshobson:agents",
-      "quality": "excellent",
-      "score": 80,
-      "assessment": {
-        "method": "automated",
-        "assessedAt": "2026-11-03",
-        "assessor": "skill-validator v1.8.0 + Open JEV model-v1"
-      }
+      "repositoryId": "wshobson:agents"
     },
     {
       "id": "wshobson:agents:terraform-module-library",

@@ -1,4 +1,83 @@
 {
   "schema_version": 1,
-  "probes": {}
+  "probes": {
+    "CodeAtCode:oss-ai-skills:pyqt-core": {
+      "misses": 1,
+      "firstMissAt": "2026-11-25",
+      "lastMissAt": "2026-11-25",
+      "reason": "skill_absent"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-dialogs": {
+      "misses": 1,
+      "firstMissAt": "2026-11-25",
+      "lastMissAt": "2026-11-25",
+      "reason": "skill_absent"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-multimedia": {
+      "misses": 1,
+      "firstMissAt": "2026-11-25",
+      "lastMissAt": "2026-11-25",
+      "reason": "skill_absent"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-styling": {
+      "misses": 1,
+      "firstMissAt": "2026-11-25",
+      "lastMissAt": "2026-11-25",
+      "reason": "skill_absent"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-testing": {
+      "misses": 1,
+      "firstMissAt": "2026-11-25",
+      "lastMissAt": "2026-11-25",
+      "reason": "skill_absent"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-threading": {
+      "misses": 1,
+      "firstMissAt": "2026-11-25",
+      "lastMissAt": "2026-11-25",
+      "reason": "skill_absent"
+    },
+    "CodeAtCode:oss-ai-skills:pyqt-widgets": {
+      "misses": 1,
+      "firstMissAt": "2026-11-25",
+      "lastMissAt": "2026-11-25",
+      "reason": "skill_absent"
+    },
+    "huggingface:skills:hf-mcp": {
+      "misses": 1,
+      "firstMissAt": "2026-11-25",
+      "lastMissAt": "2026-11-25",
+      "reason": "skill_absent"
+    },
+    "marceloeatworld:hyprland-ai-skill:hyprland": {
+      "misses": 1,
+      "firstMissAt": "2026-11-23",
+      "lastMissAt": "2026-11-23",
+      "reason": "skill_absent"
+    },
+    "stripe:ai:upgrade-stripe": {
+      "misses": 1,
+      "firstMissAt": "2026-11-23",
+      "lastMissAt": "2026-11-23",
+      "reason": "skill_absent"
+    },
+    "temporalio:skill-temporal-developer:skill-temporal-developer": {
+      "misses": 1,
+      "firstMissAt": "2026-11-23",
+      "lastMissAt": "2026-11-23",
+      "reason": "skill_absent"
+    },
+    "vercel-labs:agent-skills:composition-patterns": {
+      "misses": 1,
+      "firstMissAt": "2026-11-23",
+      "lastMissAt": "2026-11-23",
+      "reason": "skill_absent"
+    },
+    "vercel-labs:agent-skills:react-best-practices": {
+      "misses": 1,
+      "firstMissAt": "2026-11-23",
+      "lastMissAt": "2026-11-23",
+      "reason": "skill_absent"
+    }
+  }
 }
