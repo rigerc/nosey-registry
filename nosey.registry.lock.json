@@ -6,10 +6,10 @@
       "sha256": "f4e9a99c3d4896fd6bd90b01f13bc4a2d31528dcc32b702376948596973ea014"
     },
     "repositories.json": {
-      "sha256": "acc42ccc5614443a12ab7923711a2cfa9419ab97e4fc770679cf57a32234442c"
+      "sha256": "5fad7b4da4e75296da67c9c12aa44ac7ef00a22d5b59040e12cde9fb23e7a19b"
     },
     "skills.json": {
-      "sha256": "e0f116f2eb31d27707107343a7bc4286c734e5b2836962deec5cf06eab6251b8"
+      "sha256": "9933e78c25a8b59e872f36be41c6194c5180d7c53ff278837682e5a9516591d7"
     },
     "technologies.json": {
       "sha256": "ce126bc119ff181326da04c02e0891a6387d3cbac9f4dd234680525c24560c2f"
@@ -20,7 +20,7 @@
     "sha256": "df8f1d89300a7d2a9f7aaeebe379f4023ff70985f72766636b5967f1840b613b"
   },
   "summary": {
-    "skills": 1343,
+    "skills": 1344,
     "technologies": 903,
     "mappings": 293
   }
